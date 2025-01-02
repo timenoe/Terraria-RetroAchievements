@@ -1,0 +1,3 @@
+displayName = RetroAchievements Mod
+author = timenoe
+version = 0.1

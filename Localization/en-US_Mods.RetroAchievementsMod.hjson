@@ -6,46 +6,6 @@ Buffs: {
 }
 
 Configs: {
-	AchievementConfig: {
-		DisplayName: Achievement Config
-		Headers.Items: Items Header
-
-		ExampleWingsToggle: {
-			Label: Example Wings Toggle
-			Tooltip: ""
-		}
-
-		WeaponWithGrowingDamageToggle: {
-			Label: Weapon With Growing Damage Toggle
-			Tooltip: ""
-		}
-
-		ResetAllLocalAchievements: {
-			Label: Reset All Local Achievements
-			Tooltip: ""
-		}
-	}
-
-	LocalAchievements: {
-		DisplayName: Local Achievements
-		Headers.Items: Items Header
-
-		ResetAllLocalAchievements: {
-			Label: Reset All Local Achievements
-			Tooltip: ""
-		}
-	}
-
-	RetroAchievementsLogin: {
-		DisplayName: Retro Achievements Login
-		Headers.Items: Items Header
-
-		UserName: {
-			Label: User Name
-			Tooltip: ""
-		}
-	}
-
 	LoginConfig: {
 		DisplayName: Login Config
 

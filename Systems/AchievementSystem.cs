@@ -4,7 +4,6 @@ using Terraria.Achievements;
 using Terraria.ID;
 using Terraria.IO;
 using Terraria.ModLoader;
-using RetroAchievementsMod.Buffs;
 using RetroAchievementsMod.Players;
 using RetroAchievementsMod.Utils;
 
@@ -81,7 +80,7 @@ namespace RetroAchievementsMod.Systems
             // Check if Multiplayer > Host & Play was selected
             // Join via IP/Steam does not select a world
             // Checked for in AchievementPlayer.OnEnterWorld
-            if (hasSelectedMulti && !RetroAchievementsMod.IsMultiAllowed())
+            if (!hasSelectedMulti && !RetroAchievementsMod.IsMultiAllowed())
             {
                 rejectionReason = RejectionReason.MULTI;
                 return false;

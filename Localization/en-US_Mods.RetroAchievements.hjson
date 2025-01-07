@@ -1,0 +1,33 @@
+Configs: {
+	SettingsConfig: {
+		Hardcore: {
+			Tooltip: ""
+			Label: Hardcore
+		}
+
+		Game: {
+			Tooltip: ""
+			Label: Game
+		}
+
+		Host: {
+			Tooltip: ""
+			Label: Host
+		}
+
+		DisplayName: Settings Config
+	}
+
+	AchievementGame: {
+		Vanilla.Label: Vanilla
+		None.Label: None
+		Tooltip: ""
+	}
+}
+
+Buffs: {
+	AchievementBuff: {
+		Description: Mods.RetroAchievements.Buffs.AchievementBuff.Description
+		DisplayName: Achievement Buff
+	}
+}

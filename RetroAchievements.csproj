@@ -5,9 +5,12 @@
 
 	<!-- General -->
 	<PropertyGroup>
-		
+
 	</PropertyGroup>
 
 	<!-- References -->
+	<ItemGroup>
+
+	</ItemGroup>
 
 </Project>

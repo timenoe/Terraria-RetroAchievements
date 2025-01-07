@@ -1,40 +1,111 @@
 ﻿using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.Audio;
+using Terraria.ModLoader;
 
-namespace RetroAchievementsMod.Utils
+namespace RetroAchievements.Utils
 {
-    public enum MessageType { INFO, SUCCESS, WARNING, ERROR };
+    /// <summary>
+    /// Type of message to log to the in-game chat<br/>
+    /// Info = White<br/>
+    /// Success = Green<br/>
+    /// Warn = Yellow<br/>
+    /// Error = Red
+    /// </summary>
+    public enum ChatLogType { Info, Success, Warn, Error };
 
+    /// <summary>
+    /// Type of message to log to the mod's console/client.log
+    /// </summary>
+    public enum ModLogType { Info, Warn, Error, Fatal, Debug };
+
+
+    /// <summary>
+    /// Utility to display messages to the user
+    /// </summary>
     public class MessageUtil
     {
-        // RA stylized message header
-        private const string messageHeader = "[c/327DFF:Retro][c/FFF014:Achievements] [c/FFFFFF:Mod:] ";
+        /// <summary>
+        /// Stylized RA message header
+        /// </summary>
+        private const string MSG_HEADER = "[c/327DFF:Retro][c/FFF014:Achievements][c/FFFFFF::] ";
 
-        // Displays a stylized message in-game
-        public static void Display(string msg, MessageType msgType = MessageType.INFO, SoundStyle msgSound = default)
+
+        /// <summary>
+        /// Log a message to Terraria's in-game chat
+        /// </summary>
+        /// <param name="msg">Message to log</param>
+        /// <param name="type">Type of message</param>
+        /// <param name="sound">Sound to play with message</param>
+        public static void ChatLog(string msg, ChatLogType type = ChatLogType.Info, SoundStyle sound = default)
         {
-            switch (msgType)
+            switch (type)
             {
-                case MessageType.INFO:
-                    Main.NewText($"{messageHeader} {msg}");
+                case ChatLogType.Info:
+                    Main.NewText($"{MSG_HEADER} {msg}");
                     break;
 
-                case MessageType.SUCCESS:
-                    Main.NewText($"{messageHeader} {msg}", Color.Green);
+                case ChatLogType.Success:
+                    Main.NewText($"{MSG_HEADER} {msg}", Color.Green);
                     break;
 
-                case MessageType.WARNING:
-                    Main.NewText($"{messageHeader} {msg}", Color.Yellow);
+                case ChatLogType.Warn:
+                    Main.NewText($"{MSG_HEADER} {msg}", Color.Yellow);
                     break;
 
-                case MessageType.ERROR:
-                    Main.NewText($"{messageHeader} {msg}", Color.Red);
+                case ChatLogType.Error:
+                    Main.NewText($"{MSG_HEADER} {msg}", Color.Red);
                     break;
             }
 
-            if (msgSound != default)
-                SoundEngine.PlaySound(msgSound);
+            if (sound != default)
+                SoundEngine.PlaySound(sound);
+        }
+
+        /// <summary>
+        /// Log a message to the mod's console/client.log
+        /// </summary>
+        /// <param name="msg">Message to log</param>
+        /// <param name="type">Type of message</param>
+        public static void ModLog(string msg, ModLogType type = ModLogType.Info)
+        {
+            RetroAchievements mod = ModContent.GetInstance<RetroAchievements>();
+
+            switch (type)
+            {
+                case ModLogType.Info:
+                    mod.Logger.Info(msg);
+                    break;
+
+                case ModLogType.Warn:
+                    mod.Logger.Warn(msg);
+                    break;
+
+                case ModLogType.Error:
+                    mod.Logger.Error(msg);
+                    break;
+
+                case ModLogType.Fatal:
+                    mod.Logger.Fatal(msg);
+                    break;
+
+                case ModLogType.Debug:
+                    mod.Logger.Debug(msg);
+                    break;
+            }
+        }
+
+        /// <summary>
+        /// Log a message to Terraria's in-game chat and to the mod's console/client.log
+        /// </summary>
+        /// <param name="msg">Message to log</param>
+        /// <param name="ctype">Type of chat message</param>
+        /// <param name="csound">Sound to play with chat message</param>
+        /// <param name="mtype">Type of mod message</param>
+        public static void Log(string msg, ChatLogType ctype = ChatLogType.Info, SoundStyle csound = default, ModLogType mtype = ModLogType.Info)
+        {
+            ChatLog(msg, ctype, csound);
+            ModLog(msg, mtype);
         }
     }
 }

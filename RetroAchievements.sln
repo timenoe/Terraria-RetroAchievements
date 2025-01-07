@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetroAchievements", "RetroAchievements.csproj", "{7F53F7D6-C6CD-432A-A178-E0DAEBCA2BD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RASharpIntegrationTests", "..\RASharpIntegrationTests\RASharpIntegrationTests.csproj", "{A67C0129-7201-4406-A85E-37CAFD8C24B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RASharpIntegration", "..\RASharpIntegration\RASharpIntegration.csproj", "{5240454F-3401-4FF9-9640-4B4C00CB20D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetroAchievementsTools", "..\RetroAchievementsTools\RetroAchievementsTools.csproj", "{ECAA8E3D-092E-4272-A15D-DADEE28FC316}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F53F7D6-C6CD-432A-A178-E0DAEBCA2BD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F53F7D6-C6CD-432A-A178-E0DAEBCA2BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F53F7D6-C6CD-432A-A178-E0DAEBCA2BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F53F7D6-C6CD-432A-A178-E0DAEBCA2BD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A67C0129-7201-4406-A85E-37CAFD8C24B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A67C0129-7201-4406-A85E-37CAFD8C24B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A67C0129-7201-4406-A85E-37CAFD8C24B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A67C0129-7201-4406-A85E-37CAFD8C24B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5240454F-3401-4FF9-9640-4B4C00CB20D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5240454F-3401-4FF9-9640-4B4C00CB20D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5240454F-3401-4FF9-9640-4B4C00CB20D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5240454F-3401-4FF9-9640-4B4C00CB20D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECAA8E3D-092E-4272-A15D-DADEE28FC316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECAA8E3D-092E-4272-A15D-DADEE28FC316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECAA8E3D-092E-4272-A15D-DADEE28FC316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECAA8E3D-092E-4272-A15D-DADEE28FC316}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

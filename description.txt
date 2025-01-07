@@ -1,9 +1,12 @@
-Mod that integrates tModLoader with RetroAchievements
+Mod that integrates tModLoader with RetroAchievements.
 
-Login to RetroAchievements using the Mod Configuration menu. Reset all previously earned local in-game achievements at the start of a new playthrough using the /cheevos chat command.
+Login to RetroAchievements using the chat command: "/ra login <user> <pass>". If applicable, reset all previously earned local in-game achievements at the start of a new playthrough using the chat command: "/cheevos reset all".
 
-List of allowed mods:
-- tModLoader
+Allowed Mods:
+- TBD
 
-List of chat commands:
-- /cheevos reset all (resets all local in-game achievements)
+Chat Commands:
+- /cheevos reset all - Reset all local in-game achievements
+- /ra host - Get the current host
+- /ra login <user> <pass> - Log in a user
+- /ra rp - Get the current Rich Presence

@@ -2,6 +2,7 @@
 using Microsoft.Xna.Framework;
 using Terraria.ModLoader;
 using RetroAchievements.Systems;
+using RetroAchievements.Utils;
 
 namespace RetroAchievements.Commands
 {
@@ -34,7 +35,7 @@ namespace RetroAchievements.Commands
         {
             if (args.Length == 0)
             {
-                caller.Reply(Usage, Color.Red);
+                MessageUtil.DisplayUsage(Usage);
                 return;
             }
 
@@ -43,17 +44,17 @@ namespace RetroAchievements.Commands
                 case "host":
                     if (args.Length != 1)
                     {
-                        caller.Reply(Usage, Color.Red);
+                        MessageUtil.DisplayUsage(Usage);
                         return;
                     }
 
-                    caller.Reply($"The current host is {RetroAchievements.Host}");
+                    MessageUtil.ChatLog($"The current host is {RetroAchievements.Host}");
                     break;
 
                 case "login":
                     if (args.Length != 3)
                     {
-                        caller.Reply(Usage, Color.Red);
+                        MessageUtil.DisplayUsage(Usage);
                         return;
                     }
 
@@ -63,15 +64,15 @@ namespace RetroAchievements.Commands
                 case "rp":
                     if (args.Length != 1)
                     {
-                        caller.Reply(Usage, Color.Red);
+                        MessageUtil.DisplayUsage(Usage);
                         return;
                     }
 
-                    caller.Reply($"Current Rich Presence\n{RichPresenceSystem.GetRichPresence().Replace("• ", "\n")}");
+                    MessageUtil.ChatLog($"Current Rich Presence\n{RichPresenceSystem.GetRichPresence().Replace("• ", "\n")}");
                     break;
 
                 default:
-                    caller.Reply(Usage, Color.Red);
+                    MessageUtil.DisplayUsage(Usage);
                     break;
             }
         }

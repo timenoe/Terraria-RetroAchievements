@@ -3,6 +3,7 @@ using Terraria.Audio;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
+using RetroAchievements.Utils;
 
 namespace RetroAchievements.Commands
 {
@@ -28,7 +29,7 @@ namespace RetroAchievements.Commands
         {
             if (args.Length == 0)
             {
-                caller.Reply(Usage, Color.Red);
+                MessageUtil.DisplayUsage(Usage);
                 return;
             }
 
@@ -37,26 +38,25 @@ namespace RetroAchievements.Commands
                 case "reset":
                     if (args.Length != 2)
                     {
-                        caller.Reply(Usage, Color.Red);
+                        MessageUtil.DisplayUsage(Usage);
                         return;
                     }
                     switch (args[1])
                     {
                         case "all":
                             Main.Achievements.ClearAll();
-                            SoundEngine.PlaySound(SoundID.AchievementComplete);
-                            caller.Reply("Successfully reset all local in-game achievements");
+                            MessageUtil.ChatLog("Successfully reset all local in-game achievements", sound: SoundID.AchievementComplete);
                             break;
 
                         // TODO: Add options for resetting individual achievements, achievement categories, etc.
                         default:
-                            caller.Reply(Usage, Color.Red);
+                            MessageUtil.DisplayUsage(Usage);
                             break;
                     }
                     break;
 
                 default:
-                    caller.Reply(Usage, Color.Red);
+                    MessageUtil.DisplayUsage(Usage);
                     break;
             }
         }

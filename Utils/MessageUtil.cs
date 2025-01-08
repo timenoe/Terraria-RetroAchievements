@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.Audio;
+using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace RetroAchievements.Utils
@@ -106,6 +107,15 @@ namespace RetroAchievements.Utils
         {
             ChatLog(msg, ctype, csound);
             ModLog(msg, mtype);
+        }
+
+        /// <summary>
+        /// Display usage after typing in a chat command wrong
+        /// </summary>
+        /// <param name="usage">Chat command usage</param>
+        public static void DisplayUsage(string usage)
+        {
+            ChatLog(usage, ChatLogType.Error, SoundID.PlayerHit);
         }
     }
 }

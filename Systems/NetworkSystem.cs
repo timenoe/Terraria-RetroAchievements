@@ -43,7 +43,7 @@ namespace RetroAchievements.Systems
         /// <summary>
         /// How often an activity ping is sent to the server in minutes
         /// </summary>
-        public const int PingInterval = 1;
+        public const int PingInterval = 5;
 
 
         /// <summary>

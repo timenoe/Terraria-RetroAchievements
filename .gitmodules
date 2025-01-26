@@ -1,3 +1,6 @@
 [submodule "RASharpIntegration"]
 	path = RASharpIntegration
 	url = https://github.com/timenoe/RASharpIntegration
+[submodule "TerrariaAchievementLib"]
+	path = TerrariaAchievementLib
+	url = https://github.com/timenoe/TerrariaAchievementLib

@@ -15,20 +15,14 @@ namespace RetroAchievements.Utils
         /// Returns true if the player has (approximately) no play time
         /// </summary>
         /// <returns>True if the player has no play time</returns>
-        public static bool HasNoPlayTime()
-        {
-            return TimeSpan.FromSeconds(Math.Floor(Main.ActivePlayerFileData.GetPlayTime().TotalSeconds)) == TimeSpan.Zero;
-        }
+        public static bool HasNoPlayTime() => TimeSpan.FromSeconds(Math.Floor(Main.ActivePlayerFileData.GetPlayTime().TotalSeconds)) == TimeSpan.Zero;
 
         /// <summary>
         /// Returns true if the player file data has (approximately) no play time
         /// </summary>
         /// <param name="player">Player file data</param>
         /// <returns>True if the player file data has no play time</returns>
-        public static bool HasNoPlayTime(PlayerFileData player)
-        {
-            return TimeSpan.FromSeconds(Math.Floor(player.GetPlayTime().TotalSeconds)) == TimeSpan.Zero;
-        }
+        public static bool HasNoPlayTime(PlayerFileData player) => TimeSpan.FromSeconds(Math.Floor(player.GetPlayTime().TotalSeconds)) == TimeSpan.Zero;
 
         /// <summary>
         /// Get the HP of the player

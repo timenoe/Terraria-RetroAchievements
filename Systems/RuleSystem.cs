@@ -13,7 +13,7 @@ namespace RetroAchievements.Systems
     /// <summary>
     /// Used to enforce rules and manage in-game achievements
     /// </summary>
-    public class AchievementSystem : ModSystem
+    public class RuleSystem : ModSystem
     {
         /// <summary>
         /// True if the user has selected Multiplayer
@@ -40,7 +40,7 @@ namespace RetroAchievements.Systems
         /// <summary>
         /// Used to identify why a selected world was rejected
         /// </summary>
-        private enum RejectionReason { NONE, MODS, MULTI, PLAYER, WORLD, SEED, JOURNEY };
+        private enum RejectionReason { NONE, MODS, MULTI, PLAYER, WORLD, JOURNEY, SEED };
 
 
         public override void OnModLoad()
@@ -87,7 +87,7 @@ namespace RetroAchievements.Systems
             }
 
             // Check that Player was generated with this mod
-            AchievementPlayer player = playerData.Player.GetModPlayer<AchievementPlayer>();
+            RetroAchievementPlayer player = playerData.Player.GetModPlayer<RetroAchievementPlayer>();
             if (!player.WasCreatedWithRa && !PlayerUtil.HasNoPlayTime(playerData))
             {
                 _rejectionReason = RejectionReason.PLAYER;
@@ -101,17 +101,17 @@ namespace RetroAchievements.Systems
                 return false;
             }
 
-            // Check that the World is not a special seed
-            if (WorldUtil.IsSpecialSeed(worldFileData))
-            {
-                _rejectionReason = RejectionReason.SEED;
-                return false;
-            }
-
             // Check that Journey Mode is not being used
             if (WorldUtil.IsJourneyMode(worldFileData))
             {
                 _rejectionReason = RejectionReason.JOURNEY;
+                return false;
+            }
+
+            // Check that the World is not Celebrationmk10
+            if (worldFileData.Anniversary)
+            {
+                _rejectionReason = RejectionReason.SEED;
                 return false;
             }
 
@@ -135,15 +135,20 @@ namespace RetroAchievements.Systems
                 case RejectionReason.WORLD:
                     return "RetroAchievements: Cannot play a World from another mod";
 
-                case RejectionReason.SEED:
-                    return "RetroAchievements: Cannot play a World with a special seed";
-
                 case RejectionReason.JOURNEY:
                     return "RetroAchievements: Cannot play Journey Mode";
+
+                case RejectionReason.SEED:
+                    return "RetroAchievements: Cannot play a World with the Celebrationmk10 seed";
+                
+                case RejectionReason.NONE:
+                    break;
 
                 default:
                     return "RetroAchievements: Cannot play for an undefined reason";
             }
+
+            return "";
         }
 
         /// <summary>
@@ -152,7 +157,7 @@ namespace RetroAchievements.Systems
         /// <param name="achievement">Achievement information</param>
         private void Achievements_OnAchievementCompleted(Achievement achievement)
         {
-            AchievementPlayer player = Main.LocalPlayer.GetModPlayer<AchievementPlayer>();
+            RetroAchievementPlayer player = Main.LocalPlayer.GetModPlayer<RetroAchievementPlayer>();
             if (player == null || !player.CanEarnAchievements)
                 return;
 

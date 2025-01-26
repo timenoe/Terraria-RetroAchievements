@@ -13,10 +13,7 @@ namespace RetroAchievements.Utils
         /// Returns true if the world is a special seed
         /// </summary>
         /// <returns>True if the world is a special seed</returns>
-        public static bool IsSpecialSeed()
-        {
-            return Main.specialSeedWorld;
-        }
+        public static bool IsSpecialSeed() => Main.specialSeedWorld;
 
         /// <summary>
         /// Returns true if the world file data is a special seed
@@ -40,20 +37,14 @@ namespace RetroAchievements.Utils
         /// </summary>
         /// <param name="world">World file data</param>
         /// <returns>True if the world file data is Journey Mode</returns>
-        public static bool IsJourneyMode(WorldFileData world)
-        {
-            return world.GameMode == GameModeID.Creative;
-        }
+        public static bool IsJourneyMode(WorldFileData world) => world.GameMode == GameModeID.Creative;
 
         /// <summary>
         /// Get the name of the world<br/>
         /// World's can be manually named by the player, so don't display it in Rich Presence
         /// </summary>
         /// <returns>Name of the world</returns>
-        public static string GetName()
-        {
-            return Main.worldName;
-        }
+        public static string GetName() => Main.worldName;
 
         /// <summary>
         /// Get the seed of the world
@@ -126,20 +117,20 @@ namespace RetroAchievements.Utils
         /// Get the evil of the world
         /// </summary>
         /// <returns>Crimson or Corruption</returns>
-        public static string GetEvil()
-        {
-            return WorldGen.crimson ? "Crimson" : "Corruption";
-        }
+        public static string GetEvil() => WorldGen.crimson ? "Crimson" : "Corruption";
 
         /// <summary>
         /// Get the time of day of the world
         /// </summary>
         /// <returns>Day or Night</returns>
-        public static string GetTimeOfDay()
-        {
-            return Main.dayTime ? "Day" : "Night";
-        }
+        public static string GetTimeOfDay() => Main.dayTime ? "Day" : "Night";
 
+        /// <summary>
+        /// Check if a world was generated with a specific mod enabled
+        /// </summary>
+        /// <param name="world">World file data</param>
+        /// <param name="modName">Mod name</param>
+        /// <returns>True if the world was generated with the specific mod enabled</returns>
         public static bool WasGeneratedWithMod(WorldFileData world, string modName)
         {
             if (!world.WorldGenModsRecorded)

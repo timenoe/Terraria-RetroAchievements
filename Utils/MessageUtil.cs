@@ -113,9 +113,6 @@ namespace RetroAchievements.Utils
         /// Display usage after typing in a chat command wrong
         /// </summary>
         /// <param name="usage">Chat command usage</param>
-        public static void DisplayUsage(string usage)
-        {
-            ChatLog(usage, ChatLogType.Error, SoundID.PlayerHit);
-        }
+        public static void DisplayUsage(string usage) => ChatLog(usage, ChatLogType.Error, SoundID.PlayerHit);
     }
 }

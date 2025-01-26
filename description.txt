@@ -6,11 +6,13 @@ Rules:
 -No Other Mods (see Allowed Mods for exceptions)
 -No Multiplayer
 -No Old Players/Worlds
--No Special World Seeds
+-No Celebrationmk10 Seed
 -No Journey Mode
 
 Allowed Mods:
-- TBD
+- Boss Checklist
+- Census - Town NPC Checklist
+- Item Checklist
 
 Chat Commands:
 - /cheevos reset all - Reset all local in-game achievements

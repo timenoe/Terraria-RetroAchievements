@@ -45,6 +45,16 @@ namespace RetroAchievements.Systems
         /// </summary>
         public const int PingInterval = 5;
 
+        /// <summary>
+        /// How often stale achievement unlock requests are retried in minutes
+        /// </summary>
+        public const int RetryInterval = 1;
+
+
+        /// <summary>
+        /// List of all achievements that failed to unlock
+        /// </summary>
+        private readonly Dictionary<string, int> _failedAchs = [];
 
         /// <summary>
         /// HTTP client to send requests with
@@ -55,6 +65,11 @@ namespace RetroAchievements.Systems
         /// Timer to periodically send a game activity ping for the user
         /// </summary>
         private readonly Timer _pingTimer = new(TimeSpan.FromMinutes(PingInterval).TotalMilliseconds);
+
+        /// <summary>
+        /// Timer to periodically retry failed unlock requests for the user
+        /// </summary>
+        private readonly Timer _retryTimer = new(TimeSpan.FromMinutes(RetryInterval).TotalMilliseconds);
 
         /// <summary>
         /// True if the game has been mastered
@@ -92,30 +107,26 @@ namespace RetroAchievements.Systems
         /// </summary>
         private event EventHandler PingCommand;
 
+        /// <summary>
+        /// Event to retry failed achievement unlocks
+        /// </summary>
+        private event EventHandler RetryCommand;
+
 
         /// <summary>
         /// True if the game has been mastered
         /// </summary>
-        public bool IsMastered
-        {
-            get { return _isMastered; }
-        }
+        public bool IsMastered => _isMastered;
 
         /// <summary>
         /// True if the game session has been started
         /// </summary>
-        public bool IsStarted
-        {
-            get { return _isStarted; }
-        }
+        public bool IsStarted => _isStarted;
 
         /// <summary>
         /// Active user
         /// </summary>
-        public string User
-        {
-            get { return _header.user; }
-        }
+        public string User => _header.user;
 
 
         public override void OnModLoad()
@@ -131,12 +142,14 @@ namespace RetroAchievements.Systems
 
             // Subscribe to internal events
             _pingTimer.Elapsed += PingTimer_Elapsed;
+            _retryTimer.Elapsed += RetryTimer_Elapsed;
             StartSessionCommand += NetworkSystem_StartSessionCommand;
             PingCommand += NetworkSystem_PingCommand;
+            RetryCommand += NetworkSystem_RetryCommand;
 
             // Subscribe to external events
             ModContent.GetInstance<RaCommand>().LoginCommand += RaCommand_LoginCommand;
-            ModContent.GetInstance<AchievementSystem>().UnlockAchievementCommand += NetworkSystem_UnlockAchievementCommand;
+            ModContent.GetInstance<RuleSystem>().UnlockAchievementCommand += NetworkSystem_UnlockAchievementCommand;
 
             // Ensure HTTP client has proper User Agent for RA requests
             SetupUserAgent();
@@ -152,17 +165,20 @@ namespace RetroAchievements.Systems
                 return;
 
             // Unsubscribe from internal events
+            _pingTimer.Elapsed -= PingTimer_Elapsed;
+            _retryTimer.Elapsed -= RetryTimer_Elapsed;
             StartSessionCommand -= NetworkSystem_StartSessionCommand;
             PingCommand -= NetworkSystem_PingCommand;
-            _pingTimer.Elapsed -= PingTimer_Elapsed;
+            RetryCommand -= NetworkSystem_RetryCommand;
 
             // Unsubscribe from external events
             ModContent.GetInstance<RaCommand>().LoginCommand -= RaCommand_LoginCommand;
-            ModContent.GetInstance<AchievementSystem>().UnlockAchievementCommand -= NetworkSystem_UnlockAchievementCommand;
+            ModContent.GetInstance<RuleSystem>().UnlockAchievementCommand -= NetworkSystem_UnlockAchievementCommand;
 
             // Handle IDisposable objects
             _client.Dispose();
             _pingTimer.Dispose();
+            _retryTimer.Dispose();
         }
 
         /// <summary>
@@ -257,13 +273,13 @@ namespace RetroAchievements.Systems
 
             if (!string.IsNullOrEmpty(api.Failure))
             {
-                MessageUtil.Log($"Unable to login due to exception: {api.Failure}");
+                MessageUtil.Log($"Unable to login ({api.Failure})");
                 return;
             }
 
             if (!api.Response.Success)
             {
-                MessageUtil.Log($"Unable to login due to error: {api.Response.Error}");
+                MessageUtil.Log($"Unable to login ({api.Response.Error})");
                 return;
             }
                 
@@ -279,10 +295,7 @@ namespace RetroAchievements.Systems
         /// </summary>
         /// <param name="sender">Event sender</param>
         /// <param name="args">Event args</param>
-        private async void RaCommand_LoginCommand(object sender, LoginEventArgs args)
-        {
-            await Login(args.User, args.Password);
-        }
+        private async void RaCommand_LoginCommand(object sender, LoginEventArgs args) => await Login(args.User, args.Password);
 
         /// <summary>
         /// Start a game session for the user
@@ -296,13 +309,13 @@ namespace RetroAchievements.Systems
 
             if (!string.IsNullOrEmpty(api.Failure))
             {
-                MessageUtil.Log($"Unable to start game session due to exception: {api.Failure}");
+                MessageUtil.Log($"Unable to start game session ({api.Failure})");
                 return;
             }
 
             if (!api.Response.Success)
             {
-                MessageUtil.Log($"Unable to start game session due to error: {api.Response.Error}");
+                MessageUtil.Log($"Unable to start game session ({api.Response.Error})");
                 return;
             }
 
@@ -312,14 +325,16 @@ namespace RetroAchievements.Systems
 
             // Apply the achievement buff to the player if in-game
             if (!Main.gameMenu)
-                Main.LocalPlayer.GetModPlayer<AchievementPlayer>().GiveAchievementBuff();
+                Main.LocalPlayer.GetModPlayer<RetroAchievementPlayer>().GiveAchievementBuff();
 
             // Start sending activity pings
             PingCommand.Invoke(this, null);
             _pingTimer.Start();
 
+            // Start retrying failed unlocks when they occur
+            _retryTimer.Start();
+
             _isStarted = true;
-            MessageUtil.ChatLog($"{_header.user} has started a game session for {RetroAchievements.GetGameName()}!");
         }
 
         /// <summary>
@@ -327,10 +342,7 @@ namespace RetroAchievements.Systems
         /// </summary>
         /// <param name="sender">Event sender</param>
         /// <param name="args">Event args</param>
-        private async void NetworkSystem_StartSessionCommand(object sender, EventArgs args)
-        {
-            await StartSession();
-        }
+        private async void NetworkSystem_StartSessionCommand(object sender, EventArgs args) => await StartSession();
 
         /// <summary>
         /// Send a game activity ping for the user
@@ -344,13 +356,13 @@ namespace RetroAchievements.Systems
 
             if (!string.IsNullOrEmpty(api.Failure))
             {
-                MessageUtil.ModLog($"Unable to send game activity ping due to exception: {api.Failure}");
+                MessageUtil.ModLog($"Unable to send game activity ping ({api.Failure})");
                 return;
             }
 
             if (!api.Response.Success)
             {
-                MessageUtil.ModLog($"Unable to send game activity ping due to error: {api.Response.Error}");
+                MessageUtil.ModLog($"Unable to send game activity ping ({api.Response.Error})");
                 return;
             }      
         }
@@ -360,20 +372,14 @@ namespace RetroAchievements.Systems
         /// </summary>
         /// <param name="sender">Event sender</param>
         /// <param name="args">Event args</param>
-        private void PingTimer_Elapsed(object sender, ElapsedEventArgs args)
-        {
-            PingCommand.Invoke(this, null);
-        }
+        private void PingTimer_Elapsed(object sender, ElapsedEventArgs args) => PingCommand.Invoke(this, null);
 
         /// <summary>
         /// PingCommand event callback to send a game activity ping for the user
         /// </summary>
         /// <param name="sender">Event sender</param>
         /// <param name="args">Event args</param>
-        private async void NetworkSystem_PingCommand(object sender, EventArgs args)
-        {
-            await Ping(RichPresenceSystem.GetRichPresence());
-        }
+        private async void NetworkSystem_PingCommand(object sender, EventArgs args) => await Ping(RichPresenceSystem.GetRichPresence());
 
         /// <summary>
         /// Unlock an achievement for the user
@@ -381,10 +387,10 @@ namespace RetroAchievements.Systems
         /// <param name="name">Achievement name</param>
         /// <param name="id">Achievement ID</param>
         /// <returns>Asynchronous task</returns>
-        public async Task Unlock(string name, int id)
+        public async Task Unlock(string name, int id, bool retry=false)
         {
-            // Do no unlock achievements that are already unlocked on the server
-            if (_unlockedAchs.Contains(id))
+            // Do not attempt to unlock invalid achievements or achievements that are already unlocked on the server
+            if (id == 0 || _unlockedAchs.Contains(id))
                 return;
 
             MessageUtil.ModLog($"Unlocking achievement {id}...");
@@ -392,24 +398,31 @@ namespace RetroAchievements.Systems
 
             if (!string.IsNullOrEmpty(api.Failure))
             {
-                MessageUtil.ChatLog($"Unable to unlock [a:{name}] due to exception: {api.Failure}");
-                MessageUtil.ModLog($"Unable to unlock achievement {id} due to exception: {api.Failure}");
+                if (!retry)
+                {
+                    _failedAchs.TryAdd(name, id);
+                    MessageUtil.ChatLog($"Unable to unlock [a:{name}] ({api.Failure})");
+                }
+                MessageUtil.ModLog($"Unable to unlock achievement {id} ({api.Failure})");
                 return;
             }
 
             if (!api.Response.Success)
             {
-                MessageUtil.ChatLog($"Unable to unlock [a:{name}] due to error: {api.Response.Error}");
-                MessageUtil.ModLog($"Unable to unlock achievement {id} due to error: {api.Response.Error}");
+                if (!retry)
+                {
+                    _failedAchs.TryAdd(name, id);
+                    MessageUtil.ChatLog($"Unable to unlock [a:{name}] ({api.Response.Error})");
+                }
+                MessageUtil.ModLog($"Unable to unlock achievement {id} ({api.Response.Error})");
                 return;
             }
             
             _unlockedAchs.Add(id);
+            _failedAchs.Remove(name);
             MessageUtil.ChatLog($"{_header.user} has unlocked [a:{name}]!");
 
             UpdateMastery();
-            
-            // TODO: If an achievement request fails, keep trying periodically in the background
         }
 
         /// <summary>
@@ -417,9 +430,24 @@ namespace RetroAchievements.Systems
         /// </summary>
         /// <param name="sender">Event sender</param>
         /// <param name="args">Event args</param>
-        private async void NetworkSystem_UnlockAchievementCommand(object sender, UnlockAchievementEventArgs args)
+        private async void NetworkSystem_UnlockAchievementCommand(object sender, UnlockAchievementEventArgs args) => await Unlock(args.Name, RetroAchievements.GetAchievementId(args.Name));
+
+        /// <summary>
+        /// Timer.Elapsed event callback to retry failed achievement unlocks
+        /// </summary>
+        /// <param name="sender">Event sender</param>
+        /// <param name="args">Event args</param>
+        private void RetryTimer_Elapsed(object sender, ElapsedEventArgs args) => RetryCommand.Invoke(this, null);
+
+        /// <summary>
+        /// RetryCommand event callback to retry failed achievement unlocks
+        /// </summary>
+        /// <param name="sender">Event sender</param>
+        /// <param name="args">Event args</param>
+        private async void NetworkSystem_RetryCommand(object sender, EventArgs args)
         {
-            await Unlock(args.Name, RetroAchievements.GetAchievementId(args.Name));
+            foreach (var ach in _failedAchs)
+                await Unlock(ach.Key, ach.Value, retry:true);
         }
     }
 }

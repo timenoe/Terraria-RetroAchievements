@@ -1,0 +1,16 @@
+[
+    {
+        "Name": "SCOTTS_HAT",
+        "Category": "Collector",
+        "Ra": {
+            "Title": "Retro Founder",
+            "Description": "Obtain Scott's Hat.",
+            "Points": 5,
+            "Type": "",
+            "Category": 5,
+            "Id": 0,
+            "Badge": "00000",
+            "Subset": ""
+        }
+    }
+]

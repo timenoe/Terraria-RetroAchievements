@@ -6,6 +6,7 @@ using RetroAchievements.Configs;
 using RetroAchievements.Utils;
 using Terraria.ID;
 using Terraria;
+using System.Collections.Generic;
 
 namespace RetroAchievements
 {
@@ -20,6 +21,8 @@ namespace RetroAchievements
     /// </summary>
     public class RetroAchievements : Mod
     {
+        private static readonly List<string> _allowedMods = ["ModLoader", "RetroAchievements"];
+        
         /// <summary>
         /// True if RA achievements are enabled
         /// </summary>
@@ -44,59 +47,43 @@ namespace RetroAchievements
         /// </summary>
         private static AchievementGame _game;
 
-        private static RetroAchievements _instance;
-
         /// <summary>
         /// Achievement data that is deserialized from a JSON file
         /// </summary>
         private static TerrariaAchievementData _achievementData;
 
-
         /// <summary>
         /// True if RA achievements are enabled
         /// </summary>
-        public static bool IsEnabled
-        {
-            get { return _isEnabled; }
-        }
+        public static bool IsEnabled => _isEnabled;
 
         /// <summary>
         /// True if RA Hardcore Mode is enabled
         /// </summary>
-        public static bool IsHardcore
-        {
-            get { return _isHardcore; }
-        }
+        public static bool IsHardcore => _isHardcore;
 
         /// <summary>
         /// Name of the RA host
         /// </summary>
-        public static string Host
-        {
-            get { return _host; }
-        }
+        public static string Host => _host;
 
         /// <summary>
         /// Game that RA achievements are enabled for
         /// </summary>
-        public static AchievementGame Game
-        {
-            get { return _game; }
-        }
-
-        public static RetroAchievements Instance
-        {
-            get { return _instance; }
-        }
+        public static AchievementGame Game => _game;
 
         /// <summary>
         /// Achievement data that is deserialized from a JSON file
         /// </summary>
-        public static TerrariaAchievementData AchievementData
-        {
-            get { return _achievementData; }
-        }
+        public static TerrariaAchievementData AchievementData => _achievementData;
 
+        public override void Load()
+        {
+#if DEBUG
+            _allowedMods.Add("CheatSheet");
+#endif
+            LoadConfigs();
+        }
 
         /// <summary>
         /// Get the RA achievement ID from the internal achievement name
@@ -148,7 +135,7 @@ namespace RetroAchievements
         /// <returns>True if the mod if allowed</returns>
         public static bool IsModAllowed(Mod mod)
         {
-            if (!IsEnabled || !IsHardcore || mod.Name == "ModLoader" || mod.Name == "RetroAchievements")
+            if (!IsEnabled || !IsHardcore || _allowedMods.Contains(mod.Name))
                 return true;
 
             return AchievementData.Game.AllowedMods.Contains(mod.Name);
@@ -170,11 +157,12 @@ namespace RetroAchievements
         /// Returns true if the user is in Single Player mode
         /// </summary>
         /// <returns>True if the user is in Single Player mode</returns>
-        public static bool IsSinglePlayer()
-        {
-            return Main.netMode == NetmodeID.SinglePlayer;
-        }
+        public static bool IsSinglePlayer() => Main.netMode == NetmodeID.SinglePlayer;
 
+        /// <summary>
+        /// Gets the total achievement count for the current game
+        /// </summary>
+        /// <returns>Achievement count for the current game</returns>
         public static int GetAchievementCount()
         {
             if (!IsEnabled)
@@ -223,11 +211,6 @@ namespace RetroAchievements
                     MessageUtil.ModLog($"Game set to None; achievements are disabled");
                     break;
             }
-        }
-        public override void Load()
-        {
-            _instance = this;
-            LoadConfigs();
         }
     }
 }

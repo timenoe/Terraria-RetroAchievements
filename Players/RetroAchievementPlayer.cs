@@ -1,18 +1,16 @@
 using Terraria;
-using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ModLoader.IO;
 using RetroAchievements.Buffs;
 using RetroAchievements.Systems;
 using RetroAchievements.Utils;
-using Terraria.Audio;
 
 namespace RetroAchievements.Players
 {
     /// <summary>
     /// Player to save custom data and interface with the RA user
     /// </summary>
-    public class AchievementPlayer : ModPlayer
+    public class RetroAchievementPlayer : ModPlayer
     {
         /// <summary>
         /// True if the player can earn achievements<br/>
@@ -30,18 +28,12 @@ namespace RetroAchievements.Players
         /// <summary>
         /// True if the player can earn achievements
         /// </summary>
-        public bool CanEarnAchievements
-        {
-            get { return _canEarnAchievements; }
-        }
+        public bool CanEarnAchievements => _canEarnAchievements;
 
         /// <summary>
         /// True if the player was created with this mod
         /// </summary>
-        public bool WasCreatedWithRa
-        {
-            get { return _wasCreatedWithRa; }
-        }
+        public bool WasCreatedWithRa => _wasCreatedWithRa;
 
 
         public override void OnEnterWorld()
@@ -63,12 +55,10 @@ namespace RetroAchievements.Players
             if (network.IsStarted)
             {
                 GiveAchievementBuff();
-                MessageUtil.ChatLog($"Welcome back, {network.User}! You have an active game session for {RetroAchievements.GetGameName()}.");
+                MessageUtil.ChatLog($"Welcome back, {network.User}!");
             }
             else
-            {
                 MessageUtil.ChatLog($"Login with the /ra chat command to start earning achievements!");
-            }
         }
 
         public override void SaveData(TagCompound tag)

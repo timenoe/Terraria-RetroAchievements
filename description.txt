@@ -9,7 +9,11 @@ Rules:
 -No Celebrationmk10 Seed
 -No Journey Mode
 
-Allowed Mods:
+Allowed Achievement Mods:
+- Completionst Achievements
+- World Achievements
+
+Allowed QoL Mods:
 - Boss Checklist
 - Census - Town NPC Checklist
 - Item Checklist

@@ -1,4 +1,4 @@
-Mod that integrates tModLoader with RetroAchievements.
+Mod that integrates Terraria with RetroAchievements.
 
 Login to RetroAchievements using the Chat command: "/ra login <user> <pass>". Once you enter a World, you can open the Chat menu by typing "Enter". If applicable, reset all previously earned local in-game achievements at the start of a new playthrough using the Chat command: "/cheevos reset all".
 

@@ -1,6 +1,6 @@
 {
     "Game": {
-        "AllowedMods": ["BossChecklist", "Census", "ItemChecklist"],
+        "AllowedMods": ["CompletionistAchievements", "WorldAchievements", "BossChecklist", "Census", "ItemChecklist"],
         "IsMultiAllowed":  false,
         "Ra": {
             "Id": 32123,

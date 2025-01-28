@@ -10,7 +10,7 @@ Rules:
 -No Journey Mode
 
 Allowed Achievement Mods:
-- Completionst Achievements
+- Completionist Achievements
 - World Achievements
 
 Allowed QoL Mods:

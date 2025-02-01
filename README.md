@@ -1,3 +1,3 @@
 # Terraria RetroAchievements
 
-Terraria tModLoader mod to integrate with RetroAchievements.
+Terraria tModLoader mod that integrates Terraria with RetroAchievements.

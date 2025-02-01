@@ -54,7 +54,7 @@ namespace RetroAchievements.Players
             NetworkSystem network = ModContent.GetInstance<NetworkSystem>();
             if (network.IsStarted)
             {
-                GiveAchievementBuff();
+                GrantAchievementBuff();
                 MessageUtil.ChatLog($"Welcome back, {network.User}!");
             }
             else
@@ -73,7 +73,10 @@ namespace RetroAchievements.Players
                 _wasCreatedWithRa = true;
         }
 
-        public void GiveAchievementBuff()
+        /// <summary>
+        /// Grant the achievement buff to the player
+        /// </summary>
+        public void GrantAchievementBuff()
         {
             Player.AddBuff(ModContent.BuffType<AchievementBuff>(), 1);
             _canEarnAchievements = true;

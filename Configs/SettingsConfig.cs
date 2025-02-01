@@ -22,7 +22,7 @@ namespace RetroAchievements.Configs
         /// Game to load achievements for
         /// </summary>
         [BackgroundColor(0, 255, 0)]
-        [DefaultValue(AchievementGame.Vanilla)]
+        [DefaultValue(AchievementGame.Terraria)]
         [DrawTicks]
         [ReloadRequired]
         [SliderColor(0, 255, 0)]

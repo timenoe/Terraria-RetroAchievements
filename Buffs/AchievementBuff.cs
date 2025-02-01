@@ -19,17 +19,7 @@ namespace RetroAchievements.Buffs
             BuffID.Sets.TimeLeftDoesNotDecrease[Type] = true;
         }
 
-        public override void ModifyBuffText(ref string buffName, ref string tip, ref int rare)
-        {
-            // Set buff name and tooltip
-            buffName = "Retro Gamer";
-            tip = "RetroAchievements are enabled";
-        }
-
-        public override bool RightClick(int buffIndex)
-        {
-            // Ignore right click (which would remove the buff)
-            return false;
-        }
+        // Ignore right-clicks to cancel
+        public override bool RightClick(int buffIndex) => false;
     }
 }

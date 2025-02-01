@@ -1,14 +1,7 @@
 Buffs: {
 	AchievementBuff: {
-		DisplayName: Achievement Buff
-		Description: Mods.RetroAchievements.Buffs.AchievementBuff.Description
-	}
-}
-
-Items: {
-	ScottsHat: {
-		DisplayName: Scott's Hat
-		Tooltip: ""
+		DisplayName: Retro Gamer
+		Description: RetroAchievements are enabled
 	}
 }
 
@@ -36,5 +29,13 @@ Configs: {
 		Tooltip: ""
 		None.Label: None
 		Vanilla.Label: Vanilla
+		Terraria.Label: Terraria
+	}
+}
+
+Items: {
+	ScottsHat: {
+		DisplayName: Scott's Hat
+		Tooltip: ""
 	}
 }

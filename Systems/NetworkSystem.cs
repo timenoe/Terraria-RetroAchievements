@@ -4,6 +4,7 @@ using System.IO;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Timers;
+using Terraria;
 using Terraria.ModLoader;
 using Terraria.ModLoader.IO;
 using Terraria.Utilities;
@@ -11,7 +12,6 @@ using RASharpIntegration.Network;
 using RetroAchievements.Commands;
 using RetroAchievements.Utils;
 using RetroAchievements.Players;
-using Terraria;
 
 namespace RetroAchievements.Systems
 {
@@ -135,10 +135,7 @@ namespace RetroAchievements.Systems
                 return;
             
             _cachePath = $"{ModLoader.ModPath}/RetroAchievements.nbt";
-            _header = new(
-                RetroAchievements.Host, 
-                game: RetroAchievements.GetGameId(),
-                hardcore: RetroAchievements.IsHardcore);
+            _header = new(RetroAchievements.Host, game: RetroAchievements.GetGameId(), hardcore: RetroAchievements.IsHardcore);
 
             // Subscribe to internal events
             _pingTimer.Elapsed += PingTimer_Elapsed;
@@ -325,7 +322,7 @@ namespace RetroAchievements.Systems
 
             // Apply the achievement buff to the player if in-game
             if (!Main.gameMenu)
-                Main.LocalPlayer.GetModPlayer<RetroAchievementPlayer>().GiveAchievementBuff();
+                Main.LocalPlayer.GetModPlayer<RetroAchievementPlayer>().GrantAchievementBuff();
 
             // Start sending activity pings
             PingCommand.Invoke(this, null);

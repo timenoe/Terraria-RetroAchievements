@@ -1,12 +1,12 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 using System.Text.Json;
+using Terraria;
+using Terraria.ID;
 using Terraria.ModLoader;
 using RetroAchievements.Achievements;
 using RetroAchievements.Configs;
 using RetroAchievements.Utils;
-using Terraria.ID;
-using Terraria;
-using System.Collections.Generic;
 
 namespace RetroAchievements
 {
@@ -14,7 +14,7 @@ namespace RetroAchievements
     /// Game to load achievement data for<br>
     /// Player chooses which game to load in the settings config
     /// </summary>
-    public enum AchievementGame { None, Vanilla };
+    public enum AchievementGame { None, Terraria };
 
     /// <summary>
     /// Main class for the mod
@@ -193,7 +193,7 @@ namespace RetroAchievements
             _game = config.Game;
             switch (Game)
             {
-                case AchievementGame.Vanilla:
+                case AchievementGame.Terraria:
                     byte[] dataBytes = ModContent.GetFileBytes(GetAchievementDataPath(Game));
                     _achievementData = JsonSerializer.Deserialize<TerrariaAchievementData>(dataBytes);
                     MessageUtil.ModLog($"Game set to {Game}; loaded achievement data for {AchievementData.Game.Ra.Name}");

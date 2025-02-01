@@ -29,7 +29,7 @@ namespace RetroAchievements.Utils
         /// <summary>
         /// Stylized RA message header
         /// </summary>
-        private const string MSG_HEADER = "[c/327DFF:Retro][c/FFF014:Achievements][c/FFFFFF::] ";
+        private const string MsgHeader = "[c/327DFF:Retro][c/FFF014:Achievements][c/FFFFFF::] ";
 
 
         /// <summary>
@@ -43,19 +43,19 @@ namespace RetroAchievements.Utils
             switch (type)
             {
                 case ChatLogType.Info:
-                    Main.NewText($"{MSG_HEADER} {msg}");
+                    Main.NewText($"{MsgHeader} {msg}");
                     break;
 
                 case ChatLogType.Success:
-                    Main.NewText($"{MSG_HEADER} {msg}", Color.Green);
+                    Main.NewText($"{MsgHeader} {msg}", Color.Green);
                     break;
 
                 case ChatLogType.Warn:
-                    Main.NewText($"{MSG_HEADER} {msg}", Color.Yellow);
+                    Main.NewText($"{MsgHeader} {msg}", Color.Yellow);
                     break;
 
                 case ChatLogType.Error:
-                    Main.NewText($"{MSG_HEADER} {msg}", Color.Red);
+                    Main.NewText($"{MsgHeader} {msg}", Color.Red);
                     break;
             }
 

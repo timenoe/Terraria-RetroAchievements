@@ -1,5 +1,4 @@
 ﻿using System;
-using Microsoft.Xna.Framework;
 using Terraria.ModLoader;
 using RetroAchievements.Systems;
 using RetroAchievements.Utils;

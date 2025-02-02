@@ -1,6 +1,6 @@
 displayName = RetroAchievements
 author = timenoe
-version = 0.1
+version = 1.0
 buildIgnore = *.pdn
 hideCode = true
 homepage = https://retroachievements.org

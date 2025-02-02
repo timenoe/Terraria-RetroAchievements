@@ -14,7 +14,7 @@ namespace RetroAchievements.Configs
         /// RetroAchievements host to send requests to
         /// </summary>
         [BackgroundColor(0, 0, 255)]
-        [DefaultValue("stage.retroachievements.org")]
+        [DefaultValue("retroachievements.org")]
         [ReloadRequired]
         public string Host;
 

@@ -109,7 +109,7 @@ namespace RetroAchievements.Systems
             }
 
             // Check that the World is not Celebrationmk10
-            if (worldFileData.Anniversary)
+            if (worldFileData.Anniversary && !worldFileData.ZenithWorld)
             {
                 _rejectionReason = RejectionReason.SEED;
                 return false;

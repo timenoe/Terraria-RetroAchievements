@@ -5,10 +5,13 @@ using RetroAchievements.Utils;
 
 namespace RetroAchievements.Systems
 {
+    /// <summary>
+    /// Used to get Rich Presence
+    /// </summary>
     public class RichPresenceSystem : ModSystem
     {
         /// <summary>
-        /// Get the Rich Presence to reflect the current game state
+        /// Get the Rich Presence of the current game state
         /// </summary>
         public static string GetRichPresence()
         {
@@ -26,7 +29,7 @@ namespace RetroAchievements.Systems
                 case RichPresenceState.GameModeState.PlayingSingle:
                     string player = $"Player: {PlayerUtil.GetHp()} HP | {PlayerUtil.GetMp()} MP | {PlayerUtil.GetDifficulty()} | {PlayerUtil.GetPlayTime()} | {PlayerUtil.GetHeldItemName()}";
                     string world = $"World: Seed: {WorldUtil.GetSeed()} | {WorldUtil.GetSize()} | {WorldUtil.GetDifficulty()} | {WorldUtil.GetEvil()} | {WorldUtil.GetTimeOfDay()}";
-                    string zones = $"Zones: {string.Join(", ", PlayerUtil.GetCurrentZones())}";
+                    string zones = $"Biomes: {string.Join(", ", PlayerUtil.GetCurrentZones())}";
                     return $"{player} • {world} • {zones}";
 
                 case RichPresenceState.GameModeState.PlayingMulti:

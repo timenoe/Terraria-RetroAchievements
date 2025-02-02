@@ -14,12 +14,12 @@
             "Ra": {
                 "Title": "Timber!!",
                 "Description": "Chop down your first tree.",
-                "Points": 0,
+                "Points": 1,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483247,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -28,12 +28,12 @@
             "Ra": {
                 "Title": "Benched",
                 "Description": "Craft your first work bench.",
-                "Points": 0,
+                "Points": 1,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483248,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -42,12 +42,12 @@
             "Ra": {
                 "Title": "No Hobo",
                 "Description": "Build a house suitable enough for your first town NPC such as the guide to move into.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483249,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -56,12 +56,12 @@
             "Ra": {
                 "Title": "Stop! Hammer Time!",
                 "Description": "Obtain your first hammer via crafting or otherwise.",
-                "Points": 0,
+                "Points": 2,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483250,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -70,12 +70,12 @@
             "Ra": {
                 "Title": "Ooo! Shiny!",
                 "Description": "Mine your first nugget of ore with a pickaxe.",
-                "Points": 0,
+                "Points": 3,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483251,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -84,12 +84,12 @@
             "Ra": {
                 "Title": "Heart Breaker",
                 "Description": "Discover and smash your first heart crystal underground.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483252,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -98,12 +98,12 @@
             "Ra": {
                 "Title": "Heavy Metal",
                 "Description": "Obtain an anvil made from iron or lead.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483253,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -112,12 +112,12 @@
             "Ra": {
                 "Title": "I Am Loot!",
                 "Description": "Discover a golden chest underground and take a peek at its contents.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483254,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -126,12 +126,12 @@
             "Ra": {
                 "Title": "Star Power",
                 "Description": "Craft a mana crystal out of fallen stars and consume it.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483255,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -140,12 +140,12 @@
             "Ra": {
                 "Title": "Hold on Tight!",
                 "Description": "Equip your first grappling hook.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483256,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -154,12 +154,12 @@
             "Ra": {
                 "Title": "Eye on You",
                 "Description": "Defeat the Eye of Cthulhu an ocular menace who only appears at night.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483257,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -168,12 +168,12 @@
             "Ra": {
                 "Title": "Smashing, Poppet!",
                 "Description": "Using explosives or your trusty hammer smash a Shadow Orb or Crimson Heart in the evil parts of your world.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483258,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -182,12 +182,12 @@
             "Ra": {
                 "Title": "Worm Fodder",
                 "Description": "Defeat the Eater of Worlds a massive worm who dwells in the corruption.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483259,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -196,12 +196,12 @@
             "Ra": {
                 "Title": "Mastermind",
                 "Description": "Defeat the Brain of Cthulhu an enormous demon brain which haunts the creeping crimson.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483260,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -210,12 +210,12 @@
             "Ra": {
                 "Title": "Where's My Honey?",
                 "Description": "Discover a large bee's hive deep in the jungle.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483261,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -224,12 +224,12 @@
             "Ra": {
                 "Title": "Sting Operation",
                 "Description": "Defeat the Queen Bee the matriarch of the jungle hives.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483262,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -238,12 +238,12 @@
             "Ra": {
                 "Title": "Boned",
                 "Description": "Defeat Skeletron the cursed guardian of the dungeon.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483263,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -252,12 +252,12 @@
             "Ra": {
                 "Title": "Dungeon Heist",
                 "Description": "Steal a key from the dungeon's undead denizens and unlock one of their precious golden chests.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483264,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -266,12 +266,12 @@
             "Ra": {
                 "Title": "It's Getting Hot in Here",
                 "Description": "Spelunk deep enough to reach the molten underworld.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483265,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -280,12 +280,12 @@
             "Ra": {
                 "Title": "Miner for Fire",
                 "Description": "Craft a molten pickaxe using the hottest of materials.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483266,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -294,12 +294,12 @@
             "Ra": {
                 "Title": "Still Hungry",
                 "Description": "Defeat the Wall of Flesh the master and core of the world who arises after a great burning sacrifice.",
-                "Points": 0,
+                "Points": 10,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483267,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -308,12 +308,12 @@
             "Ra": {
                 "Title": "It's Hard!",
                 "Description": "Unleash the ancient spirits of light and darkness across your world enabling much stronger foes and showering the world with dazzling treasures (and rainbows!).",
-                "Points": 0,
+                "Points": 5,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483268,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -322,12 +322,12 @@
             "Ra": {
                 "Title": "Begone, Evil!",
                 "Description": "Smash a demon or crimson altar with a powerful holy hammer.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483269,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -336,12 +336,12 @@
             "Ra": {
                 "Title": "Extra Shiny!",
                 "Description": "Mine a powerful ore that has been newly blessed upon your world.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483270,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -350,12 +350,12 @@
             "Ra": {
                 "Title": "Head in the Clouds",
                 "Description": "Equip a pair of wings.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483271,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -364,12 +364,12 @@
             "Ra": {
                 "Title": "Like a Boss",
                 "Description": "Obtain a boss-summoning item.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483272,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -378,12 +378,12 @@
             "Ra": {
                 "Title": "Buckets of Bolts",
                 "Description": "Defeat the three nocturnal mechanical menaces",
-                "Points": 0,
+                "Points": 25,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483273,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -392,12 +392,12 @@
             "Ra": {
                 "Title": "Drax Attax",
                 "Description": "Craft a drax or pickaxe axe using hallowed bars and the souls of the three mechanical bosses.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483274,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -406,12 +406,12 @@
             "Ra": {
                 "Title": "Photosynthesis",
                 "Description": "Mine chlorophyte an organic ore found deep among the thickest of flora.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483275,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -420,12 +420,12 @@
             "Ra": {
                 "Title": "Get a Life",
                 "Description": "Consume a life fruit which grows in the thick of subterranean jungle grass.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483276,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -434,12 +434,12 @@
             "Ra": {
                 "Title": "The Great Southern Plantkill",
                 "Description": "Defeat Plantera the overgrown monstrosity of the jungle's depths.",
-                "Points": 0,
+                "Points": 25,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483277,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -448,12 +448,12 @@
             "Ra": {
                 "Title": "Temple Raider",
                 "Description": "Breach the impenetrable walls of the jungle temple.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483278,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -462,12 +462,12 @@
             "Ra": {
                 "Title": "Lihzahrdian Idol",
                 "Description": "Defeat Golem the stone-faced ritualistic idol of the lihzahrd tribe.",
-                "Points": 0,
+                "Points": 25,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483279,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -476,12 +476,12 @@
             "Ra": {
                 "Title": "Robbing the Grave",
                 "Description": "Obtain a rare treasure from a difficult monster in the dungeon.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483280,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -490,12 +490,12 @@
             "Ra": {
                 "Title": "Big Booty",
                 "Description": "Unlock one of the dungeon's large mysterious chests with a special key.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483281,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -504,12 +504,12 @@
             "Ra": {
                 "Title": "Fish Out of Water",
                 "Description": "Defeat Duke Fishron mutant terror of the sea.",
-                "Points": 0,
+                "Points": 25,
                 "Type": "",
                 "Category": 5,
-                "Id": 483282,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -518,12 +518,12 @@
             "Ra": {
                 "Title": "Obsessive Devotion",
                 "Description": "Defeat the Ancient Cultist fanatical leader of the dungeon coven.",
-                "Points": 0,
+                "Points": 25,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483283,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -532,12 +532,12 @@
             "Ra": {
                 "Title": "Star Destroyer",
                 "Description": "Defeat the four celestial towers of the moon.",
-                "Points": 0,
+                "Points": 25,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483284,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -546,12 +546,12 @@
             "Ra": {
                 "Title": "Champion of Terraria",
                 "Description": "Defeat the Moon Lord.",
-                "Points": 0,
+                "Points": 50,
                 "Type": "win_condition",
                 "Category": 5,
-                "Id": 483285,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -560,12 +560,12 @@
             "Ra": {
                 "Title": "Bloodbath",
                 "Description": "Survive a blood moon a nocturnal event where the rivers run red and monsters swarm aplenty.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483286,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -574,12 +574,12 @@
             "Ra": {
                 "Title": "Slippery Shinobi",
                 "Description": "Defeat King Slime the lord of all things slimy.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483287,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -588,12 +588,12 @@
             "Ra": {
                 "Title": "Goblin Punter",
                 "Description": "Triumph over a goblin invasion a ragtag regiment of crude barbaric pointy-eared warriors and their shadowflame sorcerers.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483288,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -602,12 +602,12 @@
             "Ra": {
                 "Title": "Walk the Plank",
                 "Description": "Triumph over a pirate invasion a group of pillagers from the sea out for your booty... and your life!",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483289,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -616,12 +616,12 @@
             "Ra": {
                 "Title": "Kill the Sun",
                 "Description": "Survive a solar eclipse a day darker than night filled with creatures of horror.",
-                "Points": 0,
+                "Points": 10,
                 "Type": "",
                 "Category": 5,
-                "Id": 483290,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -630,12 +630,12 @@
             "Ra": {
                 "Title": "Do You Want to Slay a Snowman?",
                 "Description": "Triumph over the frost legion a festive family of maniacal snowman mobsters.",
-                "Points": 0,
+                "Points": 10,
                 "Type": "",
                 "Category": 5,
-                "Id": 483291,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -644,12 +644,12 @@
             "Ra": {
                 "Title": "Tin-Foil Hatter",
                 "Description": "Triumph over a martian invasion when beings from out of this world come to scramble your brains and probe you in uncomfortable places.",
-                "Points": 0,
+                "Points": 10,
                 "Type": "",
                 "Category": 5,
-                "Id": 483292,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -658,12 +658,12 @@
             "Ra": {
                 "Title": "Baleful Harvest",
                 "Description": "Reach the 15th wave of a pumpkin moon where evil lurks among the autumn harvest.",
-                "Points": 0,
+                "Points": 10,
                 "Type": "",
                 "Category": 5,
-                "Id": 483293,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -672,12 +672,12 @@
             "Ra": {
                 "Title": "Ice Scream",
                 "Description": "Reach the 15th wave of a frost moon where the festive season quickly degrades into madness.",
-                "Points": 0,
+                "Points": 10,
                 "Type": "",
                 "Category": 5,
-                "Id": 483294,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -686,12 +686,12 @@
             "Ra": {
                 "Title": "Sticky Situation",
                 "Description": "Survive the slime rain where gelatinous organisms fall from the sky in droves.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483295,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -700,12 +700,12 @@
             "Ra": {
                 "Title": "Real Estate Agent",
                 "Description": "Have all possible town NPCs living in your world.",
-                "Points": 0,
+                "Points": 50,
                 "Type": "",
                 "Category": 5,
-                "Id": 483296,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -714,12 +714,12 @@
             "Ra": {
                 "Title": "Not the Bees!",
                 "Description": "Fire a Bee Gun while wearing a full set of Bee Armor.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483297,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -728,12 +728,12 @@
             "Ra": {
                 "Title": "Jeepers Creepers",
                 "Description": "Stumble into a spider cavern in the underground.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483298,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -742,12 +742,12 @@
             "Ra": {
                 "Title": "Funkytown",
                 "Description": "Build or encounter a glowing mushroom field above the surface.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483299,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -756,12 +756,12 @@
             "Ra": {
                 "Title": "Into Orbit",
                 "Description": "You can only go down from here!",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483300,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -770,12 +770,12 @@
             "Ra": {
                 "Title": "Rock Bottom",
                 "Description": "The only way is up!",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483301,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -784,12 +784,12 @@
             "Ra": {
                 "Title": "Mecha Mayhem",
                 "Description": "Do battle against the Twins the Destroyer and Skeletron Prime simultaneously and emerge victorious.",
-                "Points": 0,
+                "Points": 50,
                 "Type": "",
                 "Category": 5,
-                "Id": 483302,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -798,12 +798,12 @@
             "Ra": {
                 "Title": "Gelatin World Tour",
                 "Description": "Defeat every type of slime there is!",
-                "Points": 0,
+                "Points": 50,
                 "Type": "",
                 "Category": 5,
-                "Id": 483303,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -812,12 +812,12 @@
             "Ra": {
                 "Title": "Fashion Statement",
                 "Description": "Equip armor or vanity clothing in all three social slots.",
-                "Points": 0,
+                "Points": 2,
                 "Type": "",
                 "Category": 5,
-                "Id": 483304,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -826,12 +826,12 @@
             "Ra": {
                 "Title": "Vehicular Manslaughter",
                 "Description": "Defeat an enemy by running it over with a minecart.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483305,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -840,12 +840,12 @@
             "Ra": {
                 "Title": "Bulldozer",
                 "Description": "Destroy a total of 10000 tiles.",
-                "Points": 0,
+                "Points": 10,
                 "Type": "",
                 "Category": 5,
-                "Id": 483306,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -854,12 +854,12 @@
             "Ra": {
                 "Title": "There are Some Who Call Him...",
                 "Description": "Kill Tim.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483307,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -868,12 +868,12 @@
             "Ra": {
                 "Title": "Deceiver of Fools",
                 "Description": "Kill a nymph.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483308,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -882,12 +882,12 @@
             "Ra": {
                 "Title": "Sword of the Hero",
                 "Description": "Obtain a Terra Blade forged from the finest blades of light and darkness.",
-                "Points": 0,
+                "Points": 10,
                 "Type": "",
                 "Category": 5,
-                "Id": 483309,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -896,12 +896,12 @@
             "Ra": {
                 "Title": "Lucky Break",
                 "Description": "Survive a long fall with just a sliver of health remaining.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483310,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -910,12 +910,12 @@
             "Ra": {
                 "Title": "Throwing Lines",
                 "Description": "Throw a yoyo.",
-                "Points": 0,
+                "Points": 1,
                 "Type": "",
                 "Category": 5,
-                "Id": 483311,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -924,12 +924,12 @@
             "Ra": {
                 "Title": "Dye Hard",
                 "Description": "Equip a dye in every possible dye slot.",
-                "Points": 0,
+                "Points": 2,
                 "Type": "",
                 "Category": 5,
-                "Id": 483312,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -938,12 +938,12 @@
             "Ra": {
                 "Title": "Sick Throw",
                 "Description": "Obtain the Terrarian.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483313,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -952,12 +952,12 @@
             "Ra": {
                 "Title": "The Frequent Flyer",
                 "Description": "Spend over 1 gold being treated by the nurse.",
-                "Points": 0,
+                "Points": 10,
                 "Type": "",
                 "Category": 5,
-                "Id": 483314,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -966,12 +966,12 @@
             "Ra": {
                 "Title": "The Cavalry",
                 "Description": "Equip a mount.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483315,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -980,12 +980,12 @@
             "Ra": {
                 "Title": "Completely Awesome",
                 "Description": "Obtain a minishark.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483316,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -994,12 +994,12 @@
             "Ra": {
                 "Title": "Til Death...",
                 "Description": "Kill the groom.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483317,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1008,12 +1008,12 @@
             "Ra": {
                 "Title": "Archaeologist",
                 "Description": "Kill Doctor Bones.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483318,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1022,12 +1022,12 @@
             "Ra": {
                 "Title": "Pretty in Pink",
                 "Description": "Kill pinky.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483319,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1036,12 +1036,12 @@
             "Ra": {
                 "Title": "Rainbows and Unicorns",
                 "Description": "Fire a rainbow gun while riding on a unicorn.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483320,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1050,12 +1050,12 @@
             "Ra": {
                 "Title": "You and What Army?",
                 "Description": "Command nine summoned minions simultaneously.",
-                "Points": 0,
+                "Points": 10,
                 "Type": "",
                 "Category": 5,
-                "Id": 483321,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1064,12 +1064,12 @@
             "Ra": {
                 "Title": "Prismancer",
                 "Description": "Obtain a rainbow rod.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483322,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1078,12 +1078,12 @@
             "Ra": {
                 "Title": "It Can Talk?!",
                 "Description": "Build a house in a mushroom biome and have the Truffle move in.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483323,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1092,12 +1092,12 @@
             "Ra": {
                 "Title": "Watch Your Step!",
                 "Description": "Become a victim to a nasty underground trap.",
-                "Points": 0,
+                "Points": 1,
                 "Type": "",
                 "Category": 5,
-                "Id": 483324,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1106,12 +1106,12 @@
             "Ra": {
                 "Title": "Marathon Medalist",
                 "Description": "Travel a total of 26.2 miles on foot.",
-                "Points": 0,
+                "Points": 10,
                 "Type": "",
                 "Category": 5,
-                "Id": 483325,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1120,12 +1120,12 @@
             "Ra": {
                 "Title": "Glorious Golden Pole",
                 "Description": "Obtain a golden fishing rod.",
-                "Points": 0,
+                "Points": 10,
                 "Type": "",
                 "Category": 5,
-                "Id": 483326,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1134,12 +1134,12 @@
             "Ra": {
                 "Title": "Servant-in-Training",
                 "Description": "Complete your 1st quest for the angler.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483327,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1148,12 +1148,12 @@
             "Ra": {
                 "Title": "Good Little Slave",
                 "Description": "Complete your 10th quest for the angler.",
-                "Points": 0,
+                "Points": 10,
                 "Type": "",
                 "Category": 5,
-                "Id": 483328,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1162,12 +1162,12 @@
             "Ra": {
                 "Title": "Trout Monkey",
                 "Description": "Complete your 25th quest for the angler.",
-                "Points": 0,
+                "Points": 25,
                 "Type": "",
                 "Category": 5,
-                "Id": 483329,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1176,12 +1176,12 @@
             "Ra": {
                 "Title": "Fast and Fishious",
                 "Description": "Complete your 50th quest for the angler.",
-                "Points": 0,
+                "Points": 50,
                 "Type": "",
                 "Category": 5,
-                "Id": 483330,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1190,12 +1190,12 @@
             "Ra": {
                 "Title": "Supreme Helper Minion!",
                 "Description": "Complete a grand total of 200 quests for the angler.",
-                "Points": 0,
+                "Points": 50,
                 "Type": "",
                 "Category": 5,
-                "Id": 483331,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1204,12 +1204,12 @@
             "Ra": {
                 "Title": "Topped Off",
                 "Description": "Attain maximum life and mana possible without accessories or buffs.",
-                "Points": 0,
+                "Points": 25,
                 "Type": "",
                 "Category": 5,
-                "Id": 483332,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1218,12 +1218,12 @@
             "Ra": {
                 "Title": "Slayer of Worlds",
                 "Description": "Defeat every boss in Terraria.",
-                "Points": 0,
+                "Points": 50,
                 "Type": "",
                 "Category": 5,
-                "Id": 483333,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1232,12 +1232,12 @@
             "Ra": {
                 "Title": "You Can Do It!",
                 "Description": "Survive your character's first full night.",
-                "Points": 0,
+                "Points": 2,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483334,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1246,12 +1246,12 @@
             "Ra": {
                 "Title": "Matching Attire",
                 "Description": "Equip armor in all three armor slots",
-                "Points": 0,
+                "Points": 2,
                 "Type": "progression",
                 "Category": 5,
-                "Id": 483335,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1260,12 +1260,12 @@
             "Ra": {
                 "Title": "Fae Flayer",
                 "Description": "Defeat the Empress of Light responsible for all those flashy lights and glitter.",
-                "Points": 0,
+                "Points": 25,
                 "Type": "",
                 "Category": 5,
-                "Id": 483336,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1274,12 +1274,12 @@
             "Ra": {
                 "Title": "Just Desserts",
                 "Description": "Defeat Queen Slime giving the coup-de-grace to the sovereign of all that jiggles.",
-                "Points": 0,
+                "Points": 10,
                 "Type": "",
                 "Category": 5,
-                "Id": 483337,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1288,12 +1288,12 @@
             "Ra": {
                 "Title": "Don't Dread on Me",
                 "Description": "Defeat the Dreadnautilus murderous mollusk lurking beneath the surface of the sanguine seas.",
-                "Points": 0,
+                "Points": 10,
                 "Type": "",
                 "Category": 5,
-                "Id": 483338,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1302,12 +1302,12 @@
             "Ra": {
                 "Title": "Hero of Etheria",
                 "Description": "Repel the strongest forces the Old One's Army can muster.",
-                "Points": 0,
+                "Points": 25,
                 "Type": "",
                 "Category": 5,
-                "Id": 483339,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1316,12 +1316,12 @@
             "Ra": {
                 "Title": "Infinity +1 Sword",
                 "Description": "Obtain the Zenith the culmination of a journey forged into the ultimate sword.",
-                "Points": 0,
+                "Points": 25,
                 "Type": "",
                 "Category": 5,
-                "Id": 483340,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1329,13 +1329,13 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Boots of the Hero",
-                "Description": "Obtain the Terraspark Boots forged from the finest boots of fire and ice.\t\t\t\t\t\t\t\t\t",
-                "Points": 0,
+                "Description": "Obtain the Terraspark Boots forged from the finest boots of fire and ice.",
+                "Points": 25,
                 "Type": "",
                 "Category": 5,
-                "Id": 483341,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1344,12 +1344,12 @@
             "Ra": {
                 "Title": "A Rather Blustery Day",
                 "Description": "Fly a kite on a windy day.",
-                "Points": 0,
+                "Points": 1,
                 "Type": "",
                 "Category": 5,
-                "Id": 483342,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1358,12 +1358,12 @@
             "Ra": {
                 "Title": "Quiet Neighborhood",
                 "Description": "Enter a misty graveyard filled with the surly dead.",
-                "Points": 0,
+                "Points": 2,
                 "Type": "",
                 "Category": 5,
-                "Id": 483343,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1372,12 +1372,12 @@
             "Ra": {
                 "Title": "Hot Reels!",
                 "Description": "Drop a lure in a pool of lava for a pre-fried haul!",
-                "Points": 0,
+                "Points": 2,
                 "Type": "",
                 "Category": 5,
-                "Id": 483344,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1386,12 +1386,12 @@
             "Ra": {
                 "Title": "Heliophobia",
                 "Description": "Trick a gnome into turning into stone!",
-                "Points": 0,
+                "Points": 10,
                 "Type": "",
                 "Category": 5,
-                "Id": 483345,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1400,12 +1400,12 @@
             "Ra": {
                 "Title": "Leading Landlord",
                 "Description": "Meet with a tenant who's as happy as they possibly can be!",
-                "Points": 0,
+                "Points": 10,
                 "Type": "",
                 "Category": 5,
-                "Id": 483346,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1414,12 +1414,12 @@
             "Ra": {
                 "Title": "Feeling Petty",
                 "Description": "Deliver headpats to the town pet.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483347,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1428,12 +1428,12 @@
             "Ra": {
                 "Title": "Hey! Listen!",
                 "Description": "Encounter a fairy.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483348,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1442,12 +1442,12 @@
             "Ra": {
                 "Title": "Jolly Jamboree",
                 "Description": "What you're celebrating doesn't matter just throw a party already!",
-                "Points": 0,
+                "Points": 4,
                 "Type": "",
                 "Category": 5,
-                "Id": 483349,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1456,12 +1456,12 @@
             "Ra": {
                 "Title": "Dead Men Tell No Tales",
                 "Description": "You were so preoccupied with whether or not you could open the chest that you didn't stop to think if you should.",
-                "Points": 0,
+                "Points": 1,
                 "Type": "",
                 "Category": 5,
-                "Id": 483350,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1470,12 +1470,12 @@
             "Ra": {
                 "Title": "An Eye For An Eye",
                 "Description": "Defeat Deerclops the chilly one-eyed monstrosity from a foreign land.",
-                "Points": 0,
+                "Points": 10,
                 "Type": "",
                 "Category": 5,
-                "Id": 483351,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1484,12 +1484,12 @@
             "Ra": {
                 "Title": "Feast of Midas",
                 "Description": "Obtain Golden Delight the highest quality meal made from the highest quality . . . ingredients.",
-                "Points": 0,
+                "Points": 10,
                 "Type": "",
                 "Category": 5,
-                "Id": 483352,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1498,12 +1498,12 @@
             "Ra": {
                 "Title": "Unusual Survival Strategies",
                 "Description": "Delay death from drowning by drinking water. It doesn't make much sense but you did what you had to do.",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483353,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1512,12 +1512,12 @@
             "Ra": {
                 "Title": "Black Mirror",
                 "Description": "Obtain the Cell Phone. You'll never leave home without it again.",
-                "Points": 0,
+                "Points": 25,
                 "Type": "",
                 "Category": 5,
-                "Id": 483354,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1526,12 +1526,12 @@
             "Ra": {
                 "Title": "Ankhumulation Complete",
                 "Description": "Obtain the Ankh Shield the finest protection from unpleasant maladies and ailments.",
-                "Points": 0,
+                "Points": 25,
                 "Type": "",
                 "Category": 5,
-                "Id": 483355,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1540,12 +1540,12 @@
             "Ra": {
                 "Title": "Torch God",
                 "Description": "Invoked the wrath of the God of Torches and survived long enough to earn its blessing.",
-                "Points": 0,
+                "Points": 10,
                 "Type": "",
                 "Category": 5,
-                "Id": 483356,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1554,12 +1554,12 @@
             "Ra": {
                 "Title": "A Rare Realm",
                 "Description": "Some very special seeds can lead to unique and rewarding experiences. Can you find one?",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483357,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1568,12 +1568,12 @@
             "Ra": {
                 "Title": "The Great Slime Mitosis",
                 "Description": "Find all of the Slime Pets and have them move in!",
-                "Points": 0,
+                "Points": 25,
                 "Type": "",
                 "Category": 5,
-                "Id": 483358,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1582,12 +1582,12 @@
             "Ra": {
                 "Title": "A Shimmer In The Dark",
                 "Description": "Shimmer an item into another item. What other transmutations can you find?",
-                "Points": 0,
+                "Points": 5,
                 "Type": "",
                 "Category": 5,
-                "Id": 483359,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1596,12 +1596,12 @@
             "Ra": {
                 "Title": "And Good Riddance!",
                 "Description": "Completely purify all Corruption Crimson and Hallow from your world until the Dryad is satisfied!",
-                "Points": 0,
+                "Points": 25,
                 "Type": "",
                 "Category": 5,
-                "Id": 483360,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
             }
         },
         {
@@ -1610,12 +1610,26 @@
             "Ra": {
                 "Title": "To Infinity... and Beyond!",
                 "Description": "Fly a Kwad Racer into outer space.",
-                "Points": 0,
+                "Points": 3,
                 "Type": "",
                 "Category": 5,
-                "Id": 483361,
+                "Id": 0,
                 "Badge": "00000",
-                "Subset": ""
+                "Set": 32910
+            }
+        },
+        {
+            "Name": "SCOTTS_HAT",
+            "Category": "Collector",
+            "Ra": {
+                "Title": "Retro Founder",
+                "Description": "Obtain Scott's Hat.",
+                "Points": 5,
+                "Type": "",
+                "Category": 5,
+                "Id": 0,
+                "Badge": "00000",
+                "Set": 32909
             }
         }
     ]

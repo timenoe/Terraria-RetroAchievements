@@ -1,6 +1,8 @@
 displayName = RetroAchievements
 author = timenoe
 version = 1.0
-buildIgnore = *.pdn
-hideCode = true
 homepage = https://retroachievements.org
+hideCode = true
+buildIgnore = *.pdn
+side = Both
+sortBefore = CompletionistAchievements,PlayerAchievements,WorldAchievements

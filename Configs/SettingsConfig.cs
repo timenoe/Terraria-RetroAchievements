@@ -19,7 +19,7 @@ namespace RetroAchievements.Configs
         public string Host;
 
         /// <summary>
-        /// Game to load achievements for
+        /// Game to load achievement data for
         /// </summary>
         [BackgroundColor(0, 255, 0)]
         [DefaultValue(AchievementGame.Terraria)]
@@ -29,11 +29,11 @@ namespace RetroAchievements.Configs
         public AchievementGame Game;
 
         /// <summary>
-        /// True if RA hardcore is enabled
+        /// True if Challenge Mode (RetroAchievements Hardcore Mode) is enabled
         /// </summary>
         [BackgroundColor(255, 255, 0)]
         [DefaultValue(true)]
         [ReloadRequired]
-        public bool Hardcore;
+        public bool ChallengeMode;
     }
 }

@@ -1,34 +1,37 @@
 Buffs: {
-	AchievementBuff: {
+	HardcoreAchievementBuff: {
+		DisplayName: Retro Challenger
+		Description: Hardcore RetroAchievements are enabled!
+	}
+
+	SoftcoreAchievementBuff: {
 		DisplayName: Retro Gamer
-		Description: RetroAchievements are enabled
+		Description: RetroAchievements are enabled!
 	}
 }
 
 Configs: {
 	SettingsConfig: {
-		DisplayName: Settings Config
+		DisplayName: Settings
 
 		Host: {
 			Label: Host
-			Tooltip: ""
+			Tooltip: Set the hostname of the RetroAchievements server.
 		}
 
 		Game: {
 			Label: Game
-			Tooltip: ""
+			Tooltip: Select the game to earn achievements for.
 		}
 
-		Hardcore: {
-			Label: Hardcore
-			Tooltip: ""
+		ChallengeMode: {
+			Label: Challenge Mode
+			Tooltip: Enabled to earn achievements with an extra set of restrictions.
 		}
 	}
 
 	AchievementGame: {
 		Tooltip: ""
-		None.Label: None
-		Vanilla.Label: Vanilla
 		Terraria.Label: Terraria
 	}
 }
@@ -36,6 +39,6 @@ Configs: {
 Items: {
 	ScottsHat: {
 		DisplayName: Scott's Hat
-		Tooltip: ""
+		Tooltip: Magically summons his hair and sunglasses too!
 	}
 }

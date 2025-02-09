@@ -15,8 +15,20 @@ namespace RetroAchievements.Systems
         /// </summary>
         public static string GetRichPresence()
         {
+            string player = "";
+            string world = "";
+            string zone = "";
+
+            if (RichPresenceState.GetCurrentState().GameMode >= RichPresenceState.GameModeState.PlayingSingle)
+            {
+                player = $"Player: {PlayerUtil.GetHp()} HP | {PlayerUtil.GetMp()} MP | {PlayerUtil.GetDifficultyStr()} | {PlayerUtil.GetPlayTimeStr()} | {PlayerUtil.GetHeldItemStr()}";
+                world = $"World: Seed: {WorldUtil.GetSeedStr()} | {WorldUtil.GetSizeStr()} | {WorldUtil.GetDifficultyStr()} | {WorldUtil.GetEvilStr()} | {WorldUtil.GetTimeOfDayStr()}";
+                zone = $"Biomes: {string.Join(", ", PlayerUtil.GetCurrentBiomesStr())}";
+            }
+            
             switch (RichPresenceState.GetCurrentState().GameMode)
             {
+                // Display a random window title
                 case RichPresenceState.GameModeState.InMainMenu:
                     return Lang.GetRandomGameTitle();
 
@@ -27,13 +39,12 @@ namespace RetroAchievements.Systems
                     return "Creating a World";
 
                 case RichPresenceState.GameModeState.PlayingSingle:
-                    string player = $"Player: {PlayerUtil.GetHp()} HP | {PlayerUtil.GetMp()} MP | {PlayerUtil.GetDifficulty()} | {PlayerUtil.GetPlayTime()} | {PlayerUtil.GetHeldItemName()}";
-                    string world = $"World: Seed: {WorldUtil.GetSeed()} | {WorldUtil.GetSize()} | {WorldUtil.GetDifficulty()} | {WorldUtil.GetEvil()} | {WorldUtil.GetTimeOfDay()}";
-                    string zones = $"Biomes: {string.Join(", ", PlayerUtil.GetCurrentZones())}";
-                    return $"{player} • {world} • {zones}";
+                    string single = $"Playing Singleplayer ({RetroAchievements.GetChallengeModeStr()}) | Progression: {WorldUtil.GetProgressionStr()}";
+                    return $"{single} • {player} • {world} • {zone}";
 
                 case RichPresenceState.GameModeState.PlayingMulti:
-                    return "Playing Multiplayer";
+                    string multi = $"Playing Multiplayer ({RetroAchievements.GetChallengeModeStr()}) | Players: {PlayerUtil.GetPlayerCount()} | Progression: {WorldUtil.GetProgressionStr()}";
+                    return $"{multi} • {player} • {world} • {zone}";
             }
 
             return "Playing Terraria";

@@ -46,7 +46,7 @@ namespace RetroAchievements.Systems
         public const int PingInterval = 5;
 
         /// <summary>
-        /// How often stale achievement unlock requests are retried in minutes
+        /// How often failed achievement unlock requests are retried in minutes
         /// </summary>
         public const int RetryInterval = 1;
 
@@ -77,9 +77,9 @@ namespace RetroAchievements.Systems
         private bool _isMastered;
 
         /// <summary>
-        /// True if the game session has been started
+        /// True if a user is logged in
         /// </summary>
-        private bool _isStarted;
+        private bool _isLogin;
 
         /// <summary>
         /// Path to the serialized file with cached credentials
@@ -121,7 +121,7 @@ namespace RetroAchievements.Systems
         /// <summary>
         /// True if the game session has been started
         /// </summary>
-        public bool IsStarted => _isStarted;
+        public bool IsLogin => _isLogin;
 
         /// <summary>
         /// Active user
@@ -131,11 +131,11 @@ namespace RetroAchievements.Systems
 
         public override void OnModLoad()
         {
-            if (!RetroAchievements.IsEnabled)
+            if (Main.dedServ)
                 return;
-            
+
             _cachePath = $"{ModLoader.ModPath}/RetroAchievements.nbt";
-            _header = new(RetroAchievements.Host, game: RetroAchievements.GetGameId(), hardcore: RetroAchievements.IsHardcore);
+            _header = new(RetroAchievements.Host, RetroAchievements.GetGameId(), RetroAchievements.IsHardcore);
 
             // Subscribe to internal events
             _pingTimer.Elapsed += PingTimer_Elapsed;
@@ -146,7 +146,8 @@ namespace RetroAchievements.Systems
 
             // Subscribe to external events
             ModContent.GetInstance<RaCommand>().LoginCommand += RaCommand_LoginCommand;
-            ModContent.GetInstance<RuleSystem>().UnlockAchievementCommand += NetworkSystem_UnlockAchievementCommand;
+            ModContent.GetInstance<RaCommand>().LogoutCommand += RaCommand_LogoutCommand;
+            ModContent.GetInstance<RuleSystem>().UnlockAchievementCommand += RuleSystem_UnlockAchievementCommand;
 
             // Ensure HTTP client has proper User Agent for RA requests
             SetupUserAgent();
@@ -158,7 +159,7 @@ namespace RetroAchievements.Systems
 
         public override void OnModUnload()
         {
-            if (!RetroAchievements.IsEnabled)
+            if (Main.dedServ)
                 return;
 
             // Unsubscribe from internal events
@@ -170,7 +171,8 @@ namespace RetroAchievements.Systems
 
             // Unsubscribe from external events
             ModContent.GetInstance<RaCommand>().LoginCommand -= RaCommand_LoginCommand;
-            ModContent.GetInstance<RuleSystem>().UnlockAchievementCommand -= NetworkSystem_UnlockAchievementCommand;
+            ModContent.GetInstance<RaCommand>().LogoutCommand -= RaCommand_LogoutCommand;
+            ModContent.GetInstance<RuleSystem>().UnlockAchievementCommand -= RuleSystem_UnlockAchievementCommand;
 
             // Handle IDisposable objects
             _client.Dispose();
@@ -263,9 +265,9 @@ namespace RetroAchievements.Systems
         /// <returns>Asynchronous task</returns>
         private async Task Login(string user, string pass)
         {
-            _header.user = user;
             MessageUtil.Log($"Logging in {user} to {_header.host}...");
 
+            _header.user = user;
             ApiResponse<LoginResponse> api = await NetworkInterface.TryLogin(_client, _header, pass);
 
             if (!string.IsNullOrEmpty(api.Failure))
@@ -282,8 +284,8 @@ namespace RetroAchievements.Systems
                 
             _header.token = api.Response.Token;
             CacheCredentials();
-            MessageUtil.Log($"{user} has successfully logged in!");
 
+            MessageUtil.Log($"{user} has successfully logged in!");
             StartSessionCommand.Invoke(this, null);
         }
 
@@ -295,13 +297,42 @@ namespace RetroAchievements.Systems
         private async void RaCommand_LoginCommand(object sender, LoginEventArgs args) => await Login(args.User, args.Password);
 
         /// <summary>
+        /// LogoutCommand event callback to logout a user
+        /// </summary>
+        /// <param name="sender">Event sender</param>
+        /// <param name="e">Event args</param>
+        private void RaCommand_LogoutCommand(object sender, EventArgs e)
+        {
+            string oldUser = _header.user;
+            _header.user = "";
+            _header.token = "";
+
+            // Remove cached credential file
+            FileInfo cacheInfo = new(_cachePath);
+            if (cacheInfo.Exists)
+                cacheInfo.Delete();
+
+            // Take the achievement buff from the player if in-game
+            if (!Main.gameMenu)
+                Main.LocalPlayer.GetModPlayer<RetroAchievementPlayer>().TakeAchievementBuff();
+
+            // Reset internal state
+            _unlockedAchs = [];
+            UpdateMastery();
+            _pingTimer.Stop();
+            _retryTimer.Stop();
+            _isLogin = false;
+
+            MessageUtil.Log($"Logged out {oldUser}");
+        }
+
+        /// <summary>
         /// Start a game session for the user
         /// </summary>
         /// <returns>Asynchronous task</returns>
         private async Task StartSession()
         {
             MessageUtil.ModLog($"Starting a game session for {RetroAchievements.GetGameId()}...");
-
             ApiResponse<StartSessionResponse> api = await NetworkInterface.TryStartSession(_client, _header);
 
             if (!string.IsNullOrEmpty(api.Failure))
@@ -316,13 +347,13 @@ namespace RetroAchievements.Systems
                 return;
             }
 
+            // Give the achievement buff to the player if in-game
+            if (!Main.gameMenu)
+                Main.LocalPlayer.GetModPlayer<RetroAchievementPlayer>().GiveAchievementBuff();
+
             // Get existing achievement unlocks and update mastery status
             _unlockedAchs = api.Response.GetUnlockedAchIds();
             UpdateMastery();
-
-            // Apply the achievement buff to the player if in-game
-            if (!Main.gameMenu)
-                Main.LocalPlayer.GetModPlayer<RetroAchievementPlayer>().GrantAchievementBuff();
 
             // Start sending activity pings
             PingCommand.Invoke(this, null);
@@ -331,7 +362,7 @@ namespace RetroAchievements.Systems
             // Start retrying failed unlocks when they occur
             _retryTimer.Start();
 
-            _isStarted = true;
+            _isLogin = true;
         }
 
         /// <summary>
@@ -348,6 +379,10 @@ namespace RetroAchievements.Systems
         /// <returns>Asynchronous task</returns>
         private async Task Ping(string rp)
         {
+            // Don't try to ping if not logged in
+            if (!IsLogin)
+                return;
+            
             MessageUtil.ModLog($"Sending a game activity ping for {RetroAchievements.GetGameId()}...");
             ApiResponse<BaseResponse> api = await NetworkInterface.TryPing(_client, _header, rp);
 
@@ -386,8 +421,21 @@ namespace RetroAchievements.Systems
         /// <returns>Asynchronous task</returns>
         public async Task Unlock(string name, int id, bool retry=false)
         {
-            // Do not attempt to unlock invalid achievements or achievements that are already unlocked on the server
-            if (id == 0 || _unlockedAchs.Contains(id))
+            // Don't try to unlock if not logged in
+            if (!IsLogin)
+                return;
+
+            // Don't unlock achievements with an invalid ID
+            // If this happens, ensure the achievement and its ID are in the JSON file
+            if (id == 0)
+                return;
+
+            // Don't attempt to unlock achievements that are already unlocked on the RA server
+            if (_unlockedAchs.Contains(id))
+                return;
+
+            // Don't unlock achievements that are not in core
+            if (!RetroAchievements.IsCoreAchievement(name))
                 return;
 
             MessageUtil.ModLog($"Unlocking achievement {id}...");
@@ -416,10 +464,10 @@ namespace RetroAchievements.Systems
             }
             
             _unlockedAchs.Add(id);
-            _failedAchs.Remove(name);
-            MessageUtil.ChatLog($"{_header.user} has unlocked [a:{name}]!");
-
             UpdateMastery();
+            _failedAchs.Remove(name);
+
+            MessageUtil.ChatLog($"{_header.user} has unlocked [a:{name}]!");
         }
 
         /// <summary>
@@ -427,7 +475,7 @@ namespace RetroAchievements.Systems
         /// </summary>
         /// <param name="sender">Event sender</param>
         /// <param name="args">Event args</param>
-        private async void NetworkSystem_UnlockAchievementCommand(object sender, UnlockAchievementEventArgs args) => await Unlock(args.Name, RetroAchievements.GetAchievementId(args.Name));
+        private async void RuleSystem_UnlockAchievementCommand(object sender, UnlockAchievementEventArgs args) => await Unlock(args.Name, RetroAchievements.GetAchievementId(args.Name));
 
         /// <summary>
         /// Timer.Elapsed event callback to retry failed achievement unlocks

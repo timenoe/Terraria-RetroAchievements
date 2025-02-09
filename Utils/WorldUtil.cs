@@ -10,47 +10,10 @@ namespace RetroAchievements.Utils
     public class WorldUtil
     {
         /// <summary>
-        /// Returns true if the world is a special seed
-        /// </summary>
-        /// <returns>True if the world is a special seed</returns>
-        public static bool IsSpecialSeed() => Main.specialSeedWorld;
-
-        /// <summary>
-        /// Returns true if the world file data is a special seed
-        /// </summary>
-        /// <param name="data">World data</param>
-        /// <returns>Trus if the world file data is a special seed</returns>
-        public static bool IsSpecialSeed(WorldFileData data)
-        {
-            return data.Anniversary ||
-                   data.DontStarve ||
-                   data.DrunkWorld ||
-                   data.ForTheWorthy ||
-                   data.NoTrapsWorld ||
-                   data.NotTheBees ||
-                   data.RemixWorld ||
-                   data.ZenithWorld;
-        }
-
-        /// <summary>
-        /// Returns true if the world file data is Journey Mode
-        /// </summary>
-        /// <param name="world">World file data</param>
-        /// <returns>True if the world file data is Journey Mode</returns>
-        public static bool IsJourneyMode(WorldFileData world) => world.GameMode == GameModeID.Creative;
-
-        /// <summary>
-        /// Get the name of the world<br/>
-        /// World's can be manually named by the player, so don't display it in Rich Presence
-        /// </summary>
-        /// <returns>Name of the world</returns>
-        public static string GetName() => Main.worldName;
-
-        /// <summary>
         /// Get the seed of the world
         /// </summary>
         /// <returns>Special seed name if available; otherwise RNG seed name</returns>
-        public static string GetSeed()
+        public static string GetSeedStr()
         {
             if (Main.specialSeedWorld)
             {
@@ -80,6 +43,7 @@ namespace RetroAchievements.Utils
                     return "Don't Dig Up";
             }
 
+            // Otherwise return the normal numbered seed
             return WorldGen.currentWorldSeed;
         }
 
@@ -87,7 +51,7 @@ namespace RetroAchievements.Utils
         /// Get the size of the world
         /// </summary>
         /// <returns>Small, Medium, or Large</returns>
-        public static string GetSize()
+        public static string GetSizeStr()
         {
             if (WorldGen.GetWorldSize() == WorldGen.WorldSize.Small)
                 return "Small";
@@ -102,7 +66,7 @@ namespace RetroAchievements.Utils
         /// Get the difficulty of the world
         /// </summary>
         /// <returns>Journey, Normal, Expert, or Master</returns>
-        public static string GetDifficulty()
+        public static string GetDifficultyStr()
         {
             return Main.GameModeInfo.Id switch
             {
@@ -117,13 +81,60 @@ namespace RetroAchievements.Utils
         /// Get the evil of the world
         /// </summary>
         /// <returns>Crimson or Corruption</returns>
-        public static string GetEvil() => WorldGen.crimson ? "Crimson" : "Corruption";
+        public static string GetEvilStr() => WorldGen.crimson ? "Crimson" : "Corruption";
+
+        /// <summary>
+        /// Gets the current progression state
+        /// </summary>
+        /// <returns>Current progression state</returns>
+        public static string GetProgressionStr()
+        {
+            if (NPC.downedMoonlord)
+                return "Post-Moon Lord";
+
+            if (NPC.downedAncientCultist)
+                return "Post-Lunatic Cultist";
+
+            if (NPC.downedGolemBoss)
+                return "Post-Golem";
+
+            if (NPC.downedPlantBoss)
+                return "Post-Plantera";
+
+            if (NPC.downedMechBoss1 && NPC.downedMechBoss2 && NPC.downedMechBoss3)
+                return "Post-Mechanical Bosses";
+
+            if (Main.hardMode)
+                return "Hardmode";
+
+            return "Pre-Hardmode";
+        }
 
         /// <summary>
         /// Get the time of day of the world
         /// </summary>
         /// <returns>Day or Night</returns>
-        public static string GetTimeOfDay() => Main.dayTime ? "Day" : "Night";
+        public static string GetTimeOfDayStr() => Main.dayTime ? "Day" : "Night";
+
+        /// <summary>
+        /// Returns true if the world is the Celebrationmk10 seed
+        /// </summary>
+        /// <param name="data">World data</param>
+        /// <returns>True if the world is the Celebrationmk10 seed</returns>
+        public static bool IsAnniversarySeed(WorldFileData data) => data.Anniversary && !data.ZenithWorld;
+
+        /// <summary>
+        /// Returns true if the world file data is Journey Mode
+        /// </summary>
+        /// <param name="world">World file data</param>
+        /// <returns>True if the world file data is Journey Mode</returns>
+        public static bool IsJourneyMode(WorldFileData world) => world.GameMode == GameModeID.Creative;
+
+        /// <summary>
+        /// Returns true if the world is single player
+        /// </summary>
+        /// <returns>True if the world is single player</returns>
+        public static bool IsMultiplayer() => Main.netMode != NetmodeID.SinglePlayer;
 
         /// <summary>
         /// Check if a world was generated with a specific mod enabled

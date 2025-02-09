@@ -1,3 +1,4 @@
+using System.IO;
 using Terraria;
 using Terraria.ModLoader;
 using Terraria.ModLoader.IO;
@@ -13,48 +14,37 @@ namespace RetroAchievements.Players
     public class RetroAchievementPlayer : ModPlayer
     {
         /// <summary>
-        /// True if the player can earn achievements<br/>
-        /// Set after entering the world and passing any final checks
+        /// True if the player was created with this RA enabled<br/>
+        /// Flag is saved when the player enters a world with nearly no play time
         /// </summary>
-        private bool _canEarnAchievements;
+        private bool _isRaPlayer;
 
         /// <summary>
-        /// True if the player was created with this mod<br/>
-        /// Flag is saved when the player enters a world with no play time
+        /// True if the player was used in multiplayer with RA enabled<br/>
+        /// Flag is saved when the player enters a multiplayer world
         /// </summary>
-        private bool _wasCreatedWithRa;
-
-
-        /// <summary>
-        /// True if the player can earn achievements
-        /// </summary>
-        public bool CanEarnAchievements => _canEarnAchievements;
+        private bool _isRaMultiPlayer;
 
         /// <summary>
-        /// True if the player was created with this mod
+        /// True if the player was created with RA enabled
         /// </summary>
-        public bool WasCreatedWithRa => _wasCreatedWithRa;
+        public bool IsRaPlayer => _isRaPlayer;
+
+        /// <summary>
+        /// True if the player was used in multiplayer with RA enabled
+        /// </summary>
+        public bool IsRaMultiPlayer => _isRaMultiPlayer;
 
 
         public override void OnEnterWorld()
         {
-            if (!RetroAchievements.IsEnabled)
-                return;
-
-            if (!RetroAchievements.IsSinglePlayer() && !RetroAchievements.IsMultiAllowed())
-            {
-                MessageUtil.ChatLog("Cannot play Multiplayer", ChatLogType.Error);
-                return;
-            }
-
-            // Set custom flag if the player was created while this mod was active
-            if (PlayerUtil.HasNoPlayTime())
-                _wasCreatedWithRa = true;
+            if (WorldUtil.IsMultiplayer())
+                _isRaMultiPlayer = true;
 
             NetworkSystem network = ModContent.GetInstance<NetworkSystem>();
-            if (network.IsStarted)
+            if (network.IsLogin)
             {
-                GrantAchievementBuff();
+                GiveAchievementBuff();
                 MessageUtil.ChatLog($"Welcome back, {network.User}!");
             }
             else
@@ -63,23 +53,57 @@ namespace RetroAchievements.Players
 
         public override void SaveData(TagCompound tag)
         {
-            if (WasCreatedWithRa)
-                tag["WasCreatedWithRa"] = true;
+            if (IsRaPlayer)
+                tag["RaPlayer"] = true;
+
+            if (IsRaMultiPlayer)
+                tag["RaMultiPlayer"] = true;
         }
 
         public override void LoadData(TagCompound tag)
         {
-            if (tag.ContainsKey("WasCreatedWithRa"))
-                _wasCreatedWithRa = true;
+            try
+            {
+                _isRaPlayer = tag.GetBool("RaPlayer");
+                _isRaMultiPlayer = tag.GetBool("RaMultiPlayer");
+            }
+            catch(IOException) { }
         }
 
         /// <summary>
-        /// Grant the achievement buff to the player
+        /// Create a player with RA enabled
         /// </summary>
-        public void GrantAchievementBuff()
+        public void Create() => _isRaPlayer = true;
+
+        /// <summary>
+        /// Check if the player can earn an achievement
+        /// </summary>
+        /// <returns>True if the player can earn an achievement</returns>
+        public bool CanEarnAchievement() => Player.HasBuff(ModContent.BuffType<HardcoreAchievementBuff>()) || Player.HasBuff(ModContent.BuffType<SoftcoreAchievementBuff>());
+
+        /// <summary>
+        /// Give the achievement buff to the player
+        /// </summary>
+        public void GiveAchievementBuff()
         {
-            Player.AddBuff(ModContent.BuffType<AchievementBuff>(), 1);
-            _canEarnAchievements = true;
+            if (RetroAchievements.IsHardcore)
+                Player.AddBuff(ModContent.BuffType<HardcoreAchievementBuff>(), 1);
+
+            else
+                Player.AddBuff(ModContent.BuffType<SoftcoreAchievementBuff>(), 1);
+
         }
+
+        /// <summary>
+        /// Take the achievement buff from the player
+        /// </summary>
+        public void TakeAchievementBuff()
+        {
+            if (Player.HasBuff(ModContent.BuffType<HardcoreAchievementBuff>()))
+                Player.ClearBuff(ModContent.BuffType<HardcoreAchievementBuff>());
+            
+            if (Player.HasBuff(ModContent.BuffType<SoftcoreAchievementBuff>()))
+                Player.ClearBuff(ModContent.BuffType<SoftcoreAchievementBuff>());
+        } 
     }
 }

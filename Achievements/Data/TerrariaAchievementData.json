@@ -1,7 +1,6 @@
 {
     "Game": {
-        "AllowedMods": ["CompletionistAchievements", "WorldAchievements", "BossChecklist", "Census", "ItemChecklist"],
-        "IsMultiAllowed":  false,
+        "AllowedMods": [ "CompletionistAchievements", "PlayerAchievements", "WorldAchievements", "BossChecklist", "Census", "ItemChecklist", "MagicStorage", "RecipeBrowser", "SerousCommonLib" ],
         "Ra": {
             "Id": 32909,
             "Name": "Terraria"

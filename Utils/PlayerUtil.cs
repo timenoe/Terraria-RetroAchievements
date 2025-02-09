@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using Terraria;
 using Terraria.ID;
 using Terraria.IO;
@@ -11,19 +12,6 @@ namespace RetroAchievements.Utils
     /// </summary>
     public class PlayerUtil
     {
-        /// <summary>
-        /// Returns true if the player has (approximately) no play time
-        /// </summary>
-        /// <returns>True if the player has no play time</returns>
-        public static bool HasNoPlayTime() => TimeSpan.FromSeconds(Math.Floor(Main.ActivePlayerFileData.GetPlayTime().TotalSeconds)) == TimeSpan.Zero;
-
-        /// <summary>
-        /// Returns true if the player file data has (approximately) no play time
-        /// </summary>
-        /// <param name="player">Player file data</param>
-        /// <returns>True if the player file data has no play time</returns>
-        public static bool HasNoPlayTime(PlayerFileData player) => TimeSpan.FromSeconds(Math.Floor(player.GetPlayTime().TotalSeconds)) == TimeSpan.Zero;
-
         /// <summary>
         /// Get the HP of the player
         /// </summary>
@@ -51,10 +39,16 @@ namespace RetroAchievements.Utils
         }
 
         /// <summary>
+        /// Returns the total player count in multiplayer
+        /// </summary>
+        /// <returns>Total player count in multiplayer</returns>
+        public static int GetPlayerCount() => Main.player.Take(Main.maxPlayers).Count(p => p.active);
+
+        /// <summary>
         /// Get the difficulty of the player
         /// </summary>
         /// <returns>Journey, Classic, Mediumcore, or Hardcore</returns>
-        public static string GetDifficulty()
+        public static string GetDifficultyStr()
         {
             Player player = Main.LocalPlayer;
             if (player == null)
@@ -73,7 +67,7 @@ namespace RetroAchievements.Utils
         /// Get the play time of the player
         /// </summary>
         /// <returns>Play time of the player (formatted as hh:mm:ss)</returns>
-        public static string GetPlayTime()
+        public static string GetPlayTimeStr()
         {
             PlayerFileData data = Main.ActivePlayerFileData;
             if (data == null)
@@ -87,7 +81,7 @@ namespace RetroAchievements.Utils
         /// Get the name of the item that the player if holding
         /// </summary>
         /// <returns>Name of the item that the player is holding; No Item if none</returns>
-        public static string GetHeldItemName()
+        public static string GetHeldItemStr()
         {
             Player player = Main.LocalPlayer;
             if (player == null)
@@ -95,7 +89,7 @@ namespace RetroAchievements.Utils
 
             Item item = Main.LocalPlayer.HeldItem;
             if (item == null || string.IsNullOrEmpty(item.Name))
-                return "No Item";
+                return "No Held Item";
 
             return item.Name;
         }
@@ -104,7 +98,7 @@ namespace RetroAchievements.Utils
         /// Get a list of all the zones that the player is in
         /// </summary>
         /// <returns>List of all zones that the player is in</returns>
-        public static List<string> GetCurrentZones()
+        public static List<string> GetCurrentBiomesStr()
         {
             Player player = Main.LocalPlayer;
             List<string> zones = [];

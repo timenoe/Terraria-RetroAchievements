@@ -21,14 +21,20 @@ namespace RetroAchievements.Commands
 
         public override string Usage
             => "/ra <command> [arguments]" +
-            "\nhost - Get the current host" +
-            "\nlogin <user> <pass> - Login a user" +
-            "\nrp - Get the current Rich Presence";
+            "\nhost - Get the current RA host" +
+            "\nlogin <user> <pass> - Login an RA user" +
+            "\nlogout <user> <pass> - Logout an RA user" +
+            "\nrp - Get the current RA Rich Presence";
 
         /// <summary>
         /// Event to login a user
         /// </summary>
         public event EventHandler<LoginEventArgs> LoginCommand;
+
+        /// <summary>
+        /// Event to logout a user
+        /// </summary>
+        public event EventHandler<EventArgs> LogoutCommand;
 
         public override void Action(CommandCaller caller, string input, string[] args)
         {
@@ -47,7 +53,7 @@ namespace RetroAchievements.Commands
                         return;
                     }
 
-                    MessageUtil.ChatLog($"The current host is {RetroAchievements.Host}");
+                    MessageUtil.ChatLog($"The current RA host is {RetroAchievements.Host}");
                     break;
 
                 case "login":
@@ -58,6 +64,23 @@ namespace RetroAchievements.Commands
                     }
 
                     LoginCommand?.Invoke(this, new LoginEventArgs(args[1], args[2]));
+                    break;
+
+                case "logout":
+                    if (args.Length != 1)
+                    {
+                        MessageUtil.DisplayUsage(Usage);
+                        return;
+                    }
+
+                    NetworkSystem network = ModContent.GetInstance<NetworkSystem>();
+                    if (!network.IsLogin)
+                    {
+                        MessageUtil.ChatLog("You are not logged into RA", ChatLogType.Error);
+                        return;
+                    }
+
+                    LogoutCommand?.Invoke(this, EventArgs.Empty);
                     break;
 
                 case "rp":

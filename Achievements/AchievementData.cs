@@ -31,11 +31,6 @@ namespace RetroAchievements.Achievements
         public string[] AllowedMods { get; set; }
 
         /// <summary>
-        /// True if multiplayer is allowed for this game
-        /// </summary>
-        public bool IsMultiAllowed { get; set; }
-
-        /// <summary>
         /// RA-related game information
         /// </summary>
         public RaGame Ra { get; set; }

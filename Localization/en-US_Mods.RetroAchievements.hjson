@@ -26,12 +26,12 @@ Configs: {
 
 		ChallengeMode: {
 			Label: Challenge Mode
-			Tooltip: Enabled to earn achievements with an extra set of restrictions.
+			Tooltip: Enable to earn achievements with an extra set of restrictions.
 		}
 	}
 
 	AchievementGame: {
-		Tooltip: ""
+		Tooltip: Earn achievements for Terraria
 		Terraria.Label: Terraria
 	}
 }
@@ -39,6 +39,11 @@ Configs: {
 Items: {
 	ScottsHat: {
 		DisplayName: Scott's Hat
-		Tooltip: Magically summons his hair and sunglasses too!
+		Tooltip: Stylish hair and sunglasses included!
+	}
+
+	ScottPainting: {
+		DisplayName: Retro Renaissance
+		Tooltip: "'Gollawiz'"
 	}
 }

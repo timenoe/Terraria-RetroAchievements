@@ -4,17 +4,17 @@ using Terraria.ModLoader;
 namespace RetroAchievements.Items
 {
     /// <summary>
-    /// Hat that drops from Scott
+    /// Scott's Hat
     /// </summary>
     [AutoloadEquip(EquipType.Head)]
     public class ScottsHat : ModItem
     {
         public override void SetDefaults()
         {
-            Item.width = 22;
-            Item.height = 18;
+            Item.width = 20;
+            Item.height = 10;
 
-            Item.rare = ItemRarityID.Blue;
+            Item.rare = ItemRarityID.Cyan;
             Item.vanity = true;
         }
     }

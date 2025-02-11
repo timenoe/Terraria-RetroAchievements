@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Terraria;
+using Terraria.DataStructures;
 using Terraria.GameContent;
 using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
@@ -12,7 +13,7 @@ namespace RetroAchievements.NPCs
     /// <summary>
     /// RetroAchievements founder Scott<br/>
     /// He appears when the Guide's name is Scott<br/>
-    /// He drops his signature hat when killed<br/>
+    /// He drops his signature hat when given his painting or when killed<br/>
     /// 1.1.1.1215208201
     /// </summary>
     public class GuideScott : GlobalNPC
@@ -28,7 +29,7 @@ namespace RetroAchievements.NPCs
 
         public override bool PreDraw(NPC npc, SpriteBatch spriteBatch, Vector2 screenPos, Color drawColor)
         {
-            if (npc.type == NPCID.Guide && npc.GivenName == "Scott")
+            if (IsScott(npc))
                 TextureAssets.Npc[NPCID.Guide] = ModContent.Request<Texture2D>("RetroAchievements/NPCs/GuideScott");
 
             return true;
@@ -36,8 +37,27 @@ namespace RetroAchievements.NPCs
 
         public override void GetChat(NPC npc, ref string chat)
         {
-            if (npc.type == NPCID.Guide && npc.GivenName == "Scott")
-                chat = "Welcome to RA! Hope you're having fun!!!!";
+            if (IsScott(npc))
+            {
+                Player player = Main.LocalPlayer;
+                if (npc.FindClosestPlayer() == player.whoAmI && player.HeldItem.type == ModContent.ItemType<ScottPainting>())
+                {
+                    chat = "You found a painting of me! Here, take this. I have an extra hat just for you.";
+                    
+                    player.HeldItem.stack--;
+                    Item.NewItem(new EntitySource_Gift(npc), player.Center, ModContent.ItemType<ScottsHat>());
+                }
+
+                else
+                    chat = "Welcome to RA! Hope you're having fun!!!!";
+            }  
         }
+
+        /// <summary>
+        /// Checks if a given NPC is a Guide named Scott
+        /// </summary>
+        /// <param name="npc">NPC to check</param>
+        /// <returns>True if the NPC is a Guide named Scott</returns>
+        private static bool IsScott(NPC npc) => npc.type == NPCID.Guide && npc.GivenName == "Scott";
     }
 }

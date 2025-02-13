@@ -2,12 +2,12 @@
 using Terraria.ID;
 using Terraria.IO;
 
-namespace RetroAchievements.Utils
+namespace RetroAchievements.Tools
 {
     /// <summary>
-    /// Utility to retrieve world information
+    /// Tool to retrieve world information
     /// </summary>
-    public class WorldUtil
+    public class WorldTool
     {
         /// <summary>
         /// Get the seed of the world

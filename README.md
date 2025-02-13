@@ -21,16 +21,25 @@ If applicable, reset all previously earned local in-game achievements at the sta
 ## Challenge Mode
 Are you up for an extra challenge? Challenge Mode is enabled by default, and enforces an extra set of restrictions that are defined below. It can disabled in the settings. When enabled, Hardcore achievements will be unlocked on RetroAchievements.
 
-### Rules
+### Challenge Mode Restrictions
 - No Journey Mode
 - No Celebrationmk10 Seed
 - No Multiplayer
 - No External Players/Worlds
 - No External Mods (see below for exceptions)
 
-### Whitelisted Mods
+### Challenge Mode Whitelisted Mods
 - Boss Checklist
 - Census - Town NPC Checklist
 - Item Checklist
 - Magic Storage
 - Recipe Browser
+
+## Credits
+timenoe - Developer
+
+Searo - Design Feedback
+
+BahamutVoid - Design Feedback
+
+Gollawiz - Painting Sprite

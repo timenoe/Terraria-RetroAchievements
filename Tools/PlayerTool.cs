@@ -5,12 +5,12 @@ using Terraria;
 using Terraria.ID;
 using Terraria.IO;
 
-namespace RetroAchievements.Utils
+namespace RetroAchievements.Tools
 {
     /// <summary>
-    /// Utility to retrieve player information
+    /// Tool to retrieve player information
     /// </summary>
-    public class PlayerUtil
+    public class PlayerTool
     {
         /// <summary>
         /// Get the HP of the player

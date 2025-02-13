@@ -10,8 +10,8 @@ using Terraria.ModLoader.IO;
 using Terraria.Utilities;
 using RASharpIntegration.Network;
 using RetroAchievements.Commands;
-using RetroAchievements.Utils;
 using RetroAchievements.Players;
+using RetroAchievements.Tools;
 
 namespace RetroAchievements.Systems
 {
@@ -192,7 +192,7 @@ namespace RetroAchievements.Systems
             };
             TagIO.ToFile(tag, _cachePath);
 
-            MessageUtil.ModLog($"Cached login credentials for {User}");
+            MessageTool.ModLog($"Cached login credentials for {User}");
         }
 
         /// <summary>
@@ -215,9 +215,9 @@ namespace RetroAchievements.Systems
             if (IsMastered)
             {
                 if (RetroAchievements.IsHardcore)
-                    MessageUtil.Log($"{_header.user} has mastered {RetroAchievements.GetGameName()}!");
+                    MessageTool.Log($"{_header.user} has mastered {RetroAchievements.GetGameName()}!");
                 else
-                    MessageUtil.Log($"{_header.user} has completed {RetroAchievements.GetGameName()}!");
+                    MessageTool.Log($"{_header.user} has completed {RetroAchievements.GetGameName()}!");
             }
         }
 
@@ -245,7 +245,7 @@ namespace RetroAchievements.Systems
 
                 _header.user = user;
                 _header.token = token;
-                MessageUtil.ModLog($"Retrieved cached login credentials for {User}");
+                MessageTool.ModLog($"Retrieved cached login credentials for {User}");
                 return true;              
             }
 
@@ -265,27 +265,27 @@ namespace RetroAchievements.Systems
         /// <returns>Asynchronous task</returns>
         private async Task Login(string user, string pass)
         {
-            MessageUtil.Log($"Logging in {user} to {_header.host}...");
+            MessageTool.Log($"Logging in {user} to {_header.host}...");
 
             _header.user = user;
             ApiResponse<LoginResponse> api = await NetworkInterface.TryLogin(_client, _header, pass);
 
             if (!string.IsNullOrEmpty(api.Failure))
             {
-                MessageUtil.Log($"Unable to login ({api.Failure})");
+                MessageTool.Log($"Unable to login ({api.Failure})");
                 return;
             }
 
             if (!api.Response.Success)
             {
-                MessageUtil.Log($"Unable to login ({api.Response.Error})");
+                MessageTool.Log($"Unable to login ({api.Response.Error})");
                 return;
             }
                 
             _header.token = api.Response.Token;
             CacheCredentials();
 
-            MessageUtil.Log($"{user} has successfully logged in!");
+            MessageTool.Log($"{user} has successfully logged in!");
             StartSessionCommand.Invoke(this, null);
         }
 
@@ -323,7 +323,7 @@ namespace RetroAchievements.Systems
             _retryTimer.Stop();
             _isLogin = false;
 
-            MessageUtil.Log($"Logged out {oldUser}");
+            MessageTool.Log($"Logged out {oldUser}");
         }
 
         /// <summary>
@@ -332,18 +332,18 @@ namespace RetroAchievements.Systems
         /// <returns>Asynchronous task</returns>
         private async Task StartSession()
         {
-            MessageUtil.ModLog($"Starting a game session for {RetroAchievements.GetGameId()}...");
+            MessageTool.ModLog($"Starting a game session for {RetroAchievements.GetGameId()}...");
             ApiResponse<StartSessionResponse> api = await NetworkInterface.TryStartSession(_client, _header);
 
             if (!string.IsNullOrEmpty(api.Failure))
             {
-                MessageUtil.Log($"Unable to start game session ({api.Failure})");
+                MessageTool.Log($"Unable to start game session ({api.Failure})");
                 return;
             }
 
             if (!api.Response.Success)
             {
-                MessageUtil.Log($"Unable to start game session ({api.Response.Error})");
+                MessageTool.Log($"Unable to start game session ({api.Response.Error})");
                 return;
             }
 
@@ -383,18 +383,18 @@ namespace RetroAchievements.Systems
             if (!IsLogin)
                 return;
             
-            MessageUtil.ModLog($"Sending a game activity ping for {RetroAchievements.GetGameId()}...");
+            MessageTool.ModLog($"Sending a game activity ping for {RetroAchievements.GetGameId()}...");
             ApiResponse<BaseResponse> api = await NetworkInterface.TryPing(_client, _header, rp);
 
             if (!string.IsNullOrEmpty(api.Failure))
             {
-                MessageUtil.ModLog($"Unable to send game activity ping ({api.Failure})");
+                MessageTool.ModLog($"Unable to send game activity ping ({api.Failure})");
                 return;
             }
 
             if (!api.Response.Success)
             {
-                MessageUtil.ModLog($"Unable to send game activity ping ({api.Response.Error})");
+                MessageTool.ModLog($"Unable to send game activity ping ({api.Response.Error})");
                 return;
             }      
         }
@@ -438,7 +438,7 @@ namespace RetroAchievements.Systems
             if (!RetroAchievements.IsCoreAchievement(name))
                 return;
 
-            MessageUtil.ModLog($"Unlocking achievement {id}...");
+            MessageTool.ModLog($"Unlocking achievement {id}...");
             ApiResponse<AwardAchievementResponse> api = await NetworkInterface.TryAwardAchievement(_client, _header, id);
 
             if (!string.IsNullOrEmpty(api.Failure))
@@ -446,9 +446,9 @@ namespace RetroAchievements.Systems
                 if (!retry)
                 {
                     _failedAchs.TryAdd(name, id);
-                    MessageUtil.ChatLog($"Unable to unlock [a:{name}] ({api.Failure})");
+                    MessageTool.ChatLog($"Unable to unlock [a:{name}] ({api.Failure})");
                 }
-                MessageUtil.ModLog($"Unable to unlock achievement {id} ({api.Failure})");
+                MessageTool.ModLog($"Unable to unlock achievement {id} ({api.Failure})");
                 return;
             }
 
@@ -457,9 +457,9 @@ namespace RetroAchievements.Systems
                 if (!retry)
                 {
                     _failedAchs.TryAdd(name, id);
-                    MessageUtil.ChatLog($"Unable to unlock [a:{name}] ({api.Response.Error})");
+                    MessageTool.ChatLog($"Unable to unlock [a:{name}] ({api.Response.Error})");
                 }
-                MessageUtil.ModLog($"Unable to unlock achievement {id} ({api.Response.Error})");
+                MessageTool.ModLog($"Unable to unlock achievement {id} ({api.Response.Error})");
                 return;
             }
             
@@ -467,7 +467,7 @@ namespace RetroAchievements.Systems
             UpdateMastery();
             _failedAchs.Remove(name);
 
-            MessageUtil.ChatLog($"{_header.user} has unlocked [a:{name}]!");
+            MessageTool.ChatLog($"{_header.user} has unlocked [a:{name}]!");
         }
 
         /// <summary>

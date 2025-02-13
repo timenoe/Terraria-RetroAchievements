@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 using Terraria.ModLoader.IO;
 using RetroAchievements.Buffs;
 using RetroAchievements.Systems;
-using RetroAchievements.Utils;
+using RetroAchievements.Tools;
 
 namespace RetroAchievements.Players
 {
@@ -38,17 +38,17 @@ namespace RetroAchievements.Players
 
         public override void OnEnterWorld()
         {
-            if (WorldUtil.IsMultiplayer())
+            if (WorldTool.IsMultiplayer())
                 _isRaMultiPlayer = true;
 
             NetworkSystem network = ModContent.GetInstance<NetworkSystem>();
             if (network.IsLogin)
             {
                 GiveAchievementBuff();
-                MessageUtil.ChatLog($"Welcome back, {network.User}!");
+                MessageTool.ChatLog($"Welcome back, {network.User}!");
             }
             else
-                MessageUtil.ChatLog($"Login with the /ra chat command to start earning achievements!");
+                MessageTool.ChatLog($"Login with the /ra chat command to start earning achievements!");
         }
 
         public override void SaveData(TagCompound tag)

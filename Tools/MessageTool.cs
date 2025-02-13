@@ -4,7 +4,7 @@ using Terraria.Audio;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace RetroAchievements.Utils
+namespace RetroAchievements.Tools
 {
     /// <summary>
     /// Type of message to log to the in-game chat<br/>
@@ -22,9 +22,9 @@ namespace RetroAchievements.Utils
 
 
     /// <summary>
-    /// Utility to display messages to the user
+    /// Tool to display messages to the user
     /// </summary>
-    public class MessageUtil
+    public class MessageTool
     {
         /// <summary>
         /// Stylized RA message header

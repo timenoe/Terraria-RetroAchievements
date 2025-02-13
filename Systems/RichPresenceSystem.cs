@@ -1,7 +1,7 @@
 ﻿using Terraria;
 using Terraria.ModLoader;
 using Terraria.Social.Base;
-using RetroAchievements.Utils;
+using RetroAchievements.Tools;
 
 namespace RetroAchievements.Systems
 {
@@ -21,9 +21,9 @@ namespace RetroAchievements.Systems
 
             if (RichPresenceState.GetCurrentState().GameMode >= RichPresenceState.GameModeState.PlayingSingle)
             {
-                player = $"Player: {PlayerUtil.GetHp()} HP | {PlayerUtil.GetMp()} MP | {PlayerUtil.GetDifficultyStr()} | {PlayerUtil.GetPlayTimeStr()} | {PlayerUtil.GetHeldItemStr()}";
-                world = $"World: Seed: {WorldUtil.GetSeedStr()} | {WorldUtil.GetSizeStr()} | {WorldUtil.GetDifficultyStr()} | {WorldUtil.GetEvilStr()} | {WorldUtil.GetTimeOfDayStr()}";
-                zone = $"Biomes: {string.Join(", ", PlayerUtil.GetCurrentBiomesStr())}";
+                player = $"Player: {PlayerTool.GetHp()} HP | {PlayerTool.GetMp()} MP | {PlayerTool.GetDifficultyStr()} | {PlayerTool.GetPlayTimeStr()} | {PlayerTool.GetHeldItemStr()}";
+                world = $"World: Seed: {WorldTool.GetSeedStr()} | {WorldTool.GetSizeStr()} | {WorldTool.GetDifficultyStr()} | {WorldTool.GetEvilStr()} | {WorldTool.GetTimeOfDayStr()}";
+                zone = $"Biomes: {string.Join(", ", PlayerTool.GetCurrentBiomesStr())}";
             }
             
             switch (RichPresenceState.GetCurrentState().GameMode)
@@ -39,11 +39,11 @@ namespace RetroAchievements.Systems
                     return "Creating a World";
 
                 case RichPresenceState.GameModeState.PlayingSingle:
-                    string single = $"Playing Singleplayer ({RetroAchievements.GetChallengeModeStr()}) | Progression: {WorldUtil.GetProgressionStr()}";
+                    string single = $"Playing Singleplayer ({RetroAchievements.GetChallengeModeStr()}) | Progression: {WorldTool.GetProgressionStr()}";
                     return $"{single} • {player} • {world} • {zone}";
 
                 case RichPresenceState.GameModeState.PlayingMulti:
-                    string multi = $"Playing Multiplayer ({RetroAchievements.GetChallengeModeStr()}) | Players: {PlayerUtil.GetPlayerCount()} | Progression: {WorldUtil.GetProgressionStr()}";
+                    string multi = $"Playing Multiplayer ({RetroAchievements.GetChallengeModeStr()}) | Players: {PlayerTool.GetPlayerCount()} | Progression: {WorldTool.GetProgressionStr()}";
                     return $"{multi} • {player} • {world} • {zone}";
             }
 

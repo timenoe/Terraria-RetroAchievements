@@ -6,7 +6,7 @@ using Terraria;
 using Terraria.ModLoader;
 using RetroAchievements.Achievements;
 using RetroAchievements.Configs;
-using RetroAchievements.Utils;
+using RetroAchievements.Tools;
 
 namespace RetroAchievements
 {
@@ -153,14 +153,14 @@ namespace RetroAchievements
         /// </summary>
         private static void LoadConfigs()
         {
-            MessageUtil.ModLog($"Loading data from the settings config...");
+            MessageTool.ModLog($"Loading data from the settings config...");
             SettingsConfig config = ModContent.GetInstance<SettingsConfig>();
 
             _host = config.Host;
-            MessageUtil.ModLog($"RetroAchievements host set to {Host}");
+            MessageTool.ModLog($"RetroAchievements host set to {Host}");
 
             _isHardcore = config.ChallengeMode;
-            MessageUtil.ModLog($"Hardcore is set to {IsHardcore}");
+            MessageTool.ModLog($"Hardcore is set to {IsHardcore}");
 
             _game = config.Game;
             switch (Game)
@@ -168,7 +168,7 @@ namespace RetroAchievements
                 case AchievementGame.Terraria:
                     byte[] bytes = ModContent.GetFileBytes(GetAchievementDataPath(Game));
                     _achievementData = JsonSerializer.Deserialize<TerrariaAchievementData>(bytes);
-                    MessageUtil.ModLog($"Loaded achievement data for {Game}");
+                    MessageTool.ModLog($"Loaded achievement data for {Game}");
                     break;
             }
         }

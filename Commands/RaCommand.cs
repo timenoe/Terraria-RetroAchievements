@@ -1,7 +1,7 @@
 ﻿using System;
 using Terraria.ModLoader;
 using RetroAchievements.Systems;
-using RetroAchievements.Utils;
+using RetroAchievements.Tools;
 
 namespace RetroAchievements.Commands
 {
@@ -40,7 +40,7 @@ namespace RetroAchievements.Commands
         {
             if (args.Length == 0)
             {
-                MessageUtil.DisplayUsage(Usage);
+                MessageTool.DisplayUsage(Usage);
                 return;
             }
 
@@ -49,17 +49,17 @@ namespace RetroAchievements.Commands
                 case "host":
                     if (args.Length != 1)
                     {
-                        MessageUtil.DisplayUsage(Usage);
+                        MessageTool.DisplayUsage(Usage);
                         return;
                     }
 
-                    MessageUtil.ChatLog($"The current RA host is {RetroAchievements.Host}");
+                    MessageTool.ChatLog($"The current RA host is {RetroAchievements.Host}");
                     break;
 
                 case "login":
                     if (args.Length != 3)
                     {
-                        MessageUtil.DisplayUsage(Usage);
+                        MessageTool.DisplayUsage(Usage);
                         return;
                     }
 
@@ -69,14 +69,14 @@ namespace RetroAchievements.Commands
                 case "logout":
                     if (args.Length != 1)
                     {
-                        MessageUtil.DisplayUsage(Usage);
+                        MessageTool.DisplayUsage(Usage);
                         return;
                     }
 
                     NetworkSystem network = ModContent.GetInstance<NetworkSystem>();
                     if (!network.IsLogin)
                     {
-                        MessageUtil.ChatLog("You are not logged into RA", ChatLogType.Error);
+                        MessageTool.ChatLog("You are not logged into RA", ChatLogType.Error);
                         return;
                     }
 
@@ -86,15 +86,15 @@ namespace RetroAchievements.Commands
                 case "rp":
                     if (args.Length != 1)
                     {
-                        MessageUtil.DisplayUsage(Usage);
+                        MessageTool.DisplayUsage(Usage);
                         return;
                     }
 
-                    MessageUtil.ChatLog($"Current Rich Presence\n{RichPresenceSystem.GetRichPresence().Replace("• ", "\n")}");
+                    MessageTool.ChatLog($"Current Rich Presence\n{RichPresenceSystem.GetRichPresence().Replace("• ", "\n")}");
                     break;
 
                 default:
-                    MessageUtil.DisplayUsage(Usage);
+                    MessageTool.DisplayUsage(Usage);
                     break;
             }
         }

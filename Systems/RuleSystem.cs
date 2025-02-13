@@ -7,8 +7,8 @@ using Terraria.IO;
 using Terraria.ModLoader;
 using Terraria.ModLoader.IO;
 using RetroAchievements.Players;
-using RetroAchievements.Utils;
 using RetroAchievements.Configs;
+using RetroAchievements.Tools;
 
 namespace RetroAchievements.Systems
 {
@@ -88,14 +88,14 @@ namespace RetroAchievements.Systems
                 return true;
             
             // Check that Journey Mode is not being used
-            if (WorldUtil.IsJourneyMode(worldFileData))
+            if (WorldTool.IsJourneyMode(worldFileData))
             {
                 _rejectionReason = RejectionReason.JourneyMode;
                 return false;
             }
 
             // Check that the world is not using the Celebrationmk10 seed
-            if (WorldUtil.IsAnniversarySeed(worldFileData))
+            if (WorldTool.IsAnniversarySeed(worldFileData))
             {
                 _rejectionReason = RejectionReason.AnniversarySeed;
                 return false;
@@ -124,7 +124,7 @@ namespace RetroAchievements.Systems
             }
 
             // Check that the world was generated with this mod
-            if (!WorldUtil.WasGeneratedWithMod(worldFileData, "RetroAchievements"))
+            if (!WorldTool.WasGeneratedWithMod(worldFileData, "RetroAchievements"))
             {
                 _rejectionReason = RejectionReason.ExternalWorld;
                 return false;
@@ -182,7 +182,7 @@ namespace RetroAchievements.Systems
 
         public override void OnWorldLoad()
         {
-            if (WorldUtil.IsMultiplayer())
+            if (WorldTool.IsMultiplayer())
                 _isRaMultiWorld = true;
         }
 

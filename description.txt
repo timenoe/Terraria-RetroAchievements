@@ -41,9 +41,8 @@ Are you up for an extra challenge? Challenge Mode is enabled by default, and enf
 - Wikithis
 
 ## Credits
-timenoe - Developer
-
-BahamutVoid - Design Feedback, Testing
-Gollawiz - Painting Sprite
-Searo - Design Feedback, Testing
-SubliminalSiren - Testing
+- timenoe - Developer
+- BahamutVoid - Design Feedback, Testing
+- Gollawiz - Painting Sprite
+- Searo - Design Feedback, Testing
+- SubliminalSiren - Testing

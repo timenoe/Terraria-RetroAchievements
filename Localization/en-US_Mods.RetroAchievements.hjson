@@ -57,14 +57,9 @@ Items: {
 		Tooltip: Stylish hair and sunglasses included!
 	}
 
-	ScottPainting: {
+	ScottPaintingItem: {
 		DisplayName: Retro Renaissance
 		Tooltip: "'Gollawiz'"
-	}
-
-	ScottPaintingItem: {
-		DisplayName: Scott Painting Item
-		Tooltip: ""
 	}
 }
 

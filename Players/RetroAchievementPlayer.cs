@@ -76,7 +76,13 @@ namespace RetroAchievements.Players
         /// Check if the player can earn an achievement
         /// </summary>
         /// <returns>True if the player can earn an achievement</returns>
-        public bool CanEarnAchievement() => Player.HasBuff(ModContent.BuffType<HardcoreAchievementBuff>()) || Player.HasBuff(ModContent.BuffType<SoftcoreAchievementBuff>());
+        public bool CanEarnAchievement()
+        {
+            if (Player == null)
+                return false;
+
+            return Player.HasBuff(ModContent.BuffType<HardcoreAchievementBuff>()) || Player.HasBuff(ModContent.BuffType<SoftcoreAchievementBuff>());
+        }
 
         /// <summary>
         /// Give the achievement buff to the player
@@ -88,7 +94,6 @@ namespace RetroAchievements.Players
 
             else
                 Player.AddBuff(ModContent.BuffType<SoftcoreAchievementBuff>(), 1);
-
         }
 
         /// <summary>

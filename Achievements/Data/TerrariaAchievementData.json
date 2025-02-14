@@ -1,6 +1,6 @@
 {
     "Game": {
-        "AllowedMods": [ "CompletionistAchievements", "PlayerAchievements", "WorldAchievements", "AutoReroll", "BetterBossBarPlus", "BossChecklist", "Census", "ClamExtraMusic", "ItemChecklist", "MagicStorage", "RecipeBrowser", "SerousCommonLib", "SmarterCursor" ],
+        "AllowedMods": [ "CompletionistAchievements", "PlayerAchievements", "WorldAchievements", "AutoReroll", "BetterBossBarPlus", "BossChecklist", "Census", "ClamExtraMusic", "ItemChecklist", "MagicStorage", "Munchies", "RecipeBrowser", "SerousCommonLib", "SmarterCursor" ],
         "Ra": {
             "Id": 32909,
             "Name": "Terraria",

@@ -5,6 +5,7 @@ using TerrariaAchievementLib.Systems;
 using TerrariaAchievementLib.Achievements;
 using TerrariaAchievementLib.Achievements.Conditions;
 using RetroAchievements.Items;
+using RetroAchievements.Paintings;
 
 namespace RetroAchievements.Systems
 {
@@ -22,8 +23,8 @@ namespace RetroAchievements.Systems
         {
             ConditionReqs reqs = new(PlayerDiff.Classic, WorldDiff.Classic, SpecialSeed.None);
 
-            RegisterAchievement("SCOTTS_HAT", ItemGrabCondition.Grab(reqs, ModContent.ItemType<ScottsHat>()), AchievementCategory.Collector);
-            RegisterAchievement("SCOTTS_PAINTING", ItemGrabCondition.Grab(reqs, ModContent.ItemType<ScottPainting>()), AchievementCategory.Collector);
+            RegisterAchievement("SCOTTS_HAT", ItemGrabCondition.Grab(reqs, ModContent.ItemType<ScottHat>()), AchievementCategory.Collector);
+            RegisterAchievement("SCOTTS_PAINTING", ItemGrabCondition.Grab(reqs, ModContent.ItemType<ScottPaintingItem>()), AchievementCategory.Collector);
         }
     }
 }

@@ -46,6 +46,7 @@ namespace RetroAchievements.Players
             {
                 GiveAchievementBuff();
                 MessageTool.ChatLog($"Welcome back, {network.User}!");
+                MessageTool.Log($"You have earned {network.UnlockedAchs.Count}/{RetroAchievements.GetAchievementCount()} achievements for {RetroAchievements.GetGameName()}");
             }
             else
                 MessageTool.ChatLog($"Login with the /ra chat command to start earning achievements!");
@@ -62,12 +63,8 @@ namespace RetroAchievements.Players
 
         public override void LoadData(TagCompound tag)
         {
-            try
-            {
-                _isRaPlayer = tag.GetBool("RaPlayer");
-                _isRaMultiPlayer = tag.GetBool("RaMultiPlayer");
-            }
-            catch(IOException) { }
+            _isRaPlayer = tag.GetBool("RaPlayer");
+            _isRaMultiPlayer = tag.GetBool("RaMultiPlayer");
         }
 
         /// <summary>

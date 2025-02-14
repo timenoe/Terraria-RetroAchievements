@@ -97,7 +97,7 @@ namespace RetroAchievements
         /// Returns the status of Challenge Mode
         /// </summary>
         /// <returns>Challenge Mode: Enabled/Disabled</returns>
-        public static string GetChallengeModeStr() => IsHardcore ? "Challenge Mode: Enabled" : "Challenge Mode: Disabled";
+        public static string GetChallengeModeStr() => IsHardcore ? " (Challenge Mode)" : "";
 
         /// <summary>
         /// Get the RA game ID for the current game
@@ -110,6 +110,12 @@ namespace RetroAchievements
         /// </summary>
         /// <returns>RA game name of the current game</returns>
         public static string GetGameName() => AchievementData.Game.Ra.Name;
+
+        /// <summary>
+        /// Get the IDs of the sets associated with this game
+        /// </summary>
+        /// <returns>IDs of the sets associated with this game</returns>
+        public static int[] GetSets() => AchievementData.Game.Ra.Sets;
 
         /// <summary>
         /// Returns true if an achievement is in core on the RA server

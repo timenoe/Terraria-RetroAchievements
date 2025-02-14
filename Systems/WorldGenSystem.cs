@@ -1,5 +1,6 @@
 ﻿using Terraria.GameContent.Generation;
 using Terraria.ModLoader;
+using RetroAchievements.Paintings;
 
 namespace RetroAchievements.Systems
 {
@@ -29,7 +30,7 @@ namespace RetroAchievements.Systems
             if (!_createdScottPainting)
             {
                 PaintingEntry result = default;
-                result.tileType = ModContent.TileType<Tiles.ScottPaintingTile>();
+                result.tileType = ModContent.TileType<ScottPaintingTile>();
                 _createdScottPainting = true;
                 return result;
             }

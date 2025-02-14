@@ -39,11 +39,11 @@ namespace RetroAchievements.Systems
                     return "Creating a World";
 
                 case RichPresenceState.GameModeState.PlayingSingle:
-                    string single = $"Playing Singleplayer ({RetroAchievements.GetChallengeModeStr()}) | Progression: {WorldTool.GetProgressionStr()}";
+                    string single = $"Playing Singleplayer{RetroAchievements.GetChallengeModeStr()} | Progression: {WorldTool.GetProgressionStr()}";
                     return $"{single} • {player} • {world} • {zone}";
 
                 case RichPresenceState.GameModeState.PlayingMulti:
-                    string multi = $"Playing Multiplayer ({RetroAchievements.GetChallengeModeStr()}) | Players: {PlayerTool.GetPlayerCount()} | Progression: {WorldTool.GetProgressionStr()}";
+                    string multi = $"Playing Multiplayer{RetroAchievements.GetChallengeModeStr()} | Players: {PlayerTool.GetPlayerCount()} | Progression: {WorldTool.GetProgressionStr()}";
                     return $"{multi} • {player} • {world} • {zone}";
             }
 

@@ -7,6 +7,7 @@ using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
 using Terraria.ModLoader;
 using RetroAchievements.Items;
+using RetroAchievements.Paintings;
 
 namespace RetroAchievements.NPCs
 {
@@ -22,7 +23,7 @@ namespace RetroAchievements.NPCs
         {
             if (npc.type == NPCID.Guide)
             {
-                ItemDropWithConditionRule rule = new(ModContent.ItemType<ScottsHat>(), 1, 1, 1, new Conditions.NamedNPC("Scott"));
+                ItemDropWithConditionRule rule = new(ModContent.ItemType<ScottHat>(), 1, 1, 1, new Conditions.NamedNPC("Scott"));
                 npcLoot.Add(rule);
             }
         }
@@ -40,12 +41,12 @@ namespace RetroAchievements.NPCs
             if (IsScott(npc))
             {
                 Player player = Main.LocalPlayer;
-                if (npc.FindClosestPlayer() == player.whoAmI && player.HeldItem.type == ModContent.ItemType<ScottPainting>())
+                if (npc.FindClosestPlayer() == player.whoAmI && player.HeldItem.type == ModContent.ItemType<ScottPaintingItem>())
                 {
                     chat = "You found a painting of me! Here, take this. I have an extra hat just for you.";
                     
                     player.HeldItem.stack--;
-                    Item.NewItem(new EntitySource_Gift(npc), player.Center, ModContent.ItemType<ScottsHat>());
+                    Item.NewItem(new EntitySource_Gift(npc), player.Center, ModContent.ItemType<ScottHat>());
                 }
 
                 else

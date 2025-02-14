@@ -1,9 +1,10 @@
 {
     "Game": {
-        "AllowedMods": [ "CompletionistAchievements", "PlayerAchievements", "WorldAchievements", "BossChecklist", "Census", "ItemChecklist", "MagicStorage", "RecipeBrowser", "SerousCommonLib" ],
+        "AllowedMods": [ "CompletionistAchievements", "PlayerAchievements", "WorldAchievements", "AutoReroll", "BetterBossBarPlus", "BossChecklist", "Census", "ClamExtraMusic", "ItemChecklist", "MagicStorage", "RecipeBrowser", "SerousCommonLib", "SmarterCursor" ],
         "Ra": {
             "Id": 32909,
-            "Name": "Terraria"
+            "Name": "Terraria",
+            "Sets": [ 32909, 32910, 32911, 32929 ]
         }
     },
     "Achievements": [

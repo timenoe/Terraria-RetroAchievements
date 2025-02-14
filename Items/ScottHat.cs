@@ -7,7 +7,7 @@ namespace RetroAchievements.Items
     /// Scott's Hat
     /// </summary>
     [AutoloadEquip(EquipType.Head)]
-    public class ScottsHat : ModItem
+    public class ScottHat : ModItem
     {
         public override void SetDefaults()
         {

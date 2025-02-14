@@ -1,4 +1,14 @@
 Buffs: {
+	HardestcoreBuff: {
+		DisplayName: Hardestcore
+		Description: Hardestcore difficulty is enabled!
+	}
+
+	CattoBuff: {
+		DisplayName: Catto
+		Description: Is this another dream..?
+	}
+
 	HardcoreAchievementBuff: {
 		DisplayName: Retro Challenger
 		Description: Hardcore RetroAchievements are enabled!
@@ -37,7 +47,12 @@ Configs: {
 }
 
 Items: {
-	ScottsHat: {
+	CattoItem: {
+		DisplayName: Dreamy Yarn
+		Tooltip: Catto's favorite toy. Take good care of him!
+	}
+
+	ScottHat: {
 		DisplayName: Scott's Hat
 		Tooltip: Stylish hair and sunglasses included!
 	}
@@ -46,4 +61,11 @@ Items: {
 		DisplayName: Retro Renaissance
 		Tooltip: "'Gollawiz'"
 	}
+
+	ScottPaintingItem: {
+		DisplayName: Scott Painting Item
+		Tooltip: ""
+	}
 }
+
+Projectiles.CattoProjectile.DisplayName: Catto

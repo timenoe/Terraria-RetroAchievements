@@ -27,11 +27,15 @@ Are you up for an extra challenge? Challenge Mode is enabled by default, and enf
 - No External Mods (see below for exceptions)
 
 ### Challenge Mode Whitelisted Mods
+- Auto Reforge
+- Better Boss Health Bar
 - Boss Checklist
+- Calamity Mod Extra Music
 - Census - Town NPC Checklist
 - Item Checklist
 - Magic Storage
 - Recipe Browser
+- Smarter Cursor
 
 ## Credits
 timenoe - Developer

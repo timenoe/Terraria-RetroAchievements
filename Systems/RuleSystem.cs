@@ -83,6 +83,8 @@ namespace RetroAchievements.Systems
 
         public override bool CanWorldBePlayed(PlayerFileData playerData, WorldFileData worldFileData)
         {
+            _rejectionReason = RejectionReason.None;
+
             // Allow everything in RA Softcore Mode
             if (!RetroAchievements.IsHardcore)
                 return true;
@@ -141,7 +143,6 @@ namespace RetroAchievements.Systems
                 }
             }
 
-            _rejectionReason = RejectionReason.None;
             return true;
         }
 
@@ -159,16 +160,16 @@ namespace RetroAchievements.Systems
                     return $"RetroAchievements: Cannot play alongside the {_rejectedMod} mod";
 
                 case RejectionReason.ExternalPlayer:
-                    return "RetroAchievements: Cannot use an old player";
+                    return "RetroAchievements: Cannot use an external Player";
 
                 case RejectionReason.ExternalWorld:
-                    return "RetroAchievements: Cannot play in an old world";
+                    return "RetroAchievements: Cannot play in an external World";
 
                 case RejectionReason.MultiPlayer:
-                    return "RetroAchievements: Cannot use a multiplayer player";
+                    return "RetroAchievements: Cannot use a Multiplayer Player";
 
                 case RejectionReason.MultiWorld:
-                    return "RetroAchievements: Cannot play in a multiplayer world";
+                    return "RetroAchievements: Cannot play in a Multiplayer World";
 
                 case RejectionReason.None:
                     break;

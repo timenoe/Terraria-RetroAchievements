@@ -216,7 +216,7 @@ namespace RetroAchievements.Systems
         private void UpdateMastery(bool display = false)
         {
             _isMastered = UnlockedAchs.Count == RetroAchievements.GetAchievementCount();
-            if (IsMastered)
+            if (IsMastered && display)
             {
                 if (RetroAchievements.IsHardcore)
                     MessageTool.Log($"{_header.user} has mastered {RetroAchievements.GetGameName()}!");
@@ -424,6 +424,10 @@ namespace RetroAchievements.Systems
             if (!IsLogin)
                 return;
 
+            // Don't attempt to unlock achievements that are not a Core achievement
+            if (!RetroAchievements.IsCoreAchievement(name))
+                return;
+
             // Don't unlock achievements with an invalid ID
             // If this happens, ensure the achievement and its ID are in the JSON file
             if (id == 0)
@@ -431,10 +435,6 @@ namespace RetroAchievements.Systems
 
             // Don't attempt to unlock achievements that are already unlocked on the RA server
             if (UnlockedAchs.Contains(id))
-                return;
-
-            // Don't attempt to unlock achievements that are not a Core achievement
-            if (!RetroAchievements.IsCoreAchievement(name))
                 return;
 
             MessageTool.ModLog($"Unlocking achievement {id}...");

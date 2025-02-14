@@ -42,8 +42,13 @@ namespace RetroAchievements.Commands
                     switch (args[1])
                     {
                         case "all":
-                            Main.Achievements.ClearAll();
-                            MessageTool.ChatLog("Successfully reset all local in-game achievements", sound: SoundID.AchievementComplete);
+                            if (Main.specialSeedWorld)
+                                MessageTool.ChatLog("Cannot reset achievements in a special seed world", ChatLogType.Error);
+                            else
+                            {
+                                Main.Achievements.ClearAll();
+                                MessageTool.ChatLog("Successfully reset all local in-game achievements", sound: SoundID.AchievementComplete);
+                            }
                             break;
 
                         // TODO: Add options for resetting individual achievements, achievement categories, etc.

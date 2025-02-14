@@ -160,16 +160,16 @@ namespace RetroAchievements.Systems
                     return $"RetroAchievements: Cannot play alongside the {_rejectedMod} mod";
 
                 case RejectionReason.ExternalPlayer:
-                    return "RetroAchievements: Cannot use an external Player";
+                    return "RetroAchievements: Cannot use an external player";
 
                 case RejectionReason.ExternalWorld:
-                    return "RetroAchievements: Cannot play in an external World";
+                    return "RetroAchievements: Cannot play in an external world";
 
                 case RejectionReason.MultiPlayer:
-                    return "RetroAchievements: Cannot use a Multiplayer Player";
+                    return "RetroAchievements: Cannot use a Multiplayer player";
 
                 case RejectionReason.MultiWorld:
-                    return "RetroAchievements: Cannot play in a Multiplayer World";
+                    return "RetroAchievements: Cannot play in a Multiplayer world";
 
                 case RejectionReason.None:
                     break;
@@ -233,9 +233,7 @@ namespace RetroAchievements.Systems
         /// <returns></returns>
         private PlayerFileData On_PlayerFileData_CreateAndSave(On_PlayerFileData.orig_CreateAndSave orig, Player player)
         {
-            RetroAchievementPlayer retroPlayer = player.GetModPlayer<RetroAchievementPlayer>();
-            if (player != null)
-                retroPlayer.Create();
+            player.GetModPlayer<RetroAchievementPlayer>()?.Create();
 
             return orig.Invoke(player);
         }

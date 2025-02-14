@@ -2,9 +2,9 @@
 
 Terraria tModLoader mod that integrates Terraria with RetroAchievements, a website to earn and track achievements in classic games.
 
-Login to RetroAchievements using the chat command: `/ra login <user> <pass>`. If you don't already have a RetroAchievements account, you can create one for free at RetroAchievements.org.
+Login to RetroAchievements using the chat command: `/ra login <user> <pass>`. Once you enter a world, you can open the chat prompt by typing `Enter`. If you don't already have a RetroAchievements account, you can create one for free at RetroAchievements.org.
 
-If applicable, reset all previously earned local in-game achievements at the start of a new playthrough using the chat command: `/cheevos reset all`.
+**If applicable, reset all previously earned local in-game achievements at the start of a new playthrough using the chat command: `/cheevos reset all`.**
 
 ## New Chat Commands
 - `/cheevos reset all` - Reset all local in-game achievements
@@ -35,15 +35,17 @@ Are you up for an extra challenge? Challenge Mode is enabled by default, and enf
 - Calamity Mod Extra Music
 - Census - Town NPC Checklist
 - Item Checklist
+- Lights And Shadows
 - Magic Storage
+- Munchies - Consumables Checklist
 - Recipe Browser
 - Smarter Cursor
+- Wikithis
 
 ## Credits
 timenoe - Developer
 
-Searo - Design Feedback
-
-BahamutVoid - Design Feedback
-
+BahamutVoid - Design Feedback, Testing
 Gollawiz - Painting Sprite
+Searo - Design Feedback, Testing
+SubliminalSiren - Testing

@@ -138,7 +138,7 @@ namespace RetroAchievements
         /// </summary>
         /// <param name="mod">Mod in question</param>
         /// <returns>True if the mod if allowed</returns>
-        public static bool IsModAllowed(Mod mod) => _internalMods.Contains(mod.Name) || AchievementData.Game.AllowedMods.Contains(mod.Name);
+        public static bool IsModAllowed(Mod mod) => _internalMods.Contains(mod.Name) || AchievementData.Game.WhitelistedMods.Contains(mod.Name);
 
         /// <summary>
         /// Gets the total achievement count for the current game

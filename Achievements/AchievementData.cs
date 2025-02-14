@@ -28,7 +28,7 @@ namespace RetroAchievements.Achievements
         /// <summary>
         /// List of all mods that are allowed with this game
         /// </summary>
-        public string[] AllowedMods { get; set; }
+        public string[] WhitelistedMods { get; set; }
 
         /// <summary>
         /// RA-related game information

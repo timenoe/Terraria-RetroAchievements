@@ -1,0 +1,4 @@
+v.1.0.1
+- Fixed subset unlock requests
+- Fixed achievement buff being cleared on death
+- Fixed incorrect reporting of unlocked achievement total

@@ -1,4 +1,3 @@
-using System.IO;
 using Terraria;
 using Terraria.ModLoader;
 using Terraria.ModLoader.IO;
@@ -50,6 +49,13 @@ namespace RetroAchievements.Players
             }
             else
                 MessageTool.ChatLog($"Login with the /ra chat command to start earning achievements!");
+        }
+
+        public override void OnRespawn()
+        {
+            NetworkSystem network = ModContent.GetInstance<NetworkSystem>();
+            if (network.IsLogin)
+                GiveAchievementBuff();
         }
 
         public override void SaveData(TagCompound tag)

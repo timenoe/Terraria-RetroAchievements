@@ -346,7 +346,11 @@ namespace RetroAchievements.Systems
                 }
 
                 // Append existing achievement unlocks
-                _unlockedAchs.AddRange(api.Response.GetUnlockedAchIds());
+                foreach (int unlockedId in api.Response.GetUnlockedAchIds())
+                {
+                    if (!_unlockedAchs.Contains(unlockedId))
+                        _unlockedAchs.AddRange(api.Response.GetUnlockedAchIds());
+                }
             }
             
             // Display existing unlocks and update mastery status

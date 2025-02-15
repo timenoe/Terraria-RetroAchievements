@@ -1,3 +1,7 @@
+v1.0.4
+- Fixed login for passwords with whitespace
+- Allow "A Rare Realm" to unlock on RA when entering a world
+
 v1.0.3
 - Actually fixed ammo bug (updated TerrariaAchievementLib submodule)
 

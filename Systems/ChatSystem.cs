@@ -1,4 +1,5 @@
-﻿using Terraria;
+﻿using RetroAchievements.Tools;
+using Terraria;
 using Terraria.ModLoader;
 
 namespace RetroAchievements.Systems
@@ -33,30 +34,31 @@ namespace RetroAchievements.Systems
         {
             string chatText = Main.chatText;
 
+            // Hide password while typing if applicable
             if (chatText.StartsWith("/ra login "))
             {
-                string[] chatWords = chatText.Split("/ra login ");
-                int indexOfSpace = chatWords[1].IndexOf(" ");
-                    string password = chatWords[1].Substring(indexOfSpace + 1);
-                    string hiddenPass = new('*', password.Length);
-
-                    Main.chatText = chatText.Replace(password, hiddenPass);
+                string[] loginText = chatText.Split("/ra login ");
+                if (loginText.Length >= 2)
+                {
+                    string[] userPass = loginText[1].Split(" ", 2);
+                    if (userPass.Length >= 2)
+                    {
+                        string user = userPass[0];
+                        string pass = userPass[1];
+                        MessageTool.ModLog(pass);
+                        if (!string.IsNullOrEmpty(pass))
+                        {
+                            string hiddenPass = new('*', pass.Length);
+                            Main.chatText = "/ra login " + user + " " + hiddenPass;
+                        }
+                    }
+                }
             }
 
-            //if (chatWords.Length >= 4 && chatWords[0] == "/ra" && chatWords[1] == "login")
-            //{
-            //    // Hide password
-            //    if (!string.IsNullOrEmpty(chatWords[3]))
-            //    {
-            //        chatWords[3] = new('*', chatWords[3].Length);
-            //        Main.chatText = string.Join(" ", chatWords);
-            //    }
-            //}
-
-            // Draw chat text with hidden password
+            // Draw chat text with potentially hidden password
             orig.Invoke(self);
 
-            // Restore original chat text
+            // Restore original chat text for commands
             Main.chatText = chatText;
         }
     }

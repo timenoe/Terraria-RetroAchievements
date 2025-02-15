@@ -2,6 +2,7 @@
 using Terraria.ModLoader;
 using RetroAchievements.Systems;
 using RetroAchievements.Tools;
+using Terraria;
 
 namespace RetroAchievements.Commands
 {
@@ -57,13 +58,16 @@ namespace RetroAchievements.Commands
                     break;
 
                 case "login":
-                    if (args.Length != 3)
+                    if (args.Length < 3)
                     {
                         MessageTool.DisplayUsage(Usage);
                         return;
                     }
 
-                    LoginCommand?.Invoke(this, new LoginEventArgs(args[1], args[2]));
+                    // Support passwords with spaces
+                    string pass = input.Split($"{args[1]} ")[1];
+
+                    LoginCommand?.Invoke(this, new LoginEventArgs(args[1], pass));
                     break;
 
                 case "logout":

@@ -203,7 +203,11 @@ namespace RetroAchievements.Systems
         {
             RetroAchievementPlayer player = Main.LocalPlayer.GetModPlayer<RetroAchievementPlayer>();
             if (player == null || !player.CanEarnAchievement())
-                return;
+            { 
+                // Allow this achievement to unlock even when the player is not loaded
+                if (achievement.Name != "PLAY_ON_A_SPECIAL_SEED")
+                    return;
+            }
 
             UnlockAchievementCommand.Invoke(this, new UnlockAchievementEventArgs(achievement.Name));
         }

@@ -1,5 +1,5 @@
 v1.0.2
-- Fixed ammo bug (update TerrariaAchievementLib submodule)
+- Fixed ammo bug (updated TerrariaAchievementLib submodule)
 
 v.1.0.1
 - Fixed subset unlock requests

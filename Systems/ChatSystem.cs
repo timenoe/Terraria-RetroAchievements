@@ -31,17 +31,27 @@ namespace RetroAchievements.Systems
         /// <param name="self"></param>
         private void On_Main_DrawPlayerChat(On_Main.orig_DrawPlayerChat orig, Main self)
         {
-            string chatText = Main.chatText;     
-            string[] chatWords = chatText.Split();
-            if (chatWords.Length >= 4 && chatWords[0] == "/ra" && chatWords[1] == "login")
+            string chatText = Main.chatText;
+
+            if (chatText.StartsWith("/ra login "))
             {
-                // Hide password
-                if (!string.IsNullOrEmpty(chatWords[3]))
-                {
-                    chatWords[3] = new('*', chatWords[3].Length);
-                    Main.chatText = string.Join(" ", chatWords);
-                }
+                string[] chatWords = chatText.Split("/ra login ");
+                int indexOfSpace = chatWords[1].IndexOf(" ");
+                    string password = chatWords[1].Substring(indexOfSpace + 1);
+                    string hiddenPass = new('*', password.Length);
+
+                    Main.chatText = chatText.Replace(password, hiddenPass);
             }
+
+            //if (chatWords.Length >= 4 && chatWords[0] == "/ra" && chatWords[1] == "login")
+            //{
+            //    // Hide password
+            //    if (!string.IsNullOrEmpty(chatWords[3]))
+            //    {
+            //        chatWords[3] = new('*', chatWords[3].Length);
+            //        Main.chatText = string.Join(" ", chatWords);
+            //    }
+            //}
 
             // Draw chat text with hidden password
             orig.Invoke(self);

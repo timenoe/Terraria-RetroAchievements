@@ -1619,7 +1619,7 @@
             }
         },
         {
-            "Name": "SCOTTS_HAT",
+            "Name": "RETRO_SCOTTS_HAT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Retro Founder",
@@ -1633,7 +1633,7 @@
             }
         },
         {
-            "Name": "SCOTTS_PAINTING",
+            "Name": "RETRO_SCOTTS_PAINTING",
             "Category": "Collector",
             "Ra": {
                 "Title": "Retro Renaissance",
@@ -1647,7 +1647,7 @@
             }
         },
         {
-            "Name": "WEAPON_BAT_BAT",
+            "Name": "COMPLETIONIST_WEAPON_BAT_BAT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Bat Some Bats",
@@ -1661,7 +1661,7 @@
             }
         },
         {
-            "Name": "WEAPON_BEAM_SWORD",
+            "Name": "COMPLETIONIST_WEAPON_BEAM_SWORD",
             "Category": "Collector",
             "Ra": {
                 "Title": "Fully Energized",
@@ -1675,7 +1675,7 @@
             }
         },
         {
-            "Name": "WEAPON_BLADED_GLOVE",
+            "Name": "COMPLETIONIST_WEAPON_BLADED_GLOVE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Get Shredded",
@@ -1689,7 +1689,7 @@
             }
         },
         {
-            "Name": "WEAPON_BLADETONGUE",
+            "Name": "COMPLETIONIST_WEAPON_BLADETONGUE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Oculus Reaver",
@@ -1703,7 +1703,7 @@
             }
         },
         {
-            "Name": "WEAPON_BONE_SWORD",
+            "Name": "COMPLETIONIST_WEAPON_BONE_SWORD",
             "Category": "Collector",
             "Ra": {
                 "Title": "Calcium Carver",
@@ -1717,7 +1717,7 @@
             }
         },
         {
-            "Name": "WEAPON_EXOTIC_SCIMITAR",
+            "Name": "COMPLETIONIST_WEAPON_EXOTIC_SCIMITAR",
             "Category": "Collector",
             "Ra": {
                 "Title": "Persian Parry",
@@ -1731,7 +1731,7 @@
             }
         },
         {
-            "Name": "WEAPON_GLADIUS",
+            "Name": "COMPLETIONIST_WEAPON_GLADIUS",
             "Category": "Collector",
             "Ra": {
                 "Title": "Are You Not Entertained?",
@@ -1745,7 +1745,7 @@
             }
         },
         {
-            "Name": "WEAPON_MANDIBLE_BLADE",
+            "Name": "COMPLETIONIST_WEAPON_MANDIBLE_BLADE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Big Meaty Jaws",
@@ -1759,7 +1759,7 @@
             }
         },
         {
-            "Name": "WEAPON_STYLISH_SCISSORS",
+            "Name": "COMPLETIONIST_WEAPON_STYLISH_SCISSORS",
             "Category": "Collector",
             "Ra": {
                 "Title": "Killed la Kill",
@@ -1773,7 +1773,7 @@
             }
         },
         {
-            "Name": "WEAPON_ZOMBIE_ARM",
+            "Name": "COMPLETIONIST_WEAPON_ZOMBIE_ARM",
             "Category": "Collector",
             "Ra": {
                 "Title": "Need a Hand?",
@@ -1787,7 +1787,7 @@
             }
         },
         {
-            "Name": "WEAPON_CLASSY_CANE",
+            "Name": "COMPLETIONIST_WEAPON_CLASSY_CANE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Tax Enforcer",
@@ -1801,7 +1801,7 @@
             }
         },
         {
-            "Name": "WEAPON_ICE_SICKLE",
+            "Name": "COMPLETIONIST_WEAPON_ICE_SICKLE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Icy Kiss of Death",
@@ -1815,7 +1815,7 @@
             }
         },
         {
-            "Name": "WEAPON_KEYBRAND",
+            "Name": "COMPLETIONIST_WEAPON_KEYBRAND",
             "Category": "Collector",
             "Ra": {
                 "Title": "My Friends Are My Power!",
@@ -1829,7 +1829,7 @@
             }
         },
         {
-            "Name": "WEAPON_CASCADE",
+            "Name": "COMPLETIONIST_WEAPON_CASCADE",
             "Category": "Collector",
             "Ra": {
                 "Title": "One Lava Drop",
@@ -1843,7 +1843,7 @@
             }
         },
         {
-            "Name": "WEAPON_AMAROK",
+            "Name": "COMPLETIONIST_WEAPON_AMAROK",
             "Category": "Collector",
             "Ra": {
                 "Title": "One Snow Drop",
@@ -1857,7 +1857,7 @@
             }
         },
         {
-            "Name": "WEAPON_HELFIRE",
+            "Name": "COMPLETIONIST_WEAPON_HELFIRE",
             "Category": "Collector",
             "Ra": {
                 "Title": "One Fire Drop",
@@ -1871,7 +1871,7 @@
             }
         },
         {
-            "Name": "WEAPON_KRAKEN",
+            "Name": "COMPLETIONIST_WEAPON_KRAKEN",
             "Category": "Collector",
             "Ra": {
                 "Title": "One Dungeon Drop",
@@ -1885,7 +1885,7 @@
             }
         },
         {
-            "Name": "WEAPON_YELETS",
+            "Name": "COMPLETIONIST_WEAPON_YELETS",
             "Category": "Collector",
             "Ra": {
                 "Title": "One Jungle Drop",
@@ -1899,7 +1899,7 @@
             }
         },
         {
-            "Name": "WEAPON_SKELETON_MERCHANT",
+            "Name": "COMPLETIONIST_WEAPON_SKELETON_MERCHANT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Support Your Local Businesses",
@@ -1913,7 +1913,7 @@
             }
         },
         {
-            "Name": "WEAPON_OBSIDIAN_SWORDFISH",
+            "Name": "COMPLETIONIST_WEAPON_OBSIDIAN_SWORDFISH",
             "Category": "Collector",
             "Ra": {
                 "Title": "Yeouch!!",
@@ -1927,7 +1927,7 @@
             }
         },
         {
-            "Name": "WEAPON_BLOODY_MACHETE",
+            "Name": "COMPLETIONIST_WEAPON_BLOODY_MACHETE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Friday the 13th",
@@ -1941,7 +1941,7 @@
             }
         },
         {
-            "Name": "WEAPON_COMBAT_WRENCH",
+            "Name": "COMPLETIONIST_WEAPON_COMBAT_WRENCH",
             "Category": "Collector",
             "Ra": {
                 "Title": "Blue-Collar Buster",
@@ -1955,7 +1955,7 @@
             }
         },
         {
-            "Name": "WEAPON_SHROOMERANG",
+            "Name": "COMPLETIONIST_WEAPON_SHROOMERANG",
             "Category": "Collector",
             "Ra": {
                 "Title": "Spore Distribution",
@@ -1969,7 +1969,7 @@
             }
         },
         {
-            "Name": "WEAPON_BANANARANG",
+            "Name": "COMPLETIONIST_WEAPON_BANANARANG",
             "Category": "Collector",
             "Ra": {
                 "Title": "Ring Ring",
@@ -1983,7 +1983,7 @@
             }
         },
         {
-            "Name": "WEAPON_PALADINS_HAMMER",
+            "Name": "COMPLETIONIST_WEAPON_PALADINS_HAMMER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Paladin Pounder",
@@ -1997,7 +1997,7 @@
             }
         },
         {
-            "Name": "WEAPON_CHAIN_KNIFE",
+            "Name": "COMPLETIONIST_WEAPON_CHAIN_KNIFE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Rope Dart",
@@ -2011,7 +2011,7 @@
             }
         },
         {
-            "Name": "WEAPON_DRIPPLER_CRIPPLER",
+            "Name": "COMPLETIONIST_WEAPON_DRIPPLER_CRIPPLER",
             "Category": "Collector",
             "Ra": {
                 "Title": "I Got My Eyes on You",
@@ -2025,7 +2025,7 @@
             }
         },
         {
-            "Name": "WEAPON_TERRAGRIM",
+            "Name": "COMPLETIONIST_WEAPON_TERRAGRIM",
             "Category": "Collector",
             "Ra": {
                 "Title": "Blessed Wind",
@@ -2039,7 +2039,7 @@
             }
         },
         {
-            "Name": "WEAPON_MELEE_SWORD",
+            "Name": "COMPLETIONIST_WEAPON_MELEE_SWORD",
             "Category": "Collector",
             "Ra": {
                 "Title": "Terra Blade Chronicles",
@@ -2053,7 +2053,7 @@
             }
         },
         {
-            "Name": "WEAPON_MELEE_YOYO",
+            "Name": "COMPLETIONIST_WEAPON_MELEE_YOYO",
             "Category": "Collector",
             "Ra": {
                 "Title": "Just One Drop",
@@ -2067,7 +2067,7 @@
             }
         },
         {
-            "Name": "WEAPON_MELEE_SPEAR",
+            "Name": "COMPLETIONIST_WEAPON_MELEE_SPEAR",
             "Category": "Collector",
             "Ra": {
                 "Title": "Power of Odin",
@@ -2081,7 +2081,7 @@
             }
         },
         {
-            "Name": "WEAPON_MELEE_BOOMERANG",
+            "Name": "COMPLETIONIST_WEAPON_MELEE_BOOMERANG",
             "Category": "Collector",
             "Ra": {
                 "Title": "Round Trip",
@@ -2095,7 +2095,7 @@
             }
         },
         {
-            "Name": "WEAPON_MELEE_FLAIL",
+            "Name": "COMPLETIONIST_WEAPON_MELEE_FLAIL",
             "Category": "Collector",
             "Ra": {
                 "Title": "Berserker",
@@ -2109,7 +2109,7 @@
             }
         },
         {
-            "Name": "WEAPON_MELEE_OTHER",
+            "Name": "COMPLETIONIST_WEAPON_MELEE_OTHER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Ultimate Weapon",
@@ -2123,7 +2123,7 @@
             }
         },
         {
-            "Name": "WEAPON_BLOOD_RAIN_BOW",
+            "Name": "COMPLETIONIST_WEAPON_BLOOD_RAIN_BOW",
             "Category": "Collector",
             "Ra": {
                 "Title": "Reign in Blood",
@@ -2137,7 +2137,7 @@
             }
         },
         {
-            "Name": "WEAPON_MARROW",
+            "Name": "COMPLETIONIST_WEAPON_MARROW",
             "Category": "Collector",
             "Ra": {
                 "Title": "Bone Marrow",
@@ -2151,7 +2151,7 @@
             }
         },
         {
-            "Name": "WEAPON_RED_RYDER",
+            "Name": "COMPLETIONIST_WEAPON_RED_RYDER",
             "Category": "Collector",
             "Ra": {
                 "Title": "You'll Shoot Your Eye Out Kid",
@@ -2165,7 +2165,7 @@
             }
         },
         {
-            "Name": "WEAPON_UZI",
+            "Name": "COMPLETIONIST_WEAPON_UZI",
             "Category": "Collector",
             "Ra": {
                 "Title": "Angrier Trapper",
@@ -2179,7 +2179,7 @@
             }
         },
         {
-            "Name": "WEAPON_ALE_TOSSER",
+            "Name": "COMPLETIONIST_WEAPON_ALE_TOSSER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Bar Fight",
@@ -2193,7 +2193,7 @@
             }
         },
         {
-            "Name": "WEAPON_PAINTBALL_GUN",
+            "Name": "COMPLETIONIST_WEAPON_PAINTBALL_GUN",
             "Category": "Collector",
             "Ra": {
                 "Title": "Weaponized Art",
@@ -2207,7 +2207,7 @@
             }
         },
         {
-            "Name": "WEAPON_COIN_GUN",
+            "Name": "COMPLETIONIST_WEAPON_COIN_GUN",
             "Category": "Collector",
             "Ra": {
                 "Title": "Wasting Tax Dollars",
@@ -2221,7 +2221,7 @@
             }
         },
         {
-            "Name": "WEAPON_TOXIKARP",
+            "Name": "COMPLETIONIST_WEAPON_TOXIKARP",
             "Category": "Collector",
             "Ra": {
                 "Title": "Dirty Bubble",
@@ -2235,7 +2235,7 @@
             }
         },
         {
-            "Name": "WEAPON_RANGED_BOW",
+            "Name": "COMPLETIONIST_WEAPON_RANGED_BOW",
             "Category": "Collector",
             "Ra": {
                 "Title": "Sharpshooter",
@@ -2249,7 +2249,7 @@
             }
         },
         {
-            "Name": "WEAPON_RANGED_REPEATER",
+            "Name": "COMPLETIONIST_WEAPON_RANGED_REPEATER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Pew Pew",
@@ -2263,7 +2263,7 @@
             }
         },
         {
-            "Name": "WEAPON_RANGED_GUN",
+            "Name": "COMPLETIONIST_WEAPON_RANGED_GUN",
             "Category": "Collector",
             "Ra": {
                 "Title": "Say Hello to My Little Friend",
@@ -2277,7 +2277,7 @@
             }
         },
         {
-            "Name": "WEAPON_RANGED_LAUNCHER",
+            "Name": "COMPLETIONIST_WEAPON_RANGED_LAUNCHER",
             "Category": "Collector",
             "Ra": {
                 "Title": "The Big Bang",
@@ -2291,7 +2291,7 @@
             }
         },
         {
-            "Name": "WEAPON_RANGED_OTHER",
+            "Name": "COMPLETIONIST_WEAPON_RANGED_OTHER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Hobby Project",
@@ -2305,7 +2305,7 @@
             }
         },
         {
-            "Name": "WEAPON_CRYSTAL_SERPENT",
+            "Name": "COMPLETIONIST_WEAPON_CRYSTAL_SERPENT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Crystal Crowd Control",
@@ -2319,7 +2319,7 @@
             }
         },
         {
-            "Name": "WEAPON_FROST_STAFF",
+            "Name": "COMPLETIONIST_WEAPON_FROST_STAFF",
             "Category": "Collector",
             "Ra": {
                 "Title": "Frostbite Flurry",
@@ -2333,7 +2333,7 @@
             }
         },
         {
-            "Name": "WEAPON_POISON_STAFF",
+            "Name": "COMPLETIONIST_WEAPON_POISON_STAFF",
             "Category": "Collector",
             "Ra": {
                 "Title": "Recluse Retribution",
@@ -2347,7 +2347,7 @@
             }
         },
         {
-            "Name": "WEAPON_RESONANCE_SCEPTER",
+            "Name": "COMPLETIONIST_WEAPON_RESONANCE_SCEPTER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Claim the Throne",
@@ -2361,7 +2361,7 @@
             }
         },
         {
-            "Name": "WEAPON_UNHOLY_TRIDENT",
+            "Name": "COMPLETIONIST_WEAPON_UNHOLY_TRIDENT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Fallen Angel Artifact",
@@ -2375,7 +2375,7 @@
             }
         },
         {
-            "Name": "WEAPON_DEMON_SCYTHE",
+            "Name": "COMPLETIONIST_WEAPON_DEMON_SCYTHE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Trade Offer",
@@ -2389,7 +2389,7 @@
             }
         },
         {
-            "Name": "WEAPON_WATER_BOLT",
+            "Name": "COMPLETIONIST_WEAPON_WATER_BOLT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Book Worm",
@@ -2403,7 +2403,7 @@
             }
         },
         {
-            "Name": "WEAPON_BLOOD_THORN",
+            "Name": "COMPLETIONIST_WEAPON_BLOOD_THORN",
             "Category": "Collector",
             "Ra": {
                 "Title": "Forbidden Magic",
@@ -2417,7 +2417,7 @@
             }
         },
         {
-            "Name": "WEAPON_MEDUSA_HEAD",
+            "Name": "COMPLETIONIST_WEAPON_MEDUSA_HEAD",
             "Category": "Collector",
             "Ra": {
                 "Title": "Stony Gaze",
@@ -2431,7 +2431,7 @@
             }
         },
         {
-            "Name": "WEAPON_NIMBUS_ROD",
+            "Name": "COMPLETIONIST_WEAPON_NIMBUS_ROD",
             "Category": "Collector",
             "Ra": {
                 "Title": "Storm Chaser",
@@ -2445,7 +2445,7 @@
             }
         },
         {
-            "Name": "WEAPON_STELLAR_TUNE",
+            "Name": "COMPLETIONIST_WEAPON_STELLAR_TUNE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Pop Star",
@@ -2459,7 +2459,7 @@
             }
         },
         {
-            "Name": "WEAPON_MAGIC_WAND",
+            "Name": "COMPLETIONIST_WEAPON_MAGIC_WAND",
             "Category": "Collector",
             "Ra": {
                 "Title": "Terry Potter",
@@ -2473,7 +2473,7 @@
             }
         },
         {
-            "Name": "WEAPON_MAGIC_GUN",
+            "Name": "COMPLETIONIST_WEAPON_MAGIC_GUN",
             "Category": "Collector",
             "Ra": {
                 "Title": "Laser Tag",
@@ -2487,7 +2487,7 @@
             }
         },
         {
-            "Name": "WEAPON_MAGIC_BOOK",
+            "Name": "COMPLETIONIST_WEAPON_MAGIC_BOOK",
             "Category": "Collector",
             "Ra": {
                 "Title": "Ancient Grimoires",
@@ -2501,7 +2501,7 @@
             }
         },
         {
-            "Name": "WEAPON_MAGIC_OTHER",
+            "Name": "COMPLETIONIST_WEAPON_MAGIC_OTHER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Magical Artifacts",
@@ -2515,7 +2515,7 @@
             }
         },
         {
-            "Name": "WEAPON_ABIGAILS_FLOWER",
+            "Name": "COMPLETIONIST_WEAPON_ABIGAILS_FLOWER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Guardian Ghost",
@@ -2529,7 +2529,7 @@
             }
         },
         {
-            "Name": "WEAPON_SLIME_STAFF",
+            "Name": "COMPLETIONIST_WEAPON_SLIME_STAFF",
             "Category": "Collector",
             "Ra": {
                 "Title": "Bouncy Buddy",
@@ -2543,7 +2543,7 @@
             }
         },
         {
-            "Name": "WEAPON_VAMPIRE_FROG_STAFF",
+            "Name": "COMPLETIONIST_WEAPON_VAMPIRE_FROG_STAFF",
             "Category": "Collector",
             "Ra": {
                 "Title": "Vampyrius Vampyrus",
@@ -2557,7 +2557,7 @@
             }
         },
         {
-            "Name": "WEAPON_PIRATE_STAFF",
+            "Name": "COMPLETIONIST_WEAPON_PIRATE_STAFF",
             "Category": "Collector",
             "Ra": {
                 "Title": "Pixel Piracy",
@@ -2571,7 +2571,7 @@
             }
         },
         {
-            "Name": "WEAPON_SANGUINE_STAFF",
+            "Name": "COMPLETIONIST_WEAPON_SANGUINE_STAFF",
             "Category": "Collector",
             "Ra": {
                 "Title": "Blood Red Bats",
@@ -2585,7 +2585,7 @@
             }
         },
         {
-            "Name": "WEAPON_TERRAPRISMA",
+            "Name": "COMPLETIONIST_WEAPON_TERRAPRISMA",
             "Category": "Collector",
             "Ra": {
                 "Title": "Warrior of Light",
@@ -2599,7 +2599,7 @@
             }
         },
         {
-            "Name": "WEAPON_MORNING_STAR",
+            "Name": "COMPLETIONIST_WEAPON_MORNING_STAR",
             "Category": "Collector",
             "Ra": {
                 "Title": "Vampire Killer",
@@ -2613,7 +2613,7 @@
             }
         },
         {
-            "Name": "WEAPON_SUMMON_MINION",
+            "Name": "COMPLETIONIST_WEAPON_SUMMON_MINION",
             "Category": "Collector",
             "Ra": {
                 "Title": "Offensive Line",
@@ -2627,7 +2627,7 @@
             }
         },
         {
-            "Name": "WEAPON_SUMMON_SENTRY",
+            "Name": "COMPLETIONIST_WEAPON_SUMMON_SENTRY",
             "Category": "Collector",
             "Ra": {
                 "Title": "Defensive Line",
@@ -2641,7 +2641,7 @@
             }
         },
         {
-            "Name": "WEAPON_SUMMON_WHIP",
+            "Name": "COMPLETIONIST_WEAPON_SUMMON_WHIP",
             "Category": "Collector",
             "Ra": {
                 "Title": "Beastmaster",
@@ -2655,7 +2655,7 @@
             }
         },
         {
-            "Name": "WEAPON_PLACEABLE",
+            "Name": "COMPLETIONIST_WEAPON_PLACEABLE",
             "Category": "Collector",
             "Ra": {
                 "Title": "3...2...1...Fire!",
@@ -2669,7 +2669,7 @@
             }
         },
         {
-            "Name": "AMMO_FLARE",
+            "Name": "COMPLETIONIST_AMMO_FLARE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Flame On!",
@@ -2683,7 +2683,7 @@
             }
         },
         {
-            "Name": "AMMO_BULLET",
+            "Name": "COMPLETIONIST_AMMO_BULLET",
             "Category": "Collector",
             "Ra": {
                 "Title": "Spray n' Pray",
@@ -2697,7 +2697,7 @@
             }
         },
         {
-            "Name": "AMMO_ARROW",
+            "Name": "COMPLETIONIST_AMMO_ARROW",
             "Category": "Collector",
             "Ra": {
                 "Title": "Rain of Arrows",
@@ -2711,7 +2711,7 @@
             }
         },
         {
-            "Name": "AMMO_ROCKET",
+            "Name": "COMPLETIONIST_AMMO_ROCKET",
             "Category": "Collector",
             "Ra": {
                 "Title": "Rocket Man",
@@ -2725,7 +2725,7 @@
             }
         },
         {
-            "Name": "AMMO_DART",
+            "Name": "COMPLETIONIST_AMMO_DART",
             "Category": "Collector",
             "Ra": {
                 "Title": "Silent but Deadly",
@@ -2739,7 +2739,7 @@
             }
         },
         {
-            "Name": "AMMO_SOLUTION",
+            "Name": "COMPLETIONIST_AMMO_SOLUTION",
             "Category": "Collector",
             "Ra": {
                 "Title": "Solutions to World Problems",
@@ -2753,7 +2753,7 @@
             }
         },
         {
-            "Name": "TOOL_BONE_PICKAXE",
+            "Name": "COMPLETIONIST_TOOL_BONE_PICKAXE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Got a Bone to Pick",
@@ -2767,7 +2767,7 @@
             }
         },
         {
-            "Name": "TOOL_THE_AXE",
+            "Name": "COMPLETIONIST_TOOL_THE_AXE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Flying V",
@@ -2781,7 +2781,7 @@
             }
         },
         {
-            "Name": "TOOL_BAT_HOOK",
+            "Name": "COMPLETIONIST_TOOL_BAT_HOOK",
             "Category": "Collector",
             "Ra": {
                 "Title": "Echolocation",
@@ -2795,7 +2795,7 @@
             }
         },
         {
-            "Name": "TOOL_FISH_HOOK",
+            "Name": "COMPLETIONIST_TOOL_FISH_HOOK",
             "Category": "Collector",
             "Ra": {
                 "Title": "Fish On!",
@@ -2809,7 +2809,7 @@
             }
         },
         {
-            "Name": "TOOL_HOTLINE_FISHING_HOOK",
+            "Name": "COMPLETIONIST_TOOL_HOTLINE_FISHING_HOOK",
             "Category": "Collector",
             "Ra": {
                 "Title": "Fiery Fishin'",
@@ -2823,7 +2823,7 @@
             }
         },
         {
-            "Name": "TOOL_DEMON_CONCH",
+            "Name": "COMPLETIONIST_TOOL_DEMON_CONCH",
             "Category": "Collector",
             "Ra": {
                 "Title": "Listen for Screams",
@@ -2837,7 +2837,7 @@
             }
         },
         {
-            "Name": "TOOL_ROD_OF_DISCORD",
+            "Name": "COMPLETIONIST_TOOL_ROD_OF_DISCORD",
             "Category": "Collector",
             "Ra": {
                 "Title": "Discord Moderator",
@@ -2851,7 +2851,7 @@
             }
         },
         {
-            "Name": "TOOL_BONE_WAND",
+            "Name": "COMPLETIONIST_TOOL_BONE_WAND",
             "Category": "Collector",
             "Ra": {
                 "Title": "Calcium Caster",
@@ -2865,7 +2865,7 @@
             }
         },
         {
-            "Name": "TOOL_BOTTOMLESS_LAVA_BUCKET",
+            "Name": "COMPLETIONIST_TOOL_BOTTOMLESS_LAVA_BUCKET",
             "Category": "Collector",
             "Ra": {
                 "Title": "Contained Eruption",
@@ -2879,7 +2879,7 @@
             }
         },
         {
-            "Name": "TOOL_SUPER_ABSORBANT_SPONGE",
+            "Name": "COMPLETIONIST_TOOL_SUPER_ABSORBANT_SPONGE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Water Void",
@@ -2893,7 +2893,7 @@
             }
         },
         {
-            "Name": "TOOL_LAVA_ABSORBANT_SPONGE",
+            "Name": "COMPLETIONIST_TOOL_LAVA_ABSORBANT_SPONGE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Lava Void",
@@ -2907,7 +2907,7 @@
             }
         },
         {
-            "Name": "TOOL_GOLDEN_BUG_NET",
+            "Name": "COMPLETIONIST_TOOL_GOLDEN_BUG_NET",
             "Category": "Collector",
             "Ra": {
                 "Title": "Cool Critter Catcher",
@@ -2921,7 +2921,7 @@
             }
         },
         {
-            "Name": "TOOL_BINOCULARS",
+            "Name": "COMPLETIONIST_TOOL_BINOCULARS",
             "Category": "Collector",
             "Ra": {
                 "Title": "Eye See You",
@@ -2935,7 +2935,7 @@
             }
         },
         {
-            "Name": "TOOL_JUNGLE_KEY",
+            "Name": "COMPLETIONIST_TOOL_JUNGLE_KEY",
             "Category": "Collector",
             "Ra": {
                 "Title": "Piranha Treasure",
@@ -2949,7 +2949,7 @@
             }
         },
         {
-            "Name": "TOOL_FROZEN_KEY",
+            "Name": "COMPLETIONIST_TOOL_FROZEN_KEY",
             "Category": "Collector",
             "Ra": {
                 "Title": "Hydra Treasure",
@@ -2963,7 +2963,7 @@
             }
         },
         {
-            "Name": "TOOL_HALLOWED_KEY",
+            "Name": "COMPLETIONIST_TOOL_HALLOWED_KEY",
             "Category": "Collector",
             "Ra": {
                 "Title": "Rainbow Treasure",
@@ -2977,7 +2977,7 @@
             }
         },
         {
-            "Name": "TOOL_CORRUPTION_KEY",
+            "Name": "COMPLETIONIST_TOOL_CORRUPTION_KEY",
             "Category": "Collector",
             "Ra": {
                 "Title": "Scourge Treasure",
@@ -2991,7 +2991,7 @@
             }
         },
         {
-            "Name": "TOOL_CRIMSON_KEY",
+            "Name": "COMPLETIONIST_TOOL_CRIMSON_KEY",
             "Category": "Collector",
             "Ra": {
                 "Title": "Vampire Treasure",
@@ -3005,7 +3005,7 @@
             }
         },
         {
-            "Name": "TOOL_DESERT_KEY",
+            "Name": "COMPLETIONIST_TOOL_DESERT_KEY",
             "Category": "Collector",
             "Ra": {
                 "Title": "Tiger Treasure",
@@ -3019,7 +3019,7 @@
             }
         },
         {
-            "Name": "TOOL_MINE",
+            "Name": "COMPLETIONIST_TOOL_MINE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Also Try Minecraft!",
@@ -3033,7 +3033,7 @@
             }
         },
         {
-            "Name": "TOOL_CHOP",
+            "Name": "COMPLETIONIST_TOOL_CHOP",
             "Category": "Collector",
             "Ra": {
                 "Title": "Chop Chop",
@@ -3047,7 +3047,7 @@
             }
         },
         {
-            "Name": "TOOL_HAMMER",
+            "Name": "COMPLETIONIST_TOOL_HAMMER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Talkin' 'Bout the Hammers",
@@ -3061,7 +3061,7 @@
             }
         },
         {
-            "Name": "TOOL_WIRE",
+            "Name": "COMPLETIONIST_TOOL_WIRE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Master Electrician",
@@ -3075,7 +3075,7 @@
             }
         },
         {
-            "Name": "TOOL_PAINT",
+            "Name": "COMPLETIONIST_TOOL_PAINT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Home Renovation",
@@ -3089,7 +3089,7 @@
             }
         },
         {
-            "Name": "TOOL_HOOK",
+            "Name": "COMPLETIONIST_TOOL_HOOK",
             "Category": "Collector",
             "Ra": {
                 "Title": "Get Over Here!",
@@ -3103,7 +3103,7 @@
             }
         },
         {
-            "Name": "TOOL_FISH",
+            "Name": "COMPLETIONIST_TOOL_FISH",
             "Category": "Collector",
             "Ra": {
                 "Title": "I Just Wanna Fish",
@@ -3117,7 +3117,7 @@
             }
         },
         {
-            "Name": "TOOL_MOVEMENT",
+            "Name": "COMPLETIONIST_TOOL_MOVEMENT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Instant Transmission",
@@ -3131,7 +3131,7 @@
             }
         },
         {
-            "Name": "TOOL_WAND",
+            "Name": "COMPLETIONIST_TOOL_WAND",
             "Category": "Collector",
             "Ra": {
                 "Title": "Tree Hugger",
@@ -3145,7 +3145,7 @@
             }
         },
         {
-            "Name": "TOOL_OTHER",
+            "Name": "COMPLETIONIST_TOOL_OTHER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Tools of the Trade",
@@ -3159,7 +3159,7 @@
             }
         },
         {
-            "Name": "ARMOR_MINING",
+            "Name": "COMPLETIONIST_ARMOR_MINING",
             "Category": "Collector",
             "Ra": {
                 "Title": "Spelunker's Spirit",
@@ -3173,7 +3173,7 @@
             }
         },
         {
-            "Name": "ARMOR_RAIN",
+            "Name": "COMPLETIONIST_ARMOR_RAIN",
             "Category": "Collector",
             "Ra": {
                 "Title": "Rotten Rain",
@@ -3187,7 +3187,7 @@
             }
         },
         {
-            "Name": "ARMOR_SNOW",
+            "Name": "COMPLETIONIST_ARMOR_SNOW",
             "Category": "Collector",
             "Ra": {
                 "Title": "Dead Cold",
@@ -3201,7 +3201,7 @@
             }
         },
         {
-            "Name": "ARMOR_DIVING_HELMET",
+            "Name": "COMPLETIONIST_ARMOR_DIVING_HELMET",
             "Category": "Collector",
             "Ra": {
                 "Title": "Scuba Duba",
@@ -3215,7 +3215,7 @@
             }
         },
         {
-            "Name": "ARMOR_DJINNS_CURSE",
+            "Name": "COMPLETIONIST_ARMOR_DJINNS_CURSE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Unfortunate Wish",
@@ -3229,7 +3229,7 @@
             }
         },
         {
-            "Name": "ARMOR_GREEN_CAP",
+            "Name": "COMPLETIONIST_ARMOR_GREEN_CAP",
             "Category": "Collector",
             "Ra": {
                 "Title": "L Is Real",
@@ -3243,7 +3243,7 @@
             }
         },
         {
-            "Name": "ARMOR_VIKING_HELMET",
+            "Name": "COMPLETIONIST_ARMOR_VIKING_HELMET",
             "Category": "Collector",
             "Ra": {
                 "Title": "For Valhalla",
@@ -3257,7 +3257,7 @@
             }
         },
         {
-            "Name": "ARMOR_PRE-HARDMODE",
+            "Name": "COMPLETIONIST_ARMOR_PRE-HARDMODE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Descend to the Abyss",
@@ -3271,7 +3271,7 @@
             }
         },
         {
-            "Name": "ARMOR_HARDMODE",
+            "Name": "COMPLETIONIST_ARMOR_HARDMODE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Ascend to the Heavens",
@@ -3285,7 +3285,7 @@
             }
         },
         {
-            "Name": "ARMOR_WIZARD",
+            "Name": "COMPLETIONIST_ARMOR_WIZARD",
             "Category": "Collector",
             "Ra": {
                 "Title": "I... Am an Enchanter",
@@ -3299,7 +3299,7 @@
             }
         },
         {
-            "Name": "ARMOR_OTHER",
+            "Name": "COMPLETIONIST_ARMOR_OTHER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Hard-Headed Hero",
@@ -3313,7 +3313,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_BALLOON_PUFFERFISH",
+            "Name": "COMPLETIONIST_ACCESSORY_BALLOON_PUFFERFISH",
             "Category": "Collector",
             "Ra": {
                 "Title": "Do Not Eat",
@@ -3327,7 +3327,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_FROG_LEG",
+            "Name": "COMPLETIONIST_ACCESSORY_FROG_LEG",
             "Category": "Collector",
             "Ra": {
                 "Title": "Frogger Feet",
@@ -3341,7 +3341,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_MOON_CHARM",
+            "Name": "COMPLETIONIST_ACCESSORY_MOON_CHARM",
             "Category": "Collector",
             "Ra": {
                 "Title": "Always a Full Moon",
@@ -3355,7 +3355,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_FIN_WINGS",
+            "Name": "COMPLETIONIST_ACCESSORY_FIN_WINGS",
             "Category": "Collector",
             "Ra": {
                 "Title": "Fly Fishing",
@@ -3369,7 +3369,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_DEPTH_METER",
+            "Name": "COMPLETIONIST_ACCESSORY_DEPTH_METER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Layer by Layer",
@@ -3383,7 +3383,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_COMPASS",
+            "Name": "COMPLETIONIST_ACCESSORY_COMPASS",
             "Category": "Collector",
             "Ra": {
                 "Title": "Coast to Coast",
@@ -3397,7 +3397,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_TALLY_COUNTER",
+            "Name": "COMPLETIONIST_ACCESSORY_TALLY_COUNTER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Keeping Track",
@@ -3411,7 +3411,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_NATURES_GIFT",
+            "Name": "COMPLETIONIST_ACCESSORY_NATURES_GIFT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Magical Affinity",
@@ -3425,7 +3425,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_FROZEN_TURTLE_SHELL",
+            "Name": "COMPLETIONIST_ACCESSORY_FROZEN_TURTLE_SHELL",
             "Category": "Collector",
             "Ra": {
                 "Title": "Absolute Zero",
@@ -3439,7 +3439,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_MAGIC_QUIVER",
+            "Name": "COMPLETIONIST_ACCESSORY_MAGIC_QUIVER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Target Practice",
@@ -3453,7 +3453,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_SHARK_TOOTH_NECKLACE",
+            "Name": "COMPLETIONIST_ACCESSORY_SHARK_TOOTH_NECKLACE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Piercing Penetration",
@@ -3467,7 +3467,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_CLOTHIER_VOODOO_DOLL",
+            "Name": "COMPLETIONIST_ACCESSORY_CLOTHIER_VOODOO_DOLL",
             "Category": "Collector",
             "Ra": {
                 "Title": "Target Acquired",
@@ -3481,7 +3481,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_JELLYFISH_NECKLACE",
+            "Name": "COMPLETIONIST_ACCESSORY_JELLYFISH_NECKLACE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Underwater Rave",
@@ -3495,7 +3495,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_JUNGLE_ROSE",
+            "Name": "COMPLETIONIST_ACCESSORY_JUNGLE_ROSE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Oh So Pretty",
@@ -3509,7 +3509,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_ARCTIC_DIVING_GEAR",
+            "Name": "COMPLETIONIST_ACCESSORY_ARCTIC_DIVING_GEAR",
             "Category": "Collector",
             "Ra": {
                 "Title": "Polar Plunge",
@@ -3523,7 +3523,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_BUNDLE_HORSESHOE_BALLOONS",
+            "Name": "COMPLETIONIST_ACCESSORY_BUNDLE_HORSESHOE_BALLOONS",
             "Category": "Collector",
             "Ra": {
                 "Title": "Lucky Lift",
@@ -3537,7 +3537,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_CELESTIAL_CUFFS",
+            "Name": "COMPLETIONIST_ACCESSORY_CELESTIAL_CUFFS",
             "Category": "Collector",
             "Ra": {
                 "Title": "Getting Cuffed",
@@ -3551,7 +3551,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_CELESTIAL_EMBLEM",
+            "Name": "COMPLETIONIST_ACCESSORY_CELESTIAL_EMBLEM",
             "Category": "Collector",
             "Ra": {
                 "Title": "Mana Magnet",
@@ -3565,7 +3565,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_CELESTIAL_SHELL",
+            "Name": "COMPLETIONIST_ACCESSORY_CELESTIAL_SHELL",
             "Category": "Collector",
             "Ra": {
                 "Title": "Monster Mash",
@@ -3579,7 +3579,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_FAIRY_BOOTS",
+            "Name": "COMPLETIONIST_ACCESSORY_FAIRY_BOOTS",
             "Category": "Collector",
             "Ra": {
                 "Title": "Pianta Impersonator",
@@ -3593,7 +3593,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_FIRE_GAUNTLET",
+            "Name": "COMPLETIONIST_ACCESSORY_FIRE_GAUNTLET",
             "Category": "Collector",
             "Ra": {
                 "Title": "Flaming Fist",
@@ -3607,7 +3607,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_FROG_GEAR",
+            "Name": "COMPLETIONIST_ACCESSORY_FROG_GEAR",
             "Category": "Collector",
             "Ra": {
                 "Title": "It Ain\u2019t Easy Being Green",
@@ -3621,7 +3621,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_GREEDY_RING",
+            "Name": "COMPLETIONIST_ACCESSORY_GREEDY_RING",
             "Category": "Collector",
             "Ra": {
                 "Title": "Sticky Fingers",
@@ -3635,7 +3635,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_HAND_OF_CREATION",
+            "Name": "COMPLETIONIST_ACCESSORY_HAND_OF_CREATION",
             "Category": "Collector",
             "Ra": {
                 "Title": "Master of All Trades",
@@ -3649,7 +3649,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_HELLFIRE_TREADS",
+            "Name": "COMPLETIONIST_ACCESSORY_HELLFIRE_TREADS",
             "Category": "Collector",
             "Ra": {
                 "Title": "Trailblazer",
@@ -3663,7 +3663,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_LAVAPROOF_TACKLE_BAG",
+            "Name": "COMPLETIONIST_ACCESSORY_LAVAPROOF_TACKLE_BAG",
             "Category": "Collector",
             "Ra": {
                 "Title": "Master Baiter",
@@ -3677,7 +3677,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_MASTER_NINJA_GEAR",
+            "Name": "COMPLETIONIST_ACCESSORY_MASTER_NINJA_GEAR",
             "Category": "Collector",
             "Ra": {
                 "Title": "One With the Shadows",
@@ -3691,7 +3691,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_SHELLPHONE",
+            "Name": "COMPLETIONIST_ACCESSORY_SHELLPHONE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Let's Talk About Your Cars Extended Warranty",
@@ -3705,7 +3705,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_SNIPER_SCOPE",
+            "Name": "COMPLETIONIST_ACCESSORY_SNIPER_SCOPE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Terrarian Sniper",
@@ -3719,7 +3719,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_THE_GRAND_DESIGN",
+            "Name": "COMPLETIONIST_ACCESSORY_THE_GRAND_DESIGN",
             "Category": "Collector",
             "Ra": {
                 "Title": "Wire Kite",
@@ -3733,7 +3733,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_ULTRA_ABSORBANT_SPONGE",
+            "Name": "COMPLETIONIST_ACCESSORY_ULTRA_ABSORBANT_SPONGE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Absolute Absorption",
@@ -3747,7 +3747,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_MOVE",
+            "Name": "COMPLETIONIST_ACCESSORY_MOVE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Wanna See Me Do It Again",
@@ -3761,7 +3761,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_WINGS",
+            "Name": "COMPLETIONIST_ACCESSORY_WINGS",
             "Category": "Collector",
             "Ra": {
                 "Title": "Free Bird",
@@ -3775,7 +3775,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_INFO",
+            "Name": "COMPLETIONIST_ACCESSORY_INFO",
             "Category": "Collector",
             "Ra": {
                 "Title": "Modern Technology",
@@ -3789,7 +3789,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_HEALTH_MANA",
+            "Name": "COMPLETIONIST_ACCESSORY_HEALTH_MANA",
             "Category": "Collector",
             "Ra": {
                 "Title": "Divine Blessing",
@@ -3803,7 +3803,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_COMBAT",
+            "Name": "COMPLETIONIST_ACCESSORY_COMBAT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Battle Ready",
@@ -3817,7 +3817,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_CONSTRUCTION",
+            "Name": "COMPLETIONIST_ACCESSORY_CONSTRUCTION",
             "Category": "Collector",
             "Ra": {
                 "Title": "85 Hours a Day",
@@ -3831,7 +3831,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_FISH",
+            "Name": "COMPLETIONIST_ACCESSORY_FISH",
             "Category": "Collector",
             "Ra": {
                 "Title": "Fish Love Me",
@@ -3845,7 +3845,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_YOYO",
+            "Name": "COMPLETIONIST_ACCESSORY_YOYO",
             "Category": "Collector",
             "Ra": {
                 "Title": "Super Strands",
@@ -3859,7 +3859,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_VANITY",
+            "Name": "COMPLETIONIST_ACCESSORY_VANITY",
             "Category": "Collector",
             "Ra": {
                 "Title": "Luxury Goods",
@@ -3873,7 +3873,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_MUSIC_BOX",
+            "Name": "COMPLETIONIST_ACCESSORY_MUSIC_BOX",
             "Category": "Collector",
             "Ra": {
                 "Title": "Capture the Moment",
@@ -3887,7 +3887,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_GOLF_BALL",
+            "Name": "COMPLETIONIST_ACCESSORY_GOLF_BALL",
             "Category": "Collector",
             "Ra": {
                 "Title": "Hot Shots",
@@ -3901,7 +3901,7 @@
             }
         },
         {
-            "Name": "ACCESSORY_OTHER",
+            "Name": "COMPLETIONIST_ACCESSORY_OTHER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Voodoo Magic",
@@ -3915,7 +3915,7 @@
             }
         },
         {
-            "Name": "MOUNT_BEE",
+            "Name": "COMPLETIONIST_MOUNT_BEE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Rapid Pollination",
@@ -3929,7 +3929,7 @@
             }
         },
         {
-            "Name": "MOUNT_TURTLE",
+            "Name": "COMPLETIONIST_MOUNT_TURTLE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Slow and Steady",
@@ -3943,7 +3943,7 @@
             }
         },
         {
-            "Name": "MOUNT_GOLF_CART",
+            "Name": "COMPLETIONIST_MOUNT_GOLF_CART",
             "Category": "Collector",
             "Ra": {
                 "Title": "Retirement Ready",
@@ -3957,7 +3957,7 @@
             }
         },
         {
-            "Name": "MOUNT_BASILISK",
+            "Name": "COMPLETIONIST_MOUNT_BASILISK",
             "Category": "Collector",
             "Ra": {
                 "Title": "Chaos Charge",
@@ -3971,7 +3971,7 @@
             }
         },
         {
-            "Name": "MOUNT_WOLF",
+            "Name": "COMPLETIONIST_MOUNT_WOLF",
             "Category": "Collector",
             "Ra": {
                 "Title": "Obsessed With Wolves",
@@ -3985,7 +3985,7 @@
             }
         },
         {
-            "Name": "MOUNT_UNICORN",
+            "Name": "COMPLETIONIST_MOUNT_UNICORN",
             "Category": "Collector",
             "Ra": {
                 "Title": "Rainbow Rider",
@@ -3999,7 +3999,7 @@
             }
         },
         {
-            "Name": "MOUNT_PIGRON",
+            "Name": "COMPLETIONIST_MOUNT_PIGRON",
             "Category": "Collector",
             "Ra": {
                 "Title": "Now You See Me...",
@@ -4013,7 +4013,7 @@
             }
         },
         {
-            "Name": "MOUNT_RUDOLPH",
+            "Name": "COMPLETIONIST_MOUNT_RUDOLPH",
             "Category": "Collector",
             "Ra": {
                 "Title": "The Original Mount",
@@ -4027,7 +4027,7 @@
             }
         },
         {
-            "Name": "MOUNT_DCU",
+            "Name": "COMPLETIONIST_MOUNT_DCU",
             "Category": "Collector",
             "Ra": {
                 "Title": "Terraforming",
@@ -4041,7 +4041,7 @@
             }
         },
         {
-            "Name": "MOUNT",
+            "Name": "COMPLETIONIST_MOUNT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Trusty Steeds",
@@ -4055,7 +4055,7 @@
             }
         },
         {
-            "Name": "MINECART_FISH",
+            "Name": "COMPLETIONIST_MINECART_FISH",
             "Category": "Collector",
             "Ra": {
                 "Title": "Deal With It",
@@ -4069,7 +4069,7 @@
             }
         },
         {
-            "Name": "MINECART_PIGRON",
+            "Name": "COMPLETIONIST_MINECART_PIGRON",
             "Category": "Collector",
             "Ra": {
                 "Title": "Powered by Bacon!",
@@ -4083,7 +4083,7 @@
             }
         },
         {
-            "Name": "MINECART",
+            "Name": "COMPLETIONIST_MINECART",
             "Category": "Collector",
             "Ra": {
                 "Title": "Modern Mining",
@@ -4097,7 +4097,7 @@
             }
         },
         {
-            "Name": "VANITY_HERO",
+            "Name": "COMPLETIONIST_VANITY_HERO",
             "Category": "Collector",
             "Ra": {
                 "Title": "Hero of Time",
@@ -4111,7 +4111,7 @@
             }
         },
         {
-            "Name": "VANITY_LAMIA",
+            "Name": "COMPLETIONIST_VANITY_LAMIA",
             "Category": "Collector",
             "Ra": {
                 "Title": "Menacing Glare",
@@ -4125,7 +4125,7 @@
             }
         },
         {
-            "Name": "VANITY_MUMMY",
+            "Name": "COMPLETIONIST_VANITY_MUMMY",
             "Category": "Collector",
             "Ra": {
                 "Title": "Budget Costume",
@@ -4139,7 +4139,7 @@
             }
         },
         {
-            "Name": "VANITY_PEDGUIN",
+            "Name": "COMPLETIONIST_VANITY_PEDGUIN",
             "Category": "Collector",
             "Ra": {
                 "Title": "Become the Pedguin",
@@ -4153,7 +4153,7 @@
             }
         },
         {
-            "Name": "VANITY_PLUMBER",
+            "Name": "COMPLETIONIST_VANITY_PLUMBER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Mr. Video Game",
@@ -4167,7 +4167,7 @@
             }
         },
         {
-            "Name": "VANITY_CREEPER",
+            "Name": "COMPLETIONIST_VANITY_CREEPER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Aww Man",
@@ -4181,7 +4181,7 @@
             }
         },
         {
-            "Name": "VANITY_ANGEL_HALO",
+            "Name": "COMPLETIONIST_VANITY_ANGEL_HALO",
             "Category": "Collector",
             "Ra": {
                 "Title": "Baby, I Can Feel Your Halo",
@@ -4195,7 +4195,7 @@
             }
         },
         {
-            "Name": "VANITY_BADGERS_HAT",
+            "Name": "COMPLETIONIST_VANITY_BADGERS_HAT",
             "Category": "Collector",
             "Ra": {
                 "Title": "To Hell and Back",
@@ -4209,7 +4209,7 @@
             }
         },
         {
-            "Name": "VANITY_DEAD_MANS_SWEATER",
+            "Name": "COMPLETIONIST_VANITY_DEAD_MANS_SWEATER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Redshirt Sacrifice",
@@ -4223,7 +4223,7 @@
             }
         },
         {
-            "Name": "VANITY_GINGER_BEARD",
+            "Name": "COMPLETIONIST_VANITY_GINGER_BEARD",
             "Category": "Collector",
             "Ra": {
                 "Title": "Beard of Piracy",
@@ -4237,7 +4237,7 @@
             }
         },
         {
-            "Name": "VANITY_JIMS_HAT",
+            "Name": "COMPLETIONIST_VANITY_JIMS_HAT",
             "Category": "Collector",
             "Ra": {
                 "Title": "My Hat Now",
@@ -4251,7 +4251,7 @@
             }
         },
         {
-            "Name": "VANITY_ROBOT_HAT",
+            "Name": "COMPLETIONIST_VANITY_ROBOT_HAT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Quote This",
@@ -4265,7 +4265,7 @@
             }
         },
         {
-            "Name": "VANITY_SKULL",
+            "Name": "COMPLETIONIST_VANITY_SKULL",
             "Category": "Collector",
             "Ra": {
                 "Title": "Bone Head",
@@ -4279,7 +4279,7 @@
             }
         },
         {
-            "Name": "VANITY_UMBRELLA_HAT",
+            "Name": "COMPLETIONIST_VANITY_UMBRELLA_HAT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Under my Umbrella",
@@ -4293,7 +4293,7 @@
             }
         },
         {
-            "Name": "VANITY_SETS",
+            "Name": "COMPLETIONIST_VANITY_SETS",
             "Category": "Collector",
             "Ra": {
                 "Title": "Fashion Show",
@@ -4307,7 +4307,7 @@
             }
         },
         {
-            "Name": "VANITY_HALLOWEEN",
+            "Name": "COMPLETIONIST_VANITY_HALLOWEEN",
             "Category": "Collector",
             "Ra": {
                 "Title": "Trick or Treat",
@@ -4321,7 +4321,7 @@
             }
         },
         {
-            "Name": "VANITY_CHRISTMAS",
+            "Name": "COMPLETIONIST_VANITY_CHRISTMAS",
             "Category": "Collector",
             "Ra": {
                 "Title": "On the Nice List",
@@ -4335,7 +4335,7 @@
             }
         },
         {
-            "Name": "VANITY_MASK",
+            "Name": "COMPLETIONIST_VANITY_MASK",
             "Category": "Collector",
             "Ra": {
                 "Title": "That's What the Mask Is",
@@ -4349,7 +4349,7 @@
             }
         },
         {
-            "Name": "VANITY_OTHER",
+            "Name": "COMPLETIONIST_VANITY_OTHER",
             "Category": "Collector",
             "Ra": {
                 "Title": "He Was #1",
@@ -4363,7 +4363,7 @@
             }
         },
         {
-            "Name": "PET_BABY_DINOSAUR",
+            "Name": "COMPLETIONIST_PET_BABY_DINOSAUR",
             "Category": "Collector",
             "Ra": {
                 "Title": "De-extinction",
@@ -4377,7 +4377,7 @@
             }
         },
         {
-            "Name": "PET_BABY_EATER",
+            "Name": "COMPLETIONIST_PET_BABY_EATER",
             "Category": "Collector",
             "Ra": {
                 "Title": "It's Kinda Cute?",
@@ -4391,7 +4391,7 @@
             }
         },
         {
-            "Name": "PET_BABY_FACE_MONSTER",
+            "Name": "COMPLETIONIST_PET_BABY_FACE_MONSTER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Jump Scare",
@@ -4405,7 +4405,7 @@
             }
         },
         {
-            "Name": "PET_BABY_GRINCH",
+            "Name": "COMPLETIONIST_PET_BABY_GRINCH",
             "Category": "Collector",
             "Ra": {
                 "Title": "Problem Child",
@@ -4419,7 +4419,7 @@
             }
         },
         {
-            "Name": "PET_BABY_HORNET",
+            "Name": "COMPLETIONIST_PET_BABY_HORNET",
             "Category": "Collector",
             "Ra": {
                 "Title": "Irresistible Smell",
@@ -4433,7 +4433,7 @@
             }
         },
         {
-            "Name": "PET_BABY_SKELETRON_HEAD",
+            "Name": "COMPLETIONIST_PET_BABY_SKELETRON_HEAD",
             "Category": "Collector",
             "Ra": {
                 "Title": "You SHALL Pass!",
@@ -4447,7 +4447,7 @@
             }
         },
         {
-            "Name": "PET_BABY_SNOWMAN",
+            "Name": "COMPLETIONIST_PET_BABY_SNOWMAN",
             "Category": "Collector",
             "Ra": {
                 "Title": "Sleigh Ride Together With You",
@@ -4461,7 +4461,7 @@
             }
         },
         {
-            "Name": "PET_BLACK_CAT",
+            "Name": "COMPLETIONIST_PET_BLACK_CAT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Tim's Pet Cat",
@@ -4475,7 +4475,7 @@
             }
         },
         {
-            "Name": "PET_CAVELING_GARDENER",
+            "Name": "COMPLETIONIST_PET_CAVELING_GARDENER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Keeper of the Core",
@@ -4489,7 +4489,7 @@
             }
         },
         {
-            "Name": "PET_THE_DIRTIEST_BLOCK",
+            "Name": "COMPLETIONIST_PET_THE_DIRTIEST_BLOCK",
             "Category": "Collector",
             "Ra": {
                 "Title": "Dirt is Dirty",
@@ -4503,7 +4503,7 @@
             }
         },
         {
-            "Name": "PET_JUNIMO",
+            "Name": "COMPLETIONIST_PET_JUNIMO",
             "Category": "Collector",
             "Ra": {
                 "Title": "Keeper of the Forest",
@@ -4517,7 +4517,7 @@
             }
         },
         {
-            "Name": "PET_LIZARD",
+            "Name": "COMPLETIONIST_PET_LIZARD",
             "Category": "Collector",
             "Ra": {
                 "Title": "Chillin\u2019 Like a Reptilian",
@@ -4531,7 +4531,7 @@
             }
         },
         {
-            "Name": "PET_MINI_MINOTAUR",
+            "Name": "COMPLETIONIST_PET_MINI_MINOTAUR",
             "Category": "Collector",
             "Ra": {
                 "Title": "Mini Minotaur's Weakness",
@@ -4545,7 +4545,7 @@
             }
         },
         {
-            "Name": "PET_PUPPY",
+            "Name": "COMPLETIONIST_PET_PUPPY",
             "Category": "Collector",
             "Ra": {
                 "Title": "Puppy Love",
@@ -4559,7 +4559,7 @@
             }
         },
         {
-            "Name": "PET_SAPLING",
+            "Name": "COMPLETIONIST_PET_SAPLING",
             "Category": "Collector",
             "Ra": {
                 "Title": "Budding Life",
@@ -4573,7 +4573,7 @@
             }
         },
         {
-            "Name": "PET_SPIFFO",
+            "Name": "COMPLETIONIST_PET_SPIFFO",
             "Category": "Collector",
             "Ra": {
                 "Title": "Plushie PAWS",
@@ -4587,7 +4587,7 @@
             }
         },
         {
-            "Name": "PET_SQUASHLING",
+            "Name": "COMPLETIONIST_PET_SQUASHLING",
             "Category": "Collector",
             "Ra": {
                 "Title": "Plentiful Harvest",
@@ -4601,7 +4601,7 @@
             }
         },
         {
-            "Name": "PET_SUGAR_GLIDER",
+            "Name": "COMPLETIONIST_PET_SUGAR_GLIDER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Sugar Rush",
@@ -4615,7 +4615,7 @@
             }
         },
         {
-            "Name": "PET_ZEPHYR_FISH",
+            "Name": "COMPLETIONIST_PET_ZEPHYR_FISH",
             "Category": "Collector",
             "Ra": {
                 "Title": "The Gentle West Wind",
@@ -4629,7 +4629,7 @@
             }
         },
         {
-            "Name": "PET_WISP",
+            "Name": "COMPLETIONIST_PET_WISP",
             "Category": "Collector",
             "Ra": {
                 "Title": "Will-O\u2019-The-Wisp",
@@ -4643,7 +4643,7 @@
             }
         },
         {
-            "Name": "PET",
+            "Name": "COMPLETIONIST_PET",
             "Category": "Collector",
             "Ra": {
                 "Title": "Loyal Companions",
@@ -4657,7 +4657,7 @@
             }
         },
         {
-            "Name": "PET_LIGHT",
+            "Name": "COMPLETIONIST_PET_LIGHT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Bright Buddies",
@@ -4671,7 +4671,7 @@
             }
         },
         {
-            "Name": "BANNER_SLIME",
+            "Name": "COMPLETIONIST_BANNER_SLIME",
             "Category": "Collector",
             "Ra": {
                 "Title": "Slime Slayer",
@@ -4685,7 +4685,7 @@
             }
         },
         {
-            "Name": "BANNER_CAVERN",
+            "Name": "COMPLETIONIST_BANNER_CAVERN",
             "Category": "Collector",
             "Ra": {
                 "Title": "Cavern Slayer",
@@ -4699,7 +4699,7 @@
             }
         },
         {
-            "Name": "BANNER_CORRUPTION",
+            "Name": "COMPLETIONIST_BANNER_CORRUPTION",
             "Category": "Collector",
             "Ra": {
                 "Title": "Corruption Slayer",
@@ -4713,7 +4713,7 @@
             }
         },
         {
-            "Name": "BANNER_CRIMSON",
+            "Name": "COMPLETIONIST_BANNER_CRIMSON",
             "Category": "Collector",
             "Ra": {
                 "Title": "Crimson Slayer",
@@ -4727,7 +4727,7 @@
             }
         },
         {
-            "Name": "BANNER_DESERT",
+            "Name": "COMPLETIONIST_BANNER_DESERT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Desert Slayer",
@@ -4741,7 +4741,7 @@
             }
         },
         {
-            "Name": "BANNER_DUNGEON",
+            "Name": "COMPLETIONIST_BANNER_DUNGEON",
             "Category": "Collector",
             "Ra": {
                 "Title": "Dungeon Slayer",
@@ -4755,7 +4755,7 @@
             }
         },
         {
-            "Name": "BANNER_GLOWING_MUSHROOM",
+            "Name": "COMPLETIONIST_BANNER_GLOWING_MUSHROOM",
             "Category": "Collector",
             "Ra": {
                 "Title": "Glowing Mushroom Slayer",
@@ -4769,7 +4769,7 @@
             }
         },
         {
-            "Name": "BANNER_GRANITE_CAVE",
+            "Name": "COMPLETIONIST_BANNER_GRANITE_CAVE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Granite Cave Slayer",
@@ -4783,7 +4783,7 @@
             }
         },
         {
-            "Name": "BANNER_HALLOW",
+            "Name": "COMPLETIONIST_BANNER_HALLOW",
             "Category": "Collector",
             "Ra": {
                 "Title": "Hallow Slayer",
@@ -4797,7 +4797,7 @@
             }
         },
         {
-            "Name": "BANNER_JUNGLE",
+            "Name": "COMPLETIONIST_BANNER_JUNGLE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Jungle Slayer",
@@ -4811,7 +4811,7 @@
             }
         },
         {
-            "Name": "BANNER_MARBLE_CAVE",
+            "Name": "COMPLETIONIST_BANNER_MARBLE_CAVE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Marble Cave Slayer",
@@ -4825,7 +4825,7 @@
             }
         },
         {
-            "Name": "BANNER_METEORITE",
+            "Name": "COMPLETIONIST_BANNER_METEORITE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Meteorite Slayer",
@@ -4839,7 +4839,7 @@
             }
         },
         {
-            "Name": "BANNER_SNOW",
+            "Name": "COMPLETIONIST_BANNER_SNOW",
             "Category": "Collector",
             "Ra": {
                 "Title": "Snow Slayer",
@@ -4853,7 +4853,7 @@
             }
         },
         {
-            "Name": "BANNER_SPIDER_CAVE",
+            "Name": "COMPLETIONIST_BANNER_SPIDER_CAVE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Spider Cave Slayer",
@@ -4867,7 +4867,7 @@
             }
         },
         {
-            "Name": "BANNER_SURFACE",
+            "Name": "COMPLETIONIST_BANNER_SURFACE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Surface Slayer",
@@ -4881,7 +4881,7 @@
             }
         },
         {
-            "Name": "BANNER_UNDERWORLD",
+            "Name": "COMPLETIONIST_BANNER_UNDERWORLD",
             "Category": "Collector",
             "Ra": {
                 "Title": "Underworld Slayer",
@@ -4895,7 +4895,7 @@
             }
         },
         {
-            "Name": "BANNER_BLOOD_MOON",
+            "Name": "COMPLETIONIST_BANNER_BLOOD_MOON",
             "Category": "Collector",
             "Ra": {
                 "Title": "Blood Moon Slayer",
@@ -4909,7 +4909,7 @@
             }
         },
         {
-            "Name": "BANNER_FROST_LEGION",
+            "Name": "COMPLETIONIST_BANNER_FROST_LEGION",
             "Category": "Collector",
             "Ra": {
                 "Title": "Frost Legion Slayer",
@@ -4923,7 +4923,7 @@
             }
         },
         {
-            "Name": "BANNER_FROST_MOON",
+            "Name": "COMPLETIONIST_BANNER_FROST_MOON",
             "Category": "Collector",
             "Ra": {
                 "Title": "Frost Moon Slayer",
@@ -4937,7 +4937,7 @@
             }
         },
         {
-            "Name": "BANNER_GOBLIN_ARMY",
+            "Name": "COMPLETIONIST_BANNER_GOBLIN_ARMY",
             "Category": "Collector",
             "Ra": {
                 "Title": "Goblin Army Slayer",
@@ -4951,7 +4951,7 @@
             }
         },
         {
-            "Name": "BANNER_HALLOWEEN",
+            "Name": "COMPLETIONIST_BANNER_HALLOWEEN",
             "Category": "Collector",
             "Ra": {
                 "Title": "Halloween Slayer",
@@ -4965,7 +4965,7 @@
             }
         },
         {
-            "Name": "BANNER_LUNAR_EVENTS",
+            "Name": "COMPLETIONIST_BANNER_LUNAR_EVENTS",
             "Category": "Collector",
             "Ra": {
                 "Title": "Lunar Events Slayer",
@@ -4979,7 +4979,7 @@
             }
         },
         {
-            "Name": "BANNER_MARTIAN_MADNESS",
+            "Name": "COMPLETIONIST_BANNER_MARTIAN_MADNESS",
             "Category": "Collector",
             "Ra": {
                 "Title": "Martian Madness Slayer",
@@ -4993,7 +4993,7 @@
             }
         },
         {
-            "Name": "BANNER_OLD_ONES_ARMY",
+            "Name": "COMPLETIONIST_BANNER_OLD_ONES_ARMY",
             "Category": "Collector",
             "Ra": {
                 "Title": "Old One's Army Slayer",
@@ -5007,7 +5007,7 @@
             }
         },
         {
-            "Name": "BANNER_PIRATE_INVASION",
+            "Name": "COMPLETIONIST_BANNER_PIRATE_INVASION",
             "Category": "Collector",
             "Ra": {
                 "Title": "Pirate Invasion Slayer",
@@ -5021,7 +5021,7 @@
             }
         },
         {
-            "Name": "BANNER_PUMPKIN_MOON",
+            "Name": "COMPLETIONIST_BANNER_PUMPKIN_MOON",
             "Category": "Collector",
             "Ra": {
                 "Title": "Pumpkin Moon Slayer",
@@ -5035,7 +5035,7 @@
             }
         },
         {
-            "Name": "BANNER_RAIN_BLIZZARD",
+            "Name": "COMPLETIONIST_BANNER_RAIN_BLIZZARD",
             "Category": "Collector",
             "Ra": {
                 "Title": "Rain & Blizzard Slayer",
@@ -5049,7 +5049,7 @@
             }
         },
         {
-            "Name": "BANNER_SANDSTORM",
+            "Name": "COMPLETIONIST_BANNER_SANDSTORM",
             "Category": "Collector",
             "Ra": {
                 "Title": "Sandstorm Slayer",
@@ -5063,7 +5063,7 @@
             }
         },
         {
-            "Name": "BANNER_SOLAR_ECLIPSE",
+            "Name": "COMPLETIONIST_BANNER_SOLAR_ECLIPSE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Solar Eclipse Slayer",
@@ -5077,7 +5077,7 @@
             }
         },
         {
-            "Name": "BANNER_WINDY_DAY",
+            "Name": "COMPLETIONIST_BANNER_WINDY_DAY",
             "Category": "Collector",
             "Ra": {
                 "Title": "Windy Day Slayer",
@@ -5091,7 +5091,7 @@
             }
         },
         {
-            "Name": "CRITTER_GEM",
+            "Name": "COMPLETIONIST_CRITTER_GEM",
             "Category": "Collector",
             "Ra": {
                 "Title": "Residual Energy",
@@ -5105,7 +5105,7 @@
             }
         },
         {
-            "Name": "CRITTER_GOLD",
+            "Name": "COMPLETIONIST_CRITTER_GOLD",
             "Category": "Collector",
             "Ra": {
                 "Title": "The Midas Touch",
@@ -5119,7 +5119,7 @@
             }
         },
         {
-            "Name": "CRITTER",
+            "Name": "COMPLETIONIST_CRITTER",
             "Category": "Collector",
             "Ra": {
                 "Title": "King of the Critters",
@@ -5133,7 +5133,7 @@
             }
         },
         {
-            "Name": "DYE_STRANGE",
+            "Name": "COMPLETIONIST_DYE_STRANGE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Indescribable Aura",
@@ -5147,7 +5147,7 @@
             }
         },
         {
-            "Name": "DYE_CRAFT",
+            "Name": "COMPLETIONIST_DYE_CRAFT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Lunar Liaison",
@@ -5161,7 +5161,7 @@
             }
         },
         {
-            "Name": "DYE_OTHER",
+            "Name": "COMPLETIONIST_DYE_OTHER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Feeling Like a Fairy",
@@ -5175,7 +5175,7 @@
             }
         },
         {
-            "Name": "DYE_HAIR",
+            "Name": "COMPLETIONIST_DYE_HAIR",
             "Category": "Collector",
             "Ra": {
                 "Title": "Express Yourself",
@@ -5189,7 +5189,7 @@
             }
         },
         {
-            "Name": "EXTRACT_PLATINUM_COIN",
+            "Name": "COMPLETIONIST_EXTRACT_PLATINUM_COIN",
             "Category": "Collector",
             "Ra": {
                 "Title": "Panning for Platinum",
@@ -5203,7 +5203,7 @@
             }
         },
         {
-            "Name": "EXTRACT_JOURNEYMAN_BAIT",
+            "Name": "COMPLETIONIST_EXTRACT_JOURNEYMAN_BAIT",
             "Category": "Collector",
             "Ra": {
                 "Title": "...Another Man's Treasure",
@@ -5217,7 +5217,7 @@
             }
         },
         {
-            "Name": "FISH_PINK_PEARL",
+            "Name": "COMPLETIONIST_FISH_PINK_PEARL",
             "Category": "Collector",
             "Ra": {
                 "Title": "So Shiny!",
@@ -5231,7 +5231,7 @@
             }
         },
         {
-            "Name": "FISH_NORMAL",
+            "Name": "COMPLETIONIST_FISH_NORMAL",
             "Category": "Collector",
             "Ra": {
                 "Title": "Level 99 Fishing",
@@ -5245,7 +5245,7 @@
             }
         },
         {
-            "Name": "FISH_QUEST",
+            "Name": "COMPLETIONIST_FISH_QUEST",
             "Category": "Collector",
             "Ra": {
                 "Title": "Motley Crew",
@@ -5259,7 +5259,7 @@
             }
         },
         {
-            "Name": "FISH_CRATE",
+            "Name": "COMPLETIONIST_FISH_CRATE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Loot Crates",
@@ -5273,7 +5273,7 @@
             }
         },
         {
-            "Name": "FISH_JUNK",
+            "Name": "COMPLETIONIST_FISH_JUNK",
             "Category": "Collector",
             "Ra": {
                 "Title": "One Man's Trash...",
@@ -5287,7 +5287,7 @@
             }
         },
         {
-            "Name": "FISH_REWARD",
+            "Name": "COMPLETIONIST_FISH_REWARD",
             "Category": "Collector",
             "Ra": {
                 "Title": "Overfishing",
@@ -5301,7 +5301,7 @@
             }
         },
         {
-            "Name": "FURNITURE_CHIPPYS_COUCH",
+            "Name": "COMPLETIONIST_FURNITURE_CHIPPYS_COUCH",
             "Category": "Collector",
             "Ra": {
                 "Title": "Heeellllllo Terraria Enthusiasts!",
@@ -5315,7 +5315,7 @@
             }
         },
         {
-            "Name": "FURNITURE_DESERT_SPIRIT_LAMP",
+            "Name": "COMPLETIONIST_FURNITURE_DESERT_SPIRIT_LAMP",
             "Category": "Collector",
             "Ra": {
                 "Title": "Make a Wish",
@@ -5329,7 +5329,7 @@
             }
         },
         {
-            "Name": "FURNITURE_ENCHANTED_SUNDIAL",
+            "Name": "COMPLETIONIST_FURNITURE_ENCHANTED_SUNDIAL",
             "Category": "Collector",
             "Ra": {
                 "Title": "Early Bird",
@@ -5343,7 +5343,7 @@
             }
         },
         {
-            "Name": "FURNITURE_ENCHANTED_MOONDIAL",
+            "Name": "COMPLETIONIST_FURNITURE_ENCHANTED_MOONDIAL",
             "Category": "Collector",
             "Ra": {
                 "Title": "Night Owl",
@@ -5357,7 +5357,7 @@
             }
         },
         {
-            "Name": "FURNITURE_HAT_RACK",
+            "Name": "COMPLETIONIST_FURNITURE_HAT_RACK",
             "Category": "Collector",
             "Ra": {
                 "Title": "Not Just a Hat Rack",
@@ -5371,7 +5371,7 @@
             }
         },
         {
-            "Name": "FURNITURE_PIGRONATA",
+            "Name": "COMPLETIONIST_FURNITURE_PIGRONATA",
             "Category": "Collector",
             "Ra": {
                 "Title": "Party Time!",
@@ -5385,7 +5385,7 @@
             }
         },
         {
-            "Name": "FURNITURE_PORTAL_GUN_STATION",
+            "Name": "COMPLETIONIST_FURNITURE_PORTAL_GUN_STATION",
             "Category": "Collector",
             "Ra": {
                 "Title": "Aperture Science Innovation",
@@ -5399,7 +5399,7 @@
             }
         },
         {
-            "Name": "FURNITURE_TARGET_DUMMY",
+            "Name": "COMPLETIONIST_FURNITURE_TARGET_DUMMY",
             "Category": "Collector",
             "Ra": {
                 "Title": "Built Terrarian-Tough",
@@ -5413,7 +5413,7 @@
             }
         },
         {
-            "Name": "FURNITURE_BUFF",
+            "Name": "COMPLETIONIST_FURNITURE_BUFF",
             "Category": "Collector",
             "Ra": {
                 "Title": "Feng Shui",
@@ -5427,7 +5427,7 @@
             }
         },
         {
-            "Name": "FURNITURE_DISPLAY",
+            "Name": "COMPLETIONIST_FURNITURE_DISPLAY",
             "Category": "Collector",
             "Ra": {
                 "Title": "Conversation Pieces",
@@ -5441,7 +5441,7 @@
             }
         },
         {
-            "Name": "FURNITURE_THEMED",
+            "Name": "COMPLETIONIST_FURNITURE_THEMED",
             "Category": "Collector",
             "Ra": {
                 "Title": "Sprucing up the Place",
@@ -5455,7 +5455,7 @@
             }
         },
         {
-            "Name": "FURNITURE_TOMBSTONE",
+            "Name": "COMPLETIONIST_FURNITURE_TOMBSTONE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Reflecting on Past Mistakes",
@@ -5469,7 +5469,7 @@
             }
         },
         {
-            "Name": "NOVELTY_IVY",
+            "Name": "COMPLETIONIST_NOVELTY_IVY",
             "Category": "Collector",
             "Ra": {
                 "Title": "Property of Dead Man's Sweater",
@@ -5483,7 +5483,7 @@
             }
         },
         {
-            "Name": "NOVELTY_WYVERN_KITE",
+            "Name": "COMPLETIONIST_NOVELTY_WYVERN_KITE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Waving in the Wind",
@@ -5497,7 +5497,7 @@
             }
         },
         {
-            "Name": "NOVELTY_RAIN_SONG",
+            "Name": "COMPLETIONIST_NOVELTY_RAIN_SONG",
             "Category": "Collector",
             "Ra": {
                 "Title": "These Licks Are Spicy",
@@ -5511,7 +5511,7 @@
             }
         },
         {
-            "Name": "NOVELTY_UNICORN_ON_A_STICK",
+            "Name": "COMPLETIONIST_NOVELTY_UNICORN_ON_A_STICK",
             "Category": "Collector",
             "Ra": {
                 "Title": "Having a Wonderful Time!",
@@ -5525,7 +5525,7 @@
             }
         },
         {
-            "Name": "NOVELTY",
+            "Name": "COMPLETIONIST_NOVELTY",
             "Category": "Collector",
             "Ra": {
                 "Title": "Trinkets and Knick Knacks",
@@ -5539,7 +5539,7 @@
             }
         },
         {
-            "Name": "PAINTING_WALDO",
+            "Name": "COMPLETIONIST_PAINTING_WALDO",
             "Category": "Collector",
             "Ra": {
                 "Title": "Where's Waldo?",
@@ -5553,7 +5553,7 @@
             }
         },
         {
-            "Name": "PAINTING_CLOTHIER",
+            "Name": "COMPLETIONIST_PAINTING_CLOTHIER",
             "Category": "Collector",
             "Ra": {
                 "Title": "r/Terraria",
@@ -5567,7 +5567,7 @@
             }
         },
         {
-            "Name": "PAINTING_GOLFER",
+            "Name": "COMPLETIONIST_PAINTING_GOLFER",
             "Category": "Collector",
             "Ra": {
                 "Title": "The Duplicity of Reflections",
@@ -5581,7 +5581,7 @@
             }
         },
         {
-            "Name": "PAINTING_PAINTER",
+            "Name": "COMPLETIONIST_PAINTING_PAINTER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Good Morning",
@@ -5595,7 +5595,7 @@
             }
         },
         {
-            "Name": "PAINTING_PAINTER_GRAVEYARD",
+            "Name": "COMPLETIONIST_PAINTING_PAINTER_GRAVEYARD",
             "Category": "Collector",
             "Ra": {
                 "Title": "Nevermore",
@@ -5609,7 +5609,7 @@
             }
         },
         {
-            "Name": "PAINTING_PRINCESS",
+            "Name": "COMPLETIONIST_PAINTING_PRINCESS",
             "Category": "Collector",
             "Ra": {
                 "Title": "Princess 64",
@@ -5623,7 +5623,7 @@
             }
         },
         {
-            "Name": "PAINTING_TRAVELING_MERCHANT",
+            "Name": "COMPLETIONIST_PAINTING_TRAVELING_MERCHANT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Benny Warhol",
@@ -5637,7 +5637,7 @@
             }
         },
         {
-            "Name": "PAINTING_TRUFFLE",
+            "Name": "COMPLETIONIST_PAINTING_TRUFFLE",
             "Category": "Collector",
             "Ra": {
                 "Title": "My Son",
@@ -5651,7 +5651,7 @@
             }
         },
         {
-            "Name": "PAINTING_ZOOLOGIST",
+            "Name": "COMPLETIONIST_PAINTING_ZOOLOGIST",
             "Category": "Collector",
             "Ra": {
                 "Title": "The Werewolf",
@@ -5665,7 +5665,7 @@
             }
         },
         {
-            "Name": "PAINTING_DUNGEON",
+            "Name": "COMPLETIONIST_PAINTING_DUNGEON",
             "Category": "Collector",
             "Ra": {
                 "Title": "The Creation of the Guide",
@@ -5679,7 +5679,7 @@
             }
         },
         {
-            "Name": "PAINTING_FLOATING_ISLAND",
+            "Name": "COMPLETIONIST_PAINTING_FLOATING_ISLAND",
             "Category": "Collector",
             "Ra": {
                 "Title": "Love is in the Trash Slot",
@@ -5693,7 +5693,7 @@
             }
         },
         {
-            "Name": "PAINTING_JUNGLE_TEMPLE",
+            "Name": "COMPLETIONIST_PAINTING_JUNGLE_TEMPLE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Lizard King",
@@ -5707,7 +5707,7 @@
             }
         },
         {
-            "Name": "PAINTING_UNDERGROUND_CABIN",
+            "Name": "COMPLETIONIST_PAINTING_UNDERGROUND_CABIN",
             "Category": "Collector",
             "Ra": {
                 "Title": "Happy Little Tree",
@@ -5721,7 +5721,7 @@
             }
         },
         {
-            "Name": "PAINTING_UNDERGROUND_CABIN_DESERT",
+            "Name": "COMPLETIONIST_PAINTING_UNDERGROUND_CABIN_DESERT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Snakes, I Hate Snakes",
@@ -5735,7 +5735,7 @@
             }
         },
         {
-            "Name": "PAINTING_UNDERWORLD",
+            "Name": "COMPLETIONIST_PAINTING_UNDERWORLD",
             "Category": "Collector",
             "Ra": {
                 "Title": "Darkness",
@@ -5749,7 +5749,7 @@
             }
         },
         {
-            "Name": "PAINTING_FISH",
+            "Name": "COMPLETIONIST_PAINTING_FISH",
             "Category": "Collector",
             "Ra": {
                 "Title": "Lady Of The Lake",
@@ -5763,7 +5763,7 @@
             }
         },
         {
-            "Name": "PAINTING_ANGLER",
+            "Name": "COMPLETIONIST_PAINTING_ANGLER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Silent Fish",
@@ -5777,7 +5777,7 @@
             }
         },
         {
-            "Name": "PAINTING_SOLAR",
+            "Name": "COMPLETIONIST_PAINTING_SOLAR",
             "Category": "Collector",
             "Ra": {
                 "Title": "Eyezorhead",
@@ -5791,7 +5791,7 @@
             }
         },
         {
-            "Name": "PAINTING_GOODIE",
+            "Name": "COMPLETIONIST_PAINTING_GOODIE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Hallow's Eve",
@@ -5805,7 +5805,7 @@
             }
         },
         {
-            "Name": "PAINTING_ANIMAL_SKINS",
+            "Name": "COMPLETIONIST_PAINTING_ANIMAL_SKINS",
             "Category": "Collector",
             "Ra": {
                 "Title": "Exotic Taste",
@@ -5819,7 +5819,7 @@
             }
         },
         {
-            "Name": "PYLON_UNIVERSAL",
+            "Name": "COMPLETIONIST_PYLON_UNIVERSAL",
             "Category": "Collector",
             "Ra": {
                 "Title": "Beast Mode",
@@ -5833,7 +5833,7 @@
             }
         },
         {
-            "Name": "PYLON",
+            "Name": "COMPLETIONIST_PYLON",
             "Category": "Collector",
             "Ra": {
                 "Title": "Teleportation Station",
@@ -5847,7 +5847,7 @@
             }
         },
         {
-            "Name": "STATUE_ENEMY",
+            "Name": "COMPLETIONIST_STATUE_ENEMY",
             "Category": "Collector",
             "Ra": {
                 "Title": "Battle Simulator",
@@ -5861,7 +5861,7 @@
             }
         },
         {
-            "Name": "STATUE_CRITTER",
+            "Name": "COMPLETIONIST_STATUE_CRITTER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Animal Farm",
@@ -5875,7 +5875,7 @@
             }
         },
         {
-            "Name": "STATUE_DECOR",
+            "Name": "COMPLETIONIST_STATUE_DECOR",
             "Category": "Collector",
             "Ra": {
                 "Title": "Art Appreciation",
@@ -5889,7 +5889,7 @@
             }
         },
         {
-            "Name": "STATUE_OTHER",
+            "Name": "COMPLETIONIST_STATUE_OTHER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Kings and Queens",
@@ -5903,7 +5903,7 @@
             }
         },
         {
-            "Name": "STORAGE_MONEY_TROUGH",
+            "Name": "COMPLETIONIST_STORAGE_MONEY_TROUGH",
             "Category": "Collector",
             "Ra": {
                 "Title": "When Pigs Fly",
@@ -5917,7 +5917,7 @@
             }
         },
         {
-            "Name": "STORAGE",
+            "Name": "COMPLETIONIST_STORAGE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Into the Void",
@@ -5931,7 +5931,7 @@
             }
         },
         {
-            "Name": "TROPHY_PRE-HARDMODE",
+            "Name": "COMPLETIONIST_TROPHY_PRE-HARDMODE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Rags to Riches",
@@ -5945,7 +5945,7 @@
             }
         },
         {
-            "Name": "TROPHY_HARDMODE",
+            "Name": "COMPLETIONIST_TROPHY_HARDMODE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Mechanical Mania",
@@ -5959,7 +5959,7 @@
             }
         },
         {
-            "Name": "TROPHY_EVENT",
+            "Name": "COMPLETIONIST_TROPHY_EVENT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Star of the Show",
@@ -5973,7 +5973,7 @@
             }
         },
         {
-            "Name": "TROPHY_FISH",
+            "Name": "COMPLETIONIST_TROPHY_FISH",
             "Category": "Collector",
             "Ra": {
                 "Title": "Fish Fear Me",
@@ -5987,7 +5987,7 @@
             }
         },
         {
-            "Name": "TROPHY_GOLF",
+            "Name": "COMPLETIONIST_TROPHY_GOLF",
             "Category": "Collector",
             "Ra": {
                 "Title": "Pro Performance Proof",
@@ -6001,7 +6001,7 @@
             }
         },
         {
-            "Name": "BUFF_ENVIRONMENT",
+            "Name": "COMPLETIONIST_BUFF_ENVIRONMENT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Climate Acclimation",
@@ -6015,7 +6015,7 @@
             }
         },
         {
-            "Name": "BUFF_EQUIPMENT",
+            "Name": "COMPLETIONIST_BUFF_EQUIPMENT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Confidence Boost",
@@ -6029,7 +6029,7 @@
             }
         },
         {
-            "Name": "BUFF_FURNITURE",
+            "Name": "COMPLETIONIST_BUFF_FURNITURE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Min-Maxing",
@@ -6043,7 +6043,7 @@
             }
         },
         {
-            "Name": "BUFF_LIGHT_PET",
+            "Name": "COMPLETIONIST_BUFF_LIGHT_PET",
             "Category": "Collector",
             "Ra": {
                 "Title": "Light the Way",
@@ -6057,7 +6057,7 @@
             }
         },
         {
-            "Name": "BUFF_MINECART",
+            "Name": "COMPLETIONIST_BUFF_MINECART",
             "Category": "Collector",
             "Ra": {
                 "Title": "Coming Through!",
@@ -6071,7 +6071,7 @@
             }
         },
         {
-            "Name": "BUFF_MOUNT",
+            "Name": "COMPLETIONIST_BUFF_MOUNT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Beast Tamer",
@@ -6085,7 +6085,7 @@
             }
         },
         {
-            "Name": "BUFF_PET",
+            "Name": "COMPLETIONIST_BUFF_PET",
             "Category": "Collector",
             "Ra": {
                 "Title": "Animal Whisperer",
@@ -6099,7 +6099,7 @@
             }
         },
         {
-            "Name": "BUFF_SUMMON",
+            "Name": "COMPLETIONIST_BUFF_SUMMON",
             "Category": "Collector",
             "Ra": {
                 "Title": "Minion Master",
@@ -6113,7 +6113,7 @@
             }
         },
         {
-            "Name": "CONSUMABLE_EXPLOSIVE",
+            "Name": "COMPLETIONIST_CONSUMABLE_EXPLOSIVE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Fire in the Hole!",
@@ -6127,7 +6127,7 @@
             }
         },
         {
-            "Name": "CONSUMABLE_FOOD",
+            "Name": "COMPLETIONIST_CONSUMABLE_FOOD",
             "Category": "Collector",
             "Ra": {
                 "Title": "Balanced Diet",
@@ -6141,7 +6141,7 @@
             }
         },
         {
-            "Name": "CONSUMABLE_LICENSE",
+            "Name": "COMPLETIONIST_CONSUMABLE_LICENSE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Man's Best Friend",
@@ -6155,7 +6155,7 @@
             }
         },
         {
-            "Name": "CONSUMABLE_POTION_BUFF",
+            "Name": "COMPLETIONIST_CONSUMABLE_POTION_BUFF",
             "Category": "Collector",
             "Ra": {
                 "Title": "Performance-Enhancing Potions",
@@ -6169,7 +6169,7 @@
             }
         },
         {
-            "Name": "CONSUMABLE_POTION_FLASK",
+            "Name": "COMPLETIONIST_CONSUMABLE_POTION_FLASK",
             "Category": "Collector",
             "Ra": {
                 "Title": "Extra Edge",
@@ -6183,7 +6183,7 @@
             }
         },
         {
-            "Name": "CONSUMABLE_POTION_RECOVERY",
+            "Name": "COMPLETIONIST_CONSUMABLE_POTION_RECOVERY",
             "Category": "Collector",
             "Ra": {
                 "Title": "Recovery Is Key",
@@ -6197,7 +6197,7 @@
             }
         },
         {
-            "Name": "CONSUMABLE_POTION_OTHER",
+            "Name": "COMPLETIONIST_CONSUMABLE_POTION_OTHER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Experimental Consumer",
@@ -6211,7 +6211,7 @@
             }
         },
         {
-            "Name": "CONSUMABLE_PERMANENT",
+            "Name": "COMPLETIONIST_CONSUMABLE_PERMANENT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Personal Development",
@@ -6225,7 +6225,7 @@
             }
         },
         {
-            "Name": "CONSUMABLE_TOOL",
+            "Name": "COMPLETIONIST_CONSUMABLE_TOOL",
             "Category": "Collector",
             "Ra": {
                 "Title": "Terravania",
@@ -6239,7 +6239,7 @@
             }
         },
         {
-            "Name": "CONSUMABLE_WEAPON",
+            "Name": "COMPLETIONIST_CONSUMABLE_WEAPON",
             "Category": "Collector",
             "Ra": {
                 "Title": "Breach and Clear",
@@ -6253,7 +6253,7 @@
             }
         },
         {
-            "Name": "CONSUMABLE_OTHER",
+            "Name": "COMPLETIONIST_CONSUMABLE_OTHER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Recreational Activities",
@@ -6267,7 +6267,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_TIMBER",
+            "Name": "PLAYER_MEDIUMCORE_TIMBER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Chop 'Til You Drop",
@@ -6281,7 +6281,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_BENCHED",
+            "Name": "PLAYER_MEDIUMCORE_BENCHED",
             "Category": "Collector",
             "Ra": {
                 "Title": "The Guide's Apprentice",
@@ -6295,7 +6295,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_NO_HOBO",
+            "Name": "PLAYER_MEDIUMCORE_NO_HOBO",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Totally Not the Bare Minimum",
@@ -6309,7 +6309,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_OBTAIN_HAMMER",
+            "Name": "PLAYER_MEDIUMCORE_OBTAIN_HAMMER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Go With the Flow",
@@ -6323,7 +6323,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_OOO_SHINY",
+            "Name": "PLAYER_MEDIUMCORE_OOO_SHINY",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Oresome Discovery",
@@ -6337,7 +6337,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_HEART_BREAKER",
+            "Name": "PLAYER_MEDIUMCORE_HEART_BREAKER",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Dream Maker",
@@ -6351,7 +6351,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_HEAVY_METAL",
+            "Name": "PLAYER_MEDIUMCORE_HEAVY_METAL",
             "Category": "Collector",
             "Ra": {
                 "Title": "Rock Solid",
@@ -6365,7 +6365,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_I_AM_LOOT",
+            "Name": "PLAYER_MEDIUMCORE_I_AM_LOOT",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Gimme the Loot",
@@ -6379,7 +6379,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_STAR_POWER",
+            "Name": "PLAYER_MEDIUMCORE_STAR_POWER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Crystal Channeller",
@@ -6393,7 +6393,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_HOLD_ON_TIGHT",
+            "Name": "PLAYER_MEDIUMCORE_HOLD_ON_TIGHT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Hookshot Hero",
@@ -6407,7 +6407,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_EYE_ON_YOU",
+            "Name": "PLAYER_MEDIUMCORE_EYE_ON_YOU",
             "Category": "Slayer",
             "Ra": {
                 "Title": "One Eye Open",
@@ -6421,7 +6421,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_SMASHING_POPPET",
+            "Name": "PLAYER_MEDIUMCORE_SMASHING_POPPET",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Shiny and Oh So Bright",
@@ -6435,7 +6435,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_WHERES_MY_HONEY",
+            "Name": "PLAYER_MEDIUMCORE_WHERES_MY_HONEY",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Oh, Honey",
@@ -6449,7 +6449,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_STING_OPERATION",
+            "Name": "PLAYER_MEDIUMCORE_STING_OPERATION",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Bee Gone",
@@ -6463,7 +6463,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_BONED",
+            "Name": "PLAYER_MEDIUMCORE_BONED",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Bone to Pick",
@@ -6477,7 +6477,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_DUNGEON_HEIST",
+            "Name": "PLAYER_MEDIUMCORE_DUNGEON_HEIST",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Slimy Spoils",
@@ -6491,7 +6491,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_ITS_GETTING_HOT_IN_HERE",
+            "Name": "PLAYER_MEDIUMCORE_ITS_GETTING_HOT_IN_HERE",
             "Category": "Explorer",
             "Ra": {
                 "Title": "I'm Getting So Hot",
@@ -6505,7 +6505,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_MINER_FOR_FIRE",
+            "Name": "PLAYER_MEDIUMCORE_MINER_FOR_FIRE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Forged in Flames",
@@ -6519,7 +6519,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_STILL_HUNGRY",
+            "Name": "PLAYER_MEDIUMCORE_STILL_HUNGRY",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Feeding Frenzy",
@@ -6533,7 +6533,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_ITS_HARD",
+            "Name": "PLAYER_MEDIUMCORE_ITS_HARD",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Essence of Light",
@@ -6547,7 +6547,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_BEGONE_EVIL",
+            "Name": "PLAYER_MEDIUMCORE_BEGONE_EVIL",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Demon Destroyer",
@@ -6561,7 +6561,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_EXTRA_SHINY",
+            "Name": "PLAYER_MEDIUMCORE_EXTRA_SHINY",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Metallic Madness",
@@ -6575,7 +6575,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_HEAD_IN_THE_CLOUDS",
+            "Name": "PLAYER_MEDIUMCORE_HEAD_IN_THE_CLOUDS",
             "Category": "Collector",
             "Ra": {
                 "Title": "To the Moon",
@@ -6589,7 +6589,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_BUCKETS_OF_BOLTS",
+            "Name": "PLAYER_MEDIUMCORE_BUCKETS_OF_BOLTS",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Heap of Junk",
@@ -6603,7 +6603,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_DRAX_ATTAX",
+            "Name": "PLAYER_MEDIUMCORE_DRAX_ATTAX",
             "Category": "Collector",
             "Ra": {
                 "Title": "Not a Picksaw",
@@ -6617,7 +6617,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_PHOTOSYNTHESIS",
+            "Name": "PLAYER_MEDIUMCORE_PHOTOSYNTHESIS",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Plant Power",
@@ -6631,7 +6631,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_GET_A_LIFE",
+            "Name": "PLAYER_MEDIUMCORE_GET_A_LIFE",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Entering a Career",
@@ -6645,7 +6645,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_THE_GREAT_SOUTHERN_PLANTKILL",
+            "Name": "PLAYER_MEDIUMCORE_THE_GREAT_SOUTHERN_PLANTKILL",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Far Beyond the Jungle",
@@ -6659,7 +6659,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_TEMPLE_RAIDER",
+            "Name": "PLAYER_MEDIUMCORE_TEMPLE_RAIDER",
             "Category": "Collector",
             "Ra": {
                 "Title": "La-Mulana",
@@ -6673,7 +6673,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_LIHZAHRDIAN_IDOL",
+            "Name": "PLAYER_MEDIUMCORE_LIHZAHRDIAN_IDOL",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Off to See the Lizard",
@@ -6687,7 +6687,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_ROBBING_THE_GRAVE",
+            "Name": "PLAYER_MEDIUMCORE_ROBBING_THE_GRAVE",
             "Category": "Explorer",
             "Ra": {
                 "Title": "From Beyond the Grave",
@@ -6701,7 +6701,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_OBSESSIVE_DEVOTION",
+            "Name": "PLAYER_MEDIUMCORE_OBSESSIVE_DEVOTION",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Cult of the Moon",
@@ -6715,7 +6715,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_STAR_DESTROYER",
+            "Name": "PLAYER_MEDIUMCORE_STAR_DESTROYER",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Space Oddities",
@@ -6729,7 +6729,7 @@
             }
         },
         {
-            "Name": "MEDIUMCORE_CHAMPION_OF_TERRARIA",
+            "Name": "PLAYER_MEDIUMCORE_CHAMPION_OF_TERRARIA",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Great Old One",
@@ -6743,7 +6743,7 @@
             }
         },
         {
-            "Name": "HARDCORE_TIMBER",
+            "Name": "PLAYER_HARDCORE_TIMBER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Root Awakening",
@@ -6757,7 +6757,7 @@
             }
         },
         {
-            "Name": "HARDCORE_BENCHED",
+            "Name": "PLAYER_HARDCORE_BENCHED",
             "Category": "Collector",
             "Ra": {
                 "Title": "Get to Work!",
@@ -6771,7 +6771,7 @@
             }
         },
         {
-            "Name": "HARDCORE_NO_HOBO",
+            "Name": "PLAYER_HARDCORE_NO_HOBO",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Terraria's Best Landlord",
@@ -6785,7 +6785,7 @@
             }
         },
         {
-            "Name": "HARDCORE_OBTAIN_HAMMER",
+            "Name": "PLAYER_HARDCORE_OBTAIN_HAMMER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Bust a Few Moves",
@@ -6799,7 +6799,7 @@
             }
         },
         {
-            "Name": "HARDCORE_OOO_SHINY",
+            "Name": "PLAYER_HARDCORE_OOO_SHINY",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Treasure Trove",
@@ -6813,7 +6813,7 @@
             }
         },
         {
-            "Name": "HARDCORE_HEART_BREAKER",
+            "Name": "PLAYER_HARDCORE_HEART_BREAKER",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Love Taker",
@@ -6827,7 +6827,7 @@
             }
         },
         {
-            "Name": "HARDCORE_HEAVY_METAL",
+            "Name": "PLAYER_HARDCORE_HEAVY_METAL",
             "Category": "Collector",
             "Ra": {
                 "Title": "Iron Will",
@@ -6841,7 +6841,7 @@
             }
         },
         {
-            "Name": "HARDCORE_I_AM_LOOT",
+            "Name": "PLAYER_HARDCORE_I_AM_LOOT",
             "Category": "Explorer",
             "Ra": {
                 "Title": "What's Yours Is Mine",
@@ -6855,7 +6855,7 @@
             }
         },
         {
-            "Name": "HARDCORE_STAR_POWER",
+            "Name": "PLAYER_HARDCORE_STAR_POWER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Magic Multiplier",
@@ -6869,7 +6869,7 @@
             }
         },
         {
-            "Name": "HARDCORE_HOLD_ON_TIGHT",
+            "Name": "PLAYER_HARDCORE_HOLD_ON_TIGHT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Captain Hook",
@@ -6883,7 +6883,7 @@
             }
         },
         {
-            "Name": "HARDCORE_EYE_ON_YOU",
+            "Name": "PLAYER_HARDCORE_EYE_ON_YOU",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Everything I See",
@@ -6897,7 +6897,7 @@
             }
         },
         {
-            "Name": "HARDCORE_SMASHING_POPPET",
+            "Name": "PLAYER_HARDCORE_SMASHING_POPPET",
             "Category": "Explorer",
             "Ra": {
                 "Title": "If All Goes Wrong",
@@ -6911,7 +6911,7 @@
             }
         },
         {
-            "Name": "HARDCORE_WHERES_MY_HONEY",
+            "Name": "PLAYER_HARDCORE_WHERES_MY_HONEY",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Honey, I'm Home!",
@@ -6925,7 +6925,7 @@
             }
         },
         {
-            "Name": "HARDCORE_STING_OPERATION",
+            "Name": "PLAYER_HARDCORE_STING_OPERATION",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Royal Buzzkill",
@@ -6939,7 +6939,7 @@
             }
         },
         {
-            "Name": "HARDCORE_BONED",
+            "Name": "PLAYER_HARDCORE_BONED",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Grave Digger",
@@ -6953,7 +6953,7 @@
             }
         },
         {
-            "Name": "HARDCORE_DUNGEON_HEIST",
+            "Name": "PLAYER_HARDCORE_DUNGEON_HEIST",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Gooey Gold",
@@ -6967,7 +6967,7 @@
             }
         },
         {
-            "Name": "HARDCORE_ITS_GETTING_HOT_IN_HERE",
+            "Name": "PLAYER_HARDCORE_ITS_GETTING_HOT_IN_HERE",
             "Category": "Explorer",
             "Ra": {
                 "Title": "So Take Off All Your Armor",
@@ -6981,7 +6981,7 @@
             }
         },
         {
-            "Name": "HARDCORE_MINER_FOR_FIRE",
+            "Name": "PLAYER_HARDCORE_MINER_FOR_FIRE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Burning Desire",
@@ -6995,7 +6995,7 @@
             }
         },
         {
-            "Name": "HARDCORE_STILL_HUNGRY",
+            "Name": "PLAYER_HARDCORE_STILL_HUNGRY",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Guts and Glory",
@@ -7009,7 +7009,7 @@
             }
         },
         {
-            "Name": "HARDCORE_ITS_HARD",
+            "Name": "PLAYER_HARDCORE_ITS_HARD",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Essense of Dark",
@@ -7023,7 +7023,7 @@
             }
         },
         {
-            "Name": "HARDCORE_BEGONE_EVIL",
+            "Name": "PLAYER_HARDCORE_BEGONE_EVIL",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Crimson Killer",
@@ -7037,7 +7037,7 @@
             }
         },
         {
-            "Name": "HARDCORE_EXTRA_SHINY",
+            "Name": "PLAYER_HARDCORE_EXTRA_SHINY",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Shine On!",
@@ -7051,7 +7051,7 @@
             }
         },
         {
-            "Name": "HARDCORE_HEAD_IN_THE_CLOUDS",
+            "Name": "PLAYER_HARDCORE_HEAD_IN_THE_CLOUDS",
             "Category": "Collector",
             "Ra": {
                 "Title": "To the Stars",
@@ -7065,7 +7065,7 @@
             }
         },
         {
-            "Name": "HARDCORE_BUCKETS_OF_BOLTS",
+            "Name": "PLAYER_HARDCORE_BUCKETS_OF_BOLTS",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Junkyard Scraps",
@@ -7079,7 +7079,7 @@
             }
         },
         {
-            "Name": "HARDCORE_DRAX_ATTAX",
+            "Name": "PLAYER_HARDCORE_DRAX_ATTAX",
             "Category": "Collector",
             "Ra": {
                 "Title": "Mechanical Mining",
@@ -7093,7 +7093,7 @@
             }
         },
         {
-            "Name": "HARDCORE_PHOTOSYNTHESIS",
+            "Name": "PLAYER_HARDCORE_PHOTOSYNTHESIS",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Green Thumb",
@@ -7107,7 +7107,7 @@
             }
         },
         {
-            "Name": "HARDCORE_GET_A_LIFE",
+            "Name": "PLAYER_HARDCORE_GET_A_LIFE",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Starting a Family",
@@ -7121,7 +7121,7 @@
             }
         },
         {
-            "Name": "HARDCORE_THE_GREAT_SOUTHERN_PLANTKILL",
+            "Name": "PLAYER_HARDCORE_THE_GREAT_SOUTHERN_PLANTKILL",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Vulgar Display of Plants",
@@ -7135,7 +7135,7 @@
             }
         },
         {
-            "Name": "HARDCORE_TEMPLE_RAIDER",
+            "Name": "PLAYER_HARDCORE_TEMPLE_RAIDER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Spelunky",
@@ -7149,7 +7149,7 @@
             }
         },
         {
-            "Name": "HARDCORE_LIHZAHRDIAN_IDOL",
+            "Name": "PLAYER_HARDCORE_LIHZAHRDIAN_IDOL",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Lizard of Oz",
@@ -7163,7 +7163,7 @@
             }
         },
         {
-            "Name": "HARDCORE_ROBBING_THE_GRAVE",
+            "Name": "PLAYER_HARDCORE_ROBBING_THE_GRAVE",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Put To Good Use",
@@ -7177,7 +7177,7 @@
             }
         },
         {
-            "Name": "HARDCORE_OBSESSIVE_DEVOTION",
+            "Name": "PLAYER_HARDCORE_OBSESSIVE_DEVOTION",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Cult Cruncher",
@@ -7191,7 +7191,7 @@
             }
         },
         {
-            "Name": "HARDCORE_STAR_DESTROYER",
+            "Name": "PLAYER_HARDCORE_STAR_DESTROYER",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Shoot for the Moon",
@@ -7205,7 +7205,7 @@
             }
         },
         {
-            "Name": "HARDCORE_CHAMPION_OF_TERRARIA",
+            "Name": "PLAYER_HARDCORE_CHAMPION_OF_TERRARIA",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Cosmic Conqueror",
@@ -7219,7 +7219,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_TIMBER",
+            "Name": "PLAYER_HARDESTCORE_TIMBER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Tree-mendous Effort",
@@ -7233,7 +7233,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_BENCHED",
+            "Name": "PLAYER_HARDESTCORE_BENCHED",
             "Category": "Collector",
             "Ra": {
                 "Title": "Progress Benchmark",
@@ -7247,7 +7247,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_NO_HOBO",
+            "Name": "PLAYER_HARDESTCORE_NO_HOBO",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Sweet Home",
@@ -7261,7 +7261,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_OBTAIN_HAMMER",
+            "Name": "PLAYER_HARDESTCORE_OBTAIN_HAMMER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Under Pressure",
@@ -7275,7 +7275,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_OOO_SHINY",
+            "Name": "PLAYER_HARDESTCORE_OOO_SHINY",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Ore-der of Operations",
@@ -7289,7 +7289,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_HEART_BREAKER",
+            "Name": "PLAYER_HARDESTCORE_HEART_BREAKER",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Crystal Clear",
@@ -7303,7 +7303,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_HEAVY_METAL",
+            "Name": "PLAYER_HARDESTCORE_HEAVY_METAL",
             "Category": "Collector",
             "Ra": {
                 "Title": "Lead by Example",
@@ -7317,7 +7317,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_I_AM_LOOT",
+            "Name": "PLAYER_HARDESTCORE_I_AM_LOOT",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Gold Digger",
@@ -7331,7 +7331,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_STAR_POWER",
+            "Name": "PLAYER_HARDESTCORE_STAR_POWER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Mana Madness",
@@ -7345,7 +7345,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_HOLD_ON_TIGHT",
+            "Name": "PLAYER_HARDESTCORE_HOLD_ON_TIGHT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Hooked for Life",
@@ -7359,7 +7359,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_EYE_ON_YOU",
+            "Name": "PLAYER_HARDESTCORE_EYE_ON_YOU",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Staring Contest",
@@ -7373,7 +7373,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_SMASHING_POPPET",
+            "Name": "PLAYER_HARDESTCORE_SMASHING_POPPET",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Orb of Confusion",
@@ -7387,7 +7387,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_WHERES_MY_HONEY",
+            "Name": "PLAYER_HARDESTCORE_WHERES_MY_HONEY",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Bee-yond Belief",
@@ -7401,7 +7401,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_STING_OPERATION",
+            "Name": "PLAYER_HARDESTCORE_STING_OPERATION",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Killer Queen",
@@ -7415,7 +7415,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_BONED",
+            "Name": "PLAYER_HARDESTCORE_BONED",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Bone-A-Fide Hero",
@@ -7429,7 +7429,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_DUNGEON_HEIST",
+            "Name": "PLAYER_HARDESTCORE_DUNGEON_HEIST",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Fetch Quest",
@@ -7443,7 +7443,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_ITS_GETTING_HOT_IN_HERE",
+            "Name": "PLAYER_HARDESTCORE_ITS_GETTING_HOT_IN_HERE",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Highway to Hell",
@@ -7457,7 +7457,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_MINER_FOR_FIRE",
+            "Name": "PLAYER_HARDESTCORE_MINER_FOR_FIRE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Molten Masterpiece",
@@ -7471,7 +7471,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_STILL_HUNGRY",
+            "Name": "PLAYER_HARDESTCORE_STILL_HUNGRY",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Flesh Wound",
@@ -7485,7 +7485,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_ITS_HARD",
+            "Name": "PLAYER_HARDESTCORE_ITS_HARD",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Hardmode Hero",
@@ -7499,7 +7499,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_BEGONE_EVIL",
+            "Name": "PLAYER_HARDESTCORE_BEGONE_EVIL",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Smash Hit",
@@ -7513,7 +7513,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_EXTRA_SHINY",
+            "Name": "PLAYER_HARDESTCORE_EXTRA_SHINY",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Ore Die Tryin'",
@@ -7527,7 +7527,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_HEAD_IN_THE_CLOUDS",
+            "Name": "PLAYER_HARDESTCORE_HEAD_IN_THE_CLOUDS",
             "Category": "Collector",
             "Ra": {
                 "Title": "Wingin' It",
@@ -7541,7 +7541,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_BUCKETS_OF_BOLTS",
+            "Name": "PLAYER_HARDESTCORE_BUCKETS_OF_BOLTS",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Metallic Menace",
@@ -7555,7 +7555,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_DRAX_ATTAX",
+            "Name": "PLAYER_HARDESTCORE_DRAX_ATTAX",
             "Category": "Collector",
             "Ra": {
                 "Title": "Drax in the Box",
@@ -7569,7 +7569,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_PHOTOSYNTHESIS",
+            "Name": "PLAYER_HARDESTCORE_PHOTOSYNTHESIS",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Green Machine",
@@ -7583,7 +7583,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_GET_A_LIFE",
+            "Name": "PLAYER_HARDESTCORE_GET_A_LIFE",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Life Goes On",
@@ -7597,7 +7597,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_THE_GREAT_SOUTHERN_PLANTKILL",
+            "Name": "PLAYER_HARDESTCORE_THE_GREAT_SOUTHERN_PLANTKILL",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Jungle Boogie",
@@ -7611,7 +7611,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_TEMPLE_RAIDER",
+            "Name": "PLAYER_HARDESTCORE_TEMPLE_RAIDER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Temple Run",
@@ -7625,7 +7625,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_LIHZAHRDIAN_IDOL",
+            "Name": "PLAYER_HARDESTCORE_LIHZAHRDIAN_IDOL",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Stone Cold Killer",
@@ -7639,7 +7639,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_ROBBING_THE_GRAVE",
+            "Name": "PLAYER_HARDESTCORE_ROBBING_THE_GRAVE",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Loot or Die",
@@ -7653,7 +7653,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_OBSESSIVE_DEVOTION",
+            "Name": "PLAYER_HARDESTCORE_OBSESSIVE_DEVOTION",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Cult Killer",
@@ -7667,7 +7667,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_STAR_DESTROYER",
+            "Name": "PLAYER_HARDESTCORE_STAR_DESTROYER",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Stairway to Heaven",
@@ -7681,7 +7681,7 @@
             }
         },
         {
-            "Name": "HARDESTCORE_CHAMPION_OF_TERRARIA",
+            "Name": "PLAYER_HARDESTCORE_CHAMPION_OF_TERRARIA",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Moonlight Sonata",
@@ -7695,7 +7695,7 @@
             }
         },
         {
-            "Name": "EXPERT_KING_SLIME",
+            "Name": "WORLD_EXPERT_KING_SLIME",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Royal Gel",
@@ -7709,7 +7709,7 @@
             }
         },
         {
-            "Name": "EXPERT_EYE_OF_CTHULHU",
+            "Name": "WORLD_EXPERT_EYE_OF_CTHULHU",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Shield of Cthulhu",
@@ -7723,7 +7723,7 @@
             }
         },
         {
-            "Name": "EXPERT_EATER_OF_WORLDS",
+            "Name": "WORLD_EXPERT_EATER_OF_WORLDS",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Worm Scarf",
@@ -7737,7 +7737,7 @@
             }
         },
         {
-            "Name": "EXPERT_BRAIN_OF_CTHULHU",
+            "Name": "WORLD_EXPERT_BRAIN_OF_CTHULHU",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Brain of Confusion",
@@ -7751,7 +7751,7 @@
             }
         },
         {
-            "Name": "EXPERT_QUEEN_BEE",
+            "Name": "WORLD_EXPERT_QUEEN_BEE",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Hive Pack",
@@ -7765,7 +7765,7 @@
             }
         },
         {
-            "Name": "EXPERT_SKELETRON",
+            "Name": "WORLD_EXPERT_SKELETRON",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Bone Glove",
@@ -7779,7 +7779,7 @@
             }
         },
         {
-            "Name": "EXPERT_DEERCLOPS",
+            "Name": "WORLD_EXPERT_DEERCLOPS",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Bone Helm",
@@ -7793,7 +7793,7 @@
             }
         },
         {
-            "Name": "EXPERT_WALL_OF_FLESH",
+            "Name": "WORLD_EXPERT_WALL_OF_FLESH",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Demon Heart",
@@ -7807,7 +7807,7 @@
             }
         },
         {
-            "Name": "EXPERT_QUEEN_SLIME",
+            "Name": "WORLD_EXPERT_QUEEN_SLIME",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Queen Slime",
@@ -7821,7 +7821,7 @@
             }
         },
         {
-            "Name": "EXPERT_TWINS",
+            "Name": "WORLD_EXPERT_TWINS",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Mechanical Wheel",
@@ -7835,7 +7835,7 @@
             }
         },
         {
-            "Name": "EXPERT_DESTROYER",
+            "Name": "WORLD_EXPERT_DESTROYER",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Mechanical Wagon",
@@ -7849,7 +7849,7 @@
             }
         },
         {
-            "Name": "EXPERT_SKELETRON_PRIME",
+            "Name": "WORLD_EXPERT_SKELETRON_PRIME",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Mechanical Battery",
@@ -7863,7 +7863,7 @@
             }
         },
         {
-            "Name": "EXPERT_PLANTERA",
+            "Name": "WORLD_EXPERT_PLANTERA",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Spore Sac",
@@ -7877,7 +7877,7 @@
             }
         },
         {
-            "Name": "EXPERT_GOLEM",
+            "Name": "WORLD_EXPERT_GOLEM",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Shiny Stone",
@@ -7891,7 +7891,7 @@
             }
         },
         {
-            "Name": "EXPERT_EMPRESS_OF_LIGHT",
+            "Name": "WORLD_EXPERT_EMPRESS_OF_LIGHT",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Shrimpy Truffle",
@@ -7905,7 +7905,7 @@
             }
         },
         {
-            "Name": "EXPERT_DUKE_FISHRON",
+            "Name": "WORLD_EXPERT_DUKE_FISHRON",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Volatile Gelatin",
@@ -7919,7 +7919,7 @@
             }
         },
         {
-            "Name": "EXPERT_MOON_LORD",
+            "Name": "WORLD_EXPERT_MOON_LORD",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Gravity Globe",
@@ -7933,7 +7933,7 @@
             }
         },
         {
-            "Name": "EXPERT_BETSY",
+            "Name": "WORLD_EXPERT_BETSY",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Old One's Treasure",
@@ -7947,7 +7947,7 @@
             }
         },
         {
-            "Name": "EXPERT_SET_AARON",
+            "Name": "WORLD_EXPERT_SET_AARON",
             "Category": "Collector",
             "Ra": {
                 "Title": "Stay Grounded",
@@ -7961,7 +7961,7 @@
             }
         },
         {
-            "Name": "EXPERT_SET_ARKHALIS",
+            "Name": "WORLD_EXPERT_SET_ARKHALIS",
             "Category": "Collector",
             "Ra": {
                 "Title": "Off the Grid",
@@ -7975,7 +7975,7 @@
             }
         },
         {
-            "Name": "EXPERT_SET_CENX",
+            "Name": "WORLD_EXPERT_SET_CENX",
             "Category": "Collector",
             "Ra": {
                 "Title": "Queen of Terraria",
@@ -7989,7 +7989,7 @@
             }
         },
         {
-            "Name": "EXPERT_SET_CENX_DRESS",
+            "Name": "WORLD_EXPERT_SET_CENX_DRESS",
             "Category": "Collector",
             "Ra": {
                 "Title": "Alter Ego",
@@ -8003,7 +8003,7 @@
             }
         },
         {
-            "Name": "EXPERT_SET_CROWNO",
+            "Name": "WORLD_EXPERT_SET_CROWNO",
             "Category": "Collector",
             "Ra": {
                 "Title": "Master of Dark Skies",
@@ -8017,7 +8017,7 @@
             }
         },
         {
-            "Name": "EXPERT_SET_D-TOWN",
+            "Name": "WORLD_EXPERT_SET_D-TOWN",
             "Category": "Collector",
             "Ra": {
                 "Title": "Strictly Business",
@@ -8031,7 +8031,7 @@
             }
         },
         {
-            "Name": "EXPERT_SET_JIM",
+            "Name": "WORLD_EXPERT_SET_JIM",
             "Category": "Collector",
             "Ra": {
                 "Title": "Caped Leggings",
@@ -8045,7 +8045,7 @@
             }
         },
         {
-            "Name": "EXPERT_SET_LAZURE",
+            "Name": "WORLD_EXPERT_SET_LAZURE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Ride the Lightning",
@@ -8059,7 +8059,7 @@
             }
         },
         {
-            "Name": "EXPERT_SET_LEINFOR",
+            "Name": "WORLD_EXPERT_SET_LEINFOR",
             "Category": "Collector",
             "Ra": {
                 "Title": "Bringing Sexy Back",
@@ -8073,7 +8073,7 @@
             }
         },
         {
-            "Name": "EXPERT_SET_LOKI",
+            "Name": "WORLD_EXPERT_SET_LOKI",
             "Category": "Collector",
             "Ra": {
                 "Title": "The Art of War",
@@ -8087,7 +8087,7 @@
             }
         },
         {
-            "Name": "EXPERT_SET_RED",
+            "Name": "WORLD_EXPERT_SET_RED",
             "Category": "Collector",
             "Ra": {
                 "Title": "Dark Knight",
@@ -8101,7 +8101,7 @@
             }
         },
         {
-            "Name": "EXPERT_SET_SKIPHS",
+            "Name": "WORLD_EXPERT_SET_SKIPHS",
             "Category": "Collector",
             "Ra": {
                 "Title": "Polar Plunge",
@@ -8115,7 +8115,7 @@
             }
         },
         {
-            "Name": "EXPERT_SET_WILL",
+            "Name": "WORLD_EXPERT_SET_WILL",
             "Category": "Collector",
             "Ra": {
                 "Title": "Charging In",
@@ -8129,7 +8129,7 @@
             }
         },
         {
-            "Name": "EXPERT_SET_YORAI",
+            "Name": "WORLD_EXPERT_SET_YORAI",
             "Category": "Collector",
             "Ra": {
                 "Title": "Menacing Presence",
@@ -8143,7 +8143,7 @@
             }
         },
         {
-            "Name": "EXPERT_SET_GROX_THE_GREAT",
+            "Name": "WORLD_EXPERT_SET_GROX_THE_GREAT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Angry Pirate",
@@ -8157,7 +8157,7 @@
             }
         },
         {
-            "Name": "EXPERT_SET_FOODBARBARIAN",
+            "Name": "WORLD_EXPERT_SET_FOODBARBARIAN",
             "Category": "Collector",
             "Ra": {
                 "Title": "Safety First",
@@ -8171,7 +8171,7 @@
             }
         },
         {
-            "Name": "EXPERT_SET_SAFEMAN",
+            "Name": "WORLD_EXPERT_SET_SAFEMAN",
             "Category": "Collector",
             "Ra": {
                 "Title": "Bright Idea",
@@ -8185,7 +8185,7 @@
             }
         },
         {
-            "Name": "EXPERT_SET_GHOSTAR",
+            "Name": "WORLD_EXPERT_SET_GHOSTAR",
             "Category": "Collector",
             "Ra": {
                 "Title": "Take the First Step",
@@ -8199,7 +8199,7 @@
             }
         },
         {
-            "Name": "EXPERT_DEMON_HEART",
+            "Name": "WORLD_EXPERT_DEMON_HEART",
             "Category": "Collector",
             "Ra": {
                 "Title": "Fleshy Feast",
@@ -8213,7 +8213,7 @@
             }
         },
         {
-            "Name": "EXPERT_MINECART_UPGRADE_KIT",
+            "Name": "WORLD_EXPERT_MINECART_UPGRADE_KIT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Free Mechanical Cart Included!",
@@ -8227,7 +8227,7 @@
             }
         },
         {
-            "Name": "EXPERT_WITCH_BROOM",
+            "Name": "WORLD_EXPERT_WITCH_BROOM",
             "Category": "Collector",
             "Ra": {
                 "Title": "Witching Spark of Inspiration!",
@@ -8241,7 +8241,7 @@
             }
         },
         {
-            "Name": "MASTER_KING_SLIME",
+            "Name": "WORLD_MASTER_KING_SLIME",
             "Category": "Slayer",
             "Ra": {
                 "Title": "King Slime Relic",
@@ -8255,7 +8255,7 @@
             }
         },
         {
-            "Name": "MASTER_EYE_OF_CTHULHU",
+            "Name": "WORLD_MASTER_EYE_OF_CTHULHU",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Eye of Cthulhu Relic",
@@ -8269,7 +8269,7 @@
             }
         },
         {
-            "Name": "MASTER_EATER_OF_WORLDS",
+            "Name": "WORLD_MASTER_EATER_OF_WORLDS",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Eater of Worlds Relic",
@@ -8283,7 +8283,7 @@
             }
         },
         {
-            "Name": "MASTER_BRAIN_OF_CTHULHU",
+            "Name": "WORLD_MASTER_BRAIN_OF_CTHULHU",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Brain of Cthulhu Relic",
@@ -8297,7 +8297,7 @@
             }
         },
         {
-            "Name": "MASTER_QUEEN_BEE",
+            "Name": "WORLD_MASTER_QUEEN_BEE",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Queen Bee Relic",
@@ -8311,7 +8311,7 @@
             }
         },
         {
-            "Name": "MASTER_SKELETRON",
+            "Name": "WORLD_MASTER_SKELETRON",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Skeletron Relic",
@@ -8325,7 +8325,7 @@
             }
         },
         {
-            "Name": "MASTER_DEERCLOPS",
+            "Name": "WORLD_MASTER_DEERCLOPS",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Deerclops Relic",
@@ -8339,7 +8339,7 @@
             }
         },
         {
-            "Name": "MASTER_WALL_OF_FLESH",
+            "Name": "WORLD_MASTER_WALL_OF_FLESH",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Wall of Flesh Relic",
@@ -8353,7 +8353,7 @@
             }
         },
         {
-            "Name": "MASTER_QUEEN_SLIME",
+            "Name": "WORLD_MASTER_QUEEN_SLIME",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Queen Slime Relic",
@@ -8367,7 +8367,7 @@
             }
         },
         {
-            "Name": "MASTER_TWINS",
+            "Name": "WORLD_MASTER_TWINS",
             "Category": "Slayer",
             "Ra": {
                 "Title": "The Twins Relic",
@@ -8381,7 +8381,7 @@
             }
         },
         {
-            "Name": "MASTER_DESTROYER",
+            "Name": "WORLD_MASTER_DESTROYER",
             "Category": "Slayer",
             "Ra": {
                 "Title": "The Destroyer Relic",
@@ -8395,7 +8395,7 @@
             }
         },
         {
-            "Name": "MASTER_SKELETRON_PRIME",
+            "Name": "WORLD_MASTER_SKELETRON_PRIME",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Skeletron Prime Relic",
@@ -8409,7 +8409,7 @@
             }
         },
         {
-            "Name": "MASTER_PLANTERA",
+            "Name": "WORLD_MASTER_PLANTERA",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Plantera Relic",
@@ -8423,7 +8423,7 @@
             }
         },
         {
-            "Name": "MASTER_GOLEM",
+            "Name": "WORLD_MASTER_GOLEM",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Golem Relic",
@@ -8437,7 +8437,7 @@
             }
         },
         {
-            "Name": "MASTER_EMPRESS_OF_LIGHT",
+            "Name": "WORLD_MASTER_EMPRESS_OF_LIGHT",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Empress of Light Relic",
@@ -8451,7 +8451,7 @@
             }
         },
         {
-            "Name": "MASTER_DUKE_FISHRON",
+            "Name": "WORLD_MASTER_DUKE_FISHRON",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Duke Fishron Relic",
@@ -8465,7 +8465,7 @@
             }
         },
         {
-            "Name": "MASTER_LUNATIC_CULTIST",
+            "Name": "WORLD_MASTER_LUNATIC_CULTIST",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Lunatic Cultist Relic",
@@ -8479,7 +8479,7 @@
             }
         },
         {
-            "Name": "MASTER_MOON_LORD",
+            "Name": "WORLD_MASTER_MOON_LORD",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Moon Lord Relic",
@@ -8493,7 +8493,7 @@
             }
         },
         {
-            "Name": "MASTER_MOURNING_WOOD",
+            "Name": "WORLD_MASTER_MOURNING_WOOD",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Mourning Wood Relic",
@@ -8507,7 +8507,7 @@
             }
         },
         {
-            "Name": "MASTER_PUMPKING",
+            "Name": "WORLD_MASTER_PUMPKING",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Pumpking Relic",
@@ -8521,7 +8521,7 @@
             }
         },
         {
-            "Name": "MASTER_EVERSCREAM",
+            "Name": "WORLD_MASTER_EVERSCREAM",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Everscream Relic",
@@ -8535,7 +8535,7 @@
             }
         },
         {
-            "Name": "MASTER_SANTA-NK1",
+            "Name": "WORLD_MASTER_SANTA-NK1",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Santa-NK1 Relic",
@@ -8549,7 +8549,7 @@
             }
         },
         {
-            "Name": "MASTER_ICE_QUEEN",
+            "Name": "WORLD_MASTER_ICE_QUEEN",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Ice Queen Relic",
@@ -8563,7 +8563,7 @@
             }
         },
         {
-            "Name": "MASTER_DARK_MAGE_T3",
+            "Name": "WORLD_MASTER_DARK_MAGE_T3",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Dark Mage Relic",
@@ -8577,7 +8577,7 @@
             }
         },
         {
-            "Name": "MASTER_OGRE_T3",
+            "Name": "WORLD_MASTER_OGRE_T3",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Ogre Relic",
@@ -8591,7 +8591,7 @@
             }
         },
         {
-            "Name": "MASTER_BETSY",
+            "Name": "WORLD_MASTER_BETSY",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Betsy Relic",
@@ -8605,7 +8605,7 @@
             }
         },
         {
-            "Name": "MASTER_FLYING_DUTCHMAN",
+            "Name": "WORLD_MASTER_FLYING_DUTCHMAN",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Flying Dutchman Relic",
@@ -8619,7 +8619,7 @@
             }
         },
         {
-            "Name": "MASTER_MARTIAN_SAUCER",
+            "Name": "WORLD_MASTER_MARTIAN_SAUCER",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Martian Saucer Relic",
@@ -8633,7 +8633,7 @@
             }
         },
         {
-            "Name": "MASTER_PET_KING_SLIME",
+            "Name": "WORLD_MASTER_PET_KING_SLIME",
             "Category": "Collector",
             "Ra": {
                 "Title": "Royal Delight",
@@ -8647,7 +8647,7 @@
             }
         },
         {
-            "Name": "MASTER_PET_EYE_OF_CTHULHU",
+            "Name": "WORLD_MASTER_PET_EYE_OF_CTHULHU",
             "Category": "Collector",
             "Ra": {
                 "Title": "Suspicious Grinning Eye",
@@ -8661,7 +8661,7 @@
             }
         },
         {
-            "Name": "MASTER_PET_EATER_OF_WORLDS",
+            "Name": "WORLD_MASTER_PET_EATER_OF_WORLDS",
             "Category": "Collector",
             "Ra": {
                 "Title": "Writhing Remains",
@@ -8675,7 +8675,7 @@
             }
         },
         {
-            "Name": "MASTER_PET_BRAIN_OF_CTHULHU",
+            "Name": "WORLD_MASTER_PET_BRAIN_OF_CTHULHU",
             "Category": "Collector",
             "Ra": {
                 "Title": "Brain in a Jar",
@@ -8689,7 +8689,7 @@
             }
         },
         {
-            "Name": "MASTER_PET_QUEEN_BEE",
+            "Name": "WORLD_MASTER_PET_QUEEN_BEE",
             "Category": "Collector",
             "Ra": {
                 "Title": "Sparkling Honey",
@@ -8703,7 +8703,7 @@
             }
         },
         {
-            "Name": "MASTER_PET_SKELETRON",
+            "Name": "WORLD_MASTER_PET_SKELETRON",
             "Category": "Collector",
             "Ra": {
                 "Title": "Possessed Skull",
@@ -8717,7 +8717,7 @@
             }
         },
         {
-            "Name": "MASTER_PET_DEERCLOPS",
+            "Name": "WORLD_MASTER_PET_DEERCLOPS",
             "Category": "Collector",
             "Ra": {
                 "Title": "Deerclops Eyeball",
@@ -8731,7 +8731,7 @@
             }
         },
         {
-            "Name": "MASTER_PET_WALL_OF_FLESH",
+            "Name": "WORLD_MASTER_PET_WALL_OF_FLESH",
             "Category": "Collector",
             "Ra": {
                 "Title": "Goat Skull",
@@ -8745,7 +8745,7 @@
             }
         },
         {
-            "Name": "MASTER_PET_QUEEN_SLIME",
+            "Name": "WORLD_MASTER_PET_QUEEN_SLIME",
             "Category": "Collector",
             "Ra": {
                 "Title": "Regal Delicacy",
@@ -8759,7 +8759,7 @@
             }
         },
         {
-            "Name": "MASTER_PET_TWINS",
+            "Name": "WORLD_MASTER_PET_TWINS",
             "Category": "Collector",
             "Ra": {
                 "Title": "Pair of Eyeballs",
@@ -8773,7 +8773,7 @@
             }
         },
         {
-            "Name": "MASTER_PET_DESTROYER",
+            "Name": "WORLD_MASTER_PET_DESTROYER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Deactivated Probe",
@@ -8787,7 +8787,7 @@
             }
         },
         {
-            "Name": "MASTER_PET_SKELETRON_PRIME",
+            "Name": "WORLD_MASTER_PET_SKELETRON_PRIME",
             "Category": "Collector",
             "Ra": {
                 "Title": "Robotic Skull",
@@ -8801,7 +8801,7 @@
             }
         },
         {
-            "Name": "MASTER_PET_PLANTERA",
+            "Name": "WORLD_MASTER_PET_PLANTERA",
             "Category": "Collector",
             "Ra": {
                 "Title": "Plantera Seedling",
@@ -8815,7 +8815,7 @@
             }
         },
         {
-            "Name": "MASTER_PET_GOLEM",
+            "Name": "WORLD_MASTER_PET_GOLEM",
             "Category": "Collector",
             "Ra": {
                 "Title": "Guardian Golem",
@@ -8829,7 +8829,7 @@
             }
         },
         {
-            "Name": "MASTER_PET_EMPRESS_OF_LIGHT",
+            "Name": "WORLD_MASTER_PET_EMPRESS_OF_LIGHT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Jewel of Light",
@@ -8843,7 +8843,7 @@
             }
         },
         {
-            "Name": "MASTER_PET_DUKE_FISHRON",
+            "Name": "WORLD_MASTER_PET_DUKE_FISHRON",
             "Category": "Collector",
             "Ra": {
                 "Title": "Pork of the Sea",
@@ -8857,7 +8857,7 @@
             }
         },
         {
-            "Name": "MASTER_PET_LUNATIC_CULTIST",
+            "Name": "WORLD_MASTER_PET_LUNATIC_CULTIST",
             "Category": "Collector",
             "Ra": {
                 "Title": "Tablet Fragment",
@@ -8871,7 +8871,7 @@
             }
         },
         {
-            "Name": "MASTER_PET_MOON_LORD",
+            "Name": "WORLD_MASTER_PET_MOON_LORD",
             "Category": "Collector",
             "Ra": {
                 "Title": "Piece of Moon Squid",
@@ -8885,7 +8885,7 @@
             }
         },
         {
-            "Name": "MASTER_PET_MOURNING_WOOD",
+            "Name": "WORLD_MASTER_PET_MOURNING_WOOD",
             "Category": "Collector",
             "Ra": {
                 "Title": "Hexxed Branch",
@@ -8899,7 +8899,7 @@
             }
         },
         {
-            "Name": "MASTER_PET_PUMPKING",
+            "Name": "WORLD_MASTER_PET_PUMPKING",
             "Category": "Collector",
             "Ra": {
                 "Title": "Pumpkin Scented Candle",
@@ -8913,7 +8913,7 @@
             }
         },
         {
-            "Name": "MASTER_PET_EVERSCREAM",
+            "Name": "WORLD_MASTER_PET_EVERSCREAM",
             "Category": "Collector",
             "Ra": {
                 "Title": "Shrub Star",
@@ -8927,7 +8927,7 @@
             }
         },
         {
-            "Name": "MASTER_PET_SANTA-NK1",
+            "Name": "WORLD_MASTER_PET_SANTA-NK1",
             "Category": "Collector",
             "Ra": {
                 "Title": "Toy Tank",
@@ -8941,7 +8941,7 @@
             }
         },
         {
-            "Name": "MASTER_PET_ICE_QUEEN",
+            "Name": "WORLD_MASTER_PET_ICE_QUEEN",
             "Category": "Collector",
             "Ra": {
                 "Title": "Frozen Crown",
@@ -8955,7 +8955,7 @@
             }
         },
         {
-            "Name": "MASTER_PET_DARK_MAGE_T3",
+            "Name": "WORLD_MASTER_PET_DARK_MAGE_T3",
             "Category": "Collector",
             "Ra": {
                 "Title": "Dark Mage's Tome",
@@ -8969,7 +8969,7 @@
             }
         },
         {
-            "Name": "MASTER_PET_OGRE_T3",
+            "Name": "WORLD_MASTER_PET_OGRE_T3",
             "Category": "Collector",
             "Ra": {
                 "Title": "Ogre's Club",
@@ -8983,7 +8983,7 @@
             }
         },
         {
-            "Name": "MASTER_PET_BETSY",
+            "Name": "WORLD_MASTER_PET_BETSY",
             "Category": "Collector",
             "Ra": {
                 "Title": "Betsy's Egg",
@@ -8997,7 +8997,7 @@
             }
         },
         {
-            "Name": "MASTER_PET_FLYING_DUTCHMAN",
+            "Name": "WORLD_MASTER_PET_FLYING_DUTCHMAN",
             "Category": "Collector",
             "Ra": {
                 "Title": "The Black Spot",
@@ -9011,7 +9011,7 @@
             }
         },
         {
-            "Name": "MASTER_PET_MARTIAN_SAUCER",
+            "Name": "WORLD_MASTER_PET_MARTIAN_SAUCER",
             "Category": "Collector",
             "Ra": {
                 "Title": "Cosmic Skateboard",
@@ -9025,7 +9025,7 @@
             }
         },
         {
-            "Name": "MASTER_RESPLENDENT_DESSERT",
+            "Name": "WORLD_MASTER_RESPLENDENT_DESSERT",
             "Category": "Collector",
             "Ra": {
                 "Title": "Dessert Duo",
@@ -9039,7 +9039,7 @@
             }
         },
         {
-            "Name": "LEGENDARY_KING_SLIME",
+            "Name": "WORLD_LEGENDARY_KING_SLIME",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Slimy King Slayer",
@@ -9053,7 +9053,7 @@
             }
         },
         {
-            "Name": "LEGENDARY_EYE_OF_CTHULHU",
+            "Name": "WORLD_LEGENDARY_EYE_OF_CTHULHU",
             "Category": "Slayer",
             "Ra": {
                 "Title": "The One Who Stares Back",
@@ -9067,7 +9067,7 @@
             }
         },
         {
-            "Name": "LEGENDARY_EATER_OF_WORLDS",
+            "Name": "WORLD_LEGENDARY_EATER_OF_WORLDS",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Worm Hole",
@@ -9081,7 +9081,7 @@
             }
         },
         {
-            "Name": "LEGENDARY_BRAIN_OF_CTHULHU",
+            "Name": "WORLD_LEGENDARY_BRAIN_OF_CTHULHU",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Mind Over Matter",
@@ -9095,7 +9095,7 @@
             }
         },
         {
-            "Name": "LEGENDARY_QUEEN_BEE",
+            "Name": "WORLD_LEGENDARY_QUEEN_BEE",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Hive Mind",
@@ -9109,7 +9109,7 @@
             }
         },
         {
-            "Name": "LEGENDARY_SKELETRON",
+            "Name": "WORLD_LEGENDARY_SKELETRON",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Bone to Pick",
@@ -9123,7 +9123,7 @@
             }
         },
         {
-            "Name": "LEGENDARY_DEERCLOPS",
+            "Name": "WORLD_LEGENDARY_DEERCLOPS",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Hunting Season",
@@ -9137,7 +9137,7 @@
             }
         },
         {
-            "Name": "LEGENDARY_WALL_OF_FLESH",
+            "Name": "WORLD_LEGENDARY_WALL_OF_FLESH",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Beyond the Wall",
@@ -9151,7 +9151,7 @@
             }
         },
         {
-            "Name": "LEGENDARY_QUEEN_SLIME",
+            "Name": "WORLD_LEGENDARY_QUEEN_SLIME",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Slimy Queen Slayer",
@@ -9165,7 +9165,7 @@
             }
         },
         {
-            "Name": "LEGENDARY_TWINS",
+            "Name": "WORLD_LEGENDARY_TWINS",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Double Trouble",
@@ -9179,7 +9179,7 @@
             }
         },
         {
-            "Name": "LEGENDARY_DESTROYER",
+            "Name": "WORLD_LEGENDARY_DESTROYER",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Bane of the Mechanical Beast",
@@ -9193,7 +9193,7 @@
             }
         },
         {
-            "Name": "LEGENDARY_SKELETRON_PRIME",
+            "Name": "WORLD_LEGENDARY_SKELETRON_PRIME",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Prime Time",
@@ -9207,7 +9207,7 @@
             }
         },
         {
-            "Name": "LEGENDARY_PLANTERA",
+            "Name": "WORLD_LEGENDARY_PLANTERA",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Flower of Doom",
@@ -9221,7 +9221,7 @@
             }
         },
         {
-            "Name": "LEGENDARY_GOLEM",
+            "Name": "WORLD_LEGENDARY_GOLEM",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Brick Breaker",
@@ -9235,7 +9235,7 @@
             }
         },
         {
-            "Name": "LEGENDARY_EMPRESS_OF_LIGHT",
+            "Name": "WORLD_LEGENDARY_EMPRESS_OF_LIGHT",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Radiance Extinguished",
@@ -9249,7 +9249,7 @@
             }
         },
         {
-            "Name": "LEGENDARY_DUKE_FISHRON",
+            "Name": "WORLD_LEGENDARY_DUKE_FISHRON",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Fish Filet",
@@ -9263,7 +9263,7 @@
             }
         },
         {
-            "Name": "LEGENDARY_LUNATIC_CULTIST",
+            "Name": "WORLD_LEGENDARY_LUNATIC_CULTIST",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Cult of Destruction",
@@ -9277,7 +9277,7 @@
             }
         },
         {
-            "Name": "LEGENDARY_MOON_LORD",
+            "Name": "WORLD_LEGENDARY_MOON_LORD",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Lunar Obliterator",
@@ -9291,7 +9291,7 @@
             }
         },
         {
-            "Name": "LEGENDARY_MOURNING_WOOD",
+            "Name": "WORLD_LEGENDARY_MOURNING_WOOD",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Wood Chipper",
@@ -9305,7 +9305,7 @@
             }
         },
         {
-            "Name": "LEGENDARY_PUMPKING",
+            "Name": "WORLD_LEGENDARY_PUMPKING",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Fall's Final Harvest",
@@ -9319,7 +9319,7 @@
             }
         },
         {
-            "Name": "LEGENDARY_EVERSCREAM",
+            "Name": "WORLD_LEGENDARY_EVERSCREAM",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Silent Night",
@@ -9333,7 +9333,7 @@
             }
         },
         {
-            "Name": "LEGENDARY_SANTA-NK1",
+            "Name": "WORLD_LEGENDARY_SANTA-NK1",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Krampus Has Nothing on You",
@@ -9347,7 +9347,7 @@
             }
         },
         {
-            "Name": "LEGENDARY_ICE_QUEEN",
+            "Name": "WORLD_LEGENDARY_ICE_QUEEN",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Frostbitten Throne",
@@ -9361,7 +9361,7 @@
             }
         },
         {
-            "Name": "LEGENDARY_DARK_MAGE_T3",
+            "Name": "WORLD_LEGENDARY_DARK_MAGE_T3",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Master of the Dark Arts",
@@ -9375,7 +9375,7 @@
             }
         },
         {
-            "Name": "LEGENDARY_OGRE_T3",
+            "Name": "WORLD_LEGENDARY_OGRE_T3",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Ogre Overload",
@@ -9389,7 +9389,7 @@
             }
         },
         {
-            "Name": "LEGENDARY_BETSY",
+            "Name": "WORLD_LEGENDARY_BETSY",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Dungeon Defender",
@@ -9403,7 +9403,7 @@
             }
         },
         {
-            "Name": "LEGENDARY_FLYING_DUTCHMAN",
+            "Name": "WORLD_LEGENDARY_FLYING_DUTCHMAN",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Break the Curse",
@@ -9417,7 +9417,7 @@
             }
         },
         {
-            "Name": "LEGENDARY_MARTIAN_SAUCER",
+            "Name": "WORLD_LEGENDARY_MARTIAN_SAUCER",
             "Category": "Slayer",
             "Ra": {
                 "Title": "To the Junkyard",
@@ -9431,7 +9431,7 @@
             }
         },
         {
-            "Name": "ZENITH_KING_SLIME",
+            "Name": "WORLD_ZENITH_KING_SLIME",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Slime Crown",
@@ -9445,7 +9445,7 @@
             }
         },
         {
-            "Name": "ZENITH_EYE_OF_CTHULHU",
+            "Name": "WORLD_ZENITH_EYE_OF_CTHULHU",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Suspicious Looking Eye",
@@ -9459,7 +9459,7 @@
             }
         },
         {
-            "Name": "ZENITH_EATER_OF_WORLDS",
+            "Name": "WORLD_ZENITH_EATER_OF_WORLDS",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Worm Food",
@@ -9473,7 +9473,7 @@
             }
         },
         {
-            "Name": "ZENITH_BRAIN_OF_CTHULHU",
+            "Name": "WORLD_ZENITH_BRAIN_OF_CTHULHU",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Bloody Spine",
@@ -9487,7 +9487,7 @@
             }
         },
         {
-            "Name": "ZENITH_QUEEN_BEE",
+            "Name": "WORLD_ZENITH_QUEEN_BEE",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Abeemination",
@@ -9501,7 +9501,7 @@
             }
         },
         {
-            "Name": "ZENITH_SKELETRON",
+            "Name": "WORLD_ZENITH_SKELETRON",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Guardian's Grave",
@@ -9515,7 +9515,7 @@
             }
         },
         {
-            "Name": "ZENITH_DEERCLOPS",
+            "Name": "WORLD_ZENITH_DEERCLOPS",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Deer Thing",
@@ -9529,7 +9529,7 @@
             }
         },
         {
-            "Name": "ZENITH_WALL_OF_FLESH",
+            "Name": "WORLD_ZENITH_WALL_OF_FLESH",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Voodoo Magic",
@@ -9543,7 +9543,7 @@
             }
         },
         {
-            "Name": "ZENITH_QUEEN_SLIME",
+            "Name": "WORLD_ZENITH_QUEEN_SLIME",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Crystal Chronicles",
@@ -9557,7 +9557,7 @@
             }
         },
         {
-            "Name": "ZENITH_MECHDUSA",
+            "Name": "WORLD_ZENITH_MECHDUSA",
             "Category": "Slayer",
             "Ra": {
                 "Title": "It's Waffle Time!",
@@ -9571,7 +9571,7 @@
             }
         },
         {
-            "Name": "ZENITH_PLANTERA",
+            "Name": "WORLD_ZENITH_PLANTERA",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Bulb Buster",
@@ -9585,7 +9585,7 @@
             }
         },
         {
-            "Name": "ZENITH_GOLEM",
+            "Name": "WORLD_ZENITH_GOLEM",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Lihzahrd Power Outage",
@@ -9599,7 +9599,7 @@
             }
         },
         {
-            "Name": "ZENITH_EMPRESS_OF_LIGHT",
+            "Name": "WORLD_ZENITH_EMPRESS_OF_LIGHT",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Hallow Knight",
@@ -9613,7 +9613,7 @@
             }
         },
         {
-            "Name": "ZENITH_DUKE_FISHRON",
+            "Name": "WORLD_ZENITH_DUKE_FISHRON",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Truffle Worm",
@@ -9627,7 +9627,7 @@
             }
         },
         {
-            "Name": "ZENITH_LUNATIC_CULTIST",
+            "Name": "WORLD_ZENITH_LUNATIC_CULTIST",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Repeating the Cycle",
@@ -9641,7 +9641,7 @@
             }
         },
         {
-            "Name": "ZENITH_MOON_LORD",
+            "Name": "WORLD_ZENITH_MOON_LORD",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Celestial Sigil",
@@ -9655,7 +9655,7 @@
             }
         },
         {
-            "Name": "ZENITH_MOURNING_WOOD",
+            "Name": "WORLD_ZENITH_MOURNING_WOOD",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Barking up the Wrong Tree",
@@ -9669,7 +9669,7 @@
             }
         },
         {
-            "Name": "ZENITH_PUMPKING",
+            "Name": "WORLD_ZENITH_PUMPKING",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Just a Jack-O\u2019-Lantern",
@@ -9683,7 +9683,7 @@
             }
         },
         {
-            "Name": "ZENITH_EVERSCREAM",
+            "Name": "WORLD_ZENITH_EVERSCREAM",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Fragile Ornaments",
@@ -9697,7 +9697,7 @@
             }
         },
         {
-            "Name": "ZENITH_SANTA-NK1",
+            "Name": "WORLD_ZENITH_SANTA-NK1",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Time for Maintenance",
@@ -9711,7 +9711,7 @@
             }
         },
         {
-            "Name": "ZENITH_ICE_QUEEN",
+            "Name": "WORLD_ZENITH_ICE_QUEEN",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Cold, Dead Hands",
@@ -9725,7 +9725,7 @@
             }
         },
         {
-            "Name": "ZENITH_DARK_MAGE_T3",
+            "Name": "WORLD_ZENITH_DARK_MAGE_T3",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Lost Etherian Magic",
@@ -9739,7 +9739,7 @@
             }
         },
         {
-            "Name": "ZENITH_OGRE_T3",
+            "Name": "WORLD_ZENITH_OGRE_T3",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Get Out Me Swamp",
@@ -9753,7 +9753,7 @@
             }
         },
         {
-            "Name": "ZENITH_BETSY",
+            "Name": "WORLD_ZENITH_BETSY",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Dragon Slayer",
@@ -9767,7 +9767,7 @@
             }
         },
         {
-            "Name": "ZENITH_FLYING_DUTCHMAN",
+            "Name": "WORLD_ZENITH_FLYING_DUTCHMAN",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Cannons Away!",
@@ -9781,7 +9781,7 @@
             }
         },
         {
-            "Name": "ZENITH_MARTIAN_SAUCER",
+            "Name": "WORLD_ZENITH_MARTIAN_SAUCER",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Take Me to Your Leader",
@@ -9795,7 +9795,7 @@
             }
         },
         {
-            "Name": "SEED_MOON_LORD_LEGS",
+            "Name": "WORLD_SEED_MOON_LORD_LEGS",
             "Category": "Collector",
             "Ra": {
                 "Title": "These Might Be Steve\u2019s",
@@ -9809,7 +9809,7 @@
             }
         },
         {
-            "Name": "SEED_RED_POTION_BAD",
+            "Name": "WORLD_SEED_RED_POTION_BAD",
             "Category": "Collector",
             "Ra": {
                 "Title": "You Are Not Worthy",
@@ -9823,7 +9823,7 @@
             }
         },
         {
-            "Name": "SEED_RED_POTION_GOOD",
+            "Name": "WORLD_SEED_RED_POTION_GOOD",
             "Category": "Collector",
             "Ra": {
                 "Title": "You Are Worthy",

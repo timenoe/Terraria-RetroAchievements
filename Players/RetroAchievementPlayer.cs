@@ -45,7 +45,7 @@ namespace RetroAchievements.Players
             {
                 GiveAchievementBuff();
                 MessageTool.ChatLog($"Welcome back, {network.User}!");
-                MessageTool.Log($"You have earned {network.UnlockedAchs.Count}/{RetroAchievements.GetAchievementCount()} achievements for {RetroAchievements.GetGameName()}");
+                MessageTool.Log($"You have earned {network.UnlockedAchs.Count}/{RetroAchievements.GetAchievementCount()} achievements between all {RetroAchievements.GetGameName()} sets");
             }
             else
                 MessageTool.ChatLog($"Login with the /ra chat command to start earning achievements!");

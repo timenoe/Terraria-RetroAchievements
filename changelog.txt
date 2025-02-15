@@ -1,3 +1,8 @@
+v1.0.5
+- Added a chat command to reset a single local achievement
+- Added a warning about crafting within Magic Storage
+- Actually fixed incorrect reporting of unlocked achievement total
+
 v1.0.4
 - Fixed login for passwords with whitespace
 - Allow "A Rare Realm" to unlock on RA when entering a world

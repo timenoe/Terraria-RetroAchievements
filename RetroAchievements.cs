@@ -93,6 +93,17 @@ namespace RetroAchievements
             return 0;
         }
 
+        public static string GetAchievementInternalName(string displayName)
+        {
+            foreach (var achievement in AchievementData.Achievements)
+            {
+                if (achievement.Ra.Title == displayName)
+                    return achievement.Name;
+            }
+
+            return "";
+        }
+
         /// <summary>
         /// Returns the status of Challenge Mode
         /// </summary>

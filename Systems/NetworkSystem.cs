@@ -331,7 +331,7 @@ namespace RetroAchievements.Systems
             foreach (int id in RetroAchievements.GetSets())
             {
                 MessageTool.ModLog($"Starting a game session for {id}...");
-                ApiResponse<StartSessionResponse> api = await NetworkInterface.TryStartSession(_client, _header);
+                ApiResponse<StartSessionResponse> api = await NetworkInterface.TryStartSession(_client, _header, id);
 
                 if (!string.IsNullOrEmpty(api.Failure))
                 {
@@ -349,12 +349,12 @@ namespace RetroAchievements.Systems
                 foreach (int unlockedId in api.Response.GetUnlockedAchIds())
                 {
                     if (!_unlockedAchs.Contains(unlockedId))
-                        _unlockedAchs.AddRange(api.Response.GetUnlockedAchIds());
+                        _unlockedAchs.Add(unlockedId);
                 }
             }
-            
+
             // Display existing unlocks and update mastery status
-            MessageTool.Log($"{User} has earned {UnlockedAchs.Count}/{RetroAchievements.GetAchievementCount()} achievements for {RetroAchievements.GetGameName()}");
+            MessageTool.Log($"{User} has earned {UnlockedAchs.Count}/{RetroAchievements.GetAchievementCount()} achievements between all {RetroAchievements.GetGameName()} sets");
             UpdateMastery(display: false);
 
             // Start pinging and retrying failed unlocks
@@ -386,7 +386,7 @@ namespace RetroAchievements.Systems
             if (!IsLogin)
                 return;
 
-            MessageTool.ModLog($"Sending a game activity ping for {RetroAchievements.GetGameId()}...");
+            MessageTool.ModLog($"Sending a game activity ping for {_header.game}...");
             ApiResponse<BaseResponse> api = await NetworkInterface.TryPing(_client, _header, rp);
 
             if (!string.IsNullOrEmpty(api.Failure))

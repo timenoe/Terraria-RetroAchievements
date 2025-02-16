@@ -1,4 +1,5 @@
-﻿using Terraria;
+﻿using System;
+using Terraria;
 using Terraria.ModLoader;
 using Terraria.Social.Base;
 using RetroAchievements.Tools;
@@ -25,7 +26,8 @@ namespace RetroAchievements.Systems
                 world = $"World: {WorldTool.GetSeedStr()} | {WorldTool.GetSizeStr()} | {WorldTool.GetDifficultyStr()} | {WorldTool.GetEvilStr()} | {WorldTool.GetTimeOfDayStr()}";
                 zone = $"Biomes: {string.Join(", ", PlayerTool.GetCurrentBiomesStr())}";
             }
-            
+
+            Version version = ModContent.GetInstance<RetroAchievements>().Version;
             switch (RichPresenceState.GetCurrentState().GameMode)
             {
                 // Display a random window title
@@ -40,11 +42,11 @@ namespace RetroAchievements.Systems
 
                 case RichPresenceState.GameModeState.PlayingSingle:
                     string single = $"Playing Singleplayer{RetroAchievements.GetChallengeModeStr()} | Progression: {WorldTool.GetProgressionStr()}";
-                    return $"{single} • {player} • {world} • {zone}";
+                    return $"v{version} • {single} • {player} • {world} • {zone}";
 
                 case RichPresenceState.GameModeState.PlayingMulti:
                     string multi = $"Playing Multiplayer{RetroAchievements.GetChallengeModeStr()} | Players: {PlayerTool.GetPlayerCount()} | Progression: {WorldTool.GetProgressionStr()}";
-                    return $"{multi} • {player} • {world} • {zone}";
+                    return $"v{version} • {multi} • {player} • {world} • {zone}";
             }
 
             return "Playing Terraria";

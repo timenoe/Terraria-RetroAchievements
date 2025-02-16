@@ -44,7 +44,7 @@ namespace RetroAchievements.Tools
             }
 
             // Otherwise return the normal numbered seed
-            return WorldGen.currentWorldSeed;
+            return Main.ActiveWorldFileData.Seed.ToString();
         }
 
         /// <summary>

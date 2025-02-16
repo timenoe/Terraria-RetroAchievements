@@ -1,3 +1,6 @@
+v1.0.7
+- Prevent custom seed text from showing in RA Rich Presence
+
 v1.0.6
 - Include version in RA Rich Presence
 

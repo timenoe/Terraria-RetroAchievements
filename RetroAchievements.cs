@@ -93,11 +93,32 @@ namespace RetroAchievements
             return 0;
         }
 
-        public static string GetAchievementInternalName(string displayName)
+        /// <summary>
+        /// Get the internal name of an achievement from its RA ID
+        /// </summary>
+        /// <param name="id">RA achievement ID</param>
+        /// <returns>Internal achievement name</returns>
+        public static string GetAchievementInternalName(int id)
         {
             foreach (var achievement in AchievementData.Achievements)
             {
-                if (achievement.Ra.Title == displayName)
+                if (achievement.Ra.Id == id)
+                    return achievement.Name;
+            }
+
+            return "";
+        }
+
+        /// <summary>
+        /// Get the internal name of an achievement from its RA title
+        /// </summary>
+        /// <param name="title">RA achievement title</param>
+        /// <returns>Internal achievement name</returns>
+        public static string GetAchievementInternalName(string title)
+        {
+            foreach (var achievement in AchievementData.Achievements)
+            {
+                if (achievement.Ra.Title == title)
                     return achievement.Name;
             }
 
@@ -176,7 +197,9 @@ namespace RetroAchievements
             _host = config.Host;
             MessageTool.ModLog($"RetroAchievements host set to {Host}");
 
+#if !DEBUG
             _isHardcore = config.ChallengeMode;
+#endif
             MessageTool.ModLog($"Hardcore is set to {IsHardcore}");
 
             _game = config.Game;

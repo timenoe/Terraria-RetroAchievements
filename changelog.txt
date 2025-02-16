@@ -1,5 +1,8 @@
 v1.0.7
-- Prevent custom seed text from showing in RA Rich Presence
+- Added a chat command to unlock local achievements that are already unlocked on RA
+- Specified Hardcore in the welcome message if applicable
+- Prevented custom seed text from showing in RA Rich Presence
+- Prevented unlocks of Softcore achievements that are already unlocked on RA
 
 v1.0.6
 - Include version in RA Rich Presence

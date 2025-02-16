@@ -1,8 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using Terraria.ModLoader;
 using RetroAchievements.Systems;
 using RetroAchievements.Tools;
-using Terraria;
 
 namespace RetroAchievements.Commands
 {
@@ -25,7 +25,8 @@ namespace RetroAchievements.Commands
             "\nhost - Get the current RA host" +
             "\nlogin <user> <pass> - Login an RA user" +
             "\nlogout <user> <pass> - Logout an RA user" +
-            "\nrp - Get the current RA Rich Presence";
+            "\nrp - Get the current RA Rich Presence" +
+            "\nsync - Unlock local achievements that are already unlocked on RA";
 
         /// <summary>
         /// Event to login a user
@@ -44,6 +45,8 @@ namespace RetroAchievements.Commands
                 MessageTool.DisplayUsage(Usage);
                 return;
             }
+
+            NetworkSystem network = ModContent.GetInstance<NetworkSystem>();
 
             switch (args[0])
             {
@@ -77,7 +80,6 @@ namespace RetroAchievements.Commands
                         return;
                     }
 
-                    NetworkSystem network = ModContent.GetInstance<NetworkSystem>();
                     if (!network.IsLogin)
                     {
                         MessageTool.ChatLog("You are not logged into RA", ChatLogType.Error);
@@ -95,6 +97,25 @@ namespace RetroAchievements.Commands
                     }
 
                     MessageTool.ChatLog($"Current Rich Presence\n{RichPresenceSystem.GetRichPresence().Replace("• ", "\n")}");
+                    break;
+
+                case "sync":
+                    if (args.Length != 1)
+                    {
+                        MessageTool.DisplayUsage(Usage);
+                        return;
+                    }
+
+                    List<int> achs = RetroAchievements.IsHardcore ? network.UnlockedHardcoreAchs : network.UnlockedAchs;
+                    foreach (var id in achs)
+                    {
+                        string internalName = RetroAchievements.GetAchievementInternalName(id);
+                        if (string.IsNullOrEmpty(internalName))
+                            continue;
+
+                        TerrariaAchievementLib.Systems.AchievementSystem.UnlockIndividualAchievement(internalName);
+                    }
+                    
                     break;
 
                 default:

@@ -13,6 +13,7 @@ Login to RetroAchievements using the chat command: `/ra login <user> <pass>`. On
 - `/ra login <user> <pass>` - Login an RA user
 - `/ra logout` - Logout an RA user
 - `/ra rp` - Get the current RA Rich Presence
+- `/ra sync` - Unlock local achievements that are already unlocked on RA
 
 ## Supported Achievement Mods
 - Completionist Achievements

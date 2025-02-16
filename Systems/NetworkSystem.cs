@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Timers;
@@ -72,9 +73,14 @@ namespace RetroAchievements.Systems
         private readonly Timer _retryTimer = new(TimeSpan.FromMinutes(RetryInterval).TotalMilliseconds);
 
         /// <summary>
-        /// True if the game has been mastered
+        /// True if the game has been mastered (all Hardcore achievements)
         /// </summary>
         private bool _isMastered;
+
+        /// <summary>
+        /// True if the game has been mastered (all Softcore achievements)
+        /// </summary>
+        private bool _isCompleted;
 
         /// <summary>
         /// True if a user is logged in
@@ -87,7 +93,17 @@ namespace RetroAchievements.Systems
         private string _cachePath;
 
         /// <summary>
-        /// List of all unlocked hardcore achievements
+        /// List of all unlocked Hardcore achievements
+        /// </summary>
+        private List<int> _unlockedHardcoreAchs = [];
+
+        /// <summary>
+        /// List of all unlocked Softcore achievements
+        /// </summary>
+        private List<int> _unlockedSoftcoreAchs = [];
+
+        /// <summary>
+        /// List of all unlocked achievements (either Hardcore or Softcore)
         /// </summary>
         private List<int> _unlockedAchs = [];
 
@@ -114,9 +130,14 @@ namespace RetroAchievements.Systems
 
 
         /// <summary>
-        /// True if the game has been mastered
+        /// True if the game has been mastered (all Hardcore achievements)
         /// </summary>
         public bool IsMastered => _isMastered;
+
+        /// <summary>
+        /// True if the game has been mastered (all Softcore achievements)
+        /// </summary>
+        private bool IsCompleted => _isCompleted;
 
         /// <summary>
         /// True if the game session has been started
@@ -125,6 +146,16 @@ namespace RetroAchievements.Systems
 
         /// <summary>
         /// List of all unlocked hardcore achievements
+        /// </summary>
+        public List<int> UnlockedHardcoreAchs => _unlockedHardcoreAchs;
+
+        /// <summary>
+        /// List of all unlocked hardcore achievements
+        /// </summary>
+        public List<int> UnlockedSoftcoreAchs => _unlockedSoftcoreAchs;
+
+        /// <summary>
+        /// List of all unlocked achievements (either Hardcore or Softcore)
         /// </summary>
         public List<int> UnlockedAchs => _unlockedAchs;
 
@@ -186,6 +217,21 @@ namespace RetroAchievements.Systems
         }
 
         /// <summary>
+        /// Get a summary of current RA progress
+        /// </summary>
+        /// <returns>Summary of current RA progress</returns>
+        public string GetProgressSummaryStr()
+        {
+            int totalCount = RetroAchievements.GetAchievementCount();
+            string game = RetroAchievements.GetGameName();
+
+            if (RetroAchievements.IsHardcore)
+                return $"You have earned {UnlockedHardcoreAchs.Count}/{totalCount} Hardcore achievements between all {game} sets";
+            else
+                return $"You have earned {UnlockedAchs.Count}/{totalCount} achievements between all {game} sets";
+        }
+
+        /// <summary>
         /// Cache the user credentials to a serialized file
         /// </summary>
         private void CacheCredentials()
@@ -215,12 +261,20 @@ namespace RetroAchievements.Systems
         /// </summary>
         private void UpdateMastery(bool display = false)
         {
-            _isMastered = UnlockedAchs.Count == RetroAchievements.GetAchievementCount();
-            if (IsMastered && display)
+            _isMastered = UnlockedHardcoreAchs.Count == RetroAchievements.GetAchievementCount();
+            _isCompleted = UnlockedAchs.Count == RetroAchievements.GetAchievementCount();
+
+            if (!display)
+                return;
+
+            if (RetroAchievements.IsHardcore)
             {
-                if (RetroAchievements.IsHardcore)
+                if (IsMastered)
                     MessageTool.Log($"{_header.user} has mastered {RetroAchievements.GetGameName()}!");
-                else
+            }
+            else
+            {
+                if (IsCompleted)
                     MessageTool.Log($"{_header.user} has completed {RetroAchievements.GetGameName()}!");
             }
         }
@@ -307,7 +361,8 @@ namespace RetroAchievements.Systems
                 cacheInfo.Delete();
 
             // Reset internal state
-            _unlockedAchs = [];
+            _unlockedHardcoreAchs = [];
+            _unlockedSoftcoreAchs = [];
             UpdateMastery();
             _pingTimer.Stop();
             _retryTimer.Stop();
@@ -326,35 +381,29 @@ namespace RetroAchievements.Systems
         /// <returns>Asynchronous task</returns>
         private async Task StartSession()
         {
-            // Start game session for all associated sets
-            _unlockedAchs = [];
-            foreach (int id in RetroAchievements.GetSets())
+            int gameId = RetroAchievements.GetGameId();
+            MessageTool.ModLog($"Starting a game session for {gameId}...");
+            ApiResponse<StartSessionResponse> api = await NetworkInterface.TryStartSession(_client, _header, gameId);
+
+            if (!string.IsNullOrEmpty(api.Failure))
             {
-                MessageTool.ModLog($"Starting a game session for {id}...");
-                ApiResponse<StartSessionResponse> api = await NetworkInterface.TryStartSession(_client, _header, id);
-
-                if (!string.IsNullOrEmpty(api.Failure))
-                {
-                    MessageTool.ModLog($"Unable to start game session for {id} ({api.Failure})");
-                    continue;
-                }
-
-                if (!api.Response.Success)
-                {
-                    MessageTool.ModLog($"Unable to start game session for {id} ({api.Response.Error})");
-                    continue;
-                }
-
-                // Append existing achievement unlocks
-                foreach (int unlockedId in api.Response.GetUnlockedAchIds())
-                {
-                    if (!_unlockedAchs.Contains(unlockedId))
-                        _unlockedAchs.Add(unlockedId);
-                }
+                MessageTool.ModLog($"Unable to start game session for {gameId} ({api.Failure})");
+                return;
             }
 
+            if (!api.Response.Success)
+            {
+                MessageTool.ModLog($"Unable to start game session for {gameId} ({api.Response.Error})");
+                return;
+            }
+
+            // Get existing achievement unlocks
+            _unlockedHardcoreAchs = api.Response.GetUnlockedAchIds(hardcore: true);
+            _unlockedSoftcoreAchs = api.Response.GetUnlockedAchIds(hardcore: false);
+            _unlockedAchs = _unlockedHardcoreAchs.Union(_unlockedSoftcoreAchs).ToList();
+
             // Display existing unlocks and update mastery status
-            MessageTool.Log($"{User} has earned {UnlockedAchs.Count}/{RetroAchievements.GetAchievementCount()} achievements between all {RetroAchievements.GetGameName()} sets");
+            MessageTool.Log(GetProgressSummaryStr());
             UpdateMastery(display: false);
 
             // Start pinging and retrying failed unlocks
@@ -417,29 +466,43 @@ namespace RetroAchievements.Systems
         private async void NetworkSystem_PingCommand(object sender, EventArgs args) => await Ping(RichPresenceSystem.GetRichPresence());
 
         /// <summary>
+        /// Check if an achievement is already unlocked on RA<br/>
+        /// If Hardcore, don't unlock if it is already unlocked on Hardcore<br/>
+        /// If Softcore, don't unlock if it is already unlocked on Hardcore or Softcore
+        /// </summary>
+        /// <param name="id">Achievement ID</param>
+        /// <returns></returns>
+        private bool IsAchievementAlreadyUnlocked(int id) => RetroAchievements.IsHardcore ? UnlockedHardcoreAchs.Contains(id) : UnlockedAchs.Contains(id);
+
+        /// <summary>
         /// Unlock an achievement for the user
         /// </summary>
         /// <param name="name">Achievement name</param>
         /// <param name="id">Achievement ID</param>
         /// <returns>Asynchronous task</returns>
-        public async Task Unlock(string name, int id, bool retry=false)
+        private async Task Unlock(string name, int id, bool retry=false)
         {
             // Don't try to unlock if not logged in
             if (!IsLogin)
                 return;
 
+            // Don't attempt to unlock achievements that are already unlocked on the RA server
+            if (IsAchievementAlreadyUnlocked(id))
+                return;
+
             // Don't attempt to unlock achievements that are not a Core achievement
             if (!RetroAchievements.IsCoreAchievement(name))
+            {
+                MessageTool.ChatLog($"[a:{name}] is an Unofficial achievement", ChatLogType.Error);
                 return;
+            }
 
-            // Don't unlock achievements with an invalid ID
-            // If this happens, ensure the achievement and its ID are in the JSON file
+            // Don't unlock achievements that are not stored in the JSON file
             if (id == 0)
+            {
+                MessageTool.ChatLog($"[a:{name}] is not registered", ChatLogType.Error);
                 return;
-
-            // Don't attempt to unlock achievements that are already unlocked on the RA server
-            if (UnlockedAchs.Contains(id))
-                return;
+            }
 
             MessageTool.ModLog($"Unlocking achievement {id}...");
             ApiResponse<AwardAchievementResponse> api = await NetworkInterface.TryAwardAchievement(_client, _header, id);
@@ -465,8 +528,13 @@ namespace RetroAchievements.Systems
                 MessageTool.ModLog($"Unable to unlock achievement {id} ({api.Response.Error})");
                 return;
             }
-            
+
+            if (RetroAchievements.IsHardcore)
+                _unlockedHardcoreAchs.Add(id);
+            else
+                _unlockedSoftcoreAchs.Add(id);
             _unlockedAchs.Add(id);
+
             UpdateMastery();
             _failedAchs.Remove(name);
 

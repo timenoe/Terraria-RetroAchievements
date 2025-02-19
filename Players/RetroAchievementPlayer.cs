@@ -79,18 +79,6 @@ namespace RetroAchievements.Players
         public void Create() => _isRaPlayer = true;
 
         /// <summary>
-        /// Check if the player can earn an achievement
-        /// </summary>
-        /// <returns>True if the player can earn an achievement</returns>
-        public bool CanEarnAchievement()
-        {
-            if (Player == null)
-                return false;
-
-            return Player.HasBuff(ModContent.BuffType<HardcoreAchievementBuff>()) || Player.HasBuff(ModContent.BuffType<SoftcoreAchievementBuff>());
-        }
-
-        /// <summary>
         /// Give the achievement buff to the player
         /// </summary>
         public void GiveAchievementBuff()

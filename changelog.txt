@@ -1,3 +1,6 @@
+v1.0.9
+- Allow achievements to be unlocked on RA when entering a world
+
 v1.0.8
 - Fixed potential wiping of progress of custom achievements when earning achievements without this mod enabled
 

@@ -1,3 +1,6 @@
+v1.0.10
+- Allow local achievements to be reset in a special seed world
+
 v1.0.9
 - Allow achievements to be unlocked on RA when entering a world
 

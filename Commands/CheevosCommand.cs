@@ -42,12 +42,6 @@ namespace RetroAchievements.Commands
                         return;
                     }
 
-                    if (Main.specialSeedWorld)
-                    {
-                        MessageTool.ChatLog("Cannot reset local achievements in a special seed world", ChatLogType.Error);
-                        break;
-                    }
-
                     switch (args[1])
                     {
                         case "all":

@@ -46,6 +46,7 @@ namespace RetroAchievements.Players
                 GiveAchievementBuff();
                 MessageTool.ChatLog($"Welcome back, {network.User}!");
                 MessageTool.Log(network.GetProgressSummaryStr());
+                MessageTool.Log(NetworkSystem.GetSubsetSummaryStr());
             }
             else
                 MessageTool.ChatLog($"Login with the /ra chat command to start earning achievements!");

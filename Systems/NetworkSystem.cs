@@ -217,6 +217,37 @@ namespace RetroAchievements.Systems
         }
 
         /// <summary>
+        /// Get a summary of the enabled subsets
+        /// </summary>
+        /// <returns>Summary of the enabled subsets</returns>
+        public static string GetSubsetSummaryStr()
+        {
+            List<string> enabledSubsets = [];
+            foreach (Mod mod in ModLoader.Mods)
+            {
+                switch (mod.Name)
+                {
+                    case "CompletionistAchievements":
+                        enabledSubsets.Add("Completionist");
+                        break;
+
+                    case "PlayerAchievements":
+                        enabledSubsets.Add("Player Difficulties");
+                        break;
+
+                    case "WorldAchievements":
+                        enabledSubsets.Add("World Modes & Seeds");
+                        break;
+                }
+            }
+
+            if (enabledSubsets.Count == 0)
+                return "You have no subsets enabled";
+
+            return $"You have the following subsets enabled: {string.Join(", ", enabledSubsets)}";
+        }
+
+        /// <summary>
         /// Get a summary of current RA progress
         /// </summary>
         /// <returns>Summary of current RA progress</returns>
@@ -404,6 +435,7 @@ namespace RetroAchievements.Systems
 
             // Display existing unlocks and update mastery status
             MessageTool.Log(GetProgressSummaryStr());
+            MessageTool.Log(GetSubsetSummaryStr());
             UpdateMastery(display: false);
 
             // Start pinging and retrying failed unlocks

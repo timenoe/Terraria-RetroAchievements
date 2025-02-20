@@ -1,3 +1,7 @@
+v1.0.12
+- Fixed vanilla achievements for equipping armor, vanity, or wings with right-click
+- Unlock achievements when using Magic Storage
+
 v1.0.11
 - Show enabled subsets when entering a world
 

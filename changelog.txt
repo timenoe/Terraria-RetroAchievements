@@ -1,3 +1,6 @@
+v1.0.13
+- Remove compatability warning about Magic Storage
+
 v1.0.12
 - Fixed vanilla achievements for equipping armor, vanity, or wings with right-click
 - Unlock achievements when using Magic Storage

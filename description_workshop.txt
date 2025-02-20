@@ -36,7 +36,7 @@ Are you up for an extra challenge? Challenge Mode is enabled by default, and enf
 - Census - Town NPC Checklist
 - Item Checklist
 - Lights And Shadows
-- Magic Storage (Compatability Warning: Crafting within a Magic Storage container will not unlock achievements)
+- Magic Storage
 - Munchies - Consumables Checklist
 - Recipe Browser
 - Smarter Cursor

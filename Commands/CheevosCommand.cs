@@ -1,8 +1,7 @@
 ﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using TerrariaAchievementLib.Systems;
-using RetroAchievements.Tools;
+using TerrariaAchievementLib.Tools;
 
 namespace RetroAchievements.Commands
 {
@@ -22,23 +21,42 @@ namespace RetroAchievements.Commands
 
         public override string Usage
             => "/cheevos <command> [arguments]" +
+            "\nmissing <title> - Display missing elements for a tracked achievement" +
             "\nreset all - Reset progress for all local achievements" +
-            "\nreset <achievement_title> - Reset progress for a single local achievement";
+            "\nreset <title> - Reset progress for a single local achievement";
 
         public override void Action(CommandCaller caller, string input, string[] args)
         {
             if (args.Length == 0)
             {
-                MessageTool.DisplayUsage(Usage);
+                LogTool.DisplayUsage(Usage);
                 return;
             }
 
             switch (args[0])
             {
-                case "reset":
+                case "missing":
+                {
                     if (args.Length < 2)
                     {
-                        MessageTool.DisplayUsage(Usage);
+                        LogTool.DisplayUsage(Usage);
+                        return;
+                    }
+
+                    string localizedName = input.Split($"{args[0]} ")[1];
+                    if (AchievementTool.GetMissingElementsLocalized(localizedName, out string result))
+                        LogTool.ChatLog(result);
+                    else
+                        LogTool.ChatLog($"Failed to get missing achievement elements ({result})", ChatLogType.Error);
+
+                    break;
+                }
+
+                case "reset":
+                {
+                    if (args.Length < 2)
+                    {
+                        LogTool.DisplayUsage(Usage);
                         return;
                     }
 
@@ -46,31 +64,24 @@ namespace RetroAchievements.Commands
                     {
                         case "all":
                             Main.Achievements.ClearAll();
-                            MessageTool.ChatLog("Successfully reset progress for all local achievements!", sound: SoundID.AchievementComplete);
+                            LogTool.ChatLog("Successfully reset all local achievement progress!", sound: SoundID.AchievementComplete);
                             break;
-
+                        
                         default:
-                            string displayName = input.Split($"{args[0]} ")[1];
-                            string internalName = RetroAchievements.GetAchievementInternalName(displayName);
-
-                            if (string.IsNullOrEmpty(internalName))
-                            {
-                                MessageTool.ChatLog($"The achievement name \"{displayName}\" is not recognized", ChatLogType.Error);
-                                break;
-                            }
-
-                            if (AchievementSystem.ResetInvidualAchievement(internalName))
-                                MessageTool.ChatLog($"Successfully reset local progress for [a:{internalName}]!", sound: SoundID.AchievementComplete);
+                            string localizedName = input.Split($"{args[0]} ")[1];
+                            if (AchievementTool.ResetAchievementLocalized(localizedName, out string result))
+                                LogTool.ChatLog(result, sound: SoundID.AchievementComplete);
                             else
-                                MessageTool.ChatLog($"Failed to reset local progress for [a:{internalName}]", ChatLogType.Error);
-                            
+                                LogTool.ChatLog($"Failed to reset local achievement progress ({result})", ChatLogType.Error);
+
                             break;
                     }
 
                     break;
+                }
 
                 default:
-                    MessageTool.DisplayUsage(Usage);
+                    LogTool.DisplayUsage(Usage);
                     break;
             }
         }

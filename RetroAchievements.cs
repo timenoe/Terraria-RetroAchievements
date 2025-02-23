@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text.Json;
 using Terraria;
 using Terraria.ModLoader;
+using TerrariaAchievementLib.Tools;
 using RetroAchievements.Achievements;
 using RetroAchievements.Configs;
-using RetroAchievements.Tools;
 
 namespace RetroAchievements
 {
@@ -14,7 +14,10 @@ namespace RetroAchievements
     /// Game to load achievement data for<br>
     /// Player chooses which game to load in the settings config
     /// </summary>
-    public enum AchievementGame { Terraria };
+    public enum AchievementGame
+    {
+        Terraria
+    };
 
     /// <summary>
     /// Main class for the mod
@@ -74,6 +77,9 @@ namespace RetroAchievements
 #if DEBUG
             _internalMods.Add("CheatSheet");
 #endif
+            LogTool.SetDefaults(this);
+            LogTool.SetCustomChatHeader("[c/327DFF:Retro][c/FFF014:Achievements][c/FFFFFF::] ");
+            
             LoadConfigs();
         }
 
@@ -110,22 +116,6 @@ namespace RetroAchievements
         }
 
         /// <summary>
-        /// Get the internal name of an achievement from its RA title
-        /// </summary>
-        /// <param name="title">RA achievement title</param>
-        /// <returns>Internal achievement name</returns>
-        public static string GetAchievementInternalName(string title)
-        {
-            foreach (var achievement in AchievementData.Achievements)
-            {
-                if (achievement.Ra.Title == title)
-                    return achievement.Name;
-            }
-
-            return "";
-        }
-
-        /// <summary>
         /// Returns the status of Challenge Mode
         /// </summary>
         /// <returns>Challenge Mode: Enabled/Disabled</returns>
@@ -142,28 +132,6 @@ namespace RetroAchievements
         /// </summary>
         /// <returns>RA game name of the current game</returns>
         public static string GetGameName() => AchievementData.Game.Ra.Name;
-
-        /// <summary>
-        /// Get the IDs of the sets associated with this game
-        /// </summary>
-        /// <returns>IDs of the sets associated with this game</returns>
-        public static int[] GetSets() => AchievementData.Game.Ra.Sets;
-
-        /// <summary>
-        /// Returns true if an achievement is in core on the RA server
-        /// </summary>
-        /// <param name="name">Internal name of the achievement (BENCHED, etc.)</param>
-        /// <returns>True if the achievement is in core on the RA server</returns>
-        public static bool IsCoreAchievement(string name)
-        {
-            foreach (var achievement in AchievementData.Achievements)
-            {
-                if (achievement.Name == name)
-                    return achievement.Ra.Category == 3;
-            }
-
-            return false;
-        }
 
         /// <summary>
         /// Returns true if a specific mod is allowed for the current game
@@ -191,16 +159,16 @@ namespace RetroAchievements
         /// </summary>
         private static void LoadConfigs()
         {
-            MessageTool.ModLog($"Loading data from the settings config...");
+            LogTool.ModLog($"Loading data from the settings config...");
             SettingsConfig config = ModContent.GetInstance<SettingsConfig>();
 
             _host = config.Host;
-            MessageTool.ModLog($"RetroAchievements host set to {Host}");
+            LogTool.ModLog($"RetroAchievements host set to {Host}");
 
 #if !DEBUG
             _isHardcore = config.ChallengeMode;
 #endif
-            MessageTool.ModLog($"Hardcore is set to {IsHardcore}");
+            LogTool.ModLog($"Hardcore is set to {IsHardcore}");
 
             _game = config.Game;
             switch (Game)
@@ -208,7 +176,7 @@ namespace RetroAchievements
                 case AchievementGame.Terraria:
                     byte[] bytes = ModContent.GetFileBytes(GetAchievementDataPath(Game));
                     _achievementData = JsonSerializer.Deserialize<TerrariaAchievementData>(bytes);
-                    MessageTool.ModLog($"Loaded achievement data for {Game}");
+                    LogTool.ModLog($"Loaded achievement data for {Game}");
                     break;
             }
         }

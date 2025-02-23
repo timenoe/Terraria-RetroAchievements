@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using Terraria.ModLoader;
+using TerrariaAchievementLib.Tools;
 using RetroAchievements.Systems;
-using RetroAchievements.Tools;
 
 namespace RetroAchievements.Commands
 {
@@ -42,7 +42,7 @@ namespace RetroAchievements.Commands
         {
             if (args.Length == 0)
             {
-                MessageTool.DisplayUsage(Usage);
+                LogTool.DisplayUsage(Usage);
                 return;
             }
 
@@ -53,17 +53,17 @@ namespace RetroAchievements.Commands
                 case "host":
                     if (args.Length != 1)
                     {
-                        MessageTool.DisplayUsage(Usage);
+                        LogTool.DisplayUsage(Usage);
                         return;
                     }
 
-                    MessageTool.ChatLog($"The current RA host is {RetroAchievements.Host}");
+                    LogTool.ChatLog($"The current RA host is {RetroAchievements.Host}");
                     break;
 
                 case "login":
                     if (args.Length < 3)
                     {
-                        MessageTool.DisplayUsage(Usage);
+                        LogTool.DisplayUsage(Usage);
                         return;
                     }
 
@@ -76,13 +76,13 @@ namespace RetroAchievements.Commands
                 case "logout":
                     if (args.Length != 1)
                     {
-                        MessageTool.DisplayUsage(Usage);
+                        LogTool.DisplayUsage(Usage);
                         return;
                     }
 
                     if (!network.IsLogin)
                     {
-                        MessageTool.ChatLog("You are not logged into RA", ChatLogType.Error);
+                        LogTool.ChatLog("You are not logged into RA", ChatLogType.Error);
                         return;
                     }
 
@@ -92,17 +92,17 @@ namespace RetroAchievements.Commands
                 case "rp":
                     if (args.Length != 1)
                     {
-                        MessageTool.DisplayUsage(Usage);
+                        LogTool.DisplayUsage(Usage);
                         return;
                     }
 
-                    MessageTool.ChatLog($"Current Rich Presence\n{RichPresenceSystem.GetRichPresence().Replace("• ", "\n")}");
+                    LogTool.ChatLog($"Current Rich Presence\n{RichPresenceSystem.GetRichPresence().Replace("• ", "\n")}");
                     break;
 
                 case "sync":
                     if (args.Length != 1)
                     {
-                        MessageTool.DisplayUsage(Usage);
+                        LogTool.DisplayUsage(Usage);
                         return;
                     }
 
@@ -113,13 +113,13 @@ namespace RetroAchievements.Commands
                         if (string.IsNullOrEmpty(internalName))
                             continue;
 
-                        TerrariaAchievementLib.Systems.AchievementSystem.UnlockIndividualAchievement(internalName);
+                        AchievementTool.UnlockAchievementInternal(internalName, out _);
                     }
                     
                     break;
 
                 default:
-                    MessageTool.DisplayUsage(Usage);
+                    LogTool.DisplayUsage(Usage);
                     break;
             }
         }

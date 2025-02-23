@@ -5,8 +5,9 @@ Login to RetroAchievements using the chat command: `/ra login <user> <pass>`. On
 **If applicable, reset all previously earned local in-game achievements at the start of a new playthrough using the chat command: `/cheevos reset all`.**
 
 ## New Chat Commands
+- `/cheevos missing <title>` - Display missing elements for a tracked achievement
 - `/cheevos reset all` - Reset progress for all local achievements
-- `/cheevos reset <achievement_title>` - Reset progress for a single local achievement
+- `/cheevos reset <title>` - Reset progress for a single local achievement
 - `/ra host` - Get the current RA host
 - `/ra login <user> <pass>` - Login an RA user
 - `/ra logout` - Logout an RA user

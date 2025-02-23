@@ -1,3 +1,6 @@
+v1.0.14
+- Added a chat command to display missing elements for tracked achievements
+
 v1.0.13
 - Remove compatability warning about Magic Storage
 

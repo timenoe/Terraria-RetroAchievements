@@ -1,6 +1,7 @@
 using Terraria;
 using Terraria.ModLoader;
 using Terraria.ModLoader.IO;
+using TerrariaAchievementLib.Tools;
 using RetroAchievements.Buffs;
 using RetroAchievements.Systems;
 using RetroAchievements.Tools;
@@ -44,12 +45,12 @@ namespace RetroAchievements.Players
             if (network.IsLogin)
             {
                 GiveAchievementBuff();
-                MessageTool.ChatLog($"Welcome back, {network.User}!");
-                MessageTool.Log(network.GetProgressSummaryStr());
-                MessageTool.Log(NetworkSystem.GetSubsetSummaryStr());
+                LogTool.ChatLog($"Welcome back, {network.User}!");
+                LogTool.Log(network.GetProgressSummaryStr());
+                LogTool.Log(NetworkSystem.GetSubsetSummaryStr());
             }
             else
-                MessageTool.ChatLog($"Login with the /ra chat command to start earning achievements!");
+                LogTool.ChatLog($"Login with the /ra chat command to start earning achievements!");
         }
 
         public override void OnRespawn()

@@ -21,6 +21,8 @@ namespace RetroAchievements.Systems
 
         protected override void RegisterAchievements()
         {
+            ProgressSystem.EnableVanilla();
+            
             ConditionReqs reqs = new(PlayerDiff.Classic, WorldDiff.Classic, SpecialSeed.None);
 
             RegisterAchievement("SCOTTS_HAT", ItemGrabCondition.Grab(reqs, ModContent.ItemType<ScottHat>()), AchievementCategory.Collector);

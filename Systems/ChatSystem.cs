@@ -1,6 +1,6 @@
-﻿using RetroAchievements.Tools;
-using Terraria;
+﻿using Terraria;
 using Terraria.ModLoader;
+using TerrariaAchievementLib.Tools;
 
 namespace RetroAchievements.Systems
 {
@@ -45,7 +45,7 @@ namespace RetroAchievements.Systems
                     {
                         string user = userPass[0];
                         string pass = userPass[1];
-                        MessageTool.ModLog(pass);
+                        LogTool.ModLog(pass);
                         if (!string.IsNullOrEmpty(pass))
                         {
                             string hiddenPass = new('*', pass.Length);

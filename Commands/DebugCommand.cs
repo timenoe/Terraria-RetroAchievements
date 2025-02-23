@@ -1,6 +1,5 @@
 ﻿using Terraria.ModLoader;
-using TerrariaAchievementLib.Systems;
-using RetroAchievements.Tools;
+using TerrariaAchievementLib.Tools;
 
 namespace RetroAchievements.Commands
 {
@@ -20,7 +19,7 @@ namespace RetroAchievements.Commands
 
         public override string Usage
             => "/rad <command> [arguments]" +
-            "\nunlock <achievement_title> - Unlock a single local achievement";
+            "\nunlock <title> - Unlock a local achievement";
 
         public override void Action(CommandCaller caller, string input, string[] args)
         {
@@ -30,7 +29,7 @@ namespace RetroAchievements.Commands
 #endif
             if (args.Length == 0)
             {
-                MessageTool.DisplayUsage(Usage);
+                LogTool.DisplayUsage(Usage);
                 return;
             }
 
@@ -39,7 +38,7 @@ namespace RetroAchievements.Commands
                 case "unlock":
                     if (args.Length < 2)
                     {
-                        MessageTool.DisplayUsage(Usage);
+                        LogTool.DisplayUsage(Usage);
                         return;
                     }
 
@@ -47,21 +46,13 @@ namespace RetroAchievements.Commands
                     {
                         // TODO: Add option to unlock all achievements
                         case "all":
-                            MessageTool.DisplayUsage(Usage);
+                            LogTool.DisplayUsage(Usage);
                             break;
 
                         default:
-                            string displayName = input.Split($"{args[0]} ")[1];
-                            string internalName = RetroAchievements.GetAchievementInternalName(displayName);
-
-                            if (string.IsNullOrEmpty(internalName))
-                            {
-                                MessageTool.ChatLog($"The achievement name \"{displayName}\" is not recognized", ChatLogType.Error);
-                                break;
-                            }
-
-                            if (!AchievementSystem.UnlockIndividualAchievement(internalName))
-                                MessageTool.ChatLog($"Failed to unlock [a:{internalName}]", ChatLogType.Error);
+                            string localizedName = input.Split($"{args[0]} ")[1];
+                            if (!AchievementTool.UnlockAchievementLocalized(localizedName, out string result))
+                                LogTool.ChatLog($"Failed to unlock local achievement ({result})", ChatLogType.Error);
 
                             break;
                     }
@@ -69,7 +60,7 @@ namespace RetroAchievements.Commands
                     break;
 
                 default:
-                    MessageTool.DisplayUsage(Usage);
+                    LogTool.DisplayUsage(Usage);
                     break;
             }
         }

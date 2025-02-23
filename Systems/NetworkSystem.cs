@@ -83,29 +83,14 @@ namespace RetroAchievements.Systems
         private bool _isBeaten;
 
         /// <summary>
-        /// True if the beat message has been displayed
-        /// </summary>
-        private bool _beatDisplayed;
-
-        /// <summary>
         /// True if the game has been mastered (all Hardcore achievements)
         /// </summary>
         private bool _isMastered;
 
         /// <summary>
-        /// True if the mastery message has been displayed
-        /// </summary>
-        private bool _masteredDisplayed;
-
-        /// <summary>
         /// True if the game has been mastered (all Softcore achievements)
         /// </summary>
         private bool _isCompleted;
-
-        /// <summary>
-        /// True if the completed message has been displayed
-        /// </summary>
-        private bool _completedDisplayed;
 
         /// <summary>
         /// Path to the serialized file with cached credentials
@@ -322,40 +307,27 @@ namespace RetroAchievements.Systems
         /// Mastery occurs when all available achievements have been unlocked on Hardcore<br/>
         /// Completed occurs when all available achievements have been unlocked on Softcore<br/>
         /// </summary>
-        private void UpdateProgress(bool display = true)
+        private void UpdateProgress(bool display = true, bool isProgression = false)
         {
             _isBeaten = RetroAchievements.ProgressionAchievements.All(UnlockedAchs.Contains);
             _isMastered = UnlockedHardcoreAchs.Count == RetroAchievements.GetAchievementCount();
             _isCompleted = UnlockedAchs.Count == RetroAchievements.GetAchievementCount();
 
-            LogTool.ModLog($"Unlocked achs: {string.Join(",", UnlockedAchs)}");
-            LogTool.ModLog($"Progression achs: {string.Join(",", RetroAchievements.ProgressionAchievements)}");
-            LogTool.ModLog($"Is beaten: {IsBeaten}");
-
             if (!display)
                 return;
 
-            if (IsBeaten && !_beatDisplayed)
-            {
+            if (isProgression && IsBeaten)
                 LogTool.Log($"{_header.user} has beaten {RetroAchievements.GetGameName()}!");
-                _beatDisplayed = true;
-            }
 
             if (RetroAchievements.IsHardcore)
             {
-                if (IsMastered && !_masteredDisplayed)
-                {
+                if (IsMastered)
                     LogTool.Log($"{_header.user} has mastered {RetroAchievements.GetGameName()}!");
-                    _masteredDisplayed = true;
-                }
             }
             else
             {
-                if (IsCompleted && !_completedDisplayed)
-                {
+                if (IsCompleted)
                     LogTool.Log($"{_header.user} has completed {RetroAchievements.GetGameName()}!");
-                    _completedDisplayed = true;
-                }
             }
         }
 
@@ -443,7 +415,7 @@ namespace RetroAchievements.Systems
             // Reset internal state
             _unlockedHardcoreAchs = [];
             _unlockedSoftcoreAchs = [];
-            UpdateProgress();
+            UpdateProgress(display: false);
             _pingTimer.Stop();
             _retryTimer.Stop();
             _isLoggedIn = false;
@@ -609,7 +581,7 @@ namespace RetroAchievements.Systems
                 _unlockedSoftcoreAchs.Add(id);
             _unlockedAchs.Add(id);
 
-            UpdateProgress();
+            UpdateProgress(isProgression: RetroAchievements.ProgressionAchievements.Contains(id));
             _failedAchs.Remove(name);
 
             LogTool.ChatLog($"{User} has unlocked [a:{name}]!");

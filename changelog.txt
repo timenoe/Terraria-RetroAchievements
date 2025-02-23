@@ -1,3 +1,6 @@
+v1.0.15
+- Prevent duplicate progress notifications with other mods
+
 v1.0.14
 - Added a chat command to display missing elements for tracked achievements
 

@@ -73,9 +73,29 @@ namespace RetroAchievements.Systems
         private readonly Timer _retryTimer = new(TimeSpan.FromMinutes(RetryInterval).TotalMilliseconds);
 
         /// <summary>
+        /// True if a user is logged in
+        /// </summary>
+        private bool _isLoggedIn;
+
+        /// <summary>
+        /// True if the game has been beat (all progression achievements)
+        /// </summary>
+        private bool _isBeaten;
+
+        /// <summary>
+        /// True if the beat message has been displayed
+        /// </summary>
+        private bool _beatDisplayed;
+
+        /// <summary>
         /// True if the game has been mastered (all Hardcore achievements)
         /// </summary>
         private bool _isMastered;
+
+        /// <summary>
+        /// True if the mastery message has been displayed
+        /// </summary>
+        private bool _masteredDisplayed;
 
         /// <summary>
         /// True if the game has been mastered (all Softcore achievements)
@@ -83,9 +103,9 @@ namespace RetroAchievements.Systems
         private bool _isCompleted;
 
         /// <summary>
-        /// True if a user is logged in
+        /// True if the completed message has been displayed
         /// </summary>
-        private bool _isLogin;
+        private bool _completedDisplayed;
 
         /// <summary>
         /// Path to the serialized file with cached credentials
@@ -130,6 +150,16 @@ namespace RetroAchievements.Systems
 
 
         /// <summary>
+        /// True if the game session has been started
+        /// </summary>
+        public bool IsLoggedIn => _isLoggedIn;
+
+        /// <summary>
+        /// True if the game has been beat (all progression achievements)
+        /// </summary>
+        public bool IsBeaten => _isBeaten;
+
+        /// <summary>
         /// True if the game has been mastered (all Hardcore achievements)
         /// </summary>
         public bool IsMastered => _isMastered;
@@ -138,11 +168,6 @@ namespace RetroAchievements.Systems
         /// True if the game has been mastered (all Softcore achievements)
         /// </summary>
         private bool IsCompleted => _isCompleted;
-
-        /// <summary>
-        /// True if the game session has been started
-        /// </summary>
-        public bool IsLogin => _isLogin;
 
         /// <summary>
         /// List of all unlocked hardcore achievements
@@ -225,6 +250,7 @@ namespace RetroAchievements.Systems
             List<string> enabledSubsets = [];
             foreach (Mod mod in ModLoader.Mods)
             {
+                // Get RA subset name when applicable
                 switch (mod.Name)
                 {
                     case "CompletionistAchievements":
@@ -237,6 +263,10 @@ namespace RetroAchievements.Systems
 
                     case "WorldAchievements":
                         enabledSubsets.Add("World Modes & Seeds");
+                        break;
+
+                    default:
+                        enabledSubsets.Add(mod.Name);
                         break;
                 }
             }
@@ -287,26 +317,45 @@ namespace RetroAchievements.Systems
         }
         
         /// <summary>
-        /// Update mastery status<br/>
-        /// Mastery occurs when all available achievements have been unlocked
+        /// Update progress status (beat, mastery, and completed)<br/>
+        /// Beat occurs when all progression achievements have been unlocked<br/>
+        /// Mastery occurs when all available achievements have been unlocked on Hardcore<br/>
+        /// Completed occurs when all available achievements have been unlocked on Softcore<br/>
         /// </summary>
-        private void UpdateMastery(bool display = false)
+        private void UpdateProgress(bool display = true)
         {
+            _isBeaten = RetroAchievements.ProgressionAchievements.All(UnlockedAchs.Contains);
             _isMastered = UnlockedHardcoreAchs.Count == RetroAchievements.GetAchievementCount();
             _isCompleted = UnlockedAchs.Count == RetroAchievements.GetAchievementCount();
+
+            LogTool.ModLog($"Unlocked achs: {string.Join(",", UnlockedAchs)}");
+            LogTool.ModLog($"Progression achs: {string.Join(",", RetroAchievements.ProgressionAchievements)}");
+            LogTool.ModLog($"Is beaten: {IsBeaten}");
 
             if (!display)
                 return;
 
+            if (IsBeaten && !_beatDisplayed)
+            {
+                LogTool.Log($"{_header.user} has beaten {RetroAchievements.GetGameName()}!");
+                _beatDisplayed = true;
+            }
+
             if (RetroAchievements.IsHardcore)
             {
-                if (IsMastered)
+                if (IsMastered && !_masteredDisplayed)
+                {
                     LogTool.Log($"{_header.user} has mastered {RetroAchievements.GetGameName()}!");
+                    _masteredDisplayed = true;
+                }
             }
             else
             {
-                if (IsCompleted)
+                if (IsCompleted && !_completedDisplayed)
+                {
                     LogTool.Log($"{_header.user} has completed {RetroAchievements.GetGameName()}!");
+                    _completedDisplayed = true;
+                }
             }
         }
 
@@ -394,10 +443,10 @@ namespace RetroAchievements.Systems
             // Reset internal state
             _unlockedHardcoreAchs = [];
             _unlockedSoftcoreAchs = [];
-            UpdateMastery();
+            UpdateProgress();
             _pingTimer.Stop();
             _retryTimer.Stop();
-            _isLogin = false;
+            _isLoggedIn = false;
 
             // Take the achievement buff from the player if in-game
             if (!Main.gameMenu)
@@ -436,10 +485,10 @@ namespace RetroAchievements.Systems
             // Display existing unlocks and update mastery status
             LogTool.Log(GetProgressSummaryStr());
             LogTool.Log(GetSubsetSummaryStr());
-            UpdateMastery(display: false);
+            UpdateProgress(display: false);
 
             // Start pinging and retrying failed unlocks
-            _isLogin = true;
+            _isLoggedIn = true;
             PingCommand.Invoke(this, null);
             _pingTimer.Start();
             _retryTimer.Start();
@@ -464,7 +513,7 @@ namespace RetroAchievements.Systems
         private async Task Ping(string rp)
         {
             // Don't try to ping if not logged in
-            if (!IsLogin)
+            if (!IsLoggedIn)
                 return;
 
             LogTool.ModLog($"Sending a game activity ping for {_header.game}...");
@@ -515,7 +564,7 @@ namespace RetroAchievements.Systems
         private async Task Unlock(string name, int id, bool retry=false)
         {
             // Don't try to unlock if not logged in
-            if (!IsLogin)
+            if (!IsLoggedIn)
                 return;
 
             // Don't attempt to unlock achievements that are already unlocked on the RA server
@@ -560,7 +609,7 @@ namespace RetroAchievements.Systems
                 _unlockedSoftcoreAchs.Add(id);
             _unlockedAchs.Add(id);
 
-            UpdateMastery();
+            UpdateProgress();
             _failedAchs.Remove(name);
 
             LogTool.ChatLog($"{User} has unlocked [a:{name}]!");

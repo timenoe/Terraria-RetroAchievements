@@ -42,7 +42,7 @@ namespace RetroAchievements.Players
                 _isRaMultiPlayer = true;
 
             NetworkSystem network = ModContent.GetInstance<NetworkSystem>();
-            if (network.IsLogin)
+            if (network.IsLoggedIn)
             {
                 GiveAchievementBuff();
                 LogTool.ChatLog($"Welcome back, {network.User}!");
@@ -56,7 +56,7 @@ namespace RetroAchievements.Players
         public override void OnRespawn()
         {
             NetworkSystem network = ModContent.GetInstance<NetworkSystem>();
-            if (network.IsLogin)
+            if (network.IsLoggedIn)
                 GiveAchievementBuff();
         }
 

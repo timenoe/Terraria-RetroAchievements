@@ -80,7 +80,7 @@ namespace RetroAchievements.Commands
                         return;
                     }
 
-                    if (!network.IsLogin)
+                    if (!network.IsLoggedIn)
                     {
                         LogTool.ChatLog("You are not logged into RA", ChatLogType.Error);
                         return;

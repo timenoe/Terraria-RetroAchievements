@@ -49,12 +49,25 @@ namespace RetroAchievements.Commands
                             LogTool.DisplayUsage(Usage);
                             break;
 
+                        case "progression":
+                        {
+                            string[] progressionAchNames = ["Boned", "Still Hungry", "Buckets of Bolts", "The Great Southern Plantkill", "Lihzahrdian Idol", "Obsessive Devotion", "Star Destroyer", "Champion of Terraria"];
+                            foreach (string progressionAchName in progressionAchNames)
+                            {
+                                if (!AchievementTool.UnlockAchievementLocalized(progressionAchName, out string result))
+                                    LogTool.ChatLog($"Failed to unlock local achievement ({result})", ChatLogType.Error);
+                            }
+                            break;
+                        }
+
                         default:
+                        {
                             string localizedName = input.Split($"{args[0]} ")[1];
                             if (!AchievementTool.UnlockAchievementLocalized(localizedName, out string result))
                                 LogTool.ChatLog($"Failed to unlock local achievement ({result})", ChatLogType.Error);
 
                             break;
+                        }
                     }
 
                     break;

@@ -24,8 +24,23 @@ namespace RetroAchievements
     /// </summary>
     public class RetroAchievements : Mod
     {
+        /// <summary>
+        /// Achievement types required to beat the game on RA
+        /// </summary>
+        private static readonly string[] progressionTypes = ["progression", "win_condition"];
+
+        /// <summary>
+        /// Mods that always exist internally
+        /// </summary>
         private static readonly List<string> _internalMods = ["ModLoader", "RetroAchievements"];
-        
+
+        /// <summary>
+        /// Game that RA achievements are enabled for<br/>
+        /// Achievements can only be enabled for one game at a time<br/>
+        /// Subsets do not count as different games
+        /// </summary>
+        private static AchievementGame _game;
+
         /// <summary>
         /// True if RA Hardcore Mode is enabled<br/>
         /// Hardcore is disabled if multiplayer is enabled in the settings config
@@ -39,16 +54,19 @@ namespace RetroAchievements
         private static string _host = "retroachievements.org";
 
         /// <summary>
-        /// Game that RA achievements are enabled for<br/>
-        /// Achievements can only be enabled for one game at a time<br/>
-        /// Subsets do not count as different games
+        /// All achievement IDs required to beat the game on RA
         /// </summary>
-        private static AchievementGame _game;
+        private static List<int> _progressionAchievements = [];
 
         /// <summary>
         /// Achievement data that is deserialized from a JSON file
         /// </summary>
         private static TerrariaAchievementData _achievementData;
+
+        /// <summary>
+        /// Game that RA achievements are enabled for
+        /// </summary>
+        public static AchievementGame Game => _game;
 
         /// <summary>
         /// True if RA Hardcore Mode is enabled
@@ -61,9 +79,9 @@ namespace RetroAchievements
         public static string Host => _host;
 
         /// <summary>
-        /// Game that RA achievements are enabled for
+        /// All achievement IDs required to beat the game on RA
         /// </summary>
-        public static AchievementGame Game => _game;
+        public static List<int> ProgressionAchievements => _progressionAchievements;
 
         /// <summary>
         /// Achievement data that is deserialized from a JSON file
@@ -81,6 +99,13 @@ namespace RetroAchievements
             LogTool.SetCustomChatHeader("[c/327DFF:Retro][c/FFF014:Achievements][c/FFFFFF::] ");
             
             LoadConfigs();
+
+            // Populate the progression achievements
+            foreach (var achievement in AchievementData.Achievements)
+            {
+                if (progressionTypes.Contains(achievement.Ra.Type))
+                    _progressionAchievements.Add(achievement.Ra.Id);
+            }
         }
 
         /// <summary>

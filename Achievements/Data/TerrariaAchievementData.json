@@ -15,7 +15,7 @@
                 "Title": "Timber!!",
                 "Description": "Chop down your first tree.",
                 "Points": 1,
-                "Type": "progression",
+                "Type": "",
                 "Category": 3,
                 "Id": 495769,
                 "Badge": "561113",
@@ -29,7 +29,7 @@
                 "Title": "Benched",
                 "Description": "Craft your first work bench.",
                 "Points": 1,
-                "Type": "progression",
+                "Type": "",
                 "Category": 3,
                 "Id": 495770,
                 "Badge": "561116",
@@ -41,9 +41,9 @@
             "Category": "Explorer",
             "Ra": {
                 "Title": "No Hobo",
-                "Description": "Build a house suitable enough for your first town NPC such as the guide to move into.",
+                "Description": "Build a house suitable enough for your first town NPC, such as the guide, to move into.",
                 "Points": 5,
-                "Type": "progression",
+                "Type": "",
                 "Category": 3,
                 "Id": 495771,
                 "Badge": "561117",
@@ -57,7 +57,7 @@
                 "Title": "Stop! Hammer Time!",
                 "Description": "Obtain your first hammer via crafting or otherwise.",
                 "Points": 2,
-                "Type": "progression",
+                "Type": "",
                 "Category": 3,
                 "Id": 495772,
                 "Badge": "561118",
@@ -71,7 +71,7 @@
                 "Title": "Ooo! Shiny!",
                 "Description": "Mine your first nugget of ore with a pickaxe.",
                 "Points": 3,
-                "Type": "progression",
+                "Type": "",
                 "Category": 3,
                 "Id": 495773,
                 "Badge": "561119",
@@ -85,7 +85,7 @@
                 "Title": "Heart Breaker",
                 "Description": "Discover and smash your first heart crystal underground.",
                 "Points": 5,
-                "Type": "progression",
+                "Type": "",
                 "Category": 3,
                 "Id": 495774,
                 "Badge": "561120",
@@ -99,7 +99,7 @@
                 "Title": "Heavy Metal",
                 "Description": "Obtain an anvil made from iron or lead.",
                 "Points": 5,
-                "Type": "progression",
+                "Type": "",
                 "Category": 3,
                 "Id": 495775,
                 "Badge": "561121",
@@ -113,7 +113,7 @@
                 "Title": "I Am Loot!",
                 "Description": "Discover a golden chest underground and take a peek at its contents.",
                 "Points": 5,
-                "Type": "progression",
+                "Type": "",
                 "Category": 3,
                 "Id": 495776,
                 "Badge": "561122",
@@ -125,9 +125,9 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Star Power",
-                "Description": "Craft a mana crystal out of fallen stars and consume it.",
+                "Description": "Craft a mana crystal out of fallen stars, and consume it.",
                 "Points": 5,
-                "Type": "progression",
+                "Type": "",
                 "Category": 3,
                 "Id": 495777,
                 "Badge": "561123",
@@ -141,7 +141,7 @@
                 "Title": "Hold on Tight!",
                 "Description": "Equip your first grappling hook.",
                 "Points": 5,
-                "Type": "progression",
+                "Type": "",
                 "Category": 3,
                 "Id": 495778,
                 "Badge": "561124",
@@ -153,9 +153,9 @@
             "Category": "Slayer",
             "Ra": {
                 "Title": "Eye on You",
-                "Description": "Defeat the Eye of Cthulhu an ocular menace who only appears at night.",
+                "Description": "Defeat the Eye of Cthulhu, an ocular menace who only appears at night.",
                 "Points": 5,
-                "Type": "progression",
+                "Type": "",
                 "Category": 3,
                 "Id": 495779,
                 "Badge": "561125",
@@ -167,9 +167,9 @@
             "Category": "Explorer",
             "Ra": {
                 "Title": "Smashing, Poppet!",
-                "Description": "Using explosives or your trusty hammer smash a Shadow Orb or Crimson Heart in the evil parts of your world.",
+                "Description": "Using explosives or your trusty hammer, smash a Shadow Orb or Crimson Heart in the evil parts of your world.",
                 "Points": 5,
-                "Type": "progression",
+                "Type": "",
                 "Category": 3,
                 "Id": 495780,
                 "Badge": "561126",
@@ -181,7 +181,7 @@
             "Category": "Slayer",
             "Ra": {
                 "Title": "Worm Fodder",
-                "Description": "Defeat the Eater of Worlds a massive worm who dwells in the corruption.",
+                "Description": "Defeat the Eater of Worlds, a massive worm who dwells in the corruption.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -195,7 +195,7 @@
             "Category": "Slayer",
             "Ra": {
                 "Title": "Mastermind",
-                "Description": "Defeat the Brain of Cthulhu an enormous demon brain which haunts the creeping crimson.",
+                "Description": "Defeat the Brain of Cthulhu, an enormous demon brain which haunts the creeping crimson.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -211,7 +211,7 @@
                 "Title": "Where's My Honey?",
                 "Description": "Discover a large bee's hive deep in the jungle.",
                 "Points": 5,
-                "Type": "progression",
+                "Type": "",
                 "Category": 3,
                 "Id": 495783,
                 "Badge": "561129",
@@ -223,9 +223,9 @@
             "Category": "Slayer",
             "Ra": {
                 "Title": "Sting Operation",
-                "Description": "Defeat the Queen Bee the matriarch of the jungle hives.",
+                "Description": "Defeat the Queen Bee, the matriarch of the jungle hives.",
                 "Points": 5,
-                "Type": "progression",
+                "Type": "",
                 "Category": 3,
                 "Id": 495784,
                 "Badge": "561130",
@@ -237,7 +237,7 @@
             "Category": "Slayer",
             "Ra": {
                 "Title": "Boned",
-                "Description": "Defeat Skeletron the cursed guardian of the dungeon.",
+                "Description": "Defeat Skeletron, the cursed guardian of the dungeon.",
                 "Points": 5,
                 "Type": "progression",
                 "Category": 3,
@@ -251,9 +251,9 @@
             "Category": "Explorer",
             "Ra": {
                 "Title": "Dungeon Heist",
-                "Description": "Steal a key from the dungeon's undead denizens and unlock one of their precious golden chests.",
+                "Description": "Steal a key from the dungeon's undead denizens, and unlock one of their precious golden chests.",
                 "Points": 5,
-                "Type": "progression",
+                "Type": "",
                 "Category": 3,
                 "Id": 495786,
                 "Badge": "561132",
@@ -267,7 +267,7 @@
                 "Title": "It's Getting Hot in Here",
                 "Description": "Spelunk deep enough to reach the molten underworld.",
                 "Points": 5,
-                "Type": "progression",
+                "Type": "",
                 "Category": 3,
                 "Id": 495787,
                 "Badge": "561133",
@@ -281,7 +281,7 @@
                 "Title": "Miner for Fire",
                 "Description": "Craft a molten pickaxe using the hottest of materials.",
                 "Points": 5,
-                "Type": "progression",
+                "Type": "",
                 "Category": 3,
                 "Id": 495788,
                 "Badge": "561134",
@@ -293,7 +293,7 @@
             "Category": "Slayer",
             "Ra": {
                 "Title": "Still Hungry",
-                "Description": "Defeat the Wall of Flesh the master and core of the world who arises after a great burning sacrifice.",
+                "Description": "Defeat the Wall of Flesh, the master and core of the world who arises after a great, burning sacrifice.",
                 "Points": 10,
                 "Type": "progression",
                 "Category": 3,
@@ -307,9 +307,9 @@
             "Category": "Explorer",
             "Ra": {
                 "Title": "It's Hard!",
-                "Description": "Unleash the ancient spirits of light and darkness across your world enabling much stronger foes and showering the world with dazzling treasures (and rainbows!).",
+                "Description": "Unleash the ancient spirits of light and darkness across your world, enabling much stronger foes and showering the world with dazzling treasures (and rainbows!).",
                 "Points": 5,
-                "Type": "progression",
+                "Type": "",
                 "Category": 3,
                 "Id": 495790,
                 "Badge": "561136",
@@ -321,9 +321,9 @@
             "Category": "Explorer",
             "Ra": {
                 "Title": "Begone, Evil!",
-                "Description": "Smash a demon or crimson altar with a powerful holy hammer.",
+                "Description": "Smash a demon or crimson altar with a powerful, holy hammer.",
                 "Points": 5,
-                "Type": "progression",
+                "Type": "",
                 "Category": 3,
                 "Id": 495791,
                 "Badge": "561137",
@@ -337,7 +337,7 @@
                 "Title": "Extra Shiny!",
                 "Description": "Mine a powerful ore that has been newly blessed upon your world.",
                 "Points": 5,
-                "Type": "progression",
+                "Type": "",
                 "Category": 3,
                 "Id": 495792,
                 "Badge": "561138",
@@ -351,7 +351,7 @@
                 "Title": "Head in the Clouds",
                 "Description": "Equip a pair of wings.",
                 "Points": 5,
-                "Type": "progression",
+                "Type": "",
                 "Category": 3,
                 "Id": 495793,
                 "Badge": "561139",
@@ -377,7 +377,7 @@
             "Category": "Slayer",
             "Ra": {
                 "Title": "Buckets of Bolts",
-                "Description": "Defeat the three nocturnal mechanical menaces",
+                "Description": "Defeat the three nocturnal mechanical menaces: the Twins, the Destroyer, and Skeletron Prime",
                 "Points": 25,
                 "Type": "progression",
                 "Category": 3,
@@ -391,9 +391,9 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Drax Attax",
-                "Description": "Craft a drax or pickaxe axe using hallowed bars and the souls of the three mechanical bosses.",
+                "Description": "Craft a drax or pickaxe axe using hallowed bars, and the souls of the three mechanical bosses.",
                 "Points": 5,
-                "Type": "progression",
+                "Type": "",
                 "Category": 3,
                 "Id": 495796,
                 "Badge": "561142",
@@ -405,9 +405,9 @@
             "Category": "Explorer",
             "Ra": {
                 "Title": "Photosynthesis",
-                "Description": "Mine chlorophyte an organic ore found deep among the thickest of flora.",
+                "Description": "Mine chlorophyte, an organic ore found deep among the thickest of flora.",
                 "Points": 5,
-                "Type": "progression",
+                "Type": "",
                 "Category": 3,
                 "Id": 495797,
                 "Badge": "561143",
@@ -419,9 +419,9 @@
             "Category": "Explorer",
             "Ra": {
                 "Title": "Get a Life",
-                "Description": "Consume a life fruit which grows in the thick of subterranean jungle grass.",
+                "Description": "Consume a life fruit, which grows in the thick of subterranean jungle grass.",
                 "Points": 5,
-                "Type": "progression",
+                "Type": "",
                 "Category": 3,
                 "Id": 495798,
                 "Badge": "561144",
@@ -433,7 +433,7 @@
             "Category": "Slayer",
             "Ra": {
                 "Title": "The Great Southern Plantkill",
-                "Description": "Defeat Plantera the overgrown monstrosity of the jungle's depths.",
+                "Description": "Defeat Plantera, the overgrown monstrosity of the jungle's depths.",
                 "Points": 25,
                 "Type": "progression",
                 "Category": 3,
@@ -449,7 +449,7 @@
                 "Title": "Temple Raider",
                 "Description": "Breach the impenetrable walls of the jungle temple.",
                 "Points": 5,
-                "Type": "progression",
+                "Type": "",
                 "Category": 3,
                 "Id": 495800,
                 "Badge": "561146",
@@ -461,7 +461,7 @@
             "Category": "Slayer",
             "Ra": {
                 "Title": "Lihzahrdian Idol",
-                "Description": "Defeat Golem the stone-faced ritualistic idol of the lihzahrd tribe.",
+                "Description": "Defeat Golem, the stone-faced ritualistic idol of the lihzahrd tribe.",
                 "Points": 25,
                 "Type": "progression",
                 "Category": 3,
@@ -477,7 +477,7 @@
                 "Title": "Robbing the Grave",
                 "Description": "Obtain a rare treasure from a difficult monster in the dungeon.",
                 "Points": 5,
-                "Type": "progression",
+                "Type": "",
                 "Category": 3,
                 "Id": 495802,
                 "Badge": "561148",
@@ -489,7 +489,7 @@
             "Category": "Explorer",
             "Ra": {
                 "Title": "Big Booty",
-                "Description": "Unlock one of the dungeon's large mysterious chests with a special key.",
+                "Description": "Unlock one of the dungeon's large, mysterious chests with a special key.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -503,7 +503,7 @@
             "Category": "Slayer",
             "Ra": {
                 "Title": "Fish Out of Water",
-                "Description": "Defeat Duke Fishron mutant terror of the sea.",
+                "Description": "Defeat Duke Fishron, mutant terror of the sea.",
                 "Points": 25,
                 "Type": "",
                 "Category": 3,
@@ -517,7 +517,7 @@
             "Category": "Slayer",
             "Ra": {
                 "Title": "Obsessive Devotion",
-                "Description": "Defeat the Ancient Cultist fanatical leader of the dungeon coven.",
+                "Description": "Defeat the Ancient Cultist, fanatical leader of the dungeon coven.",
                 "Points": 25,
                 "Type": "progression",
                 "Category": 3,
@@ -559,7 +559,7 @@
             "Category": "Explorer",
             "Ra": {
                 "Title": "Bloodbath",
-                "Description": "Survive a blood moon a nocturnal event where the rivers run red and monsters swarm aplenty.",
+                "Description": "Survive a blood moon, a nocturnal event where the rivers run red and monsters swarm aplenty.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -573,7 +573,7 @@
             "Category": "Slayer",
             "Ra": {
                 "Title": "Slippery Shinobi",
-                "Description": "Defeat King Slime the lord of all things slimy.",
+                "Description": "Defeat King Slime, the lord of all things slimy.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -587,7 +587,7 @@
             "Category": "Slayer",
             "Ra": {
                 "Title": "Goblin Punter",
-                "Description": "Triumph over a goblin invasion a ragtag regiment of crude barbaric pointy-eared warriors and their shadowflame sorcerers.",
+                "Description": "Triumph over a goblin invasion, a ragtag regiment of crude, barbaric, pointy-eared warriors and their shadowflame sorcerers.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -601,7 +601,7 @@
             "Category": "Slayer",
             "Ra": {
                 "Title": "Walk the Plank",
-                "Description": "Triumph over a pirate invasion a group of pillagers from the sea out for your booty... and your life!",
+                "Description": "Triumph over a pirate invasion, a group of pillagers from the sea out for your booty... and your life!",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -615,7 +615,7 @@
             "Category": "Explorer",
             "Ra": {
                 "Title": "Kill the Sun",
-                "Description": "Survive a solar eclipse a day darker than night filled with creatures of horror.",
+                "Description": "Survive a solar eclipse, a day darker than night filled with creatures of horror.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -629,7 +629,7 @@
             "Category": "Slayer",
             "Ra": {
                 "Title": "Do You Want to Slay a Snowman?",
-                "Description": "Triumph over the frost legion a festive family of maniacal snowman mobsters.",
+                "Description": "Triumph over the frost legion, a festive family of maniacal snowman mobsters.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -643,7 +643,7 @@
             "Category": "Slayer",
             "Ra": {
                 "Title": "Tin-Foil Hatter",
-                "Description": "Triumph over a martian invasion when beings from out of this world come to scramble your brains and probe you in uncomfortable places.",
+                "Description": "Triumph over a martian invasion, when beings from out of this world come to scramble your brains and probe you in uncomfortable places.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -657,7 +657,7 @@
             "Category": "Slayer",
             "Ra": {
                 "Title": "Baleful Harvest",
-                "Description": "Reach the 15th wave of a pumpkin moon where evil lurks among the autumn harvest.",
+                "Description": "Reach the 15th wave of a pumpkin moon, where evil lurks among the autumn harvest.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -671,7 +671,7 @@
             "Category": "Slayer",
             "Ra": {
                 "Title": "Ice Scream",
-                "Description": "Reach the 15th wave of a frost moon where the festive season quickly degrades into madness.",
+                "Description": "Reach the 15th wave of a frost moon, where the festive season quickly degrades into madness.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -685,7 +685,7 @@
             "Category": "Explorer",
             "Ra": {
                 "Title": "Sticky Situation",
-                "Description": "Survive the slime rain where gelatinous organisms fall from the sky in droves.",
+                "Description": "Survive the slime rain, where gelatinous organisms fall from the sky in droves.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -783,8 +783,8 @@
             "Category": "Challenger",
             "Ra": {
                 "Title": "Mecha Mayhem",
-                "Description": "Do battle against the Twins the Destroyer and Skeletron Prime simultaneously and emerge victorious.",
-                "Points": 50,
+                "Description": "Do battle against the Twins, the Destroyer, and Skeletron Prime simultaneously and emerge victorious.",
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 495824,
@@ -881,7 +881,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Sword of the Hero",
-                "Description": "Obtain a Terra Blade forged from the finest blades of light and darkness.",
+                "Description": "Obtain a Terra Blade, forged from the finest blades of light and darkness.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -1233,7 +1233,7 @@
                 "Title": "You Can Do It!",
                 "Description": "Survive your character's first full night.",
                 "Points": 2,
-                "Type": "progression",
+                "Type": "",
                 "Category": 3,
                 "Id": 495856,
                 "Badge": "561203",
@@ -1245,9 +1245,9 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Matching Attire",
-                "Description": "Equip armor in all three armor slots",
+                "Description": "Equip armor in all three armor slots: head, chest, and feet.",
                 "Points": 2,
-                "Type": "progression",
+                "Type": "",
                 "Category": 3,
                 "Id": 495857,
                 "Badge": "561204",
@@ -1259,7 +1259,7 @@
             "Category": "Slayer",
             "Ra": {
                 "Title": "Fae Flayer",
-                "Description": "Defeat the Empress of Light responsible for all those flashy lights and glitter.",
+                "Description": "Defeat the Empress of Light, responsible for all those flashy lights and glitter.",
                 "Points": 25,
                 "Type": "",
                 "Category": 3,
@@ -1273,7 +1273,7 @@
             "Category": "Slayer",
             "Ra": {
                 "Title": "Just Desserts",
-                "Description": "Defeat Queen Slime giving the coup-de-grace to the sovereign of all that jiggles.",
+                "Description": "Defeat Queen Slime, giving the coup-de-grace to the sovereign of all that jiggles.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -1287,7 +1287,7 @@
             "Category": "Slayer",
             "Ra": {
                 "Title": "Don't Dread on Me",
-                "Description": "Defeat the Dreadnautilus murderous mollusk lurking beneath the surface of the sanguine seas.",
+                "Description": "Defeat the Dreadnautilus, murderous mollusk lurking beneath the surface of the sanguine seas.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -1315,7 +1315,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Infinity +1 Sword",
-                "Description": "Obtain the Zenith the culmination of a journey forged into the ultimate sword.",
+                "Description": "Obtain the Zenith, the culmination of a journey forged into the ultimate sword.",
                 "Points": 25,
                 "Type": "",
                 "Category": 3,
@@ -1329,7 +1329,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Boots of the Hero",
-                "Description": "Obtain the Terraspark Boots forged from the finest boots of fire and ice.",
+                "Description": "Obtain the Terraspark Boots, forged from the finest boots of fire and ice.",
                 "Points": 25,
                 "Type": "",
                 "Category": 3,
@@ -1441,7 +1441,7 @@
             "Category": "Challenger",
             "Ra": {
                 "Title": "Jolly Jamboree",
-                "Description": "What you're celebrating doesn't matter just throw a party already!",
+                "Description": "What you're celebrating doesn't matter, just throw a party already!",
                 "Points": 4,
                 "Type": "",
                 "Category": 3,
@@ -1469,7 +1469,7 @@
             "Category": "Slayer",
             "Ra": {
                 "Title": "An Eye For An Eye",
-                "Description": "Defeat Deerclops the chilly one-eyed monstrosity from a foreign land.",
+                "Description": "Defeat Deerclops, the chilly one-eyed monstrosity from a foreign land.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -1483,7 +1483,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Feast of Midas",
-                "Description": "Obtain Golden Delight the highest quality meal made from the highest quality . . . ingredients.",
+                "Description": "Obtain Golden Delight, the highest quality meal made from the highest quality . . . ingredients.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -1525,7 +1525,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Ankhumulation Complete",
-                "Description": "Obtain the Ankh Shield the finest protection from unpleasant maladies and ailments.",
+                "Description": "Obtain the Ankh Shield, the finest protection from unpleasant maladies and ailments.",
                 "Points": 25,
                 "Type": "",
                 "Category": 3,
@@ -1539,7 +1539,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Torch God",
-                "Description": "Invoked the wrath of the God of Torches and survived long enough to earn its blessing.",
+                "Description": "Invoked the wrath of the God of Torches, and survived long enough to earn its blessing.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -1595,7 +1595,7 @@
             "Category": "Challenger",
             "Ra": {
                 "Title": "And Good Riddance!",
-                "Description": "Completely purify all Corruption Crimson and Hallow from your world until the Dryad is satisfied!",
+                "Description": "Completely purify all Corruption, Crimson, and Hallow from your world, until the Dryad is satisfied!",
                 "Points": 25,
                 "Type": "",
                 "Category": 3,
@@ -1651,7 +1651,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Bat Some Bats",
-                "Description": "Obtain a Bat Bat from a bat enemy.",
+                "Description": "Obtain a Bat Bat from a bat enemy that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -1665,7 +1665,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Fully Energized",
-                "Description": "Obtain a Beam Sword from an Armored Skeleton.",
+                "Description": "Obtain a Beam Sword from an Armored Skeleton that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -1679,7 +1679,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Get Shredded",
-                "Description": "Obtain a Bladed Glove from an enemy during Halloween.",
+                "Description": "Obtain a Bladed Glove from an enemy that you damaged during Halloween.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -1707,7 +1707,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Calcium Carver",
-                "Description": "Obtain a Bone Sword from a Skeleton enemy.",
+                "Description": "Obtain a Bone Sword from a Skeleton enemy that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -1735,7 +1735,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Are You Not Entertained?",
-                "Description": "Obtain a Gladius from a Hoplite.",
+                "Description": "Obtain a Gladius from a Hoplite that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -1749,7 +1749,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Big Meaty Jaws",
-                "Description": "Obtain a Mandible Blade from an antlion enemy.",
+                "Description": "Obtain a Mandible Blade from an antlion enemy that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -1777,7 +1777,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Need a Hand?",
-                "Description": "Obtain a Zombie Arm from a zombie enemy.",
+                "Description": "Obtain a Zombie Arm from a zombie enemy that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -1805,7 +1805,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Icy Kiss of Death",
-                "Description": "Obtain an Ice Sickle from a Snow/Ice enemy.",
+                "Description": "Obtain an Ice Sickle from a Snow/Ice enemy that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -1819,7 +1819,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "My Friends Are My Power!",
-                "Description": "Obtain a Keybrand from a Dungeon enemy.",
+                "Description": "Obtain a Keybrand from a Dungeon enemy that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -1833,7 +1833,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "One Lava Drop",
-                "Description": "Obtain a Cascade from an Underworld enemy.",
+                "Description": "Obtain a Cascade from an Underworld enemy that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -1847,7 +1847,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "One Snow Drop",
-                "Description": "Obtain an Amarok from a Snow enemy.",
+                "Description": "Obtain an Amarok from a Snow enemy that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -1861,7 +1861,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "One Fire Drop",
-                "Description": "Obtain a Hel-Fire from a Cavern/Underworld enemy.",
+                "Description": "Obtain a Hel-Fire from a Cavern/Underworld enemy that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -1875,7 +1875,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "One Dungeon Drop",
-                "Description": "Obtain a Kraken from a Dungeon enemy.",
+                "Description": "Obtain a Kraken from a Dungeon enemy that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -1889,7 +1889,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "One Jungle Drop",
-                "Description": "Obtain a Yelets from a Jungle enemy.",
+                "Description": "Obtain a Yelets from a Jungle enemy that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -1931,7 +1931,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Friday the 13th",
-                "Description": "Obtain a Bloody Machete from an enemy during Halloween.",
+                "Description": "Obtain a Bloody Machete from an enemy that you damaged during Halloween.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -1959,7 +1959,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Spore Distribution",
-                "Description": "Obtain a Shroomerang from a Spore Bat.",
+                "Description": "Obtain a Shroomerang from a Spore Bat that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -1973,7 +1973,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Ring Ring",
-                "Description": "Obtain a Bananarang from a Clown.",
+                "Description": "Obtain a Bananarang from a Clown that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -1987,7 +1987,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Paladin Pounder",
-                "Description": "Obtain a Paladin's Hammer from a Paladin.",
+                "Description": "Obtain a Paladin's Hammer from a Paladin that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -2001,7 +2001,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Rope Dart",
-                "Description": "Obtain a Chain Knife from a Cave Bat.",
+                "Description": "Obtain a Chain Knife from a Cave Bat that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -2015,7 +2015,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "I Got My Eyes on You",
-                "Description": "Obtain a Dripper Crippler from a Blood Eel.",
+                "Description": "Obtain a Dripper Crippler from a Blood Eel that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -2127,7 +2127,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Reign in Blood",
-                "Description": "Obtain a Blood Rain Bow from a Blood Moon enemy.",
+                "Description": "Obtain a Blood Rain Bow from a Blood Moon enemy that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -2141,7 +2141,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Bone Marrow",
-                "Description": "Obtain a Marrow from a Skeleton Archer.",
+                "Description": "Obtain a Marrow from a Skeleton Archer that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -2169,7 +2169,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Angrier Trapper",
-                "Description": "Obtain an Uzi from an Angry Trapper.",
+                "Description": "Obtain an Uzi from an Angry Trapper that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -2211,7 +2211,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Wasting Tax Dollars",
-                "Description": "Obtain a Coin Gun from a Pirate Invasion enemy.",
+                "Description": "Obtain a Coin Gun from a Pirate Invasion enemy that you damaged.",
                 "Points": 25,
                 "Type": "",
                 "Category": 3,
@@ -2323,7 +2323,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Frostbite Flurry",
-                "Description": "Obtain a Frost Staff from a Snow/Ice enemy.",
+                "Description": "Obtain a Frost Staff from a Snow/Ice enemy that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -2337,7 +2337,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Recluse Retribution",
-                "Description": "Obtain a Poison Staff from a Black Recluse.",
+                "Description": "Obtain a Poison Staff from a Black Recluse that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -2365,7 +2365,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Fallen Angel Artifact",
-                "Description": "Obtain an Unholy Trident from a Red Devil.",
+                "Description": "Obtain an Unholy Trident from a Red Devil that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -2379,7 +2379,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Trade Offer",
-                "Description": "Obtain a Demon Scythe from a Demon.",
+                "Description": "Obtain a Demon Scythe from a Demon that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -2407,7 +2407,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Forbidden Magic",
-                "Description": "Obtain a Blood Thorn from a Hemogoblin Shark.",
+                "Description": "Obtain a Blood Thorn from a Hemogoblin Shark that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -2421,7 +2421,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Stony Gaze",
-                "Description": "Obtain a Medusa Head from a Medusa.",
+                "Description": "Obtain a Medusa Head from a Medusa that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -2435,7 +2435,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Storm Chaser",
-                "Description": "Obtain a Nimbus Rod from an Angry Nimbus.",
+                "Description": "Obtain a Nimbus Rod from an Angry Nimbus that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -2533,7 +2533,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Bouncy Buddy",
-                "Description": "Obtain a Slime Staff from a slime enemy.",
+                "Description": "Obtain a Slime Staff from a slime enemy that you damaged.",
                 "Points": 25,
                 "Type": "",
                 "Category": 3,
@@ -2547,7 +2547,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Vampyrius Vampyrus",
-                "Description": "Obtain a Vampire Frog Staff from a Blood Moon enemy.",
+                "Description": "Obtain a Vampire Frog Staff from a Blood Moon enemy that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -2561,7 +2561,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Pixel Piracy",
-                "Description": "Obtain a Pirate Staff from a Pirate Invasion enemy.",
+                "Description": "Obtain a Pirate Staff from a Pirate Invasion enemy that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -2575,7 +2575,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Blood Red Bats",
-                "Description": "Obtain a Sanguine Staff from a Dreadnautilus",
+                "Description": "Obtain a Sanguine Staff from a Dreadnautilus that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -2603,7 +2603,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Vampire Killer",
-                "Description": "Obtain a Morning Star from an Armored Bones enemy.",
+                "Description": "Obtain a Morning Star from an Armored Bones enemy that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -2757,7 +2757,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Got a Bone to Pick",
-                "Description": "Obtain a Bone Pickaxe from an Undead Miner.",
+                "Description": "Obtain a Bone Pickaxe from an Undead Miner that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -2841,7 +2841,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Discord Moderator",
-                "Description": "Obtain a Rod of Discord from a Chaos Elemental.",
+                "Description": "Obtain a Rod of Discord from a Chaos Elemental that you damaged.",
                 "Points": 25,
                 "Type": "",
                 "Category": 3,
@@ -2855,7 +2855,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Calcium Caster",
-                "Description": "Obtain a Bone Wand from a Dungeon enemy.",
+                "Description": "Obtain a Bone Wand from a Dungeon enemy that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -2939,7 +2939,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Piranha Treasure",
-                "Description": "Obtain a Jungle Key from a Jungle enemy.",
+                "Description": "Obtain a Jungle Key from a Jungle enemy that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -2953,12 +2953,12 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Hydra Treasure",
-                "Description": "Obtain a Frozen Key from a Ice enemy.",
+                "Description": "Obtain a Frozen Key from a Ice enemy that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
                 "Id": 496131,
-                "Badge": "564822",
+                "Badge": "564825",
                 "Set": 32910
             }
         },
@@ -2967,12 +2967,12 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Rainbow Treasure",
-                "Description": "Obtain a Hallowed Key from a Hallowed enemy.",
+                "Description": "Obtain a Hallowed Key from a Hallowed enemy that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
                 "Id": 496132,
-                "Badge": "564823",
+                "Badge": "564824",
                 "Set": 32910
             }
         },
@@ -2981,12 +2981,12 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Scourge Treasure",
-                "Description": "Obtain a Corruption Key from a Corruption enemy.",
+                "Description": "Obtain a Corruption Key from a Corruption enemy that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
                 "Id": 496133,
-                "Badge": "564824",
+                "Badge": "564822",
                 "Set": 32910
             }
         },
@@ -2995,12 +2995,12 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Vampire Treasure",
-                "Description": "Obtain a Crimson Key from a Crimson enemy.",
+                "Description": "Obtain a Crimson Key from a Crimson enemy that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
                 "Id": 496134,
-                "Badge": "564825",
+                "Badge": "564823",
                 "Set": 32910
             }
         },
@@ -3009,7 +3009,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Tiger Treasure",
-                "Description": "Obtain a Desert Key from a Desert enemy.",
+                "Description": "Obtain a Desert Key from a Desert enemy that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -3163,7 +3163,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Spelunker's Spirit",
-                "Description": "Obtain a Mining Shirt & Pants from Undead Miners.",
+                "Description": "Obtain a Mining Shirt & Pants from Undead Miners that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -3177,7 +3177,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Rotten Rain",
-                "Description": "Obtain both Rain set pieces from Raincoat Zombies.",
+                "Description": "Obtain both Rain set pieces from Raincoat Zombies that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -3191,7 +3191,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Dead Cold",
-                "Description": "Obtain all 3 Snow set pieces from Frozen Zombies.",
+                "Description": "Obtain all 3 Snow set pieces from Frozen Zombies that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -3205,7 +3205,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Scuba Duba",
-                "Description": "Obtain a Diving Helmet from a Shark.",
+                "Description": "Obtain a Diving Helmet from a Shark that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -3219,7 +3219,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Unfortunate Wish",
-                "Description": "Obtain a Djinn's Curse from a Desert Spirit.",
+                "Description": "Obtain a Djinn's Curse from a Desert Spirit that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -3247,7 +3247,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "For Valhalla",
-                "Description": "Obtain a Viking Helmet from an Undead Viking.",
+                "Description": "Obtain a Viking Helmet from an Undead Viking that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -3373,7 +3373,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Layer by Layer",
-                "Description": "Obtain a Depth Meter from a Surface/Underground enemy.",
+                "Description": "Obtain a Depth Meter from a Surface/Underground enemy that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -3387,7 +3387,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Coast to Coast",
-                "Description": "Obtain a Compass from an enemy.",
+                "Description": "Obtain a Compass from an enemy that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -3401,7 +3401,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Keeping Track",
-                "Description": "Obtain a Tally Counter from a Dungeon enemy.",
+                "Description": "Obtain a Tally Counter from a Dungeon enemy that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -3429,7 +3429,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Absolute Zero",
-                "Description": "Obtain a Frozen Turtle Shell from an Ice Tortoise.",
+                "Description": "Obtain a Frozen Turtle Shell from an Ice Tortoise that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -3443,7 +3443,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Target Practice",
-                "Description": "Obtain a Magic Quiver from a Skeleton Archer.",
+                "Description": "Obtain a Magic Quiver from a Skeleton Archer that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -3457,7 +3457,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Piercing Penetration",
-                "Description": "Obtain a Shark Tooth Necklace from a Blood Moon enemy.",
+                "Description": "Obtain a Shark Tooth Necklace from a Blood Moon enemy that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -3471,7 +3471,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Target Acquired",
-                "Description": "Obtain a Clothier Voodoo Doll from a Dungeon enemy.",
+                "Description": "Obtain a Clothier Voodoo Doll from a Dungeon enemy that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -3485,7 +3485,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Underwater Rave",
-                "Description": "Obtain a Jellyfish Necklace from a Jellyfish.",
+                "Description": "Obtain a Jellyfish Necklace from a Jellyfish that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -3694,7 +3694,7 @@
             "Name": "COMPLETIONIST_ACCESSORY_SHELLPHONE",
             "Category": "Collector",
             "Ra": {
-                "Title": "Let's Talk About Your Cars Extended Warranty",
+                "Title": "Let's Talk About Your Car's Extended Warranty",
                 "Description": "Craft a Shellphone.",
                 "Points": 10,
                 "Type": "",
@@ -3961,7 +3961,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Chaos Charge",
-                "Description": "Obtain an Ancient Horn from a Basilisk.",
+                "Description": "Obtain an Ancient Horn from a Basilisk that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -3975,7 +3975,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Obsessed With Wolves",
-                "Description": "Obtain a Lilith's Necklace from a Wolf.",
+                "Description": "Obtain a Lilith's Necklace from a Wolf that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -3989,7 +3989,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Rainbow Rider",
-                "Description": "Obtain a Blessed Apple from The Hallow enemies.",
+                "Description": "Obtain a Blessed Apple from Hallow enemies that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -4115,7 +4115,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Menacing Glare",
-                "Description": "Obtain all 3 Lamia set pieces from lamia enemies.",
+                "Description": "Obtain all 3 Lamia set pieces from lamia enemies that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -4129,7 +4129,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Budget Costume",
-                "Description": "Obtain all 3 Mummy set pieces from mummy enemies.",
+                "Description": "Obtain all 3 Mummy set pieces from mummy enemies that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -4143,7 +4143,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Become the Pedguin",
-                "Description": "Obtain all 3 Pedguin's set pieces from penguin enemies.",
+                "Description": "Obtain all 3 Pedguin's set pieces from penguin enemies that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -4157,7 +4157,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Mr. Video Game",
-                "Description": "Obtain a Plumber's Hat from a Fire Imp.",
+                "Description": "Obtain a Plumber's Hat from a Fire Imp that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -4255,7 +4255,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Quote This",
-                "Description": "Obtain a Robot Hat from a Jungle enemy.",
+                "Description": "Obtain a Robot Hat from a Jungle enemy that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -4269,7 +4269,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Bone Head",
-                "Description": "Obtain a Skull from skeleton enemies.",
+                "Description": "Obtain a Skull from skeleton enemies that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -4283,7 +4283,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Under my Umbrella",
-                "Description": "Obtain an Umbrella Hat from an Umbrella Slime.",
+                "Description": "Obtain an Umbrella Hat from an Umbrella Slime that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -4437,7 +4437,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "You SHALL Pass!",
-                "Description": "Obtain a Bone Key from the Dungeon Guardian.",
+                "Description": "Obtain a Bone Key from the Dungeon Guardian that you damaged.",
                 "Points": 25,
                 "Type": "",
                 "Category": 3,
@@ -4451,7 +4451,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Sleigh Ride Together With You",
-                "Description": "Obtain a Toy Sled from an Ice Mimic.",
+                "Description": "Obtain a Toy Sled from an Ice Mimic that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -4521,7 +4521,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Chillin\u2019 Like a Reptilian",
-                "Description": "Obtain a Lizard Egg from a Jungle Temple enemy.",
+                "Description": "Obtain a Lizard Egg from a Jungle Temple enemy that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -4577,7 +4577,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Plushie PAWS",
-                "Description": "Obtain a Spiffo Plush from a Zombie.",
+                "Description": "Obtain a Spiffo Plush from a Zombie that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -4633,7 +4633,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Will-O\u2019-The-Wisp",
-                "Description": "Obtain a Wisp in a Bottle from Armored Bones enemies.",
+                "Description": "Obtain a Wisp in a Bottle from Armored Bones enemies that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -4689,7 +4689,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Cavern Slayer",
-                "Description": "Obtain all 20 Cavern enemy banners.",
+                "Description": "Obtain all 19 Cavern enemy banners.",
                 "Points": 25,
                 "Type": "",
                 "Category": 3,
@@ -5179,7 +5179,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Express Yourself",
-                "Description": "Obtain all 12 hair dyes.",
+                "Description": "Obtain all 11 hair dyes.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -5319,7 +5319,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Make a Wish",
-                "Description": "Obtain a Desert Spirit Lamp from a Desert Spirit.",
+                "Description": "Obtain a Desert Spirit Lamp from a Desert Spirit that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -5487,7 +5487,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Waving in the Wind",
-                "Description": "Obtain a Wyvern Kite from a Wyvern.",
+                "Description": "Obtain a Wyvern Kite from a Wyvern that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -5501,7 +5501,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "These Licks Are Spicy",
-                "Description": "Obtain a Rain Song from a Flying Fish.",
+                "Description": "Obtain a Rain Song from a Flying Fish that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -5515,7 +5515,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Having a Wonderful Time!",
-                "Description": "Obtain a Unicorn on a Stick from a Unicorn.",
+                "Description": "Obtain a Unicorn on a Stick from a Unicorn that you damaged.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -5781,7 +5781,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Eyezorhead",
-                "Description": "Obtain all 8 paintings from Solar Eclipse enemies.",
+                "Description": "Obtain all 8 paintings from Solar Eclipse enemies that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -5824,7 +5824,7 @@
             "Ra": {
                 "Title": "Beast Mode",
                 "Description": "Buy a Universal Pylon from the Zoologist.",
-                "Points": 5,
+                "Points": 50,
                 "Type": "",
                 "Category": 3,
                 "Id": 496342,
@@ -5907,7 +5907,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "When Pigs Fly",
-                "Description": "Obtain a Money Trough from a Blood Moon enemy.",
+                "Description": "Obtain a Money Trough from a Blood Moon enemy that you damaged.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -6201,7 +6201,7 @@
             "Category": "Collector",
             "Ra": {
                 "Title": "Experimental Consumer",
-                "Description": "Drink all 5 miscellaneous potions.",
+                "Description": "Drink all 4 miscellaneous potions.",
                 "Points": 5,
                 "Type": "",
                 "Category": 3,
@@ -7810,7 +7810,7 @@
             "Name": "WORLD_EXPERT_QUEEN_SLIME",
             "Category": "Slayer",
             "Ra": {
-                "Title": "Queen Slime",
+                "Title": "Volatile Gelatin",
                 "Description": "Defeat Queen Slime on Expert Mode for the first time.",
                 "Points": 10,
                 "Type": "",
@@ -7894,7 +7894,7 @@
             "Name": "WORLD_EXPERT_EMPRESS_OF_LIGHT",
             "Category": "Slayer",
             "Ra": {
-                "Title": "Shrimpy Truffle",
+                "Title": "Soaring Insignia",
                 "Description": "Defeat Empress of Light on Expert Mode for the first time.",
                 "Points": 25,
                 "Type": "",
@@ -7908,7 +7908,7 @@
             "Name": "WORLD_EXPERT_DUKE_FISHRON",
             "Category": "Slayer",
             "Ra": {
-                "Title": "Volatile Gelatin",
+                "Title": "Shrimpy Truffle",
                 "Description": "Defeat Duke Fishron on Expert Mode for the first time.",
                 "Points": 25,
                 "Type": "",
@@ -9118,7 +9118,7 @@
                 "Type": "",
                 "Category": 3,
                 "Id": 496685,
-                "Badge": "563958",
+                "Badge": "563959",
                 "Set": 32911
             }
         },
@@ -9132,7 +9132,7 @@
                 "Type": "",
                 "Category": 3,
                 "Id": 496686,
-                "Badge": "563959",
+                "Badge": "563958",
                 "Set": 32911
             }
         },
@@ -9244,7 +9244,7 @@
                 "Type": "",
                 "Category": 3,
                 "Id": 496694,
-                "Badge": "563967",
+                "Badge": "563968",
                 "Set": 32911
             }
         },
@@ -9258,7 +9258,7 @@
                 "Type": "",
                 "Category": 3,
                 "Id": 496695,
-                "Badge": "563968",
+                "Badge": "563967",
                 "Set": 32911
             }
         },
@@ -9510,7 +9510,7 @@
                 "Type": "",
                 "Category": 3,
                 "Id": 496713,
-                "Badge": "563986",
+                "Badge": "563987",
                 "Set": 32911
             }
         },
@@ -9524,7 +9524,7 @@
                 "Type": "",
                 "Category": 3,
                 "Id": 496714,
-                "Badge": "563987",
+                "Badge": "563986",
                 "Set": 32911
             }
         },
@@ -9608,7 +9608,7 @@
                 "Type": "",
                 "Category": 3,
                 "Id": 496720,
-                "Badge": "563993",
+                "Badge": "563994",
                 "Set": 32911
             }
         },
@@ -9622,7 +9622,7 @@
                 "Type": "",
                 "Category": 3,
                 "Id": 496721,
-                "Badge": "563994",
+                "Badge": "563993",
                 "Set": 32911
             }
         },

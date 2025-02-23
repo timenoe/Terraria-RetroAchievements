@@ -24,7 +24,7 @@ namespace RetroAchievements.Commands
         public override void Action(CommandCaller caller, string input, string[] args)
         {
 #if !DEBUG
-            MessageTool.DisplayUsage("You are not permitted to use this command");
+            LogTool.DisplayUsage("You are not permitted to use this command");
             return;
 #endif
             if (args.Length == 0)

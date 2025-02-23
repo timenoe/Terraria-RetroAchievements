@@ -1,5 +1,10 @@
 {
     "Game": {
+        "SubsetMods": {
+            "CompletionistAchievements": "Completionist",
+            "PlayerAchievements": "Player Difficulties",
+            "WorldAchievements": "World Modes & Seeds"
+        },
         "WhitelistedMods": [ "CompletionistAchievements", "PlayerAchievements", "WorldAchievements", "AutoReroll", "BetterBossBarPlus", "BossChecklist", "Census", "ClamExtraMusic", "ItemChecklist", "Lights", "MagicStorage", "Munchies", "RecipeBrowser", "SerousCommonLib", "SmarterCursor", "Wikithis" ],
         "Ra": {
             "Id": 32909,

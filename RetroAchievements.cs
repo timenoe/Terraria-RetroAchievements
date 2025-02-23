@@ -109,6 +109,12 @@ namespace RetroAchievements
         }
 
         /// <summary>
+        /// Gets the total achievement count for the current game
+        /// </summary>
+        /// <returns>Achievement count for the current game</returns>
+        public static int GetAchievementCount() => AchievementData.Achievements.Length;
+
+        /// <summary>
         /// Get the RA achievement ID from the internal achievement name
         /// </summary>
         /// <param name="name">Internal name of the achievement (BENCHED, etc.)</param>
@@ -159,17 +165,24 @@ namespace RetroAchievements
         public static string GetGameName() => AchievementData.Game.Ra.Name;
 
         /// <summary>
+        /// Gets the title of a subset mod on RA 
+        /// </summary>
+        /// <param name="mod">Mod to get the title of</param>
+        /// <returns>Title of the subset mod on RA; empty if none</returns>
+        public static string GetSubsetModTitle(Mod mod)
+        { 
+            if (AchievementData.Game.SubsetMods.TryGetValue(mod.Name, out string title))
+                return title;
+
+            return "";
+        }
+
+        /// <summary>
         /// Returns true if a specific mod is allowed for the current game
         /// </summary>
         /// <param name="mod">Mod in question</param>
         /// <returns>True if the mod if allowed</returns>
         public static bool IsModAllowed(Mod mod) => _internalMods.Contains(mod.Name) || AchievementData.Game.WhitelistedMods.Contains(mod.Name);
-
-        /// <summary>
-        /// Gets the total achievement count for the current game
-        /// </summary>
-        /// <returns>Achievement count for the current game</returns>
-        public static int GetAchievementCount() => AchievementData.Achievements.Length;
 
         /// <summary>
         /// Get the expected path to the achievement data for the current game<br>

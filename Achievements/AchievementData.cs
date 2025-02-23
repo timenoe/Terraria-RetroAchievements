@@ -1,9 +1,10 @@
-﻿using RASharpIntegration.Data;
+﻿using System.Collections.Generic;
+using RASharpIntegration.Data;
 
 namespace RetroAchievements.Achievements
 {
     // Output out Edit > Paste Special > Paste JSON as classes (renamed for accuracy)
-    
+
     /// <summary>
     /// Used to identify achievement data for Terraria or a Terraria mod
     /// </summary>
@@ -25,6 +26,11 @@ namespace RetroAchievements.Achievements
     /// </summary>
     public class TerrariaAchievementGame
     {
+        /// <summary>
+        /// List of all mods that are achievement subsets
+        /// </summary>
+        public Dictionary<string, string> SubsetMods { get; set; }
+
         /// <summary>
         /// List of all mods that are allowed with this game
         /// </summary>

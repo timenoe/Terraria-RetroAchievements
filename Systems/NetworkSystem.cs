@@ -235,25 +235,9 @@ namespace RetroAchievements.Systems
             List<string> enabledSubsets = [];
             foreach (Mod mod in ModLoader.Mods)
             {
-                // Get RA subset name when applicable
-                switch (mod.Name)
-                {
-                    case "CompletionistAchievements":
-                        enabledSubsets.Add("Completionist");
-                        break;
-
-                    case "PlayerAchievements":
-                        enabledSubsets.Add("Player Difficulties");
-                        break;
-
-                    case "WorldAchievements":
-                        enabledSubsets.Add("World Modes & Seeds");
-                        break;
-
-                    default:
-                        enabledSubsets.Add(mod.Name);
-                        break;
-                }
+                string title = RetroAchievements.GetSubsetModTitle(mod);
+                if (!string.IsNullOrEmpty(title))
+                    enabledSubsets.Add(title);
             }
 
             if (enabledSubsets.Count == 0)

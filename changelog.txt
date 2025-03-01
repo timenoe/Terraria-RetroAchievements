@@ -1,5 +1,6 @@
 v1.0.17
 - Fixed chat commands due to the tModLoader March 2025 Stable Update
+- Fixed RA Rich Presence play time
 - Whitelist mod "No Auto-Pause When Unfocused"
 - Whitelist mod "Seasonal Event Toggle"
 - Include IDs in missing achievement reports for clarity

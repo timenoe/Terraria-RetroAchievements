@@ -21,6 +21,9 @@ namespace RetroAchievements.Commands
             => "/rad <command> [arguments]" +
             "\nunlock <title> - Unlock a local achievement";
 
+        public override bool IsCaseSensitive => true;
+
+
         public override void Action(CommandCaller caller, string input, string[] args)
         {
 #if !DEBUG

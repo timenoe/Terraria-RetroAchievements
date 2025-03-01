@@ -5,7 +5,7 @@
             "PlayerAchievements": "Player Difficulties",
             "WorldAchievements": "World Modes & Seeds"
         },
-        "WhitelistedMods": [ "CompletionistAchievements", "PlayerAchievements", "WorldAchievements", "AutoReroll", "BetterBossBarPlus", "BossChecklist", "Census", "ClamExtraMusic", "ItemChecklist", "Lights", "MagicStorage", "Munchies", "RecipeBrowser", "SerousCommonLib", "SmarterCursor", "Wikithis" ],
+        "WhitelistedMods": [ "CompletionistAchievements", "PlayerAchievements", "WorldAchievements", "AutoReroll", "BetterBossBarPlus", "BossChecklist", "Census", "ClamExtraMusic", "ItemChecklist", "Lights", "MagicStorage", "Munchies", "noPause", "RecipeBrowser", "SeasonalEventToggle", "SerousCommonLib", "SmarterCursor", "Wikithis" ],
         "Ra": {
             "Id": 32909,
             "Name": "Terraria",

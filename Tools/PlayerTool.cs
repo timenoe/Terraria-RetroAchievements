@@ -67,14 +67,13 @@ namespace RetroAchievements.Tools
         /// Get the play time of the player
         /// </summary>
         /// <returns>Play time of the player (formatted as hh:mm:ss)</returns>
-        public static string GetPlayTimeStr()
+        public static string GetPlayTimeHoursStr()
         {
             PlayerFileData data = Main.ActivePlayerFileData;
             if (data == null)
                 return "";
 
-            // Return without fractional seconds
-            return data.GetPlayTime().ToString().Split(".")[0];
+            return $"{data.GetPlayTime().TotalHours.ToString("F2")} Hours";
         }
 
         /// <summary>

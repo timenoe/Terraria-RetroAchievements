@@ -25,6 +25,9 @@ namespace RetroAchievements.Commands
             "\nreset all - Reset progress for all local achievements" +
             "\nreset <title> - Reset progress for a single local achievement";
 
+        public override bool IsCaseSensitive => true;
+
+
         public override void Action(CommandCaller caller, string input, string[] args)
         {
             if (args.Length == 0)
@@ -43,6 +46,7 @@ namespace RetroAchievements.Commands
                         return;
                     }
 
+                        LogTool.ChatLog(input);
                     string localizedName = input.Split($"{args[0]} ")[1];
                     if (AchievementTool.GetMissingElementsLocalized(localizedName, out string result))
                         LogTool.ChatLog(result);

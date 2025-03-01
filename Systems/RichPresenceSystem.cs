@@ -22,7 +22,7 @@ namespace RetroAchievements.Systems
 
             if (RichPresenceState.GetCurrentState().GameMode >= RichPresenceState.GameModeState.PlayingSingle)
             {
-                player = $"Player: {PlayerTool.GetHp()} HP | {PlayerTool.GetMp()} MP | {PlayerTool.GetDifficultyStr()} | {PlayerTool.GetPlayTimeStr()} | {PlayerTool.GetHeldItemStr()}";
+                player = $"Player: {PlayerTool.GetHp()} HP | {PlayerTool.GetMp()} MP | {PlayerTool.GetDifficultyStr()} | {PlayerTool.GetPlayTimeHoursStr()} | {PlayerTool.GetHeldItemStr()}";
                 world = $"World: {WorldTool.GetSeedStr()} | {WorldTool.GetSizeStr()} | {WorldTool.GetDifficultyStr()} | {WorldTool.GetEvilStr()} | {WorldTool.GetTimeOfDayStr()}";
                 zone = $"Biomes: {string.Join(", ", PlayerTool.GetCurrentBiomesStr())}";
             }

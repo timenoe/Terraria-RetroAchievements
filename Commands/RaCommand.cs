@@ -28,6 +28,9 @@ namespace RetroAchievements.Commands
             "\nrp - Get the current RA Rich Presence" +
             "\nsync - Unlock local achievements that are already unlocked on RA";
 
+        public override bool IsCaseSensitive => true;
+
+
         /// <summary>
         /// Event to login a user
         /// </summary>
@@ -37,6 +40,7 @@ namespace RetroAchievements.Commands
         /// Event to logout a user
         /// </summary>
         public event EventHandler<EventArgs> LogoutCommand;
+
 
         public override void Action(CommandCaller caller, string input, string[] args)
         {

@@ -41,7 +41,9 @@ Are you up for an extra challenge? Challenge Mode is enabled by default, and enf
 - Lights And Shadows
 - Magic Storage
 - Munchies - Consumables Checklist
+- No Auto-Pause When Unfocused
 - Recipe Browser
+- Seasonal Event Toggle
 - Smarter Cursor
 - Wikithis
 

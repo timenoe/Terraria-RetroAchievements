@@ -1,5 +1,11 @@
 # Terraria RetroAchievements
 
+[![Release](https://img.shields.io/github/v/release/timenoe/Terraria-RetroAchievements?style=flat-square)](https://github.com/timenoe/Terraria-RetroAchievements/releases/latest)
+[![Downloads](https://img.shields.io/steam/downloads/3427458822?style=flat-square)](https://steamcommunity.com/sharedfiles/filedetails/?id=3427458822)
+[![File Size](https://img.shields.io/steam/size/3427458822?style=flat-square)](https://steamcommunity.com/sharedfiles/filedetails/?id=3427458822)
+[![Issues](https://img.shields.io/github/issues/timenoe/Terraria-RetroAchievements?style=flat-square)](https://github.com/timenoe/Terraria-RetroAchievements/issues)
+[![License](https://img.shields.io/github/license/timenoe/Terraria-RetroAchievements?style=flat-square)](https://github.com/timenoe/Terraria-RetroAchievements/blob/master/LICENSE.md)
+
 Terraria tModLoader mod that integrates Terraria with RetroAchievements, a website to earn and track achievements in classic games.
 
 Login to RetroAchievements using the chat command: `/ra login <user> <pass>`. Once you enter a world, you can open the chat prompt by typing `Enter`. If you don't already have a RetroAchievements account, you can create one for free at RetroAchievements.org.

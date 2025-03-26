@@ -1,6 +1,6 @@
 displayName = RetroAchievements
 author = timenoe
-version = 1.0.19
+version = 1.0.20
 homepage = https://retroachievements.org/game/32909
 buildIgnore = *.pdn
 side = Both

@@ -1,3 +1,6 @@
+v1.0.19
+- Updated integration submodule
+
 v1.0.18
 - Made achievement titles case-insensitive for chat commands
 

@@ -6,6 +6,8 @@ Login to RetroAchievements using the chat command: [i]/ra login <user> <pass>[/i
 
 [b]If applicable, reset all previously earned local in-game achievements at the start of a new playthrough using the chat command: [i]/cheevos reset all[/i][/b]
 
+[b][u]Notice[/u][/b]
+The upgrade from v1.0.21 to v1.1.0 resulted in a save file imcompatability for custom achievements. Download [url=https://github.com/timenoe/Terraria-RetroAchievements-Save-Converter/releases/download/v1/save_converter.zip]this GUI[/url] to convert your save file to the new format and keep your progress.
 
 [u][b]New Chat Commands[/b][/u]
 [list]

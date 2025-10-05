@@ -10,6 +10,9 @@ Terraria tModLoader mod that integrates Terraria with RetroAchievements, a websi
 
 **If applicable, reset all previously earned local in-game achievements at the start of a new playthrough using the chat command: `/cheevos reset all`.**
 
+## Notice
+The upgrade from v1.0.21 to v1.1.0 resulted in a save file imcompatability for custom achievements. Download [this GUI](https://github.com/timenoe/Terraria-RetroAchievements-Save-Converter/releases/download/v1/save_converter.zip) to convert your save file to the new format to keep progress.
+
 ## New Chat Commands
 - `/cheevos missing <title>` - Display missing elements for a tracked achievement
 - `/cheevos reset all` - Reset progress for all local achievements

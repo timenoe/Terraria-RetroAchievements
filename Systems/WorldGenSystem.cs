@@ -1,6 +1,6 @@
 ﻿using Terraria.GameContent.Generation;
 using Terraria.ModLoader;
-using RetroAchievements.Paintings;
+using RetroAchievements.Paintings.Scott;
 
 namespace RetroAchievements.Systems
 {

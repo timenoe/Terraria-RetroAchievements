@@ -3,7 +3,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 
-namespace RetroAchievements.Paintings
+namespace RetroAchievements.Paintings.Scott
 {
     /// <summary>
     /// Scott painting tile

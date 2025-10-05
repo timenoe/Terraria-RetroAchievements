@@ -1,3 +1,15 @@
+Achievements: {
+	ScottsHatAchievement: {
+		FriendlyName: Retro Founder
+		Description: Obtain Scott's Hat.
+	}
+
+	ScottsPaintingAchievement: {
+		FriendlyName: Retro Renaissance
+		Description: Obtain a painting of Scott.
+	}
+}
+
 Buffs: {
 	HardestcoreBuff: {
 		DisplayName: Hardestcore

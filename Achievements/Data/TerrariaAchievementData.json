@@ -1624,7 +1624,7 @@
             }
         },
         {
-            "Name": "RETRO_SCOTTS_HAT",
+            "Name": "RetroAchievements/ScottsHatAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Retro Founder",
@@ -1638,7 +1638,7 @@
             }
         },
         {
-            "Name": "RETRO_SCOTTS_PAINTING",
+            "Name": "RetroAchievements/ScottsPaintingAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Retro Renaissance",
@@ -1652,7 +1652,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_BAT_BAT",
+            "Name": "CompletionistAchievements/WeaponBatBatAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Bat Some Bats",
@@ -1666,7 +1666,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_BEAM_SWORD",
+            "Name": "CompletionistAchievements/WeaponBeamSwordAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Fully Energized",
@@ -1680,7 +1680,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_BLADED_GLOVE",
+            "Name": "CompletionistAchievements/WeaponBladedGloveAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Get Shredded",
@@ -1694,7 +1694,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_BLADETONGUE",
+            "Name": "CompletionistAchievements/WeaponBladetongueAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Oculus Reaver",
@@ -1708,7 +1708,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_BONE_SWORD",
+            "Name": "CompletionistAchievements/WeaponBoneSwordAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Calcium Carver",
@@ -1722,7 +1722,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_EXOTIC_SCIMITAR",
+            "Name": "CompletionistAchievements/WeaponExoticScimitarAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Persian Parry",
@@ -1736,7 +1736,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_GLADIUS",
+            "Name": "CompletionistAchievements/WeaponGladiusAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Are You Not Entertained?",
@@ -1750,7 +1750,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_MANDIBLE_BLADE",
+            "Name": "CompletionistAchievements/WeaponMandibleBladeAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Big Meaty Jaws",
@@ -1764,7 +1764,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_STYLISH_SCISSORS",
+            "Name": "CompletionistAchievements/WeaponStylishScissorsAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Killed la Kill",
@@ -1778,7 +1778,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_ZOMBIE_ARM",
+            "Name": "CompletionistAchievements/WeaponZombieArmAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Need a Hand?",
@@ -1792,7 +1792,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_CLASSY_CANE",
+            "Name": "CompletionistAchievements/WeaponClassyCaneAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Tax Enforcer",
@@ -1806,7 +1806,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_ICE_SICKLE",
+            "Name": "CompletionistAchievements/WeaponIceSickleAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Icy Kiss of Death",
@@ -1820,7 +1820,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_KEYBRAND",
+            "Name": "CompletionistAchievements/WeaponKeybrandAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "My Friends Are My Power!",
@@ -1834,7 +1834,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_CASCADE",
+            "Name": "CompletionistAchievements/WeaponCascadeAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "One Lava Drop",
@@ -1848,7 +1848,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_AMAROK",
+            "Name": "CompletionistAchievements/WeaponAmarokAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "One Snow Drop",
@@ -1862,7 +1862,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_HELFIRE",
+            "Name": "CompletionistAchievements/WeaponHelfireAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "One Fire Drop",
@@ -1876,7 +1876,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_KRAKEN",
+            "Name": "CompletionistAchievements/WeaponKrakenAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "One Dungeon Drop",
@@ -1890,7 +1890,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_YELETS",
+            "Name": "CompletionistAchievements/WeaponYeletsAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "One Jungle Drop",
@@ -1904,7 +1904,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_SKELETON_MERCHANT",
+            "Name": "CompletionistAchievements/WeaponSkeletonMerchantAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Support Your Local Businesses",
@@ -1918,7 +1918,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_OBSIDIAN_SWORDFISH",
+            "Name": "CompletionistAchievements/WeaponObsidianSwordfishAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Yeouch!!",
@@ -1932,7 +1932,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_BLOODY_MACHETE",
+            "Name": "CompletionistAchievements/WeaponBloodyMacheteAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Friday the 13th",
@@ -1946,7 +1946,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_COMBAT_WRENCH",
+            "Name": "CompletionistAchievements/WeaponCombatWrenchAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Blue-Collar Buster",
@@ -1960,7 +1960,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_SHROOMERANG",
+            "Name": "CompletionistAchievements/WeaponShroomerangAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Spore Distribution",
@@ -1974,7 +1974,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_BANANARANG",
+            "Name": "CompletionistAchievements/WeaponBananarangAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Ring Ring",
@@ -1988,7 +1988,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_PALADINS_HAMMER",
+            "Name": "CompletionistAchievements/WeaponPaladinsHammerAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Paladin Pounder",
@@ -2002,7 +2002,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_CHAIN_KNIFE",
+            "Name": "CompletionistAchievements/WeaponChainKnifeAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Rope Dart",
@@ -2016,7 +2016,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_DRIPPLER_CRIPPLER",
+            "Name": "CompletionistAchievements/WeaponDripplerCripplerAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "I Got My Eyes on You",
@@ -2030,7 +2030,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_TERRAGRIM",
+            "Name": "CompletionistAchievements/WeaponTerragrimAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Blessed Wind",
@@ -2044,7 +2044,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_MELEE_SWORD",
+            "Name": "CompletionistAchievements/WeaponMeleeSwordAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Terra Blade Chronicles",
@@ -2058,7 +2058,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_MELEE_YOYO",
+            "Name": "CompletionistAchievements/WeaponMeleeYoyoAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Just One Drop",
@@ -2072,7 +2072,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_MELEE_SPEAR",
+            "Name": "CompletionistAchievements/WeaponMeleeSpearAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Power of Odin",
@@ -2086,7 +2086,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_MELEE_BOOMERANG",
+            "Name": "CompletionistAchievements/WeaponMeleeBoomerangAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Round Trip",
@@ -2100,7 +2100,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_MELEE_FLAIL",
+            "Name": "CompletionistAchievements/WeaponMeleeFlailAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Berserker",
@@ -2114,7 +2114,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_MELEE_OTHER",
+            "Name": "CompletionistAchievements/WeaponMeleeOtherAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Ultimate Weapon",
@@ -2128,7 +2128,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_BLOOD_RAIN_BOW",
+            "Name": "CompletionistAchievements/WeaponBloodRainBowAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Reign in Blood",
@@ -2142,7 +2142,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_MARROW",
+            "Name": "CompletionistAchievements/WeaponMarrowAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Bone Marrow",
@@ -2156,7 +2156,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_RED_RYDER",
+            "Name": "CompletionistAchievements/WeaponRedRyderAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "You'll Shoot Your Eye Out Kid",
@@ -2170,7 +2170,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_UZI",
+            "Name": "CompletionistAchievements/WeaponUziAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Angrier Trapper",
@@ -2184,7 +2184,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_ALE_TOSSER",
+            "Name": "CompletionistAchievements/WeaponAleTosserAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Bar Fight",
@@ -2198,7 +2198,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_PAINTBALL_GUN",
+            "Name": "CompletionistAchievements/WeaponPaintballGunAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Weaponized Art",
@@ -2212,7 +2212,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_COIN_GUN",
+            "Name": "CompletionistAchievements/WeaponCoinGunAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Wasting Tax Dollars",
@@ -2226,7 +2226,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_TOXIKARP",
+            "Name": "CompletionistAchievements/WeaponToxikarpAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Dirty Bubble",
@@ -2240,7 +2240,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_RANGED_BOW",
+            "Name": "CompletionistAchievements/WeaponRangedBowAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Sharpshooter",
@@ -2254,7 +2254,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_RANGED_REPEATER",
+            "Name": "CompletionistAchievements/WeaponRangedRepeaterAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Pew Pew",
@@ -2268,7 +2268,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_RANGED_GUN",
+            "Name": "CompletionistAchievements/WeaponRangedGunAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Say Hello to My Little Friend",
@@ -2282,7 +2282,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_RANGED_LAUNCHER",
+            "Name": "CompletionistAchievements/WeaponRangedLauncherAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "The Big Bang",
@@ -2296,7 +2296,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_RANGED_OTHER",
+            "Name": "CompletionistAchievements/WeaponRangedOtherAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Hobby Project",
@@ -2310,7 +2310,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_CRYSTAL_SERPENT",
+            "Name": "CompletionistAchievements/WeaponCrystalSerpentAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Crystal Crowd Control",
@@ -2324,7 +2324,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_FROST_STAFF",
+            "Name": "CompletionistAchievements/WeaponFrostStaffAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Frostbite Flurry",
@@ -2338,7 +2338,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_POISON_STAFF",
+            "Name": "CompletionistAchievements/WeaponPoisonStaffAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Recluse Retribution",
@@ -2352,7 +2352,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_RESONANCE_SCEPTER",
+            "Name": "CompletionistAchievements/WeaponResonanceScepterAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Claim the Throne",
@@ -2366,7 +2366,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_UNHOLY_TRIDENT",
+            "Name": "CompletionistAchievements/WeaponUnholyTridentAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Fallen Angel Artifact",
@@ -2380,7 +2380,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_DEMON_SCYTHE",
+            "Name": "CompletionistAchievements/WeaponDemonScytheAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Trade Offer",
@@ -2394,7 +2394,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_WATER_BOLT",
+            "Name": "CompletionistAchievements/WeaponWaterBoltAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Book Worm",
@@ -2408,7 +2408,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_BLOOD_THORN",
+            "Name": "CompletionistAchievements/WeaponBloodThornAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Forbidden Magic",
@@ -2422,7 +2422,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_MEDUSA_HEAD",
+            "Name": "CompletionistAchievements/WeaponMedusaHeadAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Stony Gaze",
@@ -2436,7 +2436,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_NIMBUS_ROD",
+            "Name": "CompletionistAchievements/WeaponNimbusRodAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Storm Chaser",
@@ -2450,7 +2450,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_STELLAR_TUNE",
+            "Name": "CompletionistAchievements/WeaponStellarTuneAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Pop Star",
@@ -2464,7 +2464,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_MAGIC_WAND",
+            "Name": "CompletionistAchievements/WeaponMagicWandAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Terry Potter",
@@ -2478,7 +2478,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_MAGIC_GUN",
+            "Name": "CompletionistAchievements/WeaponMagicGunAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Laser Tag",
@@ -2492,7 +2492,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_MAGIC_BOOK",
+            "Name": "CompletionistAchievements/WeaponMagicBookAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Ancient Grimoires",
@@ -2506,7 +2506,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_MAGIC_OTHER",
+            "Name": "CompletionistAchievements/WeaponMagicOtherAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Magical Artifacts",
@@ -2520,7 +2520,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_ABIGAILS_FLOWER",
+            "Name": "CompletionistAchievements/WeaponAbigailsFlowerAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Guardian Ghost",
@@ -2534,7 +2534,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_SLIME_STAFF",
+            "Name": "CompletionistAchievements/WeaponSlimeStaffAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Bouncy Buddy",
@@ -2548,7 +2548,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_VAMPIRE_FROG_STAFF",
+            "Name": "CompletionistAchievements/WeaponVampireFrogStaffAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Vampyrius Vampyrus",
@@ -2562,7 +2562,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_PIRATE_STAFF",
+            "Name": "CompletionistAchievements/WeaponPirateStaffAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Pixel Piracy",
@@ -2576,7 +2576,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_SANGUINE_STAFF",
+            "Name": "CompletionistAchievements/WeaponSanguineStaffAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Blood Red Bats",
@@ -2590,12 +2590,12 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_TERRAPRISMA",
+            "Name": "CompletionistAchievements/WeaponTerraprismaAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Warrior of Light",
                 "Description": "Obtain a Terraprisma from the Empress of Light during the day.",
-                "Points": 50,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496105,
@@ -2604,7 +2604,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_MORNING_STAR",
+            "Name": "CompletionistAchievements/WeaponMorningStarAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Vampire Killer",
@@ -2618,7 +2618,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_SUMMON_MINION",
+            "Name": "CompletionistAchievements/WeaponSummonMinionAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Offensive Line",
@@ -2632,7 +2632,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_SUMMON_SENTRY",
+            "Name": "CompletionistAchievements/WeaponSummonSentryAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Defensive Line",
@@ -2646,7 +2646,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_SUMMON_WHIP",
+            "Name": "CompletionistAchievements/WeaponSummonWhipAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Beastmaster",
@@ -2660,7 +2660,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_WEAPON_PLACEABLE",
+            "Name": "CompletionistAchievements/WeaponPlaceableAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "3...2...1...Fire!",
@@ -2674,7 +2674,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_AMMO_FLARE",
+            "Name": "CompletionistAchievements/AmmoFlareAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Flame On!",
@@ -2688,7 +2688,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_AMMO_BULLET",
+            "Name": "CompletionistAchievements/AmmoBulletAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Spray n' Pray",
@@ -2702,7 +2702,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_AMMO_ARROW",
+            "Name": "CompletionistAchievements/AmmoArrowAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Rain of Arrows",
@@ -2716,7 +2716,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_AMMO_ROCKET",
+            "Name": "CompletionistAchievements/AmmoRocketAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Rocket Man",
@@ -2730,7 +2730,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_AMMO_DART",
+            "Name": "CompletionistAchievements/AmmoDartAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Silent but Deadly",
@@ -2744,7 +2744,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_AMMO_SOLUTION",
+            "Name": "CompletionistAchievements/AmmoSolutionAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Solutions to World Problems",
@@ -2758,7 +2758,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_BONE_PICKAXE",
+            "Name": "CompletionistAchievements/ToolBonePickaxeAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Got a Bone to Pick",
@@ -2772,7 +2772,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_THE_AXE",
+            "Name": "CompletionistAchievements/ToolTheAxeAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Flying V",
@@ -2786,7 +2786,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_BAT_HOOK",
+            "Name": "CompletionistAchievements/ToolBatHookAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Echolocation",
@@ -2800,7 +2800,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_FISH_HOOK",
+            "Name": "CompletionistAchievements/ToolFishHookAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Fish On!",
@@ -2814,7 +2814,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_HOTLINE_FISHING_HOOK",
+            "Name": "CompletionistAchievements/ToolHotlineFishingHookAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Fiery Fishin'",
@@ -2828,7 +2828,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_DEMON_CONCH",
+            "Name": "CompletionistAchievements/ToolDemonConchAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Listen for Screams",
@@ -2842,7 +2842,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_ROD_OF_DISCORD",
+            "Name": "CompletionistAchievements/ToolRodOfDiscordAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Discord Moderator",
@@ -2856,7 +2856,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_BONE_WAND",
+            "Name": "CompletionistAchievements/ToolBoneWandAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Calcium Caster",
@@ -2870,7 +2870,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_BOTTOMLESS_LAVA_BUCKET",
+            "Name": "CompletionistAchievements/ToolBottomlessLavaBucketAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Contained Eruption",
@@ -2884,7 +2884,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_SUPER_ABSORBANT_SPONGE",
+            "Name": "CompletionistAchievements/ToolSuperAbsorbantSpongeAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Water Void",
@@ -2898,7 +2898,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_LAVA_ABSORBANT_SPONGE",
+            "Name": "CompletionistAchievements/ToolLavaAbsorbantSpongeAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Lava Void",
@@ -2912,7 +2912,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_GOLDEN_BUG_NET",
+            "Name": "CompletionistAchievements/ToolGoldenBugNetAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Cool Critter Catcher",
@@ -2926,7 +2926,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_BINOCULARS",
+            "Name": "CompletionistAchievements/ToolBinocularsAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Eye See You",
@@ -2940,7 +2940,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_JUNGLE_KEY",
+            "Name": "CompletionistAchievements/ToolJungleKeyAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Piranha Treasure",
@@ -2954,7 +2954,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_FROZEN_KEY",
+            "Name": "CompletionistAchievements/ToolFrozenKeyAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Hydra Treasure",
@@ -2968,7 +2968,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_HALLOWED_KEY",
+            "Name": "CompletionistAchievements/ToolHallowedKeyAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Rainbow Treasure",
@@ -2982,7 +2982,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_CORRUPTION_KEY",
+            "Name": "CompletionistAchievements/ToolCorruptionKeyAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Scourge Treasure",
@@ -2996,7 +2996,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_CRIMSON_KEY",
+            "Name": "CompletionistAchievements/ToolCrimsonKeyAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Vampire Treasure",
@@ -3010,7 +3010,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_DESERT_KEY",
+            "Name": "CompletionistAchievements/ToolDesertKeyAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Tiger Treasure",
@@ -3024,7 +3024,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_MINE",
+            "Name": "CompletionistAchievements/ToolMineAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Also Try Minecraft!",
@@ -3038,7 +3038,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_CHOP",
+            "Name": "CompletionistAchievements/ToolChopAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Chop Chop",
@@ -3052,7 +3052,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_HAMMER",
+            "Name": "CompletionistAchievements/ToolHammerAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Talkin' 'Bout the Hammers",
@@ -3066,7 +3066,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_WIRE",
+            "Name": "CompletionistAchievements/ToolWireAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Master Electrician",
@@ -3080,7 +3080,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_PAINT",
+            "Name": "CompletionistAchievements/ToolPaintAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Home Renovation",
@@ -3094,7 +3094,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_HOOK",
+            "Name": "CompletionistAchievements/ToolHookAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Get Over Here!",
@@ -3108,7 +3108,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_FISH",
+            "Name": "CompletionistAchievements/ToolFishAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "I Just Wanna Fish",
@@ -3122,7 +3122,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_MOVEMENT",
+            "Name": "CompletionistAchievements/ToolMovementAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Instant Transmission",
@@ -3136,7 +3136,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_WAND",
+            "Name": "CompletionistAchievements/ToolWandAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Tree Hugger",
@@ -3150,7 +3150,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TOOL_OTHER",
+            "Name": "CompletionistAchievements/ToolOtherAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Tools of the Trade",
@@ -3164,7 +3164,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ARMOR_MINING",
+            "Name": "CompletionistAchievements/ArmorMiningAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Spelunker's Spirit",
@@ -3178,7 +3178,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ARMOR_RAIN",
+            "Name": "CompletionistAchievements/ArmorRainAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Rotten Rain",
@@ -3192,7 +3192,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ARMOR_SNOW",
+            "Name": "CompletionistAchievements/ArmorSnowAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Dead Cold",
@@ -3206,7 +3206,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ARMOR_DIVING_HELMET",
+            "Name": "CompletionistAchievements/ArmorDivingHelmetAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Scuba Duba",
@@ -3220,7 +3220,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ARMOR_DJINNS_CURSE",
+            "Name": "CompletionistAchievements/ArmorDjinnsCurseAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Unfortunate Wish",
@@ -3234,7 +3234,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ARMOR_GREEN_CAP",
+            "Name": "CompletionistAchievements/ArmorGreenCapAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "L Is Real",
@@ -3248,7 +3248,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ARMOR_VIKING_HELMET",
+            "Name": "CompletionistAchievements/ArmorVikingHelmetAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "For Valhalla",
@@ -3262,7 +3262,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ARMOR_PRE-HARDMODE",
+            "Name": "CompletionistAchievements/ArmorPreHardmodeAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Descend to the Abyss",
@@ -3276,11 +3276,11 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ARMOR_HARDMODE",
+            "Name": "CompletionistAchievements/ArmorHardmodeAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Ascend to the Heavens",
-                "Description": "Obtain all 118 Hardmode armor set pieces.",
+                "Description": "Obtain all 120 Hardmode armor set pieces.",
                 "Points": 50,
                 "Type": "",
                 "Category": 3,
@@ -3290,7 +3290,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ARMOR_WIZARD",
+            "Name": "CompletionistAchievements/ArmorWizardAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "I... Am an Enchanter",
@@ -3304,7 +3304,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ARMOR_OTHER",
+            "Name": "CompletionistAchievements/ArmorOtherAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Hard-Headed Hero",
@@ -3318,7 +3318,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_BALLOON_PUFFERFISH",
+            "Name": "CompletionistAchievements/AccessoryBalloonPufferfishAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Do Not Eat",
@@ -3332,7 +3332,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_FROG_LEG",
+            "Name": "CompletionistAchievements/AccessoryFrogLegAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Frogger Feet",
@@ -3346,7 +3346,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_MOON_CHARM",
+            "Name": "CompletionistAchievements/AccessoryMoonCharmAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Always a Full Moon",
@@ -3360,7 +3360,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_FIN_WINGS",
+            "Name": "CompletionistAchievements/AccessoryFinWingsAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Fly Fishing",
@@ -3374,7 +3374,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_DEPTH_METER",
+            "Name": "CompletionistAchievements/AccessoryDepthMeterAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Layer by Layer",
@@ -3388,7 +3388,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_COMPASS",
+            "Name": "CompletionistAchievements/AccessoryCompassAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Coast to Coast",
@@ -3402,7 +3402,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_TALLY_COUNTER",
+            "Name": "CompletionistAchievements/AccessoryTallyCounterAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Keeping Track",
@@ -3416,7 +3416,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_NATURES_GIFT",
+            "Name": "CompletionistAchievements/AccessoryNaturesGiftAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Magical Affinity",
@@ -3430,7 +3430,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_FROZEN_TURTLE_SHELL",
+            "Name": "CompletionistAchievements/AccessoryFrozenTurtleShellAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Absolute Zero",
@@ -3444,7 +3444,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_MAGIC_QUIVER",
+            "Name": "CompletionistAchievements/AccessoryMagicQuiverAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Target Practice",
@@ -3458,7 +3458,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_SHARK_TOOTH_NECKLACE",
+            "Name": "CompletionistAchievements/AccessorySharkToothNecklaceAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Piercing Penetration",
@@ -3472,7 +3472,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_CLOTHIER_VOODOO_DOLL",
+            "Name": "CompletionistAchievements/AccessoryClothierVoodooDollAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Target Acquired",
@@ -3486,7 +3486,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_JELLYFISH_NECKLACE",
+            "Name": "CompletionistAchievements/AccessoryJellyfishNecklaceAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Underwater Rave",
@@ -3500,7 +3500,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_JUNGLE_ROSE",
+            "Name": "CompletionistAchievements/AccessoryJungleRoseAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Oh So Pretty",
@@ -3514,7 +3514,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_ARCTIC_DIVING_GEAR",
+            "Name": "CompletionistAchievements/AccessoryArcticDivingGearAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Polar Plunge",
@@ -3528,7 +3528,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_BUNDLE_HORSESHOE_BALLOONS",
+            "Name": "CompletionistAchievements/AccessoryBundleHorseshoeBalloonsAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Lucky Lift",
@@ -3542,7 +3542,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_CELESTIAL_CUFFS",
+            "Name": "CompletionistAchievements/AccessoryCelestialCuffsAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Getting Cuffed",
@@ -3556,7 +3556,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_CELESTIAL_EMBLEM",
+            "Name": "CompletionistAchievements/AccessoryCelestialEmblemAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Mana Magnet",
@@ -3570,7 +3570,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_CELESTIAL_SHELL",
+            "Name": "CompletionistAchievements/AccessoryCelestialShellAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Monster Mash",
@@ -3584,7 +3584,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_FAIRY_BOOTS",
+            "Name": "CompletionistAchievements/AccessoryFairyBootsAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Pianta Impersonator",
@@ -3598,7 +3598,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_FIRE_GAUNTLET",
+            "Name": "CompletionistAchievements/AccessoryFireGauntletAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Flaming Fist",
@@ -3612,7 +3612,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_FROG_GEAR",
+            "Name": "CompletionistAchievements/AccessoryFrogGearAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "It Ain\u2019t Easy Being Green",
@@ -3626,7 +3626,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_GREEDY_RING",
+            "Name": "CompletionistAchievements/AccessoryGreedyRingAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Sticky Fingers",
@@ -3640,7 +3640,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_HAND_OF_CREATION",
+            "Name": "CompletionistAchievements/AccessoryHandOfCreationAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Master of All Trades",
@@ -3654,7 +3654,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_HELLFIRE_TREADS",
+            "Name": "CompletionistAchievements/AccessoryHellfireTreadsAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Trailblazer",
@@ -3668,7 +3668,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_LAVAPROOF_TACKLE_BAG",
+            "Name": "CompletionistAchievements/AccessoryLavaproofTackleBagAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Master Baiter",
@@ -3682,7 +3682,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_MASTER_NINJA_GEAR",
+            "Name": "CompletionistAchievements/AccessoryMasterNinjaGearAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "One With the Shadows",
@@ -3696,7 +3696,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_SHELLPHONE",
+            "Name": "CompletionistAchievements/AccessoryShellphoneAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Let's Talk About Your Car's Extended Warranty",
@@ -3710,7 +3710,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_SNIPER_SCOPE",
+            "Name": "CompletionistAchievements/AccessorySniperScopeAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Terrarian Sniper",
@@ -3724,7 +3724,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_THE_GRAND_DESIGN",
+            "Name": "CompletionistAchievements/AccessoryTheGrandDesignAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Wire Kite",
@@ -3738,7 +3738,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_ULTRA_ABSORBANT_SPONGE",
+            "Name": "CompletionistAchievements/AccessoryUltraAbsorbantSpongeAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Absolute Absorption",
@@ -3752,7 +3752,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_MOVE",
+            "Name": "CompletionistAchievements/AccessoryMoveAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Wanna See Me Do It Again",
@@ -3766,7 +3766,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_WINGS",
+            "Name": "CompletionistAchievements/AccessoryWingsAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Free Bird",
@@ -3780,7 +3780,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_INFO",
+            "Name": "CompletionistAchievements/AccessoryInfoAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Modern Technology",
@@ -3794,7 +3794,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_HEALTH_MANA",
+            "Name": "CompletionistAchievements/AccessoryHealthManaAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Divine Blessing",
@@ -3808,7 +3808,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_COMBAT",
+            "Name": "CompletionistAchievements/AccessoryCombatAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Battle Ready",
@@ -3822,7 +3822,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_CONSTRUCTION",
+            "Name": "CompletionistAchievements/AccessoryConstructionAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "85 Hours a Day",
@@ -3836,7 +3836,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_FISH",
+            "Name": "CompletionistAchievements/AccessoryFishAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Fish Love Me",
@@ -3850,7 +3850,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_YOYO",
+            "Name": "CompletionistAchievements/AccessoryYoyoAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Super Strands",
@@ -3864,7 +3864,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_VANITY",
+            "Name": "CompletionistAchievements/AccessoryVanityAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Luxury Goods",
@@ -3878,11 +3878,11 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_MUSIC_BOX",
+            "Name": "CompletionistAchievements/AccessoryMusicBoxAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Capture the Moment",
-                "Description": "Obtain all 87 music boxes.",
+                "Description": "Obtain all 88 music boxes.",
                 "Points": 50,
                 "Type": "",
                 "Category": 3,
@@ -3892,7 +3892,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_GOLF_BALL",
+            "Name": "CompletionistAchievements/AccessoryGolfBallAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Hot Shots",
@@ -3906,7 +3906,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_ACCESSORY_OTHER",
+            "Name": "CompletionistAchievements/AccessoryOtherAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Voodoo Magic",
@@ -3920,7 +3920,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_MOUNT_BEE",
+            "Name": "CompletionistAchievements/MountBeeAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Rapid Pollination",
@@ -3934,7 +3934,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_MOUNT_TURTLE",
+            "Name": "CompletionistAchievements/MountTurtleAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Slow and Steady",
@@ -3948,7 +3948,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_MOUNT_GOLF_CART",
+            "Name": "CompletionistAchievements/MountGolfCartAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Retirement Ready",
@@ -3962,7 +3962,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_MOUNT_BASILISK",
+            "Name": "CompletionistAchievements/MountBasiliskAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Chaos Charge",
@@ -3976,7 +3976,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_MOUNT_WOLF",
+            "Name": "CompletionistAchievements/MountWolfAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Obsessed With Wolves",
@@ -3990,7 +3990,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_MOUNT_UNICORN",
+            "Name": "CompletionistAchievements/MountUnicornAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Rainbow Rider",
@@ -4004,7 +4004,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_MOUNT_PIGRON",
+            "Name": "CompletionistAchievements/MountPigronAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Now You See Me...",
@@ -4018,7 +4018,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_MOUNT_RUDOLPH",
+            "Name": "CompletionistAchievements/MountRudolphAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "The Original Mount",
@@ -4032,7 +4032,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_MOUNT_DCU",
+            "Name": "CompletionistAchievements/MountDcuAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Terraforming",
@@ -4046,7 +4046,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_MOUNT",
+            "Name": "CompletionistAchievements/MountAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Trusty Steeds",
@@ -4060,7 +4060,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_MINECART_FISH",
+            "Name": "CompletionistAchievements/MinecartFishAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Deal With It",
@@ -4074,7 +4074,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_MINECART_PIGRON",
+            "Name": "CompletionistAchievements/MinecartPigronAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Powered by Bacon!",
@@ -4088,7 +4088,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_MINECART",
+            "Name": "CompletionistAchievements/MinecartAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Modern Mining",
@@ -4102,7 +4102,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_VANITY_HERO",
+            "Name": "CompletionistAchievements/VanityHeroAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Hero of Time",
@@ -4116,7 +4116,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_VANITY_LAMIA",
+            "Name": "CompletionistAchievements/VanityLamiaAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Menacing Glare",
@@ -4130,7 +4130,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_VANITY_MUMMY",
+            "Name": "CompletionistAchievements/VanityMummyAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Budget Costume",
@@ -4144,7 +4144,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_VANITY_PEDGUIN",
+            "Name": "CompletionistAchievements/VanityPedguinAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Become the Pedguin",
@@ -4158,7 +4158,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_VANITY_PLUMBER",
+            "Name": "CompletionistAchievements/VanityPlumberAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Mr. Video Game",
@@ -4172,7 +4172,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_VANITY_CREEPER",
+            "Name": "CompletionistAchievements/VanityCreeperAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Aww Man",
@@ -4186,7 +4186,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_VANITY_ANGEL_HALO",
+            "Name": "CompletionistAchievements/VanityAngelHaloAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Baby, I Can Feel Your Halo",
@@ -4200,7 +4200,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_VANITY_BADGERS_HAT",
+            "Name": "CompletionistAchievements/VanityBadgersHatAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "To Hell and Back",
@@ -4214,7 +4214,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_VANITY_DEAD_MANS_SWEATER",
+            "Name": "CompletionistAchievements/VanityDeadMansSweaterAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Redshirt Sacrifice",
@@ -4228,7 +4228,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_VANITY_GINGER_BEARD",
+            "Name": "CompletionistAchievements/VanityGingerBeardAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Beard of Piracy",
@@ -4242,7 +4242,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_VANITY_JIMS_HAT",
+            "Name": "CompletionistAchievements/VanityJimsHatAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "My Hat Now",
@@ -4256,7 +4256,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_VANITY_ROBOT_HAT",
+            "Name": "CompletionistAchievements/VanityRobotHatAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Quote This",
@@ -4270,7 +4270,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_VANITY_SKULL",
+            "Name": "CompletionistAchievements/VanitySkullAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Bone Head",
@@ -4284,7 +4284,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_VANITY_UMBRELLA_HAT",
+            "Name": "CompletionistAchievements/VanityUmbrellaHatAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Under my Umbrella",
@@ -4298,11 +4298,11 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_VANITY_SETS",
+            "Name": "CompletionistAchievements/VanitySetsAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Fashion Show",
-                "Description": "Obtain all 172 vanity set pieces.",
+                "Description": "Obtain all 176 vanity set pieces.",
                 "Points": 50,
                 "Type": "",
                 "Category": 3,
@@ -4312,7 +4312,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_VANITY_HALLOWEEN",
+            "Name": "CompletionistAchievements/VanityHalloweenAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Trick or Treat",
@@ -4326,7 +4326,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_VANITY_CHRISTMAS",
+            "Name": "CompletionistAchievements/VanityChristmasAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "On the Nice List",
@@ -4340,7 +4340,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_VANITY_MASK",
+            "Name": "CompletionistAchievements/VanityMaskAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "That's What the Mask Is",
@@ -4354,7 +4354,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_VANITY_OTHER",
+            "Name": "CompletionistAchievements/VanityOtherAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "He Was #1",
@@ -4368,7 +4368,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PET_BABY_DINOSAUR",
+            "Name": "CompletionistAchievements/PetBabyDinosaurAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "De-extinction",
@@ -4382,7 +4382,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PET_BABY_EATER",
+            "Name": "CompletionistAchievements/PetBabyEaterAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "It's Kinda Cute?",
@@ -4396,7 +4396,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PET_BABY_FACE_MONSTER",
+            "Name": "CompletionistAchievements/PetBabyFaceMonsterAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Jump Scare",
@@ -4410,7 +4410,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PET_BABY_GRINCH",
+            "Name": "CompletionistAchievements/PetBabyGrinchAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Problem Child",
@@ -4424,7 +4424,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PET_BABY_HORNET",
+            "Name": "CompletionistAchievements/PetBabyHornetAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Irresistible Smell",
@@ -4438,7 +4438,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PET_BABY_SKELETRON_HEAD",
+            "Name": "CompletionistAchievements/PetBabySkeletronHeadAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "You SHALL Pass!",
@@ -4452,7 +4452,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PET_BABY_SNOWMAN",
+            "Name": "CompletionistAchievements/PetBabySnowmanAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Sleigh Ride Together With You",
@@ -4466,7 +4466,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PET_BLACK_CAT",
+            "Name": "CompletionistAchievements/PetBlackCatAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Tim's Pet Cat",
@@ -4480,7 +4480,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PET_CAVELING_GARDENER",
+            "Name": "CompletionistAchievements/PetCavelingGardenerAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Keeper of the Core",
@@ -4494,7 +4494,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PET_THE_DIRTIEST_BLOCK",
+            "Name": "CompletionistAchievements/PetTheDirtiestBlockAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Dirt is Dirty",
@@ -4508,7 +4508,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PET_JUNIMO",
+            "Name": "CompletionistAchievements/PetJunimoAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Keeper of the Forest",
@@ -4522,7 +4522,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PET_LIZARD",
+            "Name": "CompletionistAchievements/PetLizardAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Chillin\u2019 Like a Reptilian",
@@ -4536,7 +4536,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PET_MINI_MINOTAUR",
+            "Name": "CompletionistAchievements/PetMiniMinotaurAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Mini Minotaur's Weakness",
@@ -4550,7 +4550,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PET_PUPPY",
+            "Name": "CompletionistAchievements/PetPuppyAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Puppy Love",
@@ -4564,7 +4564,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PET_SAPLING",
+            "Name": "CompletionistAchievements/PetSaplingAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Budding Life",
@@ -4578,7 +4578,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PET_SPIFFO",
+            "Name": "CompletionistAchievements/PetSpiffoAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Plushie PAWS",
@@ -4592,7 +4592,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PET_SQUASHLING",
+            "Name": "CompletionistAchievements/PetSquashlingAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Plentiful Harvest",
@@ -4606,7 +4606,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PET_SUGAR_GLIDER",
+            "Name": "CompletionistAchievements/PetSugarGliderAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Sugar Rush",
@@ -4620,7 +4620,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PET_ZEPHYR_FISH",
+            "Name": "CompletionistAchievements/PetZephyrFishAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "The Gentle West Wind",
@@ -4634,7 +4634,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PET_WISP",
+            "Name": "CompletionistAchievements/PetWispAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Will-O\u2019-The-Wisp",
@@ -4648,7 +4648,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PET",
+            "Name": "CompletionistAchievements/PetAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Loyal Companions",
@@ -4662,7 +4662,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PET_LIGHT",
+            "Name": "CompletionistAchievements/PetLightAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Bright Buddies",
@@ -4676,7 +4676,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_SLIME",
+            "Name": "CompletionistAchievements/BannerSlimeAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Slime Slayer",
@@ -4690,7 +4690,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_CAVERN",
+            "Name": "CompletionistAchievements/BannerCavernAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Cavern Slayer",
@@ -4704,7 +4704,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_CORRUPTION",
+            "Name": "CompletionistAchievements/BannerCorruptionAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Corruption Slayer",
@@ -4718,7 +4718,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_CRIMSON",
+            "Name": "CompletionistAchievements/BannerCrimsonAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Crimson Slayer",
@@ -4732,7 +4732,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_DESERT",
+            "Name": "CompletionistAchievements/BannerDesertAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Desert Slayer",
@@ -4746,7 +4746,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_DUNGEON",
+            "Name": "CompletionistAchievements/BannerDungeonAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Dungeon Slayer",
@@ -4760,7 +4760,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_GLOWING_MUSHROOM",
+            "Name": "CompletionistAchievements/BannerGlowingMushroomAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Glowing Mushroom Slayer",
@@ -4774,7 +4774,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_GRANITE_CAVE",
+            "Name": "CompletionistAchievements/BannerGraniteCaveAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Granite Cave Slayer",
@@ -4788,7 +4788,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_HALLOW",
+            "Name": "CompletionistAchievements/BannerHallowAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Hallow Slayer",
@@ -4802,7 +4802,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_JUNGLE",
+            "Name": "CompletionistAchievements/BannerJungleAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Jungle Slayer",
@@ -4816,7 +4816,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_MARBLE_CAVE",
+            "Name": "CompletionistAchievements/BannerMarbleCaveAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Marble Cave Slayer",
@@ -4830,7 +4830,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_METEORITE",
+            "Name": "CompletionistAchievements/BannerMeteoriteAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Meteorite Slayer",
@@ -4844,7 +4844,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_SNOW",
+            "Name": "CompletionistAchievements/BannerSnowAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Snow Slayer",
@@ -4858,7 +4858,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_SPIDER_CAVE",
+            "Name": "CompletionistAchievements/BannerSpiderCaveAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Spider Cave Slayer",
@@ -4872,7 +4872,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_SURFACE",
+            "Name": "CompletionistAchievements/BannerSurfaceAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Surface Slayer",
@@ -4886,7 +4886,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_UNDERWORLD",
+            "Name": "CompletionistAchievements/BannerUnderworldAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Underworld Slayer",
@@ -4900,7 +4900,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_BLOOD_MOON",
+            "Name": "CompletionistAchievements/BannerBloodMoonAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Blood Moon Slayer",
@@ -4914,7 +4914,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_FROST_LEGION",
+            "Name": "CompletionistAchievements/BannerFrostLegionAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Frost Legion Slayer",
@@ -4928,7 +4928,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_FROST_MOON",
+            "Name": "CompletionistAchievements/BannerFrostMoonAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Frost Moon Slayer",
@@ -4942,7 +4942,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_GOBLIN_ARMY",
+            "Name": "CompletionistAchievements/BannerGoblinArmyAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Goblin Army Slayer",
@@ -4956,7 +4956,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_HALLOWEEN",
+            "Name": "CompletionistAchievements/BannerHalloweenAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Halloween Slayer",
@@ -4970,7 +4970,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_LUNAR_EVENTS",
+            "Name": "CompletionistAchievements/BannerLunarEventsAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Lunar Events Slayer",
@@ -4984,7 +4984,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_MARTIAN_MADNESS",
+            "Name": "CompletionistAchievements/BannerMartianMadnessAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Martian Madness Slayer",
@@ -4998,7 +4998,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_OLD_ONES_ARMY",
+            "Name": "CompletionistAchievements/BannerOldOnesArmyAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Old One's Army Slayer",
@@ -5012,7 +5012,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_PIRATE_INVASION",
+            "Name": "CompletionistAchievements/BannerPirateInvasionAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Pirate Invasion Slayer",
@@ -5026,7 +5026,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_PUMPKIN_MOON",
+            "Name": "CompletionistAchievements/BannerPumpkinMoonAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Pumpkin Moon Slayer",
@@ -5040,7 +5040,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_RAIN_BLIZZARD",
+            "Name": "CompletionistAchievements/BannerRainBlizzardAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Rain & Blizzard Slayer",
@@ -5054,7 +5054,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_SANDSTORM",
+            "Name": "CompletionistAchievements/BannerSandstormAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Sandstorm Slayer",
@@ -5068,7 +5068,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_SOLAR_ECLIPSE",
+            "Name": "CompletionistAchievements/BannerSolarEclipseAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Solar Eclipse Slayer",
@@ -5082,7 +5082,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BANNER_WINDY_DAY",
+            "Name": "CompletionistAchievements/BannerWindyDayAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Windy Day Slayer",
@@ -5096,11 +5096,11 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_CRITTER_GEM",
+            "Name": "CompletionistAchievements/CritterGemAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Residual Energy",
-                "Description": "Catch all 14 gem critters.",
+                "Description": "Catch all 14 wild gem critters.",
                 "Points": 25,
                 "Type": "",
                 "Category": 3,
@@ -5110,12 +5110,12 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_CRITTER_GOLD",
+            "Name": "CompletionistAchievements/CritterGoldAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "The Midas Touch",
-                "Description": "Catch all 14 gold critters.",
-                "Points": 50,
+                "Description": "Catch all 14 wild gold critters.",
+                "Points": 100,
                 "Type": "",
                 "Category": 3,
                 "Id": 496285,
@@ -5124,7 +5124,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_CRITTER",
+            "Name": "CompletionistAchievements/CritterAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "King of the Critters",
@@ -5138,11 +5138,11 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_DYE_STRANGE",
+            "Name": "CompletionistAchievements/DyeStrangeAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Indescribable Aura",
-                "Description": "Obtain all 33 Strange Dyes from the Dry Trader.",
+                "Description": "Obtain all 33 Strange Dyes from the Dye Trader.",
                 "Points": 50,
                 "Type": "",
                 "Category": 3,
@@ -5152,7 +5152,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_DYE_CRAFT",
+            "Name": "CompletionistAchievements/DyeCraftAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Lunar Liaison",
@@ -5166,7 +5166,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_DYE_OTHER",
+            "Name": "CompletionistAchievements/DyeOtherAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Feeling Like a Fairy",
@@ -5180,7 +5180,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_DYE_HAIR",
+            "Name": "CompletionistAchievements/DyeHairAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Express Yourself",
@@ -5194,7 +5194,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_EXTRACT_PLATINUM_COIN",
+            "Name": "CompletionistAchievements/ExtractPlatinumCoinAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Panning for Platinum",
@@ -5208,7 +5208,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_EXTRACT_JOURNEYMAN_BAIT",
+            "Name": "CompletionistAchievements/ExtractJourneymanBaitAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "...Another Man's Treasure",
@@ -5222,7 +5222,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_FISH_PINK_PEARL",
+            "Name": "CompletionistAchievements/FishPinkPearlAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "So Shiny!",
@@ -5236,7 +5236,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_FISH_NORMAL",
+            "Name": "CompletionistAchievements/FishNormalAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Level 99 Fishing",
@@ -5250,7 +5250,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_FISH_QUEST",
+            "Name": "CompletionistAchievements/FishQuestAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Motley Crew",
@@ -5264,7 +5264,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_FISH_CRATE",
+            "Name": "CompletionistAchievements/FishCrateAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Loot Crates",
@@ -5278,7 +5278,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_FISH_JUNK",
+            "Name": "CompletionistAchievements/FishJunkAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "One Man's Trash...",
@@ -5292,7 +5292,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_FISH_REWARD",
+            "Name": "CompletionistAchievements/FishRewardAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Overfishing",
@@ -5306,7 +5306,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_FURNITURE_CHIPPYS_COUCH",
+            "Name": "CompletionistAchievements/FurnitureChippysCouchAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Heeellllllo Terraria Enthusiasts!",
@@ -5320,7 +5320,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_FURNITURE_DESERT_SPIRIT_LAMP",
+            "Name": "CompletionistAchievements/FurnitureDesertSpiritLampAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Make a Wish",
@@ -5334,7 +5334,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_FURNITURE_ENCHANTED_SUNDIAL",
+            "Name": "CompletionistAchievements/FurnitureEnchantedSundialAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Early Bird",
@@ -5348,7 +5348,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_FURNITURE_ENCHANTED_MOONDIAL",
+            "Name": "CompletionistAchievements/FurnitureEnchantedMoondialAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Night Owl",
@@ -5362,7 +5362,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_FURNITURE_HAT_RACK",
+            "Name": "CompletionistAchievements/FurnitureHatRackAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Not Just a Hat Rack",
@@ -5376,7 +5376,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_FURNITURE_PIGRONATA",
+            "Name": "CompletionistAchievements/FurniturePigronataAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Party Time!",
@@ -5390,7 +5390,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_FURNITURE_PORTAL_GUN_STATION",
+            "Name": "CompletionistAchievements/FurniturePortalGunStationAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Aperture Science Innovation",
@@ -5404,7 +5404,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_FURNITURE_TARGET_DUMMY",
+            "Name": "CompletionistAchievements/FurnitureTargetDummyAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Built Terrarian-Tough",
@@ -5418,7 +5418,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_FURNITURE_BUFF",
+            "Name": "CompletionistAchievements/FurnitureBuffAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Feng Shui",
@@ -5432,7 +5432,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_FURNITURE_DISPLAY",
+            "Name": "CompletionistAchievements/FurnitureDisplayAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Conversation Pieces",
@@ -5446,7 +5446,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_FURNITURE_THEMED",
+            "Name": "CompletionistAchievements/FurnitureThemedAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Sprucing up the Place",
@@ -5460,7 +5460,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_FURNITURE_TOMBSTONE",
+            "Name": "CompletionistAchievements/FurnitureTombstoneAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Reflecting on Past Mistakes",
@@ -5474,7 +5474,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_NOVELTY_IVY",
+            "Name": "CompletionistAchievements/NoveltyIvyAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Property of Dead Man's Sweater",
@@ -5488,7 +5488,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_NOVELTY_WYVERN_KITE",
+            "Name": "CompletionistAchievements/NoveltyWyvernKiteAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Waving in the Wind",
@@ -5502,7 +5502,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_NOVELTY_RAIN_SONG",
+            "Name": "CompletionistAchievements/NoveltyRainSongAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "These Licks Are Spicy",
@@ -5516,7 +5516,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_NOVELTY_UNICORN_ON_A_STICK",
+            "Name": "CompletionistAchievements/NoveltyUnicornOnAStickAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Having a Wonderful Time!",
@@ -5530,12 +5530,12 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_NOVELTY",
+            "Name": "CompletionistAchievements/NoveltyAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Trinkets and Knick Knacks",
                 "Description": "Obtain all 52 novelty items.",
-                "Points": 25,
+                "Points": 50,
                 "Type": "",
                 "Category": 3,
                 "Id": 496321,
@@ -5544,7 +5544,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PAINTING_WALDO",
+            "Name": "CompletionistAchievements/PaintingWaldoAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Where's Waldo?",
@@ -5558,7 +5558,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PAINTING_CLOTHIER",
+            "Name": "CompletionistAchievements/PaintingClothierAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "r/Terraria",
@@ -5572,7 +5572,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PAINTING_GOLFER",
+            "Name": "CompletionistAchievements/PaintingGolferAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "The Duplicity of Reflections",
@@ -5586,7 +5586,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PAINTING_PAINTER",
+            "Name": "CompletionistAchievements/PaintingPainterAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Good Morning",
@@ -5600,7 +5600,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PAINTING_PAINTER_GRAVEYARD",
+            "Name": "CompletionistAchievements/PaintingPainterGraveyardAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Nevermore",
@@ -5614,7 +5614,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PAINTING_PRINCESS",
+            "Name": "CompletionistAchievements/PaintingPrincessAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Princess 64",
@@ -5628,12 +5628,12 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PAINTING_TRAVELING_MERCHANT",
+            "Name": "CompletionistAchievements/PaintingTravelingMerchantAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Benny Warhol",
                 "Description": "Buy all 22 paintings from the Traveling Merchant.",
-                "Points": 25,
+                "Points": 50,
                 "Type": "",
                 "Category": 3,
                 "Id": 496328,
@@ -5642,7 +5642,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PAINTING_TRUFFLE",
+            "Name": "CompletionistAchievements/PaintingTruffleAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "My Son",
@@ -5656,7 +5656,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PAINTING_ZOOLOGIST",
+            "Name": "CompletionistAchievements/PaintingZoologistAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "The Werewolf",
@@ -5670,7 +5670,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PAINTING_DUNGEON",
+            "Name": "CompletionistAchievements/PaintingDungeonAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "The Creation of the Guide",
@@ -5684,7 +5684,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PAINTING_FLOATING_ISLAND",
+            "Name": "CompletionistAchievements/PaintingFloatingIslandAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Love is in the Trash Slot",
@@ -5698,7 +5698,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PAINTING_JUNGLE_TEMPLE",
+            "Name": "CompletionistAchievements/PaintingJungleTempleAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Lizard King",
@@ -5712,7 +5712,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PAINTING_UNDERGROUND_CABIN",
+            "Name": "CompletionistAchievements/PaintingUndergroundCabinAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Happy Little Tree",
@@ -5726,7 +5726,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PAINTING_UNDERGROUND_CABIN_DESERT",
+            "Name": "CompletionistAchievements/PaintingUndergroundCabinDesertAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Snakes, I Hate Snakes",
@@ -5740,7 +5740,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PAINTING_UNDERWORLD",
+            "Name": "CompletionistAchievements/PaintingUnderworldAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Darkness",
@@ -5754,7 +5754,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PAINTING_FISH",
+            "Name": "CompletionistAchievements/PaintingFishAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Lady Of The Lake",
@@ -5768,7 +5768,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PAINTING_ANGLER",
+            "Name": "CompletionistAchievements/PaintingAnglerAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Silent Fish",
@@ -5782,7 +5782,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PAINTING_SOLAR",
+            "Name": "CompletionistAchievements/PaintingSolarAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Eyezorhead",
@@ -5796,7 +5796,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PAINTING_GOODIE",
+            "Name": "CompletionistAchievements/PaintingGoodieAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Hallow's Eve",
@@ -5810,7 +5810,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PAINTING_ANIMAL_SKINS",
+            "Name": "CompletionistAchievements/PaintingAnimalSkinsAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Exotic Taste",
@@ -5824,7 +5824,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PYLON_UNIVERSAL",
+            "Name": "CompletionistAchievements/PylonUniversalAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Beast Mode",
@@ -5838,7 +5838,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_PYLON",
+            "Name": "CompletionistAchievements/PylonAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Teleportation Station",
@@ -5852,7 +5852,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_STATUE_ENEMY",
+            "Name": "CompletionistAchievements/StatueEnemyAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Battle Simulator",
@@ -5866,7 +5866,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_STATUE_CRITTER",
+            "Name": "CompletionistAchievements/StatueCritterAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Animal Farm",
@@ -5880,7 +5880,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_STATUE_DECOR",
+            "Name": "CompletionistAchievements/StatueDecorAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Art Appreciation",
@@ -5894,7 +5894,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_STATUE_OTHER",
+            "Name": "CompletionistAchievements/StatueOtherAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Kings and Queens",
@@ -5908,7 +5908,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_STORAGE_MONEY_TROUGH",
+            "Name": "CompletionistAchievements/StorageMoneyTroughAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "When Pigs Fly",
@@ -5922,7 +5922,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_STORAGE",
+            "Name": "CompletionistAchievements/StorageAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Into the Void",
@@ -5936,7 +5936,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TROPHY_PRE-HARDMODE",
+            "Name": "CompletionistAchievements/TrophyPreHardmodeAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Rags to Riches",
@@ -5950,7 +5950,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TROPHY_HARDMODE",
+            "Name": "CompletionistAchievements/TrophyHardmodeAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Mechanical Mania",
@@ -5964,7 +5964,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TROPHY_EVENT",
+            "Name": "CompletionistAchievements/TrophyEventAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Star of the Show",
@@ -5978,7 +5978,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TROPHY_FISH",
+            "Name": "CompletionistAchievements/TrophyFishAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Fish Fear Me",
@@ -5992,7 +5992,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_TROPHY_GOLF",
+            "Name": "CompletionistAchievements/TrophyGolfAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Pro Performance Proof",
@@ -6006,7 +6006,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BUFF_ENVIRONMENT",
+            "Name": "CompletionistAchievements/BuffEnvironmentAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Climate Acclimation",
@@ -6020,7 +6020,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BUFF_EQUIPMENT",
+            "Name": "CompletionistAchievements/BuffEquipmentAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Confidence Boost",
@@ -6034,7 +6034,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BUFF_FURNITURE",
+            "Name": "CompletionistAchievements/BuffFurnitureAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Min-Maxing",
@@ -6048,7 +6048,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BUFF_LIGHT_PET",
+            "Name": "CompletionistAchievements/BuffLightPetAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Light the Way",
@@ -6062,7 +6062,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BUFF_MINECART",
+            "Name": "CompletionistAchievements/BuffMinecartAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Coming Through!",
@@ -6076,7 +6076,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BUFF_MOUNT",
+            "Name": "CompletionistAchievements/BuffMountAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Beast Tamer",
@@ -6090,7 +6090,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BUFF_PET",
+            "Name": "CompletionistAchievements/BuffPetAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Animal Whisperer",
@@ -6104,7 +6104,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_BUFF_SUMMON",
+            "Name": "CompletionistAchievements/BuffSummonAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Minion Master",
@@ -6118,7 +6118,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_CONSUMABLE_EXPLOSIVE",
+            "Name": "CompletionistAchievements/ConsumableExplosiveAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Fire in the Hole!",
@@ -6132,7 +6132,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_CONSUMABLE_FOOD",
+            "Name": "CompletionistAchievements/ConsumableFoodAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Balanced Diet",
@@ -6146,7 +6146,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_CONSUMABLE_LICENSE",
+            "Name": "CompletionistAchievements/ConsumableLicenseAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Man's Best Friend",
@@ -6160,7 +6160,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_CONSUMABLE_POTION_BUFF",
+            "Name": "CompletionistAchievements/ConsumablePotionBuffAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Performance-Enhancing Potions",
@@ -6174,7 +6174,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_CONSUMABLE_POTION_FLASK",
+            "Name": "CompletionistAchievements/ConsumablePotionFlaskAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Extra Edge",
@@ -6188,7 +6188,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_CONSUMABLE_POTION_RECOVERY",
+            "Name": "CompletionistAchievements/ConsumablePotionRecoveryAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Recovery Is Key",
@@ -6202,7 +6202,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_CONSUMABLE_POTION_OTHER",
+            "Name": "CompletionistAchievements/ConsumablePotionOtherAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Experimental Consumer",
@@ -6216,7 +6216,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_CONSUMABLE_PERMANENT",
+            "Name": "CompletionistAchievements/ConsumablePermanentAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Personal Development",
@@ -6230,7 +6230,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_CONSUMABLE_TOOL",
+            "Name": "CompletionistAchievements/ConsumableToolAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Terravania",
@@ -6244,7 +6244,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_CONSUMABLE_WEAPON",
+            "Name": "CompletionistAchievements/ConsumableWeaponAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Breach and Clear",
@@ -6258,7 +6258,7 @@
             }
         },
         {
-            "Name": "COMPLETIONIST_CONSUMABLE_OTHER",
+            "Name": "CompletionistAchievements/ConsumableOtherAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Recreational Activities",
@@ -6272,7 +6272,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_TIMBER",
+            "Name": "PlayerAchievements/MediumcoreTimberAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Chop 'Til You Drop",
@@ -6286,7 +6286,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_BENCHED",
+            "Name": "PlayerAchievements/MediumcoreBenchedAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "The Guide's Apprentice",
@@ -6300,7 +6300,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_NO_HOBO",
+            "Name": "PlayerAchievements/MediumcoreNoHoboAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Totally Not the Bare Minimum",
@@ -6314,7 +6314,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_OBTAIN_HAMMER",
+            "Name": "PlayerAchievements/MediumcoreObtainHammerAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Go With the Flow",
@@ -6328,7 +6328,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_OOO_SHINY",
+            "Name": "PlayerAchievements/MediumcoreOooShinyAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Oresome Discovery",
@@ -6342,7 +6342,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_HEART_BREAKER",
+            "Name": "PlayerAchievements/MediumcoreHeartBreakerAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Dream Maker",
@@ -6356,7 +6356,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_HEAVY_METAL",
+            "Name": "PlayerAchievements/MediumcoreHeavyMetalAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Rock Solid",
@@ -6370,7 +6370,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_I_AM_LOOT",
+            "Name": "PlayerAchievements/MediumcoreIAmLootAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Gimme the Loot",
@@ -6384,7 +6384,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_STAR_POWER",
+            "Name": "PlayerAchievements/MediumcoreStarPowerAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Crystal Channeller",
@@ -6398,7 +6398,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_HOLD_ON_TIGHT",
+            "Name": "PlayerAchievements/MediumcoreHoldOnTightAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Hookshot Hero",
@@ -6412,7 +6412,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_EYE_ON_YOU",
+            "Name": "PlayerAchievements/MediumcoreEyeOnYouAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "One Eye Open",
@@ -6426,7 +6426,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_SMASHING_POPPET",
+            "Name": "PlayerAchievements/MediumcoreSmashingPoppetAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Shiny and Oh So Bright",
@@ -6440,7 +6440,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_WHERES_MY_HONEY",
+            "Name": "PlayerAchievements/MediumcoreWheresMyHoneyAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Oh, Honey",
@@ -6454,7 +6454,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_STING_OPERATION",
+            "Name": "PlayerAchievements/MediumcoreStingOperationAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Bee Gone",
@@ -6468,7 +6468,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_BONED",
+            "Name": "PlayerAchievements/MediumcoreBonedAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Bone to Pick",
@@ -6482,7 +6482,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_DUNGEON_HEIST",
+            "Name": "PlayerAchievements/MediumcoreDungeonHeistAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Slimy Spoils",
@@ -6496,7 +6496,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_ITS_GETTING_HOT_IN_HERE",
+            "Name": "PlayerAchievements/MediumcoreItsGettingHotInHereAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "I'm Getting So Hot",
@@ -6510,7 +6510,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_MINER_FOR_FIRE",
+            "Name": "PlayerAchievements/MediumcoreMinerForFireAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Forged in Flames",
@@ -6524,7 +6524,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_STILL_HUNGRY",
+            "Name": "PlayerAchievements/MediumcoreStillHungryAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Feeding Frenzy",
@@ -6538,7 +6538,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_ITS_HARD",
+            "Name": "PlayerAchievements/MediumcoreItsHardAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Essence of Light",
@@ -6552,7 +6552,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_BEGONE_EVIL",
+            "Name": "PlayerAchievements/MediumcoreBegoneEvilAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Demon Destroyer",
@@ -6566,7 +6566,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_EXTRA_SHINY",
+            "Name": "PlayerAchievements/MediumcoreExtraShinyAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Metallic Madness",
@@ -6580,7 +6580,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_HEAD_IN_THE_CLOUDS",
+            "Name": "PlayerAchievements/MediumcoreHeadInTheCloudsAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "To the Moon",
@@ -6594,7 +6594,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_BUCKETS_OF_BOLTS",
+            "Name": "PlayerAchievements/MediumcoreBucketsOfBoltsAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Heap of Junk",
@@ -6608,7 +6608,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_DRAX_ATTAX",
+            "Name": "PlayerAchievements/MediumcoreDraxAttaxAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Not a Picksaw",
@@ -6622,7 +6622,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_PHOTOSYNTHESIS",
+            "Name": "PlayerAchievements/MediumcorePhotosynthesisAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Plant Power",
@@ -6636,7 +6636,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_GET_A_LIFE",
+            "Name": "PlayerAchievements/MediumcoreGetALifeAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Entering a Career",
@@ -6650,7 +6650,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_THE_GREAT_SOUTHERN_PLANTKILL",
+            "Name": "PlayerAchievements/MediumcoreTheGreatSouthernPlantkillAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Far Beyond the Jungle",
@@ -6664,7 +6664,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_TEMPLE_RAIDER",
+            "Name": "PlayerAchievements/MediumcoreTempleRaiderAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "La-Mulana",
@@ -6678,7 +6678,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_LIHZAHRDIAN_IDOL",
+            "Name": "PlayerAchievements/MediumcoreLihzahrdianIdolAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Off to See the Lizard",
@@ -6692,7 +6692,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_ROBBING_THE_GRAVE",
+            "Name": "PlayerAchievements/MediumcoreRobbingTheGraveAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "From Beyond the Grave",
@@ -6706,7 +6706,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_OBSESSIVE_DEVOTION",
+            "Name": "PlayerAchievements/MediumcoreObsessiveDevotionAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Cult of the Moon",
@@ -6720,7 +6720,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_STAR_DESTROYER",
+            "Name": "PlayerAchievements/MediumcoreStarDestroyerAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Space Oddities",
@@ -6734,7 +6734,7 @@
             }
         },
         {
-            "Name": "PLAYER_MEDIUMCORE_CHAMPION_OF_TERRARIA",
+            "Name": "PlayerAchievements/MediumcoreChampionOfTerrariaAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Great Old One",
@@ -6748,7 +6748,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_TIMBER",
+            "Name": "PlayerAchievements/HardcoreTimberAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Root Awakening",
@@ -6762,7 +6762,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_BENCHED",
+            "Name": "PlayerAchievements/HardcoreBenchedAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Get to Work!",
@@ -6776,7 +6776,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_NO_HOBO",
+            "Name": "PlayerAchievements/HardcoreNoHoboAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Terraria's Best Landlord",
@@ -6790,7 +6790,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_OBTAIN_HAMMER",
+            "Name": "PlayerAchievements/HardcoreObtainHammerAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Bust a Few Moves",
@@ -6804,7 +6804,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_OOO_SHINY",
+            "Name": "PlayerAchievements/HardcoreOooShinyAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Treasure Trove",
@@ -6818,7 +6818,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_HEART_BREAKER",
+            "Name": "PlayerAchievements/HardcoreHeartBreakerAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Love Taker",
@@ -6832,7 +6832,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_HEAVY_METAL",
+            "Name": "PlayerAchievements/HardcoreHeavyMetalAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Iron Will",
@@ -6846,7 +6846,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_I_AM_LOOT",
+            "Name": "PlayerAchievements/HardcoreIAmLootAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "What's Yours Is Mine",
@@ -6860,7 +6860,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_STAR_POWER",
+            "Name": "PlayerAchievements/HardcoreStarPowerAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Magic Multiplier",
@@ -6874,7 +6874,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_HOLD_ON_TIGHT",
+            "Name": "PlayerAchievements/HardcoreHoldOnTightAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Captain Hook",
@@ -6888,7 +6888,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_EYE_ON_YOU",
+            "Name": "PlayerAchievements/HardcoreEyeOnYouAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Everything I See",
@@ -6902,7 +6902,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_SMASHING_POPPET",
+            "Name": "PlayerAchievements/HardcoreSmashingPoppetAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "If All Goes Wrong",
@@ -6916,7 +6916,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_WHERES_MY_HONEY",
+            "Name": "PlayerAchievements/HardcoreWheresMyHoneyAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Honey, I'm Home!",
@@ -6930,7 +6930,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_STING_OPERATION",
+            "Name": "PlayerAchievements/HardcoreStingOperationAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Royal Buzzkill",
@@ -6944,7 +6944,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_BONED",
+            "Name": "PlayerAchievements/HardcoreBonedAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Grave Digger",
@@ -6958,7 +6958,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_DUNGEON_HEIST",
+            "Name": "PlayerAchievements/HardcoreDungeonHeistAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Gooey Gold",
@@ -6972,7 +6972,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_ITS_GETTING_HOT_IN_HERE",
+            "Name": "PlayerAchievements/HardcoreItsGettingHotInHereAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "So Take Off All Your Armor",
@@ -6986,7 +6986,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_MINER_FOR_FIRE",
+            "Name": "PlayerAchievements/HardcoreMinerForFireAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Burning Desire",
@@ -7000,7 +7000,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_STILL_HUNGRY",
+            "Name": "PlayerAchievements/HardcoreStillHungryAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Guts and Glory",
@@ -7014,7 +7014,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_ITS_HARD",
+            "Name": "PlayerAchievements/HardcoreItsHardAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Essense of Dark",
@@ -7028,7 +7028,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_BEGONE_EVIL",
+            "Name": "PlayerAchievements/HardcoreBegoneEvilAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Crimson Killer",
@@ -7042,7 +7042,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_EXTRA_SHINY",
+            "Name": "PlayerAchievements/HardcoreExtraShinyAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Shine On!",
@@ -7056,7 +7056,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_HEAD_IN_THE_CLOUDS",
+            "Name": "PlayerAchievements/HardcoreHeadInTheCloudsAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "To the Stars",
@@ -7070,7 +7070,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_BUCKETS_OF_BOLTS",
+            "Name": "PlayerAchievements/HardcoreBucketsOfBoltsAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Junkyard Scraps",
@@ -7084,7 +7084,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_DRAX_ATTAX",
+            "Name": "PlayerAchievements/HardcoreDraxAttaxAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Mechanical Mining",
@@ -7098,7 +7098,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_PHOTOSYNTHESIS",
+            "Name": "PlayerAchievements/HardcorePhotosynthesisAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Green Thumb",
@@ -7112,7 +7112,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_GET_A_LIFE",
+            "Name": "PlayerAchievements/HardcoreGetALifeAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Starting a Family",
@@ -7126,7 +7126,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_THE_GREAT_SOUTHERN_PLANTKILL",
+            "Name": "PlayerAchievements/HardcoreTheGreatSouthernPlantkillAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Vulgar Display of Plants",
@@ -7140,7 +7140,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_TEMPLE_RAIDER",
+            "Name": "PlayerAchievements/HardcoreTempleRaiderAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Spelunky",
@@ -7154,7 +7154,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_LIHZAHRDIAN_IDOL",
+            "Name": "PlayerAchievements/HardcoreLihzahrdianIdolAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Lizard of Oz",
@@ -7168,7 +7168,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_ROBBING_THE_GRAVE",
+            "Name": "PlayerAchievements/HardcoreRobbingTheGraveAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Put To Good Use",
@@ -7182,7 +7182,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_OBSESSIVE_DEVOTION",
+            "Name": "PlayerAchievements/HardcoreObsessiveDevotionAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Cult Cruncher",
@@ -7196,7 +7196,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_STAR_DESTROYER",
+            "Name": "PlayerAchievements/HardcoreStarDestroyerAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Shoot for the Moon",
@@ -7210,7 +7210,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDCORE_CHAMPION_OF_TERRARIA",
+            "Name": "PlayerAchievements/HardcoreChampionOfTerrariaAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Cosmic Conqueror",
@@ -7224,7 +7224,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_TIMBER",
+            "Name": "PlayerAchievements/HardestcoreTimberAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Tree-mendous Effort",
@@ -7238,7 +7238,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_BENCHED",
+            "Name": "PlayerAchievements/HardestcoreBenchedAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Progress Benchmark",
@@ -7252,7 +7252,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_NO_HOBO",
+            "Name": "PlayerAchievements/HardestcoreNoHoboAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Sweet Home",
@@ -7266,7 +7266,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_OBTAIN_HAMMER",
+            "Name": "PlayerAchievements/HardestcoreObtainHammerAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Under Pressure",
@@ -7280,7 +7280,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_OOO_SHINY",
+            "Name": "PlayerAchievements/HardestcoreOooShinyAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Ore-der of Operations",
@@ -7294,7 +7294,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_HEART_BREAKER",
+            "Name": "PlayerAchievements/HardestcoreHeartBreakerAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Crystal Clear",
@@ -7308,7 +7308,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_HEAVY_METAL",
+            "Name": "PlayerAchievements/HardestcoreHeavyMetalAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Lead by Example",
@@ -7322,7 +7322,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_I_AM_LOOT",
+            "Name": "PlayerAchievements/HardestcoreIAmLootAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Gold Digger",
@@ -7336,7 +7336,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_STAR_POWER",
+            "Name": "PlayerAchievements/HardestcoreStarPowerAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Mana Madness",
@@ -7350,7 +7350,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_HOLD_ON_TIGHT",
+            "Name": "PlayerAchievements/HardestcoreHoldOnTightAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Hooked for Life",
@@ -7364,7 +7364,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_EYE_ON_YOU",
+            "Name": "PlayerAchievements/HardestcoreEyeOnYouAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Staring Contest",
@@ -7378,7 +7378,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_SMASHING_POPPET",
+            "Name": "PlayerAchievements/HardestcoreSmashingPoppetAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Orb of Confusion",
@@ -7392,7 +7392,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_WHERES_MY_HONEY",
+            "Name": "PlayerAchievements/HardestcoreWheresMyHoneyAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Bee-yond Belief",
@@ -7406,7 +7406,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_STING_OPERATION",
+            "Name": "PlayerAchievements/HardestcoreStingOperationAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Killer Queen",
@@ -7420,7 +7420,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_BONED",
+            "Name": "PlayerAchievements/HardestcoreBonedAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Bone-A-Fide Hero",
@@ -7434,7 +7434,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_DUNGEON_HEIST",
+            "Name": "PlayerAchievements/HardestcoreDungeonHeistAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Fetch Quest",
@@ -7448,7 +7448,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_ITS_GETTING_HOT_IN_HERE",
+            "Name": "PlayerAchievements/HardestcoreItsGettingHotInHereAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Highway to Hell",
@@ -7462,7 +7462,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_MINER_FOR_FIRE",
+            "Name": "PlayerAchievements/HardestcoreMinerForFireAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Molten Masterpiece",
@@ -7476,7 +7476,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_STILL_HUNGRY",
+            "Name": "PlayerAchievements/HardestcoreStillHungryAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Flesh Wound",
@@ -7490,7 +7490,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_ITS_HARD",
+            "Name": "PlayerAchievements/HardestcoreItsHardAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Hardmode Hero",
@@ -7504,7 +7504,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_BEGONE_EVIL",
+            "Name": "PlayerAchievements/HardestcoreBegoneEvilAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Smash Hit",
@@ -7518,7 +7518,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_EXTRA_SHINY",
+            "Name": "PlayerAchievements/HardestcoreExtraShinyAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Ore Die Tryin'",
@@ -7532,7 +7532,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_HEAD_IN_THE_CLOUDS",
+            "Name": "PlayerAchievements/HardestcoreHeadInTheCloudsAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Wingin' It",
@@ -7546,7 +7546,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_BUCKETS_OF_BOLTS",
+            "Name": "PlayerAchievements/HardestcoreBucketsOfBoltsAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Metallic Menace",
@@ -7560,7 +7560,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_DRAX_ATTAX",
+            "Name": "PlayerAchievements/HardestcoreDraxAttaxAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Drax in the Box",
@@ -7574,7 +7574,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_PHOTOSYNTHESIS",
+            "Name": "PlayerAchievements/HardestcorePhotosynthesisAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Green Machine",
@@ -7588,7 +7588,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_GET_A_LIFE",
+            "Name": "PlayerAchievements/HardestcoreGetALifeAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Life Goes On",
@@ -7602,7 +7602,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_THE_GREAT_SOUTHERN_PLANTKILL",
+            "Name": "PlayerAchievements/HardestcoreTheGreatSouthernPlantkillAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Jungle Boogie",
@@ -7616,7 +7616,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_TEMPLE_RAIDER",
+            "Name": "PlayerAchievements/HardestcoreTempleRaiderAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Temple Run",
@@ -7630,7 +7630,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_LIHZAHRDIAN_IDOL",
+            "Name": "PlayerAchievements/HardestcoreLihzahrdianIdolAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Stone Cold Killer",
@@ -7644,7 +7644,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_ROBBING_THE_GRAVE",
+            "Name": "PlayerAchievements/HardestcoreRobbingTheGraveAchievement",
             "Category": "Explorer",
             "Ra": {
                 "Title": "Loot or Die",
@@ -7658,7 +7658,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_OBSESSIVE_DEVOTION",
+            "Name": "PlayerAchievements/HardestcoreObsessiveDevotionAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Cult Killer",
@@ -7672,7 +7672,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_STAR_DESTROYER",
+            "Name": "PlayerAchievements/HardestcoreStarDestroyerAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Stairway to Heaven",
@@ -7686,7 +7686,7 @@
             }
         },
         {
-            "Name": "PLAYER_HARDESTCORE_CHAMPION_OF_TERRARIA",
+            "Name": "PlayerAchievements/HardestcoreChampionOfTerrariaAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Moonlight Sonata",
@@ -7700,7 +7700,7 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_KING_SLIME",
+            "Name": "WorldAchievements/ExpertKingSlimeAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Royal Gel",
@@ -7714,7 +7714,7 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_EYE_OF_CTHULHU",
+            "Name": "WorldAchievements/ExpertEyeOfCthulhuAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Shield of Cthulhu",
@@ -7728,7 +7728,7 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_EATER_OF_WORLDS",
+            "Name": "WorldAchievements/ExpertEaterOfWorldsAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Worm Scarf",
@@ -7742,7 +7742,7 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_BRAIN_OF_CTHULHU",
+            "Name": "WorldAchievements/ExpertBrainOfCthulhuAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Brain of Confusion",
@@ -7756,7 +7756,7 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_QUEEN_BEE",
+            "Name": "WorldAchievements/ExpertQueenBeeAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Hive Pack",
@@ -7770,7 +7770,7 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_SKELETRON",
+            "Name": "WorldAchievements/ExpertSkeletronAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Bone Glove",
@@ -7784,7 +7784,7 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_DEERCLOPS",
+            "Name": "WorldAchievements/ExpertDeerclopsAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Bone Helm",
@@ -7798,7 +7798,7 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_WALL_OF_FLESH",
+            "Name": "WorldAchievements/ExpertWallOfFleshAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Demon Heart",
@@ -7812,7 +7812,7 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_QUEEN_SLIME",
+            "Name": "WorldAchievements/ExpertQueenSlimeAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Volatile Gelatin",
@@ -7826,7 +7826,7 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_TWINS",
+            "Name": "WorldAchievements/ExpertTwinsAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Mechanical Wheel",
@@ -7840,7 +7840,7 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_DESTROYER",
+            "Name": "WorldAchievements/ExpertDestroyerAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Mechanical Wagon",
@@ -7854,7 +7854,7 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_SKELETRON_PRIME",
+            "Name": "WorldAchievements/ExpertSkeletronPrimeAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Mechanical Battery",
@@ -7868,7 +7868,7 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_PLANTERA",
+            "Name": "WorldAchievements/ExpertPlanteraAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Spore Sac",
@@ -7882,7 +7882,7 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_GOLEM",
+            "Name": "WorldAchievements/ExpertGolemAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Shiny Stone",
@@ -7896,7 +7896,7 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_EMPRESS_OF_LIGHT",
+            "Name": "WorldAchievements/ExpertEmpressOfLightAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Soaring Insignia",
@@ -7910,7 +7910,7 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_DUKE_FISHRON",
+            "Name": "WorldAchievements/ExpertDukeFishronAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Shrimpy Truffle",
@@ -7924,7 +7924,7 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_MOON_LORD",
+            "Name": "WorldAchievements/ExpertMoonLordAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Gravity Globe",
@@ -7938,7 +7938,7 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_BETSY",
+            "Name": "WorldAchievements/ExpertBetsyAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Old One's Treasure",
@@ -7952,12 +7952,12 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_SET_AARON",
+            "Name": "WorldAchievements/ExpertSetAaronAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Stay Grounded",
                 "Description": "Obtain all 3 Aaron's set pieces.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496602,
@@ -7966,12 +7966,12 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_SET_ARKHALIS",
+            "Name": "WorldAchievements/ExpertSetArkhalisAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Off the Grid",
                 "Description": "Obtain all 5 Arkhalis' set pieces.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496603,
@@ -7980,12 +7980,12 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_SET_CENX",
+            "Name": "WorldAchievements/ExpertSetCenxAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Queen of Terraria",
                 "Description": "Obtain all 4 Cenx's set pieces.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496604,
@@ -7994,12 +7994,12 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_SET_CENX_DRESS",
+            "Name": "WorldAchievements/ExpertSetCenxDressAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Alter Ego",
                 "Description": "Obtain all 4 Cenx's Dress set pieces.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496605,
@@ -8008,12 +8008,12 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_SET_CROWNO",
+            "Name": "WorldAchievements/ExpertSetCrownoAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Master of Dark Skies",
                 "Description": "Obtain all 4 Crowno's set pieces.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496606,
@@ -8022,12 +8022,12 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_SET_D-TOWN",
+            "Name": "WorldAchievements/ExpertSetDTownAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Strictly Business",
                 "Description": "Obtain all 4 D-Town's set pieces.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496607,
@@ -8036,12 +8036,12 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_SET_JIM",
+            "Name": "WorldAchievements/ExpertSetJimAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Caped Leggings",
                 "Description": "Obtain all 4 Jim's set pieces.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496608,
@@ -8050,12 +8050,12 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_SET_LAZURE",
+            "Name": "WorldAchievements/ExpertSetLazureAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Ride the Lightning",
                 "Description": "Obtain all 4 Lazure's set pieces.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496609,
@@ -8064,12 +8064,12 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_SET_LEINFOR",
+            "Name": "WorldAchievements/ExpertSetLeinforAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Bringing Sexy Back",
                 "Description": "Obtain all 5 Leinfor's set pieces.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496610,
@@ -8078,12 +8078,12 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_SET_LOKI",
+            "Name": "WorldAchievements/ExpertSetLokiAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "The Art of War",
                 "Description": "Obtain all 5 Loki's set pieces.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496611,
@@ -8092,12 +8092,12 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_SET_RED",
+            "Name": "WorldAchievements/ExpertSetRedAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Dark Knight",
                 "Description": "Obtain all 5 Red's set pieces.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496612,
@@ -8106,12 +8106,12 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_SET_SKIPHS",
+            "Name": "WorldAchievements/ExpertSetSkiphsAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Polar Plunge",
                 "Description": "Obtain all 5 Skiphs' set pieces.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496613,
@@ -8120,12 +8120,12 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_SET_WILL",
+            "Name": "WorldAchievements/ExpertSetWillAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Charging In",
                 "Description": "Obtain all 4 Will's set pieces.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496614,
@@ -8134,12 +8134,12 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_SET_YORAI",
+            "Name": "WorldAchievements/ExpertSetYoraiAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Menacing Presence",
                 "Description": "Obtain all 5 Yoraiz0r's set pieces.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496615,
@@ -8148,12 +8148,12 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_SET_GROX_THE_GREAT",
+            "Name": "WorldAchievements/ExpertSetGroxTheGreatAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Angry Pirate",
                 "Description": "Obtain all 4 Grox The Great's set pieces.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496616,
@@ -8162,12 +8162,12 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_SET_FOODBARBARIAN",
+            "Name": "WorldAchievements/ExpertSetFoodbarbarianAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Safety First",
                 "Description": "Obtain all 4 FoodBarbarian's set pieces.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496617,
@@ -8176,12 +8176,12 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_SET_SAFEMAN",
+            "Name": "WorldAchievements/ExpertSetSafemanAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Bright Idea",
                 "Description": "Obtain all 4 Safeman's set pieces.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496618,
@@ -8190,12 +8190,12 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_SET_GHOSTAR",
+            "Name": "WorldAchievements/ExpertSetGhostarAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Take the First Step",
                 "Description": "Obtain all 4 Ghostar's set pieces.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496619,
@@ -8204,12 +8204,12 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_DEMON_HEART",
+            "Name": "WorldAchievements/ExpertDemonHeartAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Fleshy Feast",
                 "Description": "Use a Demon Heart.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496620,
@@ -8218,7 +8218,7 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_MINECART_UPGRADE_KIT",
+            "Name": "WorldAchievements/ExpertMinecartUpgradeKitAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Free Mechanical Cart Included!",
@@ -8232,12 +8232,12 @@
             }
         },
         {
-            "Name": "WORLD_EXPERT_WITCH_BROOM",
+            "Name": "WorldAchievements/ExpertWitchBroomAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Witching Spark of Inspiration!",
                 "Description": "Summon a Witch's Broom.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496622,
@@ -8246,7 +8246,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_KING_SLIME",
+            "Name": "WorldAchievements/MasterKingSlimeAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "King Slime Relic",
@@ -8260,7 +8260,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_EYE_OF_CTHULHU",
+            "Name": "WorldAchievements/MasterEyeOfCthulhuAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Eye of Cthulhu Relic",
@@ -8274,12 +8274,12 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_EATER_OF_WORLDS",
+            "Name": "WorldAchievements/MasterEaterOfWorldsAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Eater of Worlds Relic",
                 "Description": "Defeat Eater of Worlds on Master Mode for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496625,
@@ -8288,12 +8288,12 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_BRAIN_OF_CTHULHU",
+            "Name": "WorldAchievements/MasterBrainOfCthulhuAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Brain of Cthulhu Relic",
                 "Description": "Defeat Brain of Cthulhu on Master Mode for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496626,
@@ -8302,12 +8302,12 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_QUEEN_BEE",
+            "Name": "WorldAchievements/MasterQueenBeeAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Queen Bee Relic",
                 "Description": "Defeat Queen Bee on Master Mode for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496627,
@@ -8316,12 +8316,12 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_SKELETRON",
+            "Name": "WorldAchievements/MasterSkeletronAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Skeletron Relic",
                 "Description": "Defeat Skeletron on Master Mode for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496628,
@@ -8330,12 +8330,12 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_DEERCLOPS",
+            "Name": "WorldAchievements/MasterDeerclopsAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Deerclops Relic",
                 "Description": "Defeat Deerclops on Master Mode for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496629,
@@ -8344,12 +8344,12 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_WALL_OF_FLESH",
+            "Name": "WorldAchievements/MasterWallOfFleshAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Wall of Flesh Relic",
                 "Description": "Defeat Wall of Flesh on Master Mode for the first time.",
-                "Points": 25,
+                "Points": 10,
                 "Type": "",
                 "Category": 3,
                 "Id": 496630,
@@ -8358,12 +8358,12 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_QUEEN_SLIME",
+            "Name": "WorldAchievements/MasterQueenSlimeAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Queen Slime Relic",
                 "Description": "Defeat Queen Slime on Master Mode for the first time.",
-                "Points": 25,
+                "Points": 10,
                 "Type": "",
                 "Category": 3,
                 "Id": 496631,
@@ -8372,12 +8372,12 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_TWINS",
+            "Name": "WorldAchievements/MasterTwinsAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "The Twins Relic",
                 "Description": "Defeat The Twins on Master Mode for the first time.",
-                "Points": 25,
+                "Points": 10,
                 "Type": "",
                 "Category": 3,
                 "Id": 496632,
@@ -8386,12 +8386,12 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_DESTROYER",
+            "Name": "WorldAchievements/MasterDestroyerAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "The Destroyer Relic",
                 "Description": "Defeat The Destroyer on Master Mode for the first time.",
-                "Points": 25,
+                "Points": 10,
                 "Type": "",
                 "Category": 3,
                 "Id": 496633,
@@ -8400,12 +8400,12 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_SKELETRON_PRIME",
+            "Name": "WorldAchievements/MasterSkeletronPrimeAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Skeletron Prime Relic",
                 "Description": "Defeat Skeletron Prime on Master Mode for the first time.",
-                "Points": 25,
+                "Points": 10,
                 "Type": "",
                 "Category": 3,
                 "Id": 496634,
@@ -8414,12 +8414,12 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PLANTERA",
+            "Name": "WorldAchievements/MasterPlanteraAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Plantera Relic",
                 "Description": "Defeat Plantera on Master Mode for the first time.",
-                "Points": 50,
+                "Points": 25,
                 "Type": "",
                 "Category": 3,
                 "Id": 496635,
@@ -8428,12 +8428,12 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_GOLEM",
+            "Name": "WorldAchievements/MasterGolemAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Golem Relic",
                 "Description": "Defeat Golem on Master Mode for the first time.",
-                "Points": 50,
+                "Points": 25,
                 "Type": "",
                 "Category": 3,
                 "Id": 496636,
@@ -8442,12 +8442,12 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_EMPRESS_OF_LIGHT",
+            "Name": "WorldAchievements/MasterEmpressOfLightAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Empress of Light Relic",
                 "Description": "Defeat Empress of Light on Master Mode for the first time.",
-                "Points": 50,
+                "Points": 25,
                 "Type": "",
                 "Category": 3,
                 "Id": 496637,
@@ -8456,12 +8456,12 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_DUKE_FISHRON",
+            "Name": "WorldAchievements/MasterDukeFishronAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Duke Fishron Relic",
                 "Description": "Defeat Duke Fishron on Master Mode for the first time.",
-                "Points": 50,
+                "Points": 25,
                 "Type": "",
                 "Category": 3,
                 "Id": 496638,
@@ -8470,12 +8470,12 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_LUNATIC_CULTIST",
+            "Name": "WorldAchievements/MasterLunaticCultistAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Lunatic Cultist Relic",
                 "Description": "Defeat Lunatic Cultist on Master Mode for the first time.",
-                "Points": 50,
+                "Points": 25,
                 "Type": "",
                 "Category": 3,
                 "Id": 496639,
@@ -8484,12 +8484,12 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_MOON_LORD",
+            "Name": "WorldAchievements/MasterMoonLordAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Moon Lord Relic",
                 "Description": "Defeat Moon Lord on Master Mode for the first time.",
-                "Points": 50,
+                "Points": 25,
                 "Type": "",
                 "Category": 3,
                 "Id": 496640,
@@ -8498,12 +8498,12 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_MOURNING_WOOD",
+            "Name": "WorldAchievements/MasterMourningWoodAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Mourning Wood Relic",
                 "Description": "Defeat Mourning Wood on Master Mode for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496641,
@@ -8512,12 +8512,12 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PUMPKING",
+            "Name": "WorldAchievements/MasterPumpkingAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Pumpking Relic",
                 "Description": "Defeat Pumpking on Master Mode for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496642,
@@ -8526,12 +8526,12 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_EVERSCREAM",
+            "Name": "WorldAchievements/MasterEverscreamAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Everscream Relic",
                 "Description": "Defeat Everscream on Master Mode for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496643,
@@ -8540,12 +8540,12 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_SANTA-NK1",
+            "Name": "WorldAchievements/MasterSantaNk1Achievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Santa-NK1 Relic",
                 "Description": "Defeat Santa-NK1 on Master Mode for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496644,
@@ -8554,12 +8554,12 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_ICE_QUEEN",
+            "Name": "WorldAchievements/MasterIceQueenAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Ice Queen Relic",
                 "Description": "Defeat Ice Queen on Master Mode for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496645,
@@ -8568,12 +8568,12 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_DARK_MAGE_T3",
+            "Name": "WorldAchievements/MasterDarkMageT3Achievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Dark Mage Relic",
-                "Description": "Defeat Dark Mage (Tier 3) on Master Mode for the first time.",
-                "Points": 10,
+                "Description": "Defeat Dark Mage (Tier 3) on Master Mode.",
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496646,
@@ -8582,12 +8582,12 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_OGRE_T3",
+            "Name": "WorldAchievements/MasterOgreT3Achievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Ogre Relic",
-                "Description": "Defeat Ogre (Tier 3) on Master Mode for the first time.",
-                "Points": 10,
+                "Description": "Defeat Ogre (Tier 3) on Master Mode.",
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496647,
@@ -8596,12 +8596,12 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_BETSY",
+            "Name": "WorldAchievements/MasterBetsyAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Betsy Relic",
                 "Description": "Defeat Betsy on Master Mode for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496648,
@@ -8610,12 +8610,12 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_FLYING_DUTCHMAN",
+            "Name": "WorldAchievements/MasterFlyingDutchmanAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Flying Dutchman Relic",
                 "Description": "Defeat Flying Dutchman on Master Mode for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496649,
@@ -8624,12 +8624,12 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_MARTIAN_SAUCER",
+            "Name": "WorldAchievements/MasterMartianSaucerAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Martian Saucer Relic",
                 "Description": "Defeat Martian Saucer on Master Mode for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496650,
@@ -8638,7 +8638,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PET_KING_SLIME",
+            "Name": "WorldAchievements/MasterPetKingSlimeAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Royal Delight",
@@ -8652,7 +8652,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PET_EYE_OF_CTHULHU",
+            "Name": "WorldAchievements/MasterPetEyeOfCthulhuAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Suspicious Grinning Eye",
@@ -8666,7 +8666,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PET_EATER_OF_WORLDS",
+            "Name": "WorldAchievements/MasterPetEaterOfWorldsAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Writhing Remains",
@@ -8680,7 +8680,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PET_BRAIN_OF_CTHULHU",
+            "Name": "WorldAchievements/MasterPetBrainOfCthulhuAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Brain in a Jar",
@@ -8694,7 +8694,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PET_QUEEN_BEE",
+            "Name": "WorldAchievements/MasterPetQueenBeeAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Sparkling Honey",
@@ -8708,7 +8708,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PET_SKELETRON",
+            "Name": "WorldAchievements/MasterPetSkeletronAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Possessed Skull",
@@ -8722,7 +8722,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PET_DEERCLOPS",
+            "Name": "WorldAchievements/MasterPetDeerclopsAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Deerclops Eyeball",
@@ -8736,7 +8736,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PET_WALL_OF_FLESH",
+            "Name": "WorldAchievements/MasterPetWallOfFleshAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Goat Skull",
@@ -8750,7 +8750,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PET_QUEEN_SLIME",
+            "Name": "WorldAchievements/MasterPetQueenSlimeAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Regal Delicacy",
@@ -8764,7 +8764,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PET_TWINS",
+            "Name": "WorldAchievements/MasterPetTwinsAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Pair of Eyeballs",
@@ -8778,7 +8778,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PET_DESTROYER",
+            "Name": "WorldAchievements/MasterPetDestroyerAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Deactivated Probe",
@@ -8792,7 +8792,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PET_SKELETRON_PRIME",
+            "Name": "WorldAchievements/MasterPetSkeletronPrimeAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Robotic Skull",
@@ -8806,7 +8806,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PET_PLANTERA",
+            "Name": "WorldAchievements/MasterPetPlanteraAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Plantera Seedling",
@@ -8820,7 +8820,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PET_GOLEM",
+            "Name": "WorldAchievements/MasterPetGolemAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Guardian Golem",
@@ -8834,7 +8834,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PET_EMPRESS_OF_LIGHT",
+            "Name": "WorldAchievements/MasterPetEmpressOfLightAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Jewel of Light",
@@ -8848,7 +8848,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PET_DUKE_FISHRON",
+            "Name": "WorldAchievements/MasterPetDukeFishronAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Pork of the Sea",
@@ -8862,7 +8862,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PET_LUNATIC_CULTIST",
+            "Name": "WorldAchievements/MasterPetLunaticCultistAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Tablet Fragment",
@@ -8876,7 +8876,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PET_MOON_LORD",
+            "Name": "WorldAchievements/MasterPetMoonLordAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Piece of Moon Squid",
@@ -8890,7 +8890,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PET_MOURNING_WOOD",
+            "Name": "WorldAchievements/MasterPetMourningWoodAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Hexxed Branch",
@@ -8904,7 +8904,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PET_PUMPKING",
+            "Name": "WorldAchievements/MasterPetPumpkingAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Pumpkin Scented Candle",
@@ -8918,7 +8918,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PET_EVERSCREAM",
+            "Name": "WorldAchievements/MasterPetEverscreamAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Shrub Star",
@@ -8932,7 +8932,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PET_SANTA-NK1",
+            "Name": "WorldAchievements/MasterPetSantaNk1Achievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Toy Tank",
@@ -8946,7 +8946,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PET_ICE_QUEEN",
+            "Name": "WorldAchievements/MasterPetIceQueenAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Frozen Crown",
@@ -8960,7 +8960,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PET_DARK_MAGE_T3",
+            "Name": "WorldAchievements/MasterPetDarkMageT3Achievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Dark Mage's Tome",
@@ -8974,7 +8974,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PET_OGRE_T3",
+            "Name": "WorldAchievements/MasterPetOgreT3Achievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Ogre's Club",
@@ -8988,7 +8988,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PET_BETSY",
+            "Name": "WorldAchievements/MasterPetBetsyAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Betsy's Egg",
@@ -9002,7 +9002,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PET_FLYING_DUTCHMAN",
+            "Name": "WorldAchievements/MasterPetFlyingDutchmanAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "The Black Spot",
@@ -9016,7 +9016,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_PET_MARTIAN_SAUCER",
+            "Name": "WorldAchievements/MasterPetMartianSaucerAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Cosmic Skateboard",
@@ -9030,7 +9030,7 @@
             }
         },
         {
-            "Name": "WORLD_MASTER_RESPLENDENT_DESSERT",
+            "Name": "WorldAchievements/MasterResplendentDessertAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "Dessert Duo",
@@ -9044,7 +9044,7 @@
             }
         },
         {
-            "Name": "WORLD_LEGENDARY_KING_SLIME",
+            "Name": "WorldAchievements/LegendaryKingSlimeAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Slimy King Slayer",
@@ -9058,7 +9058,7 @@
             }
         },
         {
-            "Name": "WORLD_LEGENDARY_EYE_OF_CTHULHU",
+            "Name": "WorldAchievements/LegendaryEyeOfCthulhuAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "The One Who Stares Back",
@@ -9072,7 +9072,7 @@
             }
         },
         {
-            "Name": "WORLD_LEGENDARY_EATER_OF_WORLDS",
+            "Name": "WorldAchievements/LegendaryEaterOfWorldsAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Worm Hole",
@@ -9086,7 +9086,7 @@
             }
         },
         {
-            "Name": "WORLD_LEGENDARY_BRAIN_OF_CTHULHU",
+            "Name": "WorldAchievements/LegendaryBrainOfCthulhuAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Mind Over Matter",
@@ -9100,7 +9100,7 @@
             }
         },
         {
-            "Name": "WORLD_LEGENDARY_QUEEN_BEE",
+            "Name": "WorldAchievements/LegendaryQueenBeeAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Hive Mind",
@@ -9114,7 +9114,7 @@
             }
         },
         {
-            "Name": "WORLD_LEGENDARY_SKELETRON",
+            "Name": "WorldAchievements/LegendarySkeletronAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Bone to Pick",
@@ -9128,7 +9128,7 @@
             }
         },
         {
-            "Name": "WORLD_LEGENDARY_DEERCLOPS",
+            "Name": "WorldAchievements/LegendaryDeerclopsAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Hunting Season",
@@ -9142,7 +9142,7 @@
             }
         },
         {
-            "Name": "WORLD_LEGENDARY_WALL_OF_FLESH",
+            "Name": "WorldAchievements/LegendaryWallOfFleshAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Beyond the Wall",
@@ -9156,7 +9156,7 @@
             }
         },
         {
-            "Name": "WORLD_LEGENDARY_QUEEN_SLIME",
+            "Name": "WorldAchievements/LegendaryQueenSlimeAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Slimy Queen Slayer",
@@ -9170,7 +9170,7 @@
             }
         },
         {
-            "Name": "WORLD_LEGENDARY_TWINS",
+            "Name": "WorldAchievements/LegendaryTwinsAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Double Trouble",
@@ -9184,7 +9184,7 @@
             }
         },
         {
-            "Name": "WORLD_LEGENDARY_DESTROYER",
+            "Name": "WorldAchievements/LegendaryDestroyerAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Bane of the Mechanical Beast",
@@ -9198,7 +9198,7 @@
             }
         },
         {
-            "Name": "WORLD_LEGENDARY_SKELETRON_PRIME",
+            "Name": "WorldAchievements/LegendarySkeletronPrimeAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Prime Time",
@@ -9212,7 +9212,7 @@
             }
         },
         {
-            "Name": "WORLD_LEGENDARY_PLANTERA",
+            "Name": "WorldAchievements/LegendaryPlanteraAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Flower of Doom",
@@ -9226,7 +9226,7 @@
             }
         },
         {
-            "Name": "WORLD_LEGENDARY_GOLEM",
+            "Name": "WorldAchievements/LegendaryGolemAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Brick Breaker",
@@ -9240,7 +9240,7 @@
             }
         },
         {
-            "Name": "WORLD_LEGENDARY_EMPRESS_OF_LIGHT",
+            "Name": "WorldAchievements/LegendaryEmpressOfLightAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Radiance Extinguished",
@@ -9254,7 +9254,7 @@
             }
         },
         {
-            "Name": "WORLD_LEGENDARY_DUKE_FISHRON",
+            "Name": "WorldAchievements/LegendaryDukeFishronAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Fish Filet",
@@ -9268,7 +9268,7 @@
             }
         },
         {
-            "Name": "WORLD_LEGENDARY_LUNATIC_CULTIST",
+            "Name": "WorldAchievements/LegendaryLunaticCultistAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Cult of Destruction",
@@ -9282,12 +9282,12 @@
             }
         },
         {
-            "Name": "WORLD_LEGENDARY_MOON_LORD",
+            "Name": "WorldAchievements/LegendaryMoonLordAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Lunar Obliterator",
                 "Description": "Defeat Moon Lord on Legendary Mode for the first time.",
-                "Points": 100,
+                "Points": 50,
                 "Type": "",
                 "Category": 3,
                 "Id": 496697,
@@ -9296,7 +9296,7 @@
             }
         },
         {
-            "Name": "WORLD_LEGENDARY_MOURNING_WOOD",
+            "Name": "WorldAchievements/LegendaryMourningWoodAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Wood Chipper",
@@ -9310,7 +9310,7 @@
             }
         },
         {
-            "Name": "WORLD_LEGENDARY_PUMPKING",
+            "Name": "WorldAchievements/LegendaryPumpkingAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Fall's Final Harvest",
@@ -9324,7 +9324,7 @@
             }
         },
         {
-            "Name": "WORLD_LEGENDARY_EVERSCREAM",
+            "Name": "WorldAchievements/LegendaryEverscreamAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Silent Night",
@@ -9338,7 +9338,7 @@
             }
         },
         {
-            "Name": "WORLD_LEGENDARY_SANTA-NK1",
+            "Name": "WorldAchievements/LegendarySantaNk1Achievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Krampus Has Nothing on You",
@@ -9352,7 +9352,7 @@
             }
         },
         {
-            "Name": "WORLD_LEGENDARY_ICE_QUEEN",
+            "Name": "WorldAchievements/LegendaryIceQueenAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Frostbitten Throne",
@@ -9366,11 +9366,11 @@
             }
         },
         {
-            "Name": "WORLD_LEGENDARY_DARK_MAGE_T3",
+            "Name": "WorldAchievements/LegendaryDarkMageT3Achievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Master of the Dark Arts",
-                "Description": "Defeat Dark Mage (Tier 3) on Legendary Mode for the first time.",
+                "Description": "Defeat Dark Mage (Tier 3) on Legendary Mode.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -9380,11 +9380,11 @@
             }
         },
         {
-            "Name": "WORLD_LEGENDARY_OGRE_T3",
+            "Name": "WorldAchievements/LegendaryOgreT3Achievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Ogre Overload",
-                "Description": "Defeat Ogre (Tier 3) on Legendary Mode for the first time.",
+                "Description": "Defeat Ogre (Tier 3) on Legendary Mode.",
                 "Points": 10,
                 "Type": "",
                 "Category": 3,
@@ -9394,7 +9394,7 @@
             }
         },
         {
-            "Name": "WORLD_LEGENDARY_BETSY",
+            "Name": "WorldAchievements/LegendaryBetsyAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Dungeon Defender",
@@ -9408,7 +9408,7 @@
             }
         },
         {
-            "Name": "WORLD_LEGENDARY_FLYING_DUTCHMAN",
+            "Name": "WorldAchievements/LegendaryFlyingDutchmanAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Break the Curse",
@@ -9422,7 +9422,7 @@
             }
         },
         {
-            "Name": "WORLD_LEGENDARY_MARTIAN_SAUCER",
+            "Name": "WorldAchievements/LegendaryMartianSaucerAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "To the Junkyard",
@@ -9436,12 +9436,12 @@
             }
         },
         {
-            "Name": "WORLD_ZENITH_KING_SLIME",
+            "Name": "WorldAchievements/ZenithKingSlimeAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Slime Crown",
                 "Description": "Defeat King Slime on the Zenith seed for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496708,
@@ -9450,12 +9450,12 @@
             }
         },
         {
-            "Name": "WORLD_ZENITH_EYE_OF_CTHULHU",
+            "Name": "WorldAchievements/ZenithEyeOfCthulhuAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Suspicious Looking Eye",
                 "Description": "Defeat Eye of Cthulhu on the Zenith seed for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496709,
@@ -9464,12 +9464,12 @@
             }
         },
         {
-            "Name": "WORLD_ZENITH_EATER_OF_WORLDS",
+            "Name": "WorldAchievements/ZenithEaterOfWorldsAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Worm Food",
                 "Description": "Defeat Eater of Worlds on the Zenith seed for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496710,
@@ -9478,12 +9478,12 @@
             }
         },
         {
-            "Name": "WORLD_ZENITH_BRAIN_OF_CTHULHU",
+            "Name": "WorldAchievements/ZenithBrainOfCthulhuAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Bloody Spine",
                 "Description": "Defeat Brain of Cthulhu on the Zenith seed for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496711,
@@ -9492,12 +9492,12 @@
             }
         },
         {
-            "Name": "WORLD_ZENITH_QUEEN_BEE",
+            "Name": "WorldAchievements/ZenithQueenBeeAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Abeemination",
                 "Description": "Defeat Queen Bee on the Zenith seed for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496712,
@@ -9506,12 +9506,12 @@
             }
         },
         {
-            "Name": "WORLD_ZENITH_SKELETRON",
+            "Name": "WorldAchievements/ZenithSkeletronAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Guardian's Grave",
                 "Description": "Defeat Skeletron on the Zenith seed for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496713,
@@ -9520,12 +9520,12 @@
             }
         },
         {
-            "Name": "WORLD_ZENITH_DEERCLOPS",
+            "Name": "WorldAchievements/ZenithDeerclopsAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Deer Thing",
                 "Description": "Defeat Deerclops on the Zenith seed for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496714,
@@ -9534,12 +9534,12 @@
             }
         },
         {
-            "Name": "WORLD_ZENITH_WALL_OF_FLESH",
+            "Name": "WorldAchievements/ZenithWallOfFleshAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Voodoo Magic",
                 "Description": "Defeat Wall of Flesh on the Zenith seed for the first time.",
-                "Points": 25,
+                "Points": 10,
                 "Type": "",
                 "Category": 3,
                 "Id": 496715,
@@ -9548,12 +9548,12 @@
             }
         },
         {
-            "Name": "WORLD_ZENITH_QUEEN_SLIME",
+            "Name": "WorldAchievements/ZenithQueenSlimeAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Crystal Chronicles",
                 "Description": "Defeat Queen Slime on the Zenith seed for the first time.",
-                "Points": 25,
+                "Points": 10,
                 "Type": "",
                 "Category": 3,
                 "Id": 496716,
@@ -9562,12 +9562,12 @@
             }
         },
         {
-            "Name": "WORLD_ZENITH_MECHDUSA",
+            "Name": "WorldAchievements/ZenithMechdusaAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "It's Waffle Time!",
                 "Description": "Defeat Mechdusa on the Zenith seed for the first time.",
-                "Points": 100,
+                "Points": 25,
                 "Type": "",
                 "Category": 3,
                 "Id": 496717,
@@ -9576,12 +9576,12 @@
             }
         },
         {
-            "Name": "WORLD_ZENITH_PLANTERA",
+            "Name": "WorldAchievements/ZenithPlanteraAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Bulb Buster",
                 "Description": "Defeat Plantera on the Zenith seed for the first time.",
-                "Points": 50,
+                "Points": 25,
                 "Type": "",
                 "Category": 3,
                 "Id": 496718,
@@ -9590,12 +9590,12 @@
             }
         },
         {
-            "Name": "WORLD_ZENITH_GOLEM",
+            "Name": "WorldAchievements/ZenithGolemAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Lihzahrd Power Outage",
                 "Description": "Defeat Golem on the Zenith seed for the first time.",
-                "Points": 50,
+                "Points": 25,
                 "Type": "",
                 "Category": 3,
                 "Id": 496719,
@@ -9604,12 +9604,12 @@
             }
         },
         {
-            "Name": "WORLD_ZENITH_EMPRESS_OF_LIGHT",
+            "Name": "WorldAchievements/ZenithEmpressOfLightAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Hallow Knight",
                 "Description": "Defeat Empress of Light on the Zenith seed for the first time.",
-                "Points": 50,
+                "Points": 25,
                 "Type": "",
                 "Category": 3,
                 "Id": 496720,
@@ -9618,12 +9618,12 @@
             }
         },
         {
-            "Name": "WORLD_ZENITH_DUKE_FISHRON",
+            "Name": "WorldAchievements/ZenithDukeFishronAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Truffle Worm",
                 "Description": "Defeat Duke Fishron on the Zenith seed for the first time.",
-                "Points": 50,
+                "Points": 25,
                 "Type": "",
                 "Category": 3,
                 "Id": 496721,
@@ -9632,12 +9632,12 @@
             }
         },
         {
-            "Name": "WORLD_ZENITH_LUNATIC_CULTIST",
+            "Name": "WorldAchievements/ZenithLunaticCultistAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Repeating the Cycle",
                 "Description": "Defeat Lunatic Cultist on the Zenith seed for the first time.",
-                "Points": 50,
+                "Points": 25,
                 "Type": "",
                 "Category": 3,
                 "Id": 496722,
@@ -9646,12 +9646,12 @@
             }
         },
         {
-            "Name": "WORLD_ZENITH_MOON_LORD",
+            "Name": "WorldAchievements/ZenithMoonLordAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Celestial Sigil",
                 "Description": "Defeat Moon Lord on the Zenith seed for the first time.",
-                "Points": 100,
+                "Points": 25,
                 "Type": "",
                 "Category": 3,
                 "Id": 496723,
@@ -9660,12 +9660,12 @@
             }
         },
         {
-            "Name": "WORLD_ZENITH_MOURNING_WOOD",
+            "Name": "WorldAchievements/ZenithMourningWoodAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Barking up the Wrong Tree",
                 "Description": "Defeat Mourning Wood on the Zenith seed for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496724,
@@ -9674,12 +9674,12 @@
             }
         },
         {
-            "Name": "WORLD_ZENITH_PUMPKING",
+            "Name": "WorldAchievements/ZenithPumpkingAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Just a Jack-O\u2019-Lantern",
                 "Description": "Defeat Pumpking on the Zenith seed for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496725,
@@ -9688,12 +9688,12 @@
             }
         },
         {
-            "Name": "WORLD_ZENITH_EVERSCREAM",
+            "Name": "WorldAchievements/ZenithEverscreamAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Fragile Ornaments",
                 "Description": "Defeat Everscream on the Zenith seed for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496726,
@@ -9702,12 +9702,12 @@
             }
         },
         {
-            "Name": "WORLD_ZENITH_SANTA-NK1",
+            "Name": "WorldAchievements/ZenithSantaNk1Achievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Time for Maintenance",
                 "Description": "Defeat Santa-NK1 on the Zenith seed for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496727,
@@ -9716,12 +9716,12 @@
             }
         },
         {
-            "Name": "WORLD_ZENITH_ICE_QUEEN",
+            "Name": "WorldAchievements/ZenithIceQueenAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Cold, Dead Hands",
                 "Description": "Defeat Ice Queen on the Zenith seed for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496728,
@@ -9730,12 +9730,12 @@
             }
         },
         {
-            "Name": "WORLD_ZENITH_DARK_MAGE_T3",
+            "Name": "WorldAchievements/ZenithDarkMageT3Achievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Lost Etherian Magic",
-                "Description": "Defeat Dark Mage (Tier 3) on the Zenith seed for the first time.",
-                "Points": 10,
+                "Description": "Defeat Dark Mage (Tier 3) on the Zenith seed.",
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496729,
@@ -9744,12 +9744,12 @@
             }
         },
         {
-            "Name": "WORLD_ZENITH_OGRE_T3",
+            "Name": "WorldAchievements/ZenithOgreT3Achievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Get Out Me Swamp",
                 "Description": "Defeat Ogre (Tier 3) on the Zenith seed for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496730,
@@ -9758,12 +9758,12 @@
             }
         },
         {
-            "Name": "WORLD_ZENITH_BETSY",
+            "Name": "WorldAchievements/ZenithBetsyAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Dragon Slayer",
                 "Description": "Defeat Betsy on the Zenith seed for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496731,
@@ -9772,12 +9772,12 @@
             }
         },
         {
-            "Name": "WORLD_ZENITH_FLYING_DUTCHMAN",
+            "Name": "WorldAchievements/ZenithFlyingDutchmanAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Cannons Away!",
                 "Description": "Defeat Flying Dutchman on the Zenith seed for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496732,
@@ -9786,12 +9786,12 @@
             }
         },
         {
-            "Name": "WORLD_ZENITH_MARTIAN_SAUCER",
+            "Name": "WorldAchievements/ZenithMartianSaucerAchievement",
             "Category": "Slayer",
             "Ra": {
                 "Title": "Take Me to Your Leader",
                 "Description": "Defeat Martian Saucer on the Zenith seed for the first time.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496733,
@@ -9800,12 +9800,12 @@
             }
         },
         {
-            "Name": "WORLD_SEED_MOON_LORD_LEGS",
+            "Name": "WorldAchievements/SeedMoonLordLegsAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "These Might Be Steve\u2019s",
                 "Description": "Obtain some Moon Lord Legs.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496734,
@@ -9814,7 +9814,7 @@
             }
         },
         {
-            "Name": "WORLD_SEED_RED_POTION_BAD",
+            "Name": "WorldAchievements/SeedRedPotionBadAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "You Are Not Worthy",
@@ -9828,12 +9828,12 @@
             }
         },
         {
-            "Name": "WORLD_SEED_RED_POTION_GOOD",
+            "Name": "WorldAchievements/SeedRedPotionGoodAchievement",
             "Category": "Collector",
             "Ra": {
                 "Title": "You Are Worthy",
                 "Description": "Drink a Red Potion while in a For The Worthy world.",
-                "Points": 10,
+                "Points": 5,
                 "Type": "",
                 "Category": 3,
                 "Id": 496736,

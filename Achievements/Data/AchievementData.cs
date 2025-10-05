@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using RASharpIntegration.Data;
 
-namespace RetroAchievements.Achievements
+namespace RetroAchievements.Achievements.Data
 {
     // Output out Edit > Paste Special > Paste JSON as classes (renamed for accuracy)
 

@@ -1,32 +1,20 @@
-﻿using System.Collections.Generic;
-using Terraria.Achievements;
-using Terraria.ModLoader;
+﻿using Terraria;
 using TerrariaAchievementLib.Systems;
-using TerrariaAchievementLib.Achievements;
-using TerrariaAchievementLib.Achievements.Conditions;
-using RetroAchievements.Items;
-using RetroAchievements.Paintings;
 
 namespace RetroAchievements.Systems
 {
     /// <summary>
-    /// Adds new achievements to the in-game list
+    /// Creates a helper AchievementSystem instance
     /// </summary>
     public class RetroAchievementSystem : AchievementSystem
     {
-        protected override string Identifier { get => "RETRO"; }
-
-        protected override List<string> TexturePaths { get => ["RetroAchievements/Assets/Achievements"]; }
-
-
-        protected override void RegisterAchievements()
+         public override void OnModLoad()
         {
+            if (Main.dedServ)
+                return;
+
+            base.OnModLoad();
             ProgressSystem.SetEnabled(true, includeVanilla: true);
-
-            ConditionReqs reqs = new(PlayerDiff.Classic, WorldDiff.Classic, SpecialSeed.None);
-
-            RegisterAchievement("SCOTTS_HAT", ItemGrabCondition.Grab(reqs, ModContent.ItemType<ScottHat>()), AchievementCategory.Collector);
-            RegisterAchievement("SCOTTS_PAINTING", ItemGrabCondition.Grab(reqs, ModContent.ItemType<ScottPaintingItem>()), AchievementCategory.Collector);
         }
     }
 }

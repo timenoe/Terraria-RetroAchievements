@@ -1,7 +1,7 @@
 ﻿using Terraria;
 using Terraria.ModLoader;
 
-namespace RetroAchievements.Pets
+namespace RetroAchievements.Pets.Catto
 {
     /// <summary>
     /// Displays when Catto is active

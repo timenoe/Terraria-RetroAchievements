@@ -4,9 +4,9 @@ using Terraria.DataStructures;
 using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
 using Terraria.ModLoader;
-using RetroAchievements.Pets;
+using RetroAchievements.Pets.Catto;
 
-namespace RetroAchievements.NPCs
+namespace RetroAchievements.NPCs.Timenoe
 {
     /// <summary>
     /// Rarely changes Tim's name to Timenoe

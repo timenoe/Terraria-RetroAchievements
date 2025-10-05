@@ -6,10 +6,10 @@ using Terraria.GameContent;
 using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
 using Terraria.ModLoader;
-using RetroAchievements.Items;
-using RetroAchievements.Paintings;
+using RetroAchievements.Paintings.Scott;
+using RetroAchievements.Items.ScottHat;
 
-namespace RetroAchievements.NPCs
+namespace RetroAchievements.NPCs.Scott
 {
     /// <summary>
     /// RetroAchievements founder Scott<br/>
@@ -44,14 +44,14 @@ namespace RetroAchievements.NPCs
                 if (npc.FindClosestPlayer() == player.whoAmI && player.HeldItem.type == ModContent.ItemType<ScottPaintingItem>())
                 {
                     chat = "You found a painting of me! Here, take this. I have an extra hat just for you.";
-                    
+
                     player.HeldItem.stack--;
                     Item.NewItem(new EntitySource_Gift(npc), player.Center, ModContent.ItemType<ScottHat>());
                 }
 
                 else
                     chat = "Welcome to RA! Hope you're having fun!!!!";
-            }  
+            }
         }
 
         /// <summary>

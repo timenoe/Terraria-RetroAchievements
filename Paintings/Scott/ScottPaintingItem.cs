@@ -1,7 +1,7 @@
 ﻿using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace RetroAchievements.Paintings
+namespace RetroAchievements.Paintings.Scott
 {
     /// <summary>
     /// Scott painting item

@@ -2,9 +2,9 @@ using Terraria;
 using Terraria.ModLoader;
 using Terraria.ModLoader.IO;
 using TerrariaAchievementLib.Tools;
-using RetroAchievements.Buffs;
 using RetroAchievements.Systems;
 using RetroAchievements.Tools;
+using RetroAchievements.Buffs.Achievement;
 
 namespace RetroAchievements.Players
 {

@@ -2,7 +2,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace RetroAchievements.Pets
+namespace RetroAchievements.Pets.Catto
 {
     /// <summary>
     /// Allows Catto to follow the player
@@ -18,7 +18,7 @@ namespace RetroAchievements.Pets
         public override void SetDefaults()
         {
             // Mimic Black Cat
-            Projectile.CloneDefaults(ProjectileID.BlackCat); 
+            Projectile.CloneDefaults(ProjectileID.BlackCat);
             AIType = ProjectileID.BlackCat;
 
             // Prevent from being drawn in ground
@@ -30,7 +30,7 @@ namespace RetroAchievements.Pets
             Player player = Main.player[Projectile.owner];
 
             // Relic from AIType
-            player.blackCat = false; 
+            player.blackCat = false;
 
             return true;
         }

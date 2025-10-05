@@ -1,7 +1,7 @@
 ﻿using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace RetroAchievements.Items
+namespace RetroAchievements.Items.ScottHat
 {
     /// <summary>
     /// Scott's Hat

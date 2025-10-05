@@ -5,8 +5,8 @@ using System.Text.Json;
 using Terraria;
 using Terraria.ModLoader;
 using TerrariaAchievementLib.Tools;
-using RetroAchievements.Achievements;
 using RetroAchievements.Configs;
+using RetroAchievements.Achievements.Data;
 
 namespace RetroAchievements
 {

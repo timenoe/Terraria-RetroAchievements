@@ -2,7 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace RetroAchievements.Buffs
+namespace RetroAchievements.Buffs.Achievement
 {
     /// <summary>
     /// Buff to apply to the player when Hardcore RA achievements are enabled

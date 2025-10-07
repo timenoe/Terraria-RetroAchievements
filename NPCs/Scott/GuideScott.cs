@@ -31,7 +31,7 @@ namespace RetroAchievements.NPCs.Scott
         public override bool PreDraw(NPC npc, SpriteBatch spriteBatch, Vector2 screenPos, Color drawColor)
         {
             if (IsScott(npc))
-                TextureAssets.Npc[NPCID.Guide] = ModContent.Request<Texture2D>("RetroAchievements/NPCs/GuideScott");
+                TextureAssets.Npc[NPCID.Guide] = ModContent.Request<Texture2D>("RetroAchievements/NPCs/Scott/GuideScott");
 
             return true;
         }
